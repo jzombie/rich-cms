@@ -1,0 +1,12 @@
+body {
+  background-color: #999;
+  color: #000;
+}
+
+.codehilite {
+  background: black;
+  color: #f8f8f2; /* Light text color for readability */
+  padding: 0.5em;
+  border-radius: 4px;
+  overflow: auto;
+}
