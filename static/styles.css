@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #999;
   color: #000;
 }
@@ -9,4 +11,47 @@ body {
   padding: 0.5em;
   border-radius: 4px;
   overflow: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  flex: 0 0 100%; /* Full width header */
+}
+
+.toc-container {
+  flex: 0 0 25%; /* Fixed width for TOC on large screens */
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  max-height: 100%;
+  overflow-y: auto;
+  transition: flex-basis 0.3s ease;
+}
+
+.article-container {
+  flex: 1; /* Flexible width for main content */
+  padding: 1em;
+}
+
+#menu-toggle-button {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1; /* Ensure the button is on top of content */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+
+  display: none; /** Hide the button by default, if JS is disabled */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .toc-container {
+    flex: 0 0 100%; /* Full width TOC on small screens */
+  }
 }
