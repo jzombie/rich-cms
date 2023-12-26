@@ -1,29 +1,36 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  background-color: #999;
-  color: #000;
+  background-color: #1c1c1c; /* Dark background for antique look */
+  color: #dcd0c0; /* Soft cream color for text, easy on the eyes */
+  font-family: 'EB Garamond', serif;
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.6; /* Adjust line height for readability */
+  border: 1px solid #423f3e; /* Dark border to complement the theme */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
 }
 
 .codehilite {
-  background: black;
+  background: #2b2b2b; /* Darker background for code sections */
   color: #f8f8f2; /* Light text color for readability */
   padding: 0.5em;
   border-radius: 4px;
   overflow: auto;
+  font-family: 'Courier New', monospace; /* Typewriter style font */
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #333; /* Darker, aged header background */
+  color: #dcd0c0;
   padding: 1em;
   flex: 0 0 100%; /* Full width header */
+  text-shadow: 1px 1px 2px #000; /* Subtle text shadow for depth */
 }
 
 .toc-container {
   flex: 0 0 25%; /* Fixed width for TOC on large screens */
-  background-color: #333;
-  color: #fff;
+  background-color: #333; /* Dark, aged TOC background */
+  color: #dcd0c0;
   padding: 1em;
   max-height: 100%;
   overflow-y: auto;
@@ -33,6 +40,8 @@ header {
 .article-container {
   flex: 1; /* Flexible width for main content */
   padding: 1em;
+  background: #1c1c1c; /* Consistent dark background with body */
+  border-left: 1px solid #423f3e; /* Subtle left border like book binding */
 }
 
 #menu-toggle-button {
@@ -40,13 +49,22 @@ header {
   top: 1em;
   right: 1em;
   z-index: 1; /* Ensure the button is on top of content */
-  background-color: #333;
-  color: #fff;
+  background-color: #333; /* Aged button background */
+  color: #dcd0c0;
   border: none;
   padding: 0.5em 1em;
   cursor: pointer;
-
   display: none; /** Hide the button by default, if JS is disabled */
+}
+
+a {
+  color: #8a9a5b; /* A muted, antique gold color for links */
+  text-decoration: none; /* No underline by default */
+}
+
+a:hover, a:focus {
+  color: #c0b298; /* A lighter, more noticeable color on hover/focus */
+  text-decoration: underline; /* Underline on hover for clarity */
 }
 
 /* Media query for responsive design */
