@@ -1,3 +1,8 @@
+---
+title: "Hello from Rich CMS"
+publish_date: 2023-12-26
+---
+
 # Welcome to Rich CMS
 
 Let the files do the work...
