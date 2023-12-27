@@ -13,3 +13,7 @@ source venv/bin/activate
 ## Testing 
 
 python -m unittest discover -s test
+
+## Freeze Dependencies
+
+pip freeze > requirements.txt
