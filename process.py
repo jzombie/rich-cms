@@ -65,13 +65,13 @@ def write_html_file(html_content, output_path, template, title, toc, relative_ro
                             .replace('%TOC%', toc)
                             .replace('%ROOT%', relative_root_path))
 
-    # Replace META placeholders with corresponding metadata
+    # Create a meta tag for each metadata key-value pair
+    meta_tags = ""
     for key, value in metadata.items():
-        meta_placeholder = f'%META:{key}%'
-        full_content = full_content.replace(meta_placeholder, str(value))
+        meta_tags += f'<meta name="{key}" content="{value}">\n'
 
-    # Remove any unused META placeholders
-    full_content = re.sub(r'%META:.*?%', '', full_content)
+    # Replace the %META-WRAPPER-NAME% placeholder with the generated meta tags
+    full_content = full_content.replace('%META-WRAPPER-NAME%', meta_tags)
 
     # Include MathJax script
     mathjax_script = """
