@@ -11,8 +11,8 @@
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
 - [] Live content update as markdown content is changed
 - [] Adding search would be nice
-- [] Sitemap and RSS
-- [] Include download links to original Markdown files?
+- [] Sitemap and RSS (this may require using a separate metdata file to keep track of file creations/modifications, unless somehow able to source through git)
+- [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [] Add word count and estimated reading time to meta data
 - [] Metadata for sharing w/ social media; SEO
 - [] [maybe?] Add pydantic for string replacements?
