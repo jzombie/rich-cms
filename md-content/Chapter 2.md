@@ -170,7 +170,7 @@ That ny wage I asked of Life,
 
 Life would have willingly paid."
 
-## DESIRE OUTWITS MOTHER NATURE
+### DESIRE OUTWITS MOTHER NATURE
 
 As a fitting climax to this chapter, I wish to introduce one of the most unusual persons I have ever known. I first saw him twenty-four years ago, a few minutes after he was born. He came into the world without any physical sign of ears, and the doctor admitted, when pressed for an opinion, that the child might be deaf, and mute for life.
 
