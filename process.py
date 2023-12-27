@@ -15,7 +15,6 @@ def convert_md_to_html(md_content):
     html_content = md.convert(md_content)
     return html_content
 
-
 def read_markdown_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
@@ -58,20 +57,18 @@ def create_toc(articles, relative_root_path):
     toc += "</ul>"
     return toc
 
-def write_html_file(html_content, output_path, template, title, toc, relative_root_path, metadata):
-    # Replace basic placeholders in the template
-    full_content = (template.replace('%BODY%', html_content)
-                            .replace('%TITLE%', title)
-                            .replace('%TOC%', toc)
-                            .replace('%ROOT%', relative_root_path))
-
+def write_html_file(html_content, output_path, template, title, toc, relative_root_path, metadata, meta_tag_block_placeholder="%DYNAMIC-META-TAGS-BLOCK%"):
     # Create a meta tag for each metadata key-value pair
     meta_tags = ""
     for key, value in metadata.items():
         meta_tags += f'<meta name="{key}" content="{value}">\n'
 
-    # Replace the %META-WRAPPER-NAME% placeholder with the generated meta tags
-    full_content = full_content.replace('%META-WRAPPER-NAME%', meta_tags)
+    # Replace basic placeholders in the template
+    full_content = (template.replace('%BODY%', html_content)
+                            .replace('%TITLE%', title)
+                            .replace('%TOC%', toc)
+                            .replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
+                            .replace('%ROOT%', relative_root_path))
 
     # Include MathJax script
     mathjax_script = """
