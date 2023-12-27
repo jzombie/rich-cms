@@ -1,6 +1,7 @@
 # TODO
 
 - [] Fix issue where "?" in MD names causes broken links
+- [] Add sub-headings into table of contents (TOC)
 - [] Add breadcrumb links
 - [] Test local links vs hosted (perhaps ditch locally hosted method; very problematic to debug)
 - [] Highlight active link
