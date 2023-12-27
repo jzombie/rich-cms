@@ -5,6 +5,8 @@ import yaml
 from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 import re
+from bs4 import BeautifulSoup
+
 
 class RichCMSGenerator:
     @classmethod
@@ -118,9 +120,13 @@ class RichCMSGenerator:
         """
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
 
+        # Format the full_content using BeautifulSoup
+        soup = BeautifulSoup(full_content, 'html.parser')
+        formatted_html = soup.prettify()
+
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as file:
-            file.write(full_content)
+            file.write(formatted_html)
 
     @classmethod
     def clear_output_directory(cls, output_directory):
