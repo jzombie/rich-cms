@@ -116,9 +116,14 @@ def process_markdown(directory_path, base_input_path, articles):
         file_path = os.path.join(directory_path, filename)
         if os.path.isfile(file_path) and filename.endswith(".md"):
             md_content = read_markdown_file(file_path)
-            title = extract_title(md_content)
+
+            # Extract metadata
             metadata = extract_metadata_from_yaml(md_content)
-            html_content = convert_md_to_html(md_content)
+            md_content_without_metadata = re.sub(r'^---\s*\n.*?\n---', '', md_content, flags=re.DOTALL)
+
+            title = extract_title(md_content_without_metadata)
+            html_content = convert_md_to_html(md_content_without_metadata)
+
             relative_output_path = os.path.relpath(directory_path, base_input_path).replace(' ', '_')
             output_path = os.path.join(relative_output_path, filename.replace('.md', '.html'))
             article_info = {
@@ -130,6 +135,7 @@ def process_markdown(directory_path, base_input_path, articles):
             articles.append(article_info)
         elif os.path.isdir(file_path):
             process_markdown(file_path, base_input_path, articles)
+
 
 def generate_site(input_directory, output_directory, template_path):
     """Generate the static site from markdown files."""
