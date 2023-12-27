@@ -2,14 +2,19 @@ import os
 import shutil
 import markdown
 import yaml
-import datetime
 from markdown.extensions.codehilite import CodeHiliteExtension
 from markdown.extensions.fenced_code import FencedCodeExtension
+from markdown.extensions.toc import TocExtension
+from mdx_math import MathExtension
 import re
 
+
 def convert_md_to_html(md_content):
-    """Convert Markdown content to HTML, with syntax highlighting for code blocks."""
-    return markdown.markdown(md_content, extensions=[FencedCodeExtension(), CodeHiliteExtension(pygments_style='friendly', linenums=False)])
+    """Convert Markdown content to HTML, with LaTeX support and table of contents."""
+    md = markdown.Markdown(extensions=['markdown.extensions.fenced_code', TocExtension(), MathExtension(enable_dollar_delimiter=True)])
+    html_content = md.convert(md_content)
+    return html_content
+
 
 def read_markdown_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -67,6 +72,14 @@ def write_html_file(html_content, output_path, template, title, toc, relative_ro
 
     # Remove any unused META placeholders
     full_content = re.sub(r'%META:.*?%', '', full_content)
+
+    # Include MathJax script
+    mathjax_script = """
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    """
+    full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as file:

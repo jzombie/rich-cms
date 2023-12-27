@@ -16,3 +16,15 @@ $ some-command
 ```bash
 $ pygmentize -S monokai -f html -a .codehilite > static/pygments.css
 ```
+
+## My Example Equation
+
+This is a simple equation: $E=mc^2$
+
+## Another Equation
+
+And here's a more complex equation:
+
+$$
+\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du \right) = f(x)
+$$
