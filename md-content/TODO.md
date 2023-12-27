@@ -1,5 +1,6 @@
 # TODO
 
+- [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Fix issue where "?" in MD names causes broken links
 - [] Add sub-headings into table of contents (TOC)
 - [] Add breadcrumb links

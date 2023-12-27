@@ -201,3 +201,47 @@ He should have told us, too, that our brains become magnetized with the dominati
 He should have told us, that before we can accumulate riches in great abundance, we must magnetize our minds with intense DESIRE for riches, that we must become "money conscious until the DESIRE for money drives us to create definite plans for acquiring it."
 
 But, being a poet, and not a philosopher, Henley contented himself by stating a great truth in poetic form, leaving those who followed him to interpret the philosophical meaning of his lines.
+
+Little by little, the truth has unfolded itself, until it now appears certain that the principles described in this book, hold the secret of mastery over our economic fate.
+
+We are now ready to examine the first of these principles. Maintain a spirit of open-mindedness, and remember as your read, they are the invention of no one man. The principles were gathered from the life experiences of more than 500 men, who actually accumulated riches in huge amounts; men who began in poverty, with but little education, without influence. The principles worked for these men. You can put them to work for your own enduring benefit.
+
+You will find it easy, not hard, to do.
+
+Before you read the next chapter, I want you to know that it conveys factual information which might easily change your entire financial destiny, as it has so definitely brought changes of stupendous proportions to two people described.
+
+I want you to know, also, that the relationship between these two men and myself, is such that I could have taken no liberties with the facts, even if I had wished to do so. One of them has been my closest personal friend for almost twenty-five years, the other is my own son. The unusual success of these two men, success which they generously accredit to the principle described in the next chapter, more than justifies this personal reference as a means of emphasizing the far-flung power of this principle.
+
+Almost fifteen years ago, I delivered the Commencement Address at Salem College, Salem, West Virginia. I emphasized the principle described in the next chapter, with so much intensity that one of the members of the graduating class definitely appropriated it, and made it a part of his own philosophy. The young man is now a Member of Congress, and an important factor in the present administration. Just before this book went to the publisher, he wrote me a letter in which he so clearly stated his opinion of the principle outlined in the next chapter, that I have chosen to publish his letter as an introduction to that chapter.
+
+It gives you an idea of the rewards to come.
+
+"My dear Napoleon:
+
+"My service as a Member of Congress having given me an insight into the problems of men and women, I am writing to offer a suggestion which may become helpful to thousands of worthy people.
+
+"With apologies, I must state that the suggestion, if acted upon, will mean several years of labor and responsibility for you, but I am enheartened to make the suggestion, because I know your great love for rendering useful service.
+
+"In 1922, you delivered the Commencement address at Salem College, when I was a member of the graduating class. In that address, you planted in my mind an idea which has been responsible for the opportunity I now have to serve the people of my State, and will be responsible, in a very large measure, for whatever success I may have in the future.
+
+"The suggestion I have in mind is, that you put into a book the sum and substance of the address you delivered at Salem College, and in that way give the people of America an opportunity to profit by your many years of experience and association with the men who, by their greatness, have made America the richest nation on earth.
+
+"I recall, as though it were yesterday, the marvelous description you gave of the method by which Henry Ford, with but little schooling, without a dollar, with no influential friends, rose to great heights. I made up my mind then, even before you had finished your speech, that I would make a place for myself, no matter how many difficulties I had to surmount.
+
+"Thousands of young people will finish their schooling this year, and within the next few years. Every one of them will be seeking just such a message of practical encouragement as the one I received from you. They will want to know where to turn, what to do, to get started in life. You can tell them, because you have helped to solve the problems of so many, many people.
+
+"If there is any possible way that you can afford to render so great a service, may I offer the suggestion that you include with every book, one of your Personal Analysis Charts, in order that the purchaser of the book may have the benefit of a complete self-inventory, indicating, as you indicated to me years go, exactly what is standing in the way of success.
+
+"Such a service as this, providing the readers of your book with a complete, unbiased picture of their faults and their virtues, would mean to them the difference between success and failure. The service would be priceless.
+
+"Millions of people are now facing the problem of staging a comeback, because of the depression, and I speak from personal experience when I say, I know these earnest people would welcome the opportunity to tell you their problems, and to receive your suggestions for the solution.
+
+"You know the problems of those who face the necessity of beginning all over again. There are thousands of people in America today who would like to know how they can convert ideas into money, people who must start at scratch, without finances, and recoup their losses. If anyone can help them, you can.
+
+"If you publish the book, I would like to own the first copy that comes from teh press, personally autographed by you.
+
+"With best wishes, believe me,
+
+"Cordially yours,
+
+"JENNINGS RANDOLPH"
