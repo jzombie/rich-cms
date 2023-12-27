@@ -1,6 +1,9 @@
 # TODO
 
+- [] Show word count after compilation step
+- [] The ability to hotlink to a particular paragraph would be nice
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
+- [] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
 - [] Add sub-headings into table of contents (TOC)
 - [] Add breadcrumb links

@@ -228,3 +228,52 @@ This astounding description of the power of an IDEA was dramatically told by Joh
 
 "It was not long coming. It took Morgan about one week to digest the feast of reason Schwab had placed before him. When he had assured himself that no financial indigestion was to result, he sent for Schwab--and found that young man rather coy. Mr. Carnegie, Schwab indicated, might not like it if he found his trusted president had been flirting with the Emperor of Wall Street, the Street upon which Carnegie was resolved never to tread. Then it was suggested by John W. Gates the go-between, that if Schwab 'happened' to be in the Bellevue Hotel in Philadelphia, J. P. Morgan might also 'happen' to be there. When Schwab arrived, however, Morgan was inconveniently ill at his New York home, and so, on the elder man's pressing invitation, Schwab went to New York and presented himself at the door of the financier's library.
 
+"Now certain economic historians have professed the belief that from teh beginning to the end of the drama, the stage was set by Andrew Carnegie-- that teh dinner to Schwab, the famous speech, the Sunday night conference between Schwab and the Money King, were events arranged the canny Scot. The truth is exactly the opposite. When Schwab was called in to consummate the deal, he didn't even know whether 'the little boss,' as Andrew as called, would so much as listen to an offer to sell, particularly to a group of men whom Andrew regarded as being endowed with something less than holiness. But Schwab did take into the conference with him, in his own handwriting, six sheets of copper-plate figures, representing to his mind the physical worth and the potential earning capacity of every steel company he regarded as an essential star in the new metal firmament.
+
+"Four men pondered over these figures all night. The chief, of course, was Morgan, steadfast in his belief in the Divine Right of Money. With him was his aristocratic partner, Robert Bacon, a scholar and a gentleman. The third was John W. Gates whom Morgan scorned as a gambler and used as a tool. The fourth was Schwab, who knew more about the processes of making and selling steel than any whole group of men then living. Throughout that conference, the Pittsburgher's figures were never questioned. If he said a company was worth so much, then it was worth that much and no more. He was insistent, too, upon including in the combination only those concerns he nominated. He had conceived a corporation in which there would be no duplication, not even to satisfy the greed of friends who wanted to unload their companies upon the broad morgan shoulders. Thus he left out, by design, a number of the larger concerns upon which the Walruses and Carpenters of Wall Street had cast hungry eyes.
+
+"When dawn came, Morgan rose and straightened his back. Only one question remained.
+
+"'Do you think you can persuade Andrew Carnegie to sell?' he asked.
+
+"'I can try', said Schwab.
+
+"'If you can get him to sell, I will undertake the matter,' said Morgan.
+
+"So far so good. But would Carnegie sell? How much would he demand? (Schwab thought about $320,000,000). What would he take payment in? Common or preferred stocks? Bonds? Cash? Nobody could raise a third of a billion dollars in cash.
+
+"There was a golf game in January on the frost-cracking heath of the St. Andrews links in Westchester, with Andrew bundled up in sweaters against the cold, and Charlie talking volubly, as usual, to keep his spirits up. But no word of business was mentioned until the pair sat down in the cozy warmth of the Carnegie cottage hard by. Then, with the same persuasiveness that had hypnotized eighty millionaires at the University Club, Schwab poured out the glittering promises of retirement in comfort, of untold millions to satisfy the old man's social caprices. Carnegie capitulated, wrote a figure on a slip of paper, handed it to Schwab and said, 'all right, that's what we'll sell for.'
+
+"The figure was approximately $400,000,000, and was reached by taking the $320,000,000 mentioned by Schwab as a basic figure, and adding to it $80,000,000 to represent the increased capital value over the previous two years.
+
+"Later, on the deck of a trans-Atlantic liner, the Scotsman said ruefully to Morgan, 'I wish I had asked you for $100,000,000 more.'
+
+"'If you had asked for it, you'd have gotten it,' Morgan told him cheerfully.
+
+* * *
+
+"There was an uproar, of course. A British correspondent cabled that the foreign steel world was 'appalled' by the gigantic combination. President Hadley, of Yale, declared that unless trusts were regulated the country might expect 'an emperor in Washington within the next twenty-five years.' But that able stock manipulator, Keene, went at his work of shoving the new stock at the public so vigorously that all the excess water -- estimated by some at nearly $600,000,000 -- was absorbed in a twinkling. So Carnegie had his millions, and the Morgan syndicate had $62,000,000 for all its 'trouble,' and all the 'boys,' from Gates to Gary, had their millions.
+
+* * *
+
+"The thirty-eight-year-old Schwab had his reward. He was made president of the new corporation and remained in control until 1930."
+
+The dramatic story of "Big Business" which you have just finished, was included in this book, because it is a perfect illustration of the method by which DESIRE CAN BE TRANSMUTED INTO ITS PHYSICAL EQUIVALENT!
+
+I imagine some readers will question the statement that a mere, intangible DESIRE can be converted into its physical equivalent. Doubtless some will say, "You cannot convert NOTHING into SOMETHING!" The answer is in the story of United States Steel.
+
+The giant organization was created in the mind of one man. The plan by which the organization was provided with the steel mills that gave it financial stability was created in the mind of the same man. His FAITH, his DESIRE, his IMAGINATION, his PERSISTENCE were the real ingredients that went into United States Steel. The steel mills and mechanical equipment acquired by the corporation, AFTER IT HAD BEEN BROUGHT INTO LEGAL EXISTENCE, were incidental, but careful analysis will disclose the fact that the appraised value of the properties acquired by the corporation increased in value by an estimated SIX HUNDRED MILLION DOLLARS, by the mere transaction which consolidated them under one management.
+
+In other words, Charles M. Schwab's IDEA, plus the FAITH with which he conveyed it to the minds of J. P. Morgan and the others, was marketed for a profit of approximately $600,000,000. Not an insignificant sum for a single IDEA!
+
+What happened to some of the men who took their share of the millions of dollars of profit made by this transaction, is a matter with which we are not now concerned. The important feature of the astounding achievement is that it serves as unquestionable evidence of the soundness of the philosophy described in this book, because this philosophy was the warp and the woof of the entire transaction. Moreover, the practicability of the philosophy has been established by the fact that the United States Steel Corporation prospered, and became one of the richest and most powerful corporations in America, employing thousands of people, developing new uses for steel, and opening new markets; thus proving that the $600,000,000 in profit which the Schwab IDEA produced was earned.
+
+### RICHES begin in the form of THOUGHT!
+
+The amount is limited only by the person in whose mind the THOUGHT is put into motion. FAITH removes limitations! Remember this when you are ready to bargain with Life for whatever it is that you ask as your price for having passed this way.
+
+Remember, also, that the man who created the United States Steel Corporation was practically unknown at the time. He was merely Andrew Carnegie's "Man Friday" until he gave birth to his famous IDEA. After that he quickly rose to a position of power, fame, and riches.
+
+THERE ARE NO LIMITATIONS TO THE MIND EXCEPT THOSE WE ACKNOWLEDGE
+
+BOTH POVERTY AND RICHES ARE THE OFFSPRING OF THOUGHT
