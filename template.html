@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <meta name="generator" content="https://github.com/jzombie/rich-cms">
   <link rel="icon" href="%ROOT%/images/thinker.png" type="image/png">
+  <script src="%ROOT%/scripts/main.js"></script>
   %DYNAMIC-META-TAGS-BLOCK%
 </head>
 <body>
@@ -25,29 +26,5 @@
 
     %BODY%
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var button = document.getElementById('menu-toggle-button');
-      var tocContainer = document.querySelector('.toc-container');
-
-      if (button && tocContainer) {
-        // Hide the button by default
-        button.style.display = 'none';
-
-        button.addEventListener('click', function() {
-          tocContainer.style.display = (tocContainer.style.display === 'none' || tocContainer.style.display === '') ? 'block' : 'none';
-        });
-
-        // Show the button when JavaScript is enabled
-        button.style.display = 'block';
-
-        // Hide the TOC by default on mobile
-        if (window.innerWidth <= 768) {
-          tocContainer.style.display = 'none';
-        }
-      }
-    });
-  </script>
 </body>
 </html>
