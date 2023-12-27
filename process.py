@@ -79,7 +79,7 @@ def create_toc(articles, current_file_path, base_input_path):
 
 
 def write_html_file(html_content, output_path, template, title, toc, relative_root_path, metadata, meta_tag_block_placeholder="%DYNAMIC-META-TAGS-BLOCK%"):
-    """Write HTML content to a file with template formatting."""
+    """Write HTML content to a file with template formatting, replacing arbitrary metadata tags."""
     # Create a meta tag for each metadata key-value pair
     meta_tags = ""
     for key, value in metadata.items():
@@ -92,6 +92,16 @@ def write_html_file(html_content, output_path, template, title, toc, relative_ro
                             .replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
                             .replace('%ROOT%', relative_root_path))
 
+   # Scan and replace arbitrary %META:any_string% placeholders
+    placeholders = re.findall(r'%META:([^%]+)%', full_content)
+    for placeholder in placeholders:
+        metadata_value = metadata.get(placeholder, f'Unknown {placeholder}')
+        # Convert metadata_value to string if it's not None
+        if metadata_value is not None:
+            metadata_value = str(metadata_value)
+        full_content = full_content.replace(f'%META:{placeholder}%', metadata_value)
+
+
     # Include MathJax script
     mathjax_script = """
     <script type="text/javascript" async
@@ -103,6 +113,7 @@ def write_html_file(html_content, output_path, template, title, toc, relative_ro
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as file:
         file.write(full_content)
+
 
 def clear_output_directory(output_directory):
     """Clear the output directory."""
