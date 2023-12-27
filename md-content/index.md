@@ -5,6 +5,8 @@ publish_date: 2023-12-26
 
 # Welcome to Rich CMS
 
+<img src="%ROOT%/images/thinker.png" style="width: 180px" />
+
 Let the files do the work...
 
 ```bash
