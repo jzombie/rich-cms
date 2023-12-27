@@ -144,3 +144,60 @@ The business depression started in 1929, and continued on to an all time record 
 
 Observe very closely, as soon as you master the principles of this philosophy, and begin to follow the instructions for applying those principles, your financial status will begin to improve, and everything you touch will begin to transmute itself into an asset for your benefit. Impossible? Not at all!
 
+One of the main weaknesses of mankind is the average man's familiarity with the word "impossible." He knows all the rules which will NOT work. He knows all the things which CANNOT be done. This book was written for those who seek teh rules which have made others successful, and are willing to stake everything on those rules.
+
+A great many years ago I purchased a fine dictionary. The first thing I did with it was to turn to the word "impossible," and neatly clip it out of the book. That would not be an unwise thing for you to do.
+
+Success comes to those who become SUCCESS CONSCIOUS.
+
+Failure comes to those who indifferently allow themselves to become FAILURE CONSCIOUS.
+
+The object of this book is to help all who seek it, to learn the art of changing their minds from FAILURE CONSCIOUSNESS to SUCCESS CONSCIOUSNESS.
+
+Another weakness found in altogether too many people, is the habit of measuring everything, and everyone, by their own impressions and beliefs. Some who will read this, will believe that no one can THINK AND GROW RICH. They cannot think in terms of riches, because their thought habits have been steeped in poverty, want, misery, failure, and defeat.
+
+These unfortunate people remind me of a prominent Chinese, who came to America to be educated in American ways. He attended the University of Chicago. One day President Harper met this young Oriental on the campus, stopped to chat with him for a few minutes, and asked what had impressed him as being the most noticeable characteristic of the American people.
+
+"Why," the Chinaman exclaimed, "the queer slant of your eyes. Your eyes are off slant!"
+
+What do we say about the Chinese?
+
+We refuse to believe that which we do not understand. We foolishly believe that our own limitations are the proper measure of limitations. Sure, the other fellow's eyes are "off slant," BECAUSE THEY ARE NOT THE SAME AS OUR OWN.
+
+Millions of people look at teh achievements of Henry Ford, after he has arrived, and envy him, because of his good fortune, or luck, or genius, or whatever it is that they credit for Ford's fortune. Perhaps one person in every hundred thousand knows the secret of Ford's success, and those who do know are too modest, or too reluctant, to speak of it, because of its simplicity. A single transaction will illustrate the "secret" perfectly.
+
+A few years back, Ford decided to produce his now famous V-8 motor. He chose to build an engine with the entire eight cylinders cast in one block, and instructed his engineers to produce a design for the engine. The design was placed on paper, but the engineers agreed, to a man, that it was simply impossible to cast an eight-cylinder gas engine block in one piece.
+
+Ford said, "Produce it anyway."
+
+"But," they replied, "it's impossible."
+
+"Go ahead," Ford commanded, "and stay on the job until you succeed no matter how much time is required."
+
+The engineers went ahead. there was nothing else for them to do, if they were to remain on the Ford staff. Six months went by, nothing happened. Another six months passed, and still nothing happened. The engineers tried every conceivable plan to carry out the orders, but the thing seemed out of the question; "impossible!"
+
+At the end of the year Ford checked with his engineers, and again they informed him they had found no way to carry out his orders.
+
+"Go right ahead," said Ford, "I want it, and I'll have it."
+
+They went ahead, and then, as if by a stroke of magic, the secret was discovered.
+
+The Ford DETERMINATION had won once more!
+
+This story may not be described with minute accuracy, but the sum and substance of it is correct. Deduce from it, you who wish to THINK AND GROW RICH, the secret of the Ford millions, if you can. You'll not have to look very far.
+
+Henry Ford is a success, because he understands, and applies the principles of success. One of these is DESIRE: knowing what one wants. Remember this FORD story as your read, and pick out the lines in which the secret of his stupendous achievement have been described. If you can do this, if you can lay your finger on the particular group of principles which made Henry Ford rich, you can equal his achievements in almost any calling for which you are suited.
+
+## YOU ARE "THE MASTER OF YOUR FATE, THE CAPTAIN OF YOUR SOUL," BECAUSE...
+
+When Henley wrote the prophetic lines, "I am the Master of my Fate, I am the Captain of my Soul," he should have informed us that we are the Masters of our Fate, the Captains of our Souls, because we have the power to control our thoughts.
+
+He should have told us that the ether in which this little earth floats, in which we move an have our being, is a form of energy moving at an inconceivably high rate of vibration, and that the ether is filled with a form of universal power which ADAPTS itself to the nature of the thoughts we hold in our minds; and INFLUENCES us, in natural ways, to transmute our thoughts into their physical equivalent.
+
+If the poet had told us of this great truth, we would know WHY IT IS that we are the Masters of our Fate, the Captains of our Souls. He should have told us, with great emphasis, that this power makes no attempt to discriminate between destructive thoughts and constructive thoughts, that it will urge us to translate into physical reality thoughts of poverty, just as quickly as it will influence us to act upon thoughts of riches.
+
+He should have told us, too, that our brains become magnetized with the dominating thoughts which we hold in our minds, and, by means with which no man is familiar, these "magnets" attract to us the forces, the people, the circumstances of life which harmonize with the nature of our dominating thoughts.
+
+He should have told us, that before we can accumulate riches in great abundance, we must magnetize our minds with intense DESIRE for riches, that we must become "money conscious until the DESIRE for money drives us to create definite plans for acquiring it."
+
+But, being a poet, and not a philosopher, Henley contented himself by stating a great truth in poetic form, leaving those who followed him to interpret the philosophical meaning of his lines.

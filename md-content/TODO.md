@@ -12,4 +12,6 @@
 - [] Adding search would be nice
 - [] Sitemap and RSS
 - [] Include download links to original Markdown files?
+- [] Add word count and estimated reading time to meta data
+- [] Metadata for sharing w/ social media; SEO
 - [] [maybe?] Add pydantic for string replacements?
