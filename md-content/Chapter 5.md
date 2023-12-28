@@ -106,3 +106,35 @@ Specialized knowledge, plus imagination, were the ingredients that went into thi
 
 The beginning of this successful business was an IDEA!
 
+Inasmuch as I had the privilege of supplying the unemployed salesman with that idea, I now assume the further privilege of suggesting another idea which has within it the possibility of even greater income. Also the possibility of rendering useful service to thousands of people who badly need that service.
+
+The idea was suggested by the salesman who gave up selling and went into the business of keeping books on a wholesale basis. When the plan was suggested as a solution of his unemployment problem, he quickly exclaimed, "I like the idea, but I would not know how to turn it into cash." In other words, he complained he would not know how to market his bookkeeping knowledge after he acquired it.
+
+So, that brought up another problem which had to be solved. With the aid of a young woman typist, clever at hand lettering, and who could put the story together, a very attractive book was prepared, describing the advantages of hte new system of bookkeeping. The pages were neatly typed and pasted in an ordinary scrapbook, which was used as a silent salesman with which the story of this new business was so effectively told that its owner soon had more accounts than he could handle.
+
+There are thousands of people, all over the country, who need the services of a merchandising specialist capable of preparing an attractive brief for use in marketing personal services. The aggregate annual income from such a service might easily exceed that received by the largest employment agency, and the benefits of the service might be made far greater to the purchaser than any to be obtained from an employment agency.
+
+The IDEA here described was born of necessity, to bridge an emergency which had to be covered, but it did not stop by merely servicing one person. The woman who created the idea has a a keen IMAGINATION. She saw in her newly born brain-child the making of a new profession, one that is destined to render valuable service to thousands of people who need practical guidance in marketing personal services.
+
+Spurred to action by the instantaneous success of her first "PREPARED PLAN TO MARKET PERSONAL SERVICES," this energetic woman turned next to the solution of a similar problem for her son who had just finished college, but had been totally unable to find a market for his services. The plan she originated for his use was the finest specimen of merchandising of personal services I have ever seen.
+
+When the plan book had been completed, it contained nearly fifty pages of beautifully typed, properly organized information, telling the story of her son's native ability, schooling, personal experiences, and a great variety of other information too extensive for description. The plan book also contained a complete description of the position her son desired, together with a marvelous word picture of the exact plan he would use in filling the position.
+
+The preparation of the plan book required several week's labor, during which time its creator sent her son the the public library almost daily, to procure data needed in selling his services to best advantage. She sent him, also to all the competitors of his prospective employer, and gathered from them vital information concerning their business methods which was of great value in the formation of the plan he intended to use in filling the position he sought. When the plan had been finished, it contained more than half a dozen very fine suggestions for the use and benefit of the prospective employer. (The suggestions were put into use by the company).
+
+One may be inclined to ask, "Why go to all this trouble to secure a job?" The answer is straight to the point, also it is dramatic, because it deals with a subject which assumes the proportion of a tragedy with millions of men and women whose sole source of income is personal services.
+
+The answer is, "DOING A THING WELL NEVER IS TROUBLE! THE PLAN PREPARED BY THIS WOMAN FOR THE BENEFIT OF HER SON, HELPED HIM GET THE JOB FOR WHICH HE APPLIED, AT THE FIRST INTERVIEW, AT A SALARY FIXED BY HIMSELF."
+
+Moreover-- and this, too, is important-- THE POSITION DID NOT REQUIRE THE YONG MAN TO START AT THE BOTTOM. HE BEGAN AS A JUNIOR EXECUTIVE, AT AN EXECUTIVE'S SALARY.
+
+"Why go to all this trouble?" do you ask?
+
+Well, for one thing, the PLANNED PRESENTATION of this young man's application for a position clipped off no less than ten years of time he would have required to get to where he began, had he "started at the bottom and worked his way up."
+
+This idea of starting at the bottom and working one's way up may appear to be sound, but the major objection to this is-- too many of those who begin at the bottom never manage to lift their heads high enough to be seen by OPPORTUNITY, so they remain at the bottom. It should be remembered, also, that the outlook from the bottom is not so very bright or encouraging. It has a tendency to kill off ambition. We call it "getting into a rut," which means that we accept our fate because we form the HABIT of daily routine, a habit that finally becomes so strong we cease to try to throw it off. And this is another reason why it pays to start one or two steps above the bottom. By so doing one forms the HABIT of looking around, of observing how others get ahead, of seeing OPPORTUNITY, and of embracing it without hesitation.
+
+Dan Halpin is a splendid example of what I mean. During his college days, he was a manager of the famous 1930 National Championship Notre Dame football team, when it was under the direction of the late Knute Rockne.
+
+Perhaps he was inspired by the great football coach to aim high, and NOT MISTAKE TEMPORARY DEFEAT FOR FAILURE, just as Andrew Carnegie, the great industrial leader, inspired his young business lieutenants to to set high goals for themselves. At any rate, young Halpin finished college at a mighty unfavorable time, when the depression had made jobs scarce, so, after a fling at investment banking and motion pictures, he took the first opening with a potential future he could find-- selling electrical hearing aids on a commission basis. ANYONE COULD START IN THAT SORT OF JOB, AND HALPIN KNEW IT, but it was enough to open the door of opportunity to him.
+
