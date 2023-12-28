@@ -297,3 +297,77 @@ Nothing as widespread and effective as the depression could possibly be "just a 
 This should not be mistaken to mean that the depression represents a crop which the world is being FORCED to reap without having SOWN. The trouble is that the world sowed the wrong sort of seed. Any farmer knows he cannot sow the seed of thistles, and reap a harvest of grain. Beginning at the outbreak of the world war, the people of the world began to sow the seed of service inadequate in both quality and quantity. Nearly everyone was engaged in the pastime of trying to GET WITHOUT GIVING.
 
 These illustrations are brought to the attention of those who have personal services to market, to show that we are where we are, and what we are, because of our own conduct! If there is a principle of cause and effect, which controls business, finance, and transportation, this same principle controls individuals and determines their economic status.
+
+### WHAT IS YOUR "QQS" RATING?
+
+The causes of success in marketing services EFFECTIVELY and permanently, have been clearly described. Unless those causes are studied, analyzed, understood and APPLIED, no man can market his services effectively and permanently. Every person must be his own salesman of personal services. The QUALITY and the QUANTITY of service rendered, and the SPIRIT in which it is rendered, determine to a large extent, the price, and the duration of employment. To market Personal services effectively, (which means a permanent market, at a satisfactory price, under pleasant conditions), one must adopt and follow the "QQS" formula which means that QUALITY, plus QUANTITY, plus the proper SPIRIT of cooperation, equals perfect salesmanship of service. Remember the "QQS" formula, but do more--APPLY IT AS A HABIT!
+
+Let us analyze the formula to make sure we understand exactly what it means.
+
+1. QUALITY of service will be construed to mean the performance of every detail, in connection with your position, in the most efficient manner possible, with the object of greater efficiency always in mind.
+
+2. QUANTITY of service shall be understood to mean the HABIT of rendering all the service of which you are capable, at all times, with the purpose of increasing the amount of service rendered as greater skill is developed through practice and experience. Emphasis is again placed on the word HABIT.
+
+3. SPIRIT of service shall be construed to mean the HABIT of agreeable, harmonious conduct which will induce cooperation from associates and fellow employees.
+
+Adequacy of QUALITY and QUANTITY of service is not sufficient to maintain a permanent market for your services. The conduct, or the SPIRIT in which you deliver service, is a strong determining factor in connection with both the price you receive, and the duration of employment.
+
+Andrew Carnegie stressed this point more than others in connection with his description of the factors which lead to success in the marketing of personal services. He emphasized again, and again, the necessity for HARMONIOUS CONDUCT. He stressed the fact that he would not retain any man, no matter how great a QUANTITY, or how efficient the QUALITY of his work, unless he worked in a spirit of HARMONY. Mr. Carnegie insisted upon men being AGREEABLE.
+
+To prove that he placed a high value upon this quality, he permitted many men who conformed to his standards to become very wealthy. Those who did not conform, had to make room for others.
+
+The importance of a pleasing personality has been stressed, because it is a factor which enables one to render service in the proper SPIRIT. If one has a personality which PLEASES, and renders service in a spirit of HARMONY, these assets often make up for deficiencies in both the QUALITY, and the QUANTITY of service one renders. Nothing, however, can be SUCCESSFULLY SUBSTITUTED FOR PLEASING CONDUCT.
+
+### THE CAPITAL VALUE OF YOUR SERVICES
+
+The person whose income is derived entirely from the sale of personal services is no less a merchant than the man who sells commodities, and it might well be added, such a person is subject to EXACTLY THE SAME RULES of conduct as the merchant who sells merchandise.
+
+This has been emphasized, because the majority of people who live by the sale of personal services make the mistake of considering themselves free from the rules of conduct, and the responsibilities attached to those who are engaged in marketing commodities.
+
+The new way of marketing services has practically forced both employer and employee into partnership alliances, through which both take into consideration the rights of the third party, THE PUBLIC THEY SERVE.
+
+The day of the "go-getter" has passed. He has been supplanted by the "go-giver." High-pressure methods in business finally blew the lid off. There will never be the need to put the lid back on, because, in the future, business will be conducted by methods that will require no pressure.
+
+The actual capital value of your brains may be determined by the amount of income you can produce (by marketing your services). A fair estimate of the capital value of your services may be made by multiplying your annual income by sixteen and two-thirds, as it is reasonable to estimate that you annual income represents six percent of your capital value. Money rents for 6% per annum. Money is worth no more than brains. It is often worth much less.
+
+Competent "brains," if effectively marketed, represent a much more desirable form of capital than that which is required to conduct a business dealing in commodities, because "brains" are a form of capital which cannot be permanently depreciated through depressions, nor can this form of capital be stolen or spent. Moreover, the money which is essential for the conduct of business is as worthless as a sand dune, until it has been mixed with efficient "brains."
+
+### THE THIRTY MAJOR CAUSES OF FAILURE; HOW MANY OF THESE ARE HOLDING YOU BACK?
+
+Life's greatest tragedy consists of men and women who earnestly try, and fail! The tragedy lies in the overwhelmingly large majority of people who fail, as compared to the few who succeed.
+
+I have had the privilege of analyzing several thousand men and women, 98% of whom were classified as "failures." There is something radically wrong with a civilization, and a system of education, which permit 98% of the people to go through life as failures. But I did not write this book for the purpose of moralizing on the rights and wrongs of the world; that would require a book a hundred times the size of this one.
+
+My analysis work proved that there are thirty major reasons for failure, and thirteen major principles through which people accumulate fortunes. In this chapter, a description of the thirty major causes of failure will be given. As you go over the list, check yourself by it, point by point, for the purpose of discovering how many of these causes-of-failure stand between you and success.
+
+1. UNFAVORABLE HEREDITARY BACKGROUND. There is but little, if anything, which can be done for people who are born with a deficiency in brain power. This philosophy offers but one method of bridging this weakness-- through the aid of the Master Mind. Observe with profit, however, that this is the ONLY one of the thirty causes of failure which may not be easily corrected by any individual.
+
+2. LACK OF A WELL-DEFINED PURPOSE IN LIFE. There is no hope for success for the person who does not have a central purpose, or definite goal at which to aim. Ninety-eight out of every hundred of those whom I have analyzed, had no such aim. Perhaps this was the [#3]
+
+3. LACK OF AMBITION TO AIM ABOVE MEDIOCRITY. We offer no hope for the person who is so indifferent as not to want to get ahead in life, and who is not willing to pay the price.
+
+4. INSUFFICIENT EDUCATION. This is a handicap which may be overcome with comparative ease. Experience has proven that the best-educated people are often those who are known as "self-made," or self-educated. It takes more than a college degree to make one a person of education. Any person who is educated is one who has learned to get whatever he wants in life without violating the rights of others. Education consists, not so much of knowledge, but of knowledge effectively and persistently APPLIED. Men are paid, not merely for what they know, but more particularly for WHAT THEY DO WITH THAT WHICH THEY KNOW.
+
+5. LACK OF SELF-DISCIPLINE. Discipline comes through self-control. This means that one must control all negative qualities. Before you can control conditions, you must first control yourself. Self-mastery is the hardest job you will ever tackle. If you do not conquer yourself, you will be conquered by self. You may see at one and the same time both your best friend and your greatest enemy, by stepping in front of a mirror.
+
+6. ILL HEALTH. No person may enjoy outstanding success without good health. Many of the causes of ill health are subject to mastery and control. These, in the main are:
+
+a. Overeating of foods not conducive to health.
+
+b. Wrong habits of thought; giving expression to negatives.
+
+c. Wrong use of, and over indulgence in sex.
+
+d. Lack of proper physical exercise.
+
+e. An inadequate supply of fresh air, due to improper breathing.
+
+7. UNFAVORABLE ENVIRONMENTAL INFLUENCES DURING CHILDHOOD. "As the twig is bent, so shall the tree grow." Most people who have criminal tendencies acquire them as the result of bad environment, and improper associates during childhood.
+
+8. PROCRASTINATION. This is one of the most common causes of failure. "Old Man Procrastination" stands within the shadow of every human being, waiting his opportunity to spoil one's chances of success. Most of us go through life as failures, because we are waiting for the "time to be right" to start doing something worthwhile. Do not wait. The time will never be "just right." Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.
+
+9. LACK OF PERSISTENCE. Most of us are good "starters" but poor "finishers" of everything we begin. Moreover, people are prone to give up at the first signs of defeat. There is no substitute for PERSISTENCE. The person who makes PERSISTENCE his watch-word, discovers that "Old Man Failure" finally becomes tired, and makes his departure. Failure cannot cope with PERSISTENCE.
+
+10. NEGATIVE PERSONALITY. There is no hope of success for the person who repels people through a negative personality. Success comes through the application of POWER, and power is attained through the cooperative efforts of other people. A negative personality will not induce cooperation.
+
+11. LACK OF CONTROLLED SEXUAL URGE. Sex energy is the most powerful of all the stimuli which move people into ACTION. Because it is the most powerful of the emotions, it must be controlled, through transmutation, and converted into other channels.
