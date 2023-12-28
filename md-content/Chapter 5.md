@@ -94,3 +94,15 @@ The changed economic conditions prevailing since the depression have made it nec
 
 Stuart Austin Wier prepared himself as a Construction Engineer and followed this line of work until the depression limited his market to where it did not give him the income he required. He took inventory of himself, decided to change his profession to law, went back to school and took special courses by which he prepared himself as a corporate lawyer. Despite the fact the depression had not ended, he completed his training, passed the Bar Examination, and quickly built a lucrative law practice, in Dallas, Texas; in fact he is turning away clients.
 
+Just to keep the record straight, and to anticipate the alibis of those who will say, "I couldn't go to school because I have a family to support," or "I'm too old," I will add teh information that Mr. Wier was past forty, and married when he went back to school. Moreover, by carefully selecting highly specialized courses, in colleges best prepared to teach the subjects chosen, Mr. Wier completed in two years the work for which the majority of law students require four years. IT PAYS TO KNOW HOW TO PURCHASE KNOWLEDGE.
+
+The person who stops studying merely because he has finished school is forever hopelessly doomed to mediocrity, no matter what may be his calling. The way of success is the way of continuous pursuit of knowledge.
+
+Let us consider a specific instance.
+
+During the depression a salesman in a grocery store found himself without a position. Having had some bookkeeping experience, he took a special course in accounting, familiarized himself with all the latest bookkeeping and office equipment, and went into business for himself. Starting with the grocer for whom he had formerly worked, he made contracts with more than 100 small merchants to keep their books, at a very nominal monthly fee. His idea was so practical that he soon found it necessary to set up a portable office in a light delivery truck, which he equipped with modern bookkeeping machinery. He now has a fleet of these bookkeeping offices "on wheels" and employs a large staff of assistants, thus providing small merchants with accounting service equal to the best that money can buy, at very nominal cost.
+
+Specialized knowledge, plus imagination, were the ingredients that went into this unique and successful business. Last year the owner of that business paid an income tax of almost ten times as much as was paid by the merchant for whom he worked when teh depression forced upon him a temporary adversity which proved to be a blessing in disguise.
+
+The beginning of this successful business was an IDEA!
+
