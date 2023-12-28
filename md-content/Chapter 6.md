@@ -182,3 +182,36 @@ The moving picture industry created a whole flock of millionaires. Most of them 
 
 The next flock of millionaires will grow out of the radio business, which is new and not overburdened with men of keen imagination. The money will be made by those who discover or create new and more meritorious radio programmes and have the imagination to recognize merit, and to give the radio listeners a chance to profit by it.
 
+The sponsor! That unfortunate victim who now pays the cost of all radio "entertainment," soon will become idea conscious, and demand something for his money. The man who beats the sponsor to the draw, and supplies programmes that render useful service, is the man who will become rich in this new industry.
+
+Crooners and light chatter artists who now pollute the air with wisecracks and silly giggles, will go the way of all light timbers, and their places will be taken by real artists who interpret carefully planned programmes which have been designed to service the minds of men, as well as provide entertainment.
+
+Here is a wide open field of opportunity screaming its protest at the way it is being butchered, because of lack of imagination, and begging for rescue at any price. Above all, the thing that radio needs is new IDEAS!
+
+If this new field of opportunity intrigues you, perhaps you might profit by the suggestion that the successful radio programmes of the future will give more attention to creating "buyer" audiences, and less attention to "listener" audiences. Stated more plainly, the builder of radio programmes who succeeds in the future, must find practical ways to convert "listeners" into "buyers." Moreover, the successful producer of radio programmes in the future must key his features so that he can definitely show its effect upon the audience.
+
+Sponsors are becoming a bit weary of buying glib selling talks, based upon statements grabbed out of thin air. They want, and in the future will demand, indisputable proof that the Whoosit programme not only gives millions of people the silliest giggle ever, but that the silly giggler can sell merchandise!
+
+Another thing that might as well be understood by those who contemplate entering this new field of opportunity, radio advertising is going to be handled by an entirely new group of advertising experts, separate and distinct from the old time newspaper and magazine advertising agency men. The old timers in teh advertising game cannot read the modern radio scripts, because they have been schooled to SEE ideas. The new radio technique demands men who can interpret ideas from a written manuscript in terms of SOUND! It cost the author a year of hard labor, and many thousands of dollars to learn this.
+
+Radio, right now, is about where the moving pictures were, when Mary Pickford and her curls first appeared on the screen. There is plenty of room in radio for those who can produce or recognize IDEAS.
+
+If the foregoing comment on the opportunities of radio has not started your idea factory to work, you had better forget it. Your opportunity is in some other field. If the comment intrigued you in the slightest degree, then go further into it, and you may find the one IDEA you need to round out your career.
+
+Never let it discourage you if you have no experience in radio. Andrew Carnegie knew very little about making steel-- I have Carnegie's own word for this-- but he made practical use of two of the principles described in this book, and made the steel business yield him a fortune.
+
+The story of practically ever great fortune starts with the day when a creator of ideas and a seller of ideas got together and worked in harmony. Carnegie surrounded himself with men who could do all that he could not do. Men who created ideas, and men who put ideas into operation, and made himself and the others fabulously rich.
+
+Millions of people go through life hoping for favorable "breaks." Perhaps a favorable break can get one an opportunity, but the safest plan is not to depend upon luck. It was a favorable "break" that gave me the biggest opportunity of my life-- but-- twenty-five years of determined effort had to be devoted to that opportunity before it became an asset.
+
+The "break" consisted of my good fortune in meeting and gaining the cooperation of Andrew Carnegie. On that occasion Carnegie planted in my mind the idea of organizing the principles of achievement into a philosophy of success. Thousands of people have profited by the discoveries made in the twenty-five years of research, and several fortunes have been accumulated through the application of the philosophy. The beginning was simple. It was an IDEA which anyone might have developed.
+
+The favorable break came through Carnegie, but what about the DETERMINATION, DEFINITENESS OF PURPOSE, and the DESIRE TO ATTAIN THE GOAL, and teh PERSISTENT EFFORT OF TWENTY-FIVE YEARS? It was no ordinary DESIRE that survived disappointment, discouragement, temporary defeat, criticism, and the constant reminding of "waste of time." It was a BURNING DESIRE! AN OBSESSION!
+
+When the idea was first planted in my mind by Mr. Carnegie, it was coaxed, nursed, and enticed to remain alive. Gradually, the idea became a giant under its own power, and it coaxed, nursed, and drove me. Ideas are like that. First you give life and action and guidance to ideas, then they take on power of their own and sweep aside all opposition.
+
+Ideas are intangible forces, but they have more power than the physical brains that give birth to them. They have the power to live on, after the brain that creates them has returned to dust. For example, take the power of Christianity. That began with a simple idea, born in the brain of Christ. Its chief tenet was, "do unto others as you would have others do to you." Christ has gone back to the source from whence He came, but His IDEA goes marching on. Some day, it may grow up, and come into its own, then it will have fulfilled Christ's deepest DESIRE. The IDEA has been developing only two thousand years. Give it time!
+
+SUCCESS REQUIRES NO EXPLANATIONS
+
+FAILURE PERMITS NO ALIBIS
