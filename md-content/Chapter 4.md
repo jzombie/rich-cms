@@ -72,3 +72,16 @@ These instructions may, at first, seem abstract. Do not let this disturb you. Fo
 
 Skepticism, in connection with ALL new ideas, is characteristic of all human beings. But if you follow the instructions outlined, your skepticism will soon be replaced by belief, and this, in turn, will soon become crystallized into ABSOLUTE FAITH. Then you will have arrived at the point where you may truly say, "I am the master of my fate, I am the captain of my soul!"
 
+Many philosophers have made the statement, that man is the master of his own earthly destiny, but most of them have failed to say why he is the master. The reason that man may be the master of his own earthly status, and especially his financial status, is thoroughly explained in this chapter. Man may become the master of himself, and of his environment, because he has the POWER TO INFLUENCE HIS OWN SUBCONSCIOUS MIND, and through it, gain the cooperation of Infinite Intelligence.
+
+You are now reading the chapter which represents the keystone to the arch of this philosophy. The instructions contained in this chapter must be understood an APPLIED WITH PERSISTENCE, if you succeed in transmuting desire into money.
+
+The actual performance of transmuting DESIRE into money, involves the use of auto-suggestion as an agency by which one may reach, and influence, the subconscious mind. The other principles are simply tools with which to apply auto-suggestion. Keep this thought in mind, and you will, at all times, be conscious of the important part the principle of auto-suggestion is to play in your efforts to accumulate money through the methods described in this book.
+
+Carry out these instructions as though you were a small child. Inject into your efforts something of the FAITH of a child. The author has been most careful, to see that no impractical instructions were included, because of his sincere desire to be helpful.
+
+After you have read the entire book, come back to this chapter, and follow in spirit, and in action, this instruction:
+
+READ THE ENTIRE CHAPTER ALOUD ONCE EVERY NIGHT, UNTIL YOU BECOME THOROUGHLY CONVINCED THAT THE PRINCIPLE OF AUTO-SUGGESTION IS SOUND, THAT IT WILL ACCOMPLISH FOR YOU ALL THAT HAS BEEN CLAIMED FOR IT. AS YOU READ, UNDERSCORE WITH A PENCIL EVERY SENTENCE WHICH IMPRESSES YOU FAVORABLY.
+
+Follow the foregoing instruction to the letter, and it will open the way for a complete understanding, and mastery of the principles of success.
