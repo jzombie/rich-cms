@@ -192,7 +192,7 @@ If this new field of opportunity intrigues you, perhaps you might profit by the 
 
 Sponsors are becoming a bit weary of buying glib selling talks, based upon statements grabbed out of thin air. They want, and in the future will demand, indisputable proof that the Whoosit programme not only gives millions of people the silliest giggle ever, but that the silly giggler can sell merchandise!
 
-Another thing that might as well be understood by those who contemplate entering this new field of opportunity, radio advertising is going to be handled by an entirely new group of advertising experts, separate and distinct from the old time newspaper and magazine advertising agency men. The old timers in teh advertising game cannot read the modern radio scripts, because they have been schooled to SEE ideas. The new radio technique demands men who can interpret ideas from a written manuscript in terms of SOUND! It cost the author a year of hard labor, and many thousands of dollars to learn this.
+Another thing that might as well be understood by those who contemplate entering this new field of opportunity, radio advertising is going to be handled by an entirely new group of advertising experts, separate and distinct from the old time newspaper and magazine advertising agency men. The old timers in the advertising game cannot read the modern radio scripts, because they have been schooled to SEE ideas. The new radio technique demands men who can interpret ideas from a written manuscript in terms of SOUND! It cost the author a year of hard labor, and many thousands of dollars to learn this.
 
 Radio, right now, is about where the moving pictures were, when Mary Pickford and her curls first appeared on the screen. There is plenty of room in radio for those who can produce or recognize IDEAS.
 
@@ -206,7 +206,7 @@ Millions of people go through life hoping for favorable "breaks." Perhaps a favo
 
 The "break" consisted of my good fortune in meeting and gaining the cooperation of Andrew Carnegie. On that occasion Carnegie planted in my mind the idea of organizing the principles of achievement into a philosophy of success. Thousands of people have profited by the discoveries made in the twenty-five years of research, and several fortunes have been accumulated through the application of the philosophy. The beginning was simple. It was an IDEA which anyone might have developed.
 
-The favorable break came through Carnegie, but what about the DETERMINATION, DEFINITENESS OF PURPOSE, and the DESIRE TO ATTAIN THE GOAL, and teh PERSISTENT EFFORT OF TWENTY-FIVE YEARS? It was no ordinary DESIRE that survived disappointment, discouragement, temporary defeat, criticism, and the constant reminding of "waste of time." It was a BURNING DESIRE! AN OBSESSION!
+The favorable break came through Carnegie, but what about the DETERMINATION, DEFINITENESS OF PURPOSE, and the DESIRE TO ATTAIN THE GOAL, and the PERSISTENT EFFORT OF TWENTY-FIVE YEARS? It was no ordinary DESIRE that survived disappointment, discouragement, temporary defeat, criticism, and the constant reminding of "waste of time." It was a BURNING DESIRE! AN OBSESSION!
 
 When the idea was first planted in my mind by Mr. Carnegie, it was coaxed, nursed, and enticed to remain alive. Gradually, the idea became a giant under its own power, and it coaxed, nursed, and drove me. Ideas are like that. First you give life and action and guidance to ideas, then they take on power of their own and sweep aside all opposition.
 

@@ -72,7 +72,7 @@ The steps call for no "hard labor." They call for no sacrifice. They do not requ
 
 You may as well know, right here, that you can never have riches in great quantities, UNLESS you can work yourself into a white heat of DESIRE for money, and actually BELIEVE you will possess it.
 
-You may as well know, also that every great leader, from the dawn of civilization down the teh present, was a dreamer. Christianity is the greatest potential power in the world today, because its founder was an intense dreamer who had the vision and the imagination to see realities in their mental and spiritual form before they had been transmuted into physical form.
+You may as well know, also that every great leader, from the dawn of civilization down the the present, was a dreamer. Christianity is the greatest potential power in the world today, because its founder was an intense dreamer who had the vision and the imagination to see realities in their mental and spiritual form before they had been transmuted into physical form.
 
 If you do not see great riches in your imagination, you will never see them in your bank balance.
 
@@ -132,7 +132,7 @@ Edison, the world's greatest inventor and scientist, was a "tramp" telegraph ope
 
 Charles Dickens began by pasting labels on blacking pots. The tragedy of his first love penetrated the depths of his soul, and converted him into one of the world's truly great authors. That tragedy produced, first, David Copperfield, then a succession of other works that made this a richer and better world for all who read his books. Disappointment over love affairs, generally has the effect of driving men to drink, and women to ruin; and this, because most people never learn the art of transmuting their strongest emotions into dreams of a constructive nature.
 
-Helen Keller became deaf, dumb, and blind shortly after birth. Despite her great misfortune, she has written her name indelibly in teh pages of the history of the great. Her entire life has served as evidence that no one ever is defeated until defeat has been accepted as a reality.
+Helen Keller became deaf, dumb, and blind shortly after birth. Despite her great misfortune, she has written her name indelibly in the pages of the history of the great. Her entire life has served as evidence that no one ever is defeated until defeat has been accepted as a reality.
 
 Robert Burns was an illiterate country lad, he was cursed by poverty, and grew up to be a drunkard in the bargain. The world was made better for his having lived, because he clothed beautiful thoughts in poetry, and thereby plucked a thorn and planted a rose in its place.
 
@@ -176,7 +176,7 @@ As a fitting climax to this chapter, I wish to introduce one of the most unusual
 
 I challenged the doctor's opinion. I had the right to do so, I was the child's father. I, too, reached a decision, and rendered an opinion, but I expressed the opinion silently, in the secrecy of my own heart. I decided that my son would hear and speak. Nature could send me a child without ears, but Nature could not induce me to accept the reality of the affliction.
 
-In my own mind I knew that my son would hear and speak. How? I was sure there must be a way, and I knew I would find it. I thought of teh words of the immortal Emerson, "The whole course of things goes to teach us faith. We need only obey.
+In my own mind I knew that my son would hear and speak. How? I was sure there must be a way, and I knew I would find it. I thought of the words of the immortal Emerson, "The whole course of things goes to teach us faith. We need only obey.
 
 There is guidance for each of us, and by lowly listening, we shall hear the right word."
 
@@ -192,7 +192,7 @@ All this thinking took place in my own mind, but I spoke of it to no one. Every 
 
 As he grew older, and began to take notice of things around him, we observed that he had a slight degree of hearing. When he reached the age when children usually begin talking, he made no attempt to speak, but we could tell by his actions that he could hear certain sounds slightly. That was all I wanted to know! I was convinced that if he could hear, even slightly, he might develop still greater hearing capacity. Then something happened which gave me hope. It came from an entirely unexpected source.
 
-We bought a victrola. When the child heard the music for the first time, he went into ecstasies, and promptly appropriated the machine. He soon showed a preference for certain records, among them, "It's a Long Way to Tipperary." On one occasion, he played that piece over and over, for almost two hours, standing in front of the victrola, with his teeth clamped on the edge of the case. Teh significance of this self-formed habit of his did not become clear to us until years afterward, for we had never heard of the principle of "bone conduction" of sound at that time.
+We bought a victrola. When the child heard the music for the first time, he went into ecstasies, and promptly appropriated the machine. He soon showed a preference for certain records, among them, "It's a Long Way to Tipperary." On one occasion, he played that piece over and over, for almost two hours, standing in front of the victrola, with his teeth clamped on the edge of the case. The significance of this self-formed habit of his did not become clear to us until years afterward, for we had never heard of the principle of "bone conduction" of sound at that time.
 
 Shortly after he appropriated the victrola, I discovered that he could hear me quite clearly when I spoke with my lips touching his mastoid bone, or at the base of his brain. These discoveries placed in my possession the necessary media by which I began to translate into reality my Burning Desire to help my son develop hearing and speech. By that time he was making stubs at speaking certain words. The outlook was far from encouraging, but DESIRE BACKED BY FAITH knows no such word as impossible.
 
@@ -220,7 +220,7 @@ While he was in high school, he tried an electrical hearing aid, but it was of n
 
 During his last week in college, (eighteen years after the operation), something happened which marked the most important turning-point of his life. Through what seemed to be mere chance, he came into possession of another electrical hearing device, which as sent to him on trial. He was slow about testing it, due to his disappointment with a similar device. Finally he picked the instrument up, and more or less carelessly, placed it on his head, hooked up the battery, and lo! as if by a stroke of magic, his lifelong DESIRE FOR NORMAL HEARING BECAME A REALITY! For the first time in hist life he heard practically as well as any person with normal hearing. "God moves in mysterious ways, His wonders to perform."
 
-Overjoyed because of the Changed World which had been brought to him through his hearing device, he rushed to the telephone, called his mother, and heard her voice perfectly. The next day he plainly heard the voices of his professors in class, for the first time in his life! Previously he could hear them only when they shouted, at short range. He heard the radio. He heard the talking pictures. For teh first time in his life, he could converse freely with other people, without the necessity of their having to speak loudly. Truly, he had come into possession of a Changed World.
+Overjoyed because of the Changed World which had been brought to him through his hearing device, he rushed to the telephone, called his mother, and heard her voice perfectly. The next day he plainly heard the voices of his professors in class, for the first time in his life! Previously he could hear them only when they shouted, at short range. He heard the radio. He heard the talking pictures. For the first time in his life, he could converse freely with other people, without the necessity of their having to speak loudly. Truly, he had come into possession of a Changed World.
 
 We had refused to accept Nature's error, and, by PERSISTENT DESIRE, we had induced Nature to correct that error, through the only practical means available.
 

@@ -144,7 +144,7 @@ The business depression started in 1929, and continued on to an all time record 
 
 Observe very closely, as soon as you master the principles of this philosophy, and begin to follow the instructions for applying those principles, your financial status will begin to improve, and everything you touch will begin to transmute itself into an asset for your benefit. Impossible? Not at all!
 
-One of the main weaknesses of mankind is the average man's familiarity with the word "impossible." He knows all the rules which will NOT work. He knows all the things which CANNOT be done. This book was written for those who seek teh rules which have made others successful, and are willing to stake everything on those rules.
+One of the main weaknesses of mankind is the average man's familiarity with the word "impossible." He knows all the rules which will NOT work. He knows all the things which CANNOT be done. This book was written for those who seek the rules which have made others successful, and are willing to stake everything on those rules.
 
 A great many years ago I purchased a fine dictionary. The first thing I did with it was to turn to the word "impossible," and neatly clip it out of the book. That would not be an unwise thing for you to do.
 
@@ -164,7 +164,7 @@ What do we say about the Chinese?
 
 We refuse to believe that which we do not understand. We foolishly believe that our own limitations are the proper measure of limitations. Sure, the other fellow's eyes are "off slant," BECAUSE THEY ARE NOT THE SAME AS OUR OWN.
 
-Millions of people look at teh achievements of Henry Ford, after he has arrived, and envy him, because of his good fortune, or luck, or genius, or whatever it is that they credit for Ford's fortune. Perhaps one person in every hundred thousand knows the secret of Ford's success, and those who do know are too modest, or too reluctant, to speak of it, because of its simplicity. A single transaction will illustrate the "secret" perfectly.
+Millions of people look at the achievements of Henry Ford, after he has arrived, and envy him, because of his good fortune, or luck, or genius, or whatever it is that they credit for Ford's fortune. Perhaps one person in every hundred thousand knows the secret of Ford's success, and those who do know are too modest, or too reluctant, to speak of it, because of its simplicity. A single transaction will illustrate the "secret" perfectly.
 
 A few years back, Ford decided to produce his now famous V-8 motor. He chose to build an engine with the entire eight cylinders cast in one block, and instructed his engineers to produce a design for the engine. The design was placed on paper, but the engineers agreed, to a man, that it was simply impossible to cast an eight-cylinder gas engine block in one piece.
 
@@ -238,7 +238,7 @@ It gives you an idea of the rewards to come.
 
 "You know the problems of those who face the necessity of beginning all over again. There are thousands of people in America today who would like to know how they can convert ideas into money, people who must start at scratch, without finances, and recoup their losses. If anyone can help them, you can.
 
-"If you publish the book, I would like to own the first copy that comes from teh press, personally autographed by you.
+"If you publish the book, I would like to own the first copy that comes from the press, personally autographed by you.
 
 "With best wishes, believe me,
 

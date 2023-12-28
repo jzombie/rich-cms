@@ -1,5 +1,7 @@
 # TODO
 
+- [] <- -> article navigation, w/ titles
+- [] Includes via env variables (i.e. for tracking, etc.)
 - [] Show word count after compilation step
 - [] The ability to hotlink to a particular paragraph would be nice
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
