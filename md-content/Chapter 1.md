@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-THE MAN WHO "THOUGHT" HIS WAY INTO PARTNERSHIP WITH THOMAS A. EDISON
+### THE MAN WHO "THOUGHT" HIS WAY INTO PARTNERSHIP WITH THOMAS A. EDISON
 
 TRULY, "thoughts are things," and powerful things at that, when they are mixed with definiteness of purpose, persistence, and a BURNING DESIRE for their translation into riches, or other material objects.
 
