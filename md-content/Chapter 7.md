@@ -552,3 +552,118 @@ Only the three basic necessities of food, clothing, and shelter have been mentio
 
 The average American has security of property rights not found in any other country in the world. He can place his surplus money in a bank with the assurance that his government will protect it, and make good to him if the bank fails. If an American citizen wants to travel from one state to another he needs no passport, no one's permission. He may go when he pleases, and return at will. Moreover, he may travel by train, private automobile, bus, airplane, or ship, as his pocketbook permits. In Germany, Russia, Italy, and most of the other European and Oriental countries, the people cannot travel with so much freedom, and at so little cost.
 
+### THE "MIRACLE" THAT HAS PROVIDED THESE BLESSINGS
+
+We often hear politicians proclaiming the freedom of America, when they solicit votes, but seldom do they take the time or devote sufficient effort to the analysis of the source or nature of this "freedom." Having no axe to grind, no grudge to express, no ulterior motives to be carried out, I have the privilege of going into a frank analysis of that mysterious, abstract, greatly misunderstood "SOMETHING" which gives to every citizen of America more blessings, more opportunities to accumulate wealth, more freedom of every nature, than may be found in any other country.
+
+I have the right to analyze the source and nature of this UNSEEN POWER, because I know, and have known for more than a quarter of a century, many of the men who organized that power, and many who are now responsible for its maintenance.
+
+The name of this mysterious benefactor of mankind is CAPITAL!
+
+CAPITAL consists not alone of money, but more particularly of highly organized, intelligent groups of men who plan ways and means of using money efficiently for the good of the public, and profitably to themselves.
+
+These groups consist of scientists, educators, chemists, inventors, business analysts, publicity men, transportation experts, accountants, lawyers, doctors, and both men and women who have highly specialized knowledge in all fields of industry and business. They pioneer, experiment, and blaze trails in anew fields of endeavor. They support colleges, hospitals, public schools, build good roads, publish newspapers, pay most of the cost of government, and take care of the multitudinous detail essential to human progress. Stated briefly, the capitalists are the brains of civilization, because they supply the entire fabric of which all education, enlightenment and human progress consists.
+
+Money, without brains, always is dangerous. Properly used, it is the most important essential of civilization. The simple breakfast here described could not have been delivered to the New York family at a dime each, or at any other price, if organized capital had not provided the machinery, the ships, the railroads, and the huge armies of trained men to operate them.
+
+Some slight idea of the importance of ORGANIZED CAPITAL may be had by trying to imagine yourself burdened with the responsibility of collecting, without the aid of capital, and delivering to the New York City family, the simple breakfast described.
+
+To supply the tea, you would have to make a trip to China or India, both a very long way from America. Unless you are an excellent swimmer, you would become rather tired before making the round trip. Then, too, another problem would confront you. What would you use for money, even if you had the physical endurance to swim the ocean?
+
+To supply the sugar, you would have to take another long swim to Cuba, or a long walk to the sugar beet section of Utah. But even then, you might come back without the sugar, because organized effort and money are necessary to produce sugar, to say nothing of what is required to refine, transport, and deliver it to the breakfast table anywhere in the United States.
+
+The eggs, you could deliver easily enough from the barn yards near New York City, but you would have a very long walk to Florida and return, before you could serve the two glasses of grapefruit juice.
+
+You would have another long walk, to Kansas, or one of the other wheat growing states, when you went after the four slices of wheat bread.
+
+The Rippled Wheat Biscuits would have to be omitted from the menu, because the would not be available except through the labor of a trained organization of men and suitable machinery, ALL OF WHICH CALL FOR CAPITAL.
+
+While resting, you could take off for another little swim down to South America, where you would pick up a couple of bananas, and on your return, you could take a short walk to the nearest farm having a dairy and pick up some butter and cream. Then your New York City family would be ready to sit down and enjoy breakfast, and you could collect your two dimes for your labor!
+
+Seems absurd, doesn't it? Well, the procedure described would be the only possible way these simple items of food could be delivered to the heart of New York City, if we had no capitalistic system.
+
+The sum of money required for the building and the maintenance of the railroads and steam ships used in the delivery of that simple breakfast is so huge that it staggers one's imagination. It runs into hundreds of millions of dollars, not to mention the armies of trained employees required ot man the ships and trains. But, transportation is only a part of the requirements of modern civilization in capitalistic America. Before there can be anything to haul, something must be grown from the ground, or manufactured and prepared for market. This calls for mor millions of dollars for equipment, machinery, boxing, marketing, and for the wages of millions of men and women.
+
+Steam ships and railroads do not spring up from the earth and function automatically. They come in response to the call of civilization, through the labor and ingenuity and organizing ability of men who have IMAGINATION, FAITH, ENTHUSIASM, DECISION, PERSISTENCE! These men are known as capitalists. They are motivated by the desire to build, construct, achieve, render useful service, earn profits and accumulate riches. And, because they RENDER SERVICE WITHOUT WHICH THERE WOULD BE NO CIVILIZATION, they put themselves in the way of great riches.
+
+Just to keep the record simple and understandable, I will add that these capitalists are the self-same men of whom most of us have heard soap-box orators speak. They are the same men whom radicals, racketeers, dishonest politicians and grafting labor leaders refer as "the predatory interests," or "Wall Street."
+
+I am not attempting to present a brief for or against any group of men or any system of economics. I am not attempting to condemn collective bargaining when I refer to "grafting labor leaders," nor do I am to give a clean bill of health to all individuals known as capitalists.
+
+The purpose of this book-- A purpose to which I have faithfully devoted over a quarter of a century-- is to present to all who want the knowledge, the most dependable philosophy through which individuals may accumulate riches in whatever amounts they desire.
+
+I have here analyzed the economic advantages of the capitalistic system for the two-fold purpose of showing:
+
+1. that all who seek riches must recognize and adapt themselves to the system that controls all approaches to fortunes, large or small, and
+
+2. to present the side of the picture opposite to that being shown by politicians and demagogues who deliberately becloud the issues they bring up, by referring to organized capital as it were something poisonous.
+
+This is a capitalistic country, it was developed through the use of capital, and we who claim the right to partake of the blessings of freedom and opportunity, we who seek to accumulate riches here, may as well know that neither riches nor opportunity would be available to us if ORGANIZED CAPITAL had not provided these benefits.
+
+For more than twenty years it has been a somewhat popular and growing pastime for radicals, self-seeking politicians, racketeers, crooked labor leaders, and on occasion religious leaders, to take pot-shots at "WALL STREET, THE MONEY CHANGERS, and BIG BUSINESS."
+
+The practice became so general that we witnessed during the business depression, the unbelievable sight of high government officials lining up with the cheap politicians, and labor leaders, with the openly avowed purpose of throttling the system which has made Industrial America the richest country on earth. The lineup was so general and so well organized that it prolonged the worst depression America has ever known. It costs millions of men their jobs, because those jobs were inseparably a part of the industrial and capitalistic system which form the very backbone of the nation.
+
+During this unusual alliance of government officials and self-seeking individuals who were endeavoring to profit by declaring "open season" on the American system of industry, a certain type of labor leader joined forces with the politicians and offered to deliver voters in return for legislation designed to permit men to TAKE RICHES AWAY FROM INDUSTRY BY ORGANIZED FORCE OF NUMBERS, INSTEAD OF THE BETTER METHOD OF GIVING A FAIR DAY'S WORK FOR A FAIR DAY'S PAY.
+
+Millions of men and women throughout the nation are still engaged in this popular pastime of trying to GET without GIVING. Some of them are lined up with labor unions, where they demand SHORTER HOURS AND MORE PAY! Others do no take the trouble to work at all. THEY DEMAND GOVERNMENT RELIEF AND ARE GETTING IT. Their idea of their rights of freedom was demonstrated in New York City, where violent complaint was registered by the Postmaster, by a group of "relief beneficiaries," because the Postmen awakened them at 7:30 A.M. to deliver Government relief checks. They DEMANDED that the time of deliver by set up to 10:00 o'clock.
+
+If you are one of those who believe that riches can be accumulated by the mere act of men who organize themselves into groups and demand MORE PAY for LESS SERVICE, if you are one of those who DEMAND Government relief without early morning disturbance when the money is delivered to you, if you are one of those who believe in trading their votes to politicians in return for the passing of laws which permit the raiding of the public treasury, you may rest securely on your belief, with certain knowledge that no one will disturb you, because THIS IS A FREE COUNTRY WHERE EVERY MAN MAY THINK AS HE PLEASES, where nearly everybody can live with but little effort, where many may live well without doing any work whatsoever.
+
+However, you should know the full truth concerning this FREEDOM of which so many people boast, and so few understand. As great as it is, as far as it reaches, as many privileges as it provides, IT DOES NOT, AND CANNOT BRING RICHES WITHOUT EFFORT.
+
+There is but one dependable method of accumulating, and legally holding riches, and that is by rendering useful service. No system has ever been created by which men can legally acquire riches through mere force of numbers, or without giving in return an equivalent value of one form or another.
+
+There is a principle known as the law of ECONOMICS! This is more than a theory. It is a law no man can beat.
+
+Mark well the name of the principle, and remember it, because it is far more powerful than all the politicians and political machines. It is above and beyond the control of all the labor unions. It cannot be swayed, nor influenced nor bribed by racketeers or self-appointed leaders in any calling. Moreover, IT HAS AN ALL-SEEING EYE, AND A PERFECT SYSTEM OF BOOKKEEPING, in which it keeps an accurate account of the transactions of every human being engaged in the business of trying to get without giving. Sooner or later its auditors come around, look over the records of individuals great and small, and demand an accounting.
+
+"Wall Street, Big Business, Capital Predatory Interests," or whatever name you choose to give the system which has given us AMERICAN FREEDOM, represents a group of men who understand, respect, and adapt themselves to this powerful LAW OF ECONOMICS! Their financial continuation depends upon their respecting the law.
+
+Most people living in America like this country, its capitalistic system and all. I must confess I know of no better country, where one may find greater opportunities to accumulate riches. Judging by their acts and deeds, there are some in this country who do not like it. That, of course is their privilege; if they do not like this country, its capitalistic system, its boundless opportunities, THEY HAVE THE PRIVILEGE OF CLEARING OUT! Always there are other countries, such as Germany, Russia, and Italy, where one may try one's hand at enjoying freedom, and accumulating riches providing one is not too particular.
+
+America provides all the freedom and all the opportunity to accumulate riches that any honest person may require. When one goes hunting for game, oen selects hunting grounds where game is plentiful. When seeking riches, the same rule would naturally obtain.
+
+If it is riches you are seeking, do not overlook the possibilities of a country whose citizens are so rich that women, alone, spend over two hundred million dollars annually for lipsticks, rouge and cosmetics. Think twice, you who are seeking riches, before trying to destroy the Capitalistic System of a country whose citizens spend over fifty million dollars a year for GREETING CARDS, with which to express their appreciation of their FREEDOM!
+
+If it is money you are seeking, consider carefully a country that spends hundreds of millions of dollars annually for cigarettes, the bulk of the income from which goes to only four major companies engaged in supplying this national builder of "non-chalance" and "quiet nerves."
+
+By all means give plenty of consideration to a country whose people spend annually more than fifteen million dollars for the privilege of seeing moving pictures, and toss in a few additional millions for liquor, narcotics, and other less potent soft drinks and giggle-waters.
+
+Do not be in too big a hurry to get away from a country whose people willingly, even eagerly, hand over millions of dollars annually for football, baseball, and prize fights.
+
+And, by all means, STICK by a country whose inhabitants give up more than a million dollars a year for chewing gum, and another million for safety razor blades.
+
+Remember, also, that this is but the beginning of the available sources for the accumulation of wealth. Only a few of the luxuries and non-essentials have been mentioned. But, remember that the business of producing, transporting, and marketing these few items of merchandise gives regular employment to MANY MILLIONS OF MEN AND WOMEN, who receive for their services MANY MILLIONS OF DOLLARS MONTHLY, and spend it freely for both the luxuries and the necessities.
+
+Especially remember, that back of all this exchange of merchandise and personal services may be found an abundance of OPPORTUNITY to accumulate riches. Here our AMERICAN FREEDOM comes to one's aid. There is nothing to stop you, or anyone from engaging in any portion of the effort necessary to carry on these businesses. If one has superior talent, training, experience, one may accumulate riches in large amounts. Those not so fortunate may accumulate smaller amounts. Anyone may earn a living in return for a very nominal amount of labor.
+
+So-- there you are!
+
+OPPORTUNITY has spread its wares before you. Step up to the front, select what you want, create your plan, put the plan into action, and follow through with PERSISTENCE. "Capitalistic" America will do the rest. You can depend upon this much-- CAPITALISTIC AMERICA INSURES EVERY PERSON THE OPPORTUNITY TO RENDER USEFUL SERVICE, AND TO COLLECT RICHES IN PROPORTION TO THE VALUE OF THE SERVICE.
+
+The "System" denies no one this right, but it does not, and cannot promise SOMETHING FOR NOTHING, because the system, itself, is irrevocably controlled by the LAW OF ECONOMICS which neither recognizes nor tolerates for long, GETTING WITHOUT GIVING.
+
+The LAW OF ECONOMICS was passed by Nature! There is no Supreme Court ot which violators of this law may appeal. The law hands out both penalties for its violation, and appropriate rewards for its observance, without interference or the possibility of interference by any human being. The law cannot be repealed. It is as fixed as the stars in the heavens, and subject to, and a part of the same system that controls the stars.
+
+May one refuse to adapt one's self to the LAW OF ECONOMICS?
+
+Certainly! This is a free country, where all men are born with equal rights, including the privilege of ignoring the LAW OF ECONOMICS.
+
+What happens then?
+
+Well, nothing happens until large numbers of men join forces for the avowed purpose of ignoring the law, and taking what they want by force.
+
+THEN COMES THE DICTATOR, WITH WELL ORGANIZED FIRING SQUADS AND MACHINE GUNS!
+
+We have not yet reached that stage in America! But we have heard all we want to know about how the system works. Perhaps we shall be fortunate enough not to demand personal knowledge of so gruesome a reality. Doubtless we shall prefer to continue with our FREEDOM OF SPEECH, FREEDOM OF DEED, and FREEDOM TO RENDER USEFUL SERVICE IN RETURN FOR RICHES.
+
+The practice, by Government officials of extending to men and women the privilege of raiding the public treasury in return for votes, sometimes results in election, but as night follows day, the final payoff comes; when every penny wrongfully used, must be repaid with compound interest on compound interest. If those who make the grab are not forced to repay, the burden falls on their children, and their children's children, "even unto the third and fourth generations." There is no way to avoid the debt.
+
+Men can, and sometimes do, form themselves into groups for the purpose of crowding wages up, and working hours down. There is a point beyond which they cannot go. It is the point at which the LAW OF ECONOMICS steps in, and the sheriff gets both the employer and the employees.
+
+For six years, from 1929, to 1935, the people of America, both rich and poor, barely missed seeing the Old Man Economics hand over to the sheriff all the businesses, and industries and banks. It was not a pretty sight! It did not increase our respect for mob psychology through which men cast reason to the winds and start trying to GET without GIVING.
+
+We who went through those six discouraging years, when FEAR WAS IN THE SADDLE, AND FAITH WAS ON THE GROUND, cannot forget how ruthlessly the LAW OF ECONOMICS exacted its toll from both rich and poor, weak and strong, old and young. We shall not wish to go through another such experience.
+
+These observations are not founded upon short-time experience. They are the result of twenty-five years of careful analysis of the methods of both the most successful and the most unsuccessful men America has known.
