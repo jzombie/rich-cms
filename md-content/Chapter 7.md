@@ -371,3 +371,52 @@ e. An inadequate supply of fresh air, due to improper breathing.
 10. NEGATIVE PERSONALITY. There is no hope of success for the person who repels people through a negative personality. Success comes through the application of POWER, and power is attained through the cooperative efforts of other people. A negative personality will not induce cooperation.
 
 11. LACK OF CONTROLLED SEXUAL URGE. Sex energy is the most powerful of all the stimuli which move people into ACTION. Because it is the most powerful of the emotions, it must be controlled, through transmutation, and converted into other channels.
+
+12. UNCONTROLLED DESIRE FOR "SOMETHING FOR NOTHING." The gambling instinct drives millions of people to failure. Evidence of this may be found in a study of the Wall Street crash of '29, during which millions of people tried to make money by gambling on stock margins.
+
+13. LACK OF WELL DEFINED POWER OF DECISION. Men who succeed reach decisions promptly, and change them, if at all, very slowly. Men who fail, reach decisions, if at all, very slowly, and change them frequently, and quickly. Indecision and procrastination are twin brothers. Where one is found, the other many usually be found also. Kill off this pair before they completely "hog-tie" you to the treadmill of FAILURE.
+
+14. ONE OR MOST OF THE SIX BASIC FEARS. These fears have been analyzed for you in a later chapter. The must be mastered before you can market your services effectively.
+
+15. WRONG SELECTION OF A MATER IN MARRIAGE. This is a most common cause of failure. The relationship of marriage bring people intimately into contact. Unless this relationship is harmonious, failure is likely to follow. Moreover, it will be a form of failure that is marked by misery and unhappiness, destroying all signs of AMBITION.
+
+16. OVER-CAUTION. The person who takes no chances, generally has to take whatever is left when others are through choosing. Over-caution is as bad as under-caution. Both are extremes to be guarded against. Life itself is filled with the element of chance.
+
+17. WRONG SELECTION OF ASSOCIATES IN BUSINESS. This is one of the most common causes of failure in business. In marketing personal services, one should use great care to select an employer who will be an inspiration, and who is, himself, intelligent and successful. We emulate those with whom we associate most closely. Pick an employer who is worth emulating.
+
+18. SUPERSTITION AND PREJUDICE. Superstition is a form of fear. It is also a sign of ignorance. Men who succeed keep open minds and are afraid of nothing.
+
+19. WRONG SELECTION OF A VOCATION. No man can succeed in a line of endeavor which he does not like. The most essential step in the marketing of personal services is that of selecting an occupation into which you can throw yourself wholeheartedly.
+
+20. LACK OF CONCENTRATION OF EFFORT. The "jack-of-all-trades" seldom is good at any. Concentrate all your efforts on one DEFINITE CHIEF AIM.
+
+21. THE HABIT OF INDISCRIMINATE SPENDING. The spend-thrift cannot succeed, mainly because he stands eternally in FEAR OF POVERTY. Form the habit of systematic saving by putting aside a definite percentage of your income. Money in the bank gives one a very safe foundation of COURAGE when bargaining for the sale of personal service. Without money, one must take what one is offered, and be glad to get it.
+
+22. LACK OF ENTHUSIASM. Without enthusiasm one cannot be convincing. Moreover, enthusiasm is contagious, and the person who has it, under control, is generally welcome in any group of people.
+
+23. INTOLERANCE. The person with a "closed" mind on any subject seldom gets ahead. Intolerance means that one has stopped acquiring knowledge. The most damaging forms of intolerance are those connected with religious, racial, and political differences of opinion.
+
+24. INTEMPERANCE. The most damaging forms of intemperance are connected with eating, strong drink, and sexual activities. Overindulgence in any of these is fatal to success.
+
+25. INABILITY TO COOPERATE WITH OTHERS. More people lose their positions and their big opportunities in life, because of this fault, than for all other reasons combined. It is a fault which no well-informed business man, or leader will tolerate.
+
+26. POSSESSION OF POWER THAT WAS NOT ACQUIRED THROUGH SELF EFFORT. (Sons and daughters of wealthy mean, and others who inherit money which they did not earn). Power in the hands of one who did not acquire it gradually, is often fatal to success. QUICK RICHES are more dangerous than poverty.
+
+27. INTENTIONAL DISHONESTY. There is no substitute for honesty. One may be temporarily dishonest by force of circumstances over which one has no control, without permanent damage. But, there is NO HOPE for the person who is dishonest by choice. Sooner or later, his deeds will catch up with him, and he will pay by loss of reputation, and perhaps even loss of liberty.
+
+28. EGOTISM AND VANITY. These qualities serve as red lights which warn others to keep away. THEY ARE FATAL TO SUCCESS.
+
+29. GUESSING INSTEAD OF THINKING. Most people are too indifferent or lazy to acquire FACTS with which to THINK ACCURATELY. They prefer to act on "opinions" created by guesswork or snap-judgments.
+
+30. LACK OF CAPITAL. This is a common cause of failure among those who start out in business for the first time, without sufficient reserve of capital to absorb the shock of their mistakes, and to carry them over until they have established a REPUTATION.
+
+31. Under this, name any particular cause of failure from which you have suffered that has not been included in the foregoing list.
+
+In these thirty major causes of failure is found a description of the tragedy of life, which obtains for practically every person who tries and fails. It will be helpful if you can induce someone who knows you well to go over this list with you, and help to analyze you by the thirty causes of failure. It may be beneficial if you try this alone. Most people cannot see themselves as others see them. You may be one who cannot.
+
+The oldest of admonitions is "Man, know thyself!" If you market merchandise successfully, you must know the merchandise. The same is true in marketing personal services. You should know all of your weaknesses in order that you may either bridge them or eliminate them entirely. You should know your strength in order that you may call attention to it when selling your services. You can know yourself only through accurate analysis.
+
+The folly of ignorance in connection with self was displayed by a young man who applied to the manager of a well known business for a position. He made a very good impression until the manager asked him what salary he expected. He replied that he had no fixed sum in mind (lack of a definite aim). The manager then said, "We will pay you all you are worth, after we try you out for a week."
+
+"I will not accept it," the applicant replied, "because I AM GETTING MORE THAN THAT WHERE I AM NOW EMPLOYED."
+
