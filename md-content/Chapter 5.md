@@ -23,3 +23,74 @@ Mr. Ford was plied with such questions as the following: "Who was Benedict Arnol
 Finally, Mr. Ford became tired of this line of questioning, and in reply to a particularly offensive question, he leaned over, pointed his finger at the lawyer who had asked the question, and said, "If I should really WANT to answer the foolish question you have just asked, or any of the other questions you have been asking me, let me remind you that I have a row of electric push-buttons on my desk, and by pushing the right button, I can summon to my aid men who can answer ANY question I desire to ask concerning the business to which I am devoting most of my efforts. Now, will you kindly tell me, WHY I should clutter up my mind with general knowledge, for the purpose of being able to answer questions, when I have men around me who can supply any knowledge I require?"
 
 There certainly was good logic to that reply.
+
+That answer floored the lawyer. Every person in the courtroom realized it was the answer, not of an ignorant man, but of a man of EDUCATION. Any man is educated who knows where to get knowledge when he needs it, and how to organize that knowledge into definite plans of action. Through the assistance of his "Master Mind" group, Henry Ford had at his command all the specialized knowledge he needed to enable him to become one of the wealthiest men in America. It was not essential that he have this knowledge in his own mind. Surely no person who has sufficient inclination and intelligence to read a book of this nature can possibly miss the significance of this illustration.
+
+Before you can be sure of your ability to transmute DESIRE into its monetary equivalent, you will require SPECIALIZED KNOWLEDGE of the service, merchandise, or profession which you intend to offer in return for fortune. Perhaps you may need much more specialized knowledge than you have the ability of the inclination to acquire, and if this should be true, you may bridge your weakness through the aid of your "Master Mind" group.
+
+Andrew Carnegie stated that he, personally, knew nothing about the technical end of the steel business; moreover, he did not particularly care to know anything about it. The specialized knowledge which he required for the manufacture and marketing of steel, he found available through the individual units of his MASTER MIND GROUP.
+
+The accumulation of great fortunes calls for POWER, and power is acquired through highly organized and intelligently directed specialized knowledge, but that knowledge does not, necessarily, have to be in the possession of the man who accumulates the fortune.
+
+The preceding paragraph should give hope and encouragement to the man with ambition to accumulate a fortune, who has not possessed himself of the necessary "education" to supply such specialized knowledge as he may require. Men sometimes go through life suffering from "inferiority complexes," because they are not men of "education." The man who can organize and direct a "Master Mind" group of men who possess knowledge useful in the accumulation of money, is just as much a man of education as any man in the group. REMEMBER THIS, if you suffer from a feeling of inferiority, because your schooling has been limited.
+
+Thomas A. Edison had only three months of "schooling" during his entire life. He did not lack education, neither did he die poor.
+
+Henry Ford had less than a sixth grade "schooling" but he has managed to do pretty well by himself, financially.
+
+SPECIALIZED KNOWLEDGE is among the most plentiful, and the cheapest forms of service which may be had! If you doubt this, consult the payroll of any university.
+
+### IT PAYS TO KNOW HOW TO PURCHASE KNOWLEDGE
+
+First of all, decide the sort of specialized knowledge you require, and the purpose for which it is needed. To a large extent your major purpose in life, the goal toward which you are working, will help determine what knowledge you need. With this question settled, your next move requires that you have accurate information concerning dependable sources of knowledge. The more important of these are:
+
+(a) One's own experience and education
+
+(b) Experience and education available through cooperation of others (Master Mind Alliance)
+
+(c) Colleges and Universities
+
+(d) Public Universities (Through books and periodicals in which may be found all the knowledge organized by civilization)
+
+(e) Special Training Courses (Through night schools and home study schools in particular.)
+
+As knowledge is acquired it must be organized and put into use, for a definite purpose, through practical plans. Knowledge has no value except that which can be gained from its application toward some worthy end. This is one reason why college degrees are not valued more highly. They represent nothing but miscellaneous knowledge.
+
+If you contemplate taking additional schooling, first determine the purpose for which you want the knowledge you are seeking, then learn where this particular sort of knowledge can be obtained, from reliable sources.
+
+Successful men, in all callings, never stop acquiring specialized knowledge related to their major purpose, business, or profession. Those who are not successful usually make the mistake of believing that the knowledge acquiring period ends when one finishes school. The truth is that schooling does but little more than to put one in the way of learning how to acquire practical knowledge.
+
+With this Changed World which began at the end of the economic collapse, came also astounding changes in educational requirements. The order of the day is SPECIALIZATION! This truth was emphasized by Robert P. Moore, secretary of appointments of Columbia University.
+
+### SPECIALISTS MOST SOUGHT
+
+"Particularly sought after by employing companies are candidates who have specialized in some field-- business-school graduates with training in accounting and statistics, engineers of all varieties, journalists, architects, chemists, and also outstanding leaders and activity men of the senior class.
+
+"The man who has been active on the campus, whose personality is such that he gets along with all kinds of people and who has done an adequate job with his studies has a most decided edge over the strictly academic student. Some of these, because of their all-around qualifications, have received several offers of positions, a few of them as many as six.
+
+"In departing from the conception that the 'straight A' student was invariably the one to get the choice of the better jobs, Mr. Moore said that most companies look not only to academic records but to activity records and personalities of the students.
+
+"One of the largest industrial companies, the leader in its field, in writing to Mr. Moore concerning prospective seniors at the college, said:
+
+"'We are interested primarily in finding men who can make exceptional progress in management work. For this reason we emphasize qualities of character, intelligence and personality far more than specific educational background.'
+
+### APPRENTICESHIP PROPOSED
+
+"Proposing a system of 'apprenticing' students in offices, stores and industrial occupations during the summer vacation, Mr. Moore asserts that after the first two or three years of college, every student should be asked 'to choose a definite future course and to call a halt if he has been merely pleasantly drifting without purpose through an unspecialized academic curriculum.'
+
+"Colleges and universities must face the practical consideration that all professions and occupations now demand specialists," he said, urging that educational institutions accept more direct responsibility for vocational guidance. One of the most reliable and practical sources of knowledge available to those who need specialized schooling, is the night schools operated in most large cities. The correspondence schools give specialized training anywhere the U.S. mails go, on all subjects than can be taught by the extension method. One advantage of home study training is the flexibility of the study programme which permits one to study during spare time. Another stupendous advantage of home study training (if the school is carefully chosen), is the fact that most courses offered by home study schools carry with them generous privileges of consultation which can be of priceless value to those needing specialized knowledge. No matter where you live, you can share the benefits.
+
+Anything acquired without effort, and without cost is generally unappreciated, often discredited; perhaps this is why we get so little from our marvelous opportunity in public schools. The SELF-DISCIPLINE one receives from a definite programme of specialized study makes up to some extent, for the wasted opportunity when knowledge was available without cost. Correspondence schools are highly organized business institutions. Their tuition fees are so low that they are forced to insist upon prompt payments. Being asked to pay, whether the student makes good grades or poor, has the effect of causing one to follow through with the course when he would otherwise drop it. The correspondence schools have not stressed this point sufficiently, for the truth is that their collection departments constitute the very finest sort of training on DECISION, PROMPTNESS, ACTION and THE HABIT OF FINISHING THAT WHICH ONE BEGINS.
+
+I learned this from experience, more than twenty-five years ago. I enrolled for a home study course in Advertising. After completing eight or ten lessons I stopped studying, but the school did not stop sending me bills. Moreover, it insisted upon payment, whether I kept up my studies or not. I decided that if I had to pay for the course (which I had legally obligated myself to do), I should complete the lessons to get my money's worth. I felt, at the time, that the collection system of the school was somewhat too well organized, but I learned later in life that it was a valuable part of my training for which no charge had been made. Being forced to pay, I went ahead and completed the course. Later in life I discovered that the efficient collection system of that school had been wroth much in the form of money earned, because of the training in advertising that I had so reluctantly taken.
+
+We have in this country what is said to be the greatest public school system in the world. We have invested fabulous sums for fine buildings, we have provided convenient transportation for children living in the rural districts, so they may attend the best schools, but there is one astounding weakness to this marvelous system-- IT IS FREE! One of the strange things about human beings is that they value only that which has a price. The free schools in America, and the free public libraries, do not impress people because they are free. This is the major reason why so many people find it necessary to acquire additional training after they quit school and go to work. It is also one of the major reasons why EMPLOYERS GIVE GREATER CONSIDERATION TO EMPLOYEES WHO TAKE HOME STUDY COURSES. They have learned, from experience, that any person who has the ambition to give up a part of his spare time to studying at home has in him those qualities which make for leadership. This recognition is not a charitable gesture, it is sound business judgement upon the part of the employers.
+
+There is one weakness in people for which there is no remedy. It is the universal weakness of LACK OF AMBITION! Persons, especially salaried people, who schedule their spare time, to provide for home study, seldom remain at the bottom very long. Their action opens the way for the upward climb, removes many obstacles from their path, and gains the friendly interest of those who have the power to put them in the way of OPPORTUNITY.
+
+The home study method of training is especially suited to the needs of employed people who find, after leaving school, that they must acquire additional specialized knowledge, but cannot spare the time to go back to school.
+
+The changed economic conditions prevailing since the depression have made it necessary for thousands of people to find additional, or new sources of income. For the majority of these, the solution to their problem may be found only by acquiring specialized knowledge. Many will be forced to change their occupations entirely. When a merchant finds that a certain line of merchandise is not selling, he usually supplants it with another that is in demand. The person whose business is that of marketing personal services must also be an efficient merchant. If his services do not bring adequate returns in one occupation, he must change to another, where broader opportunities are available.
+
+Stuart Austin Wier prepared himself as a Construction Engineer and followed this line of work until the depression limited his market to where it did not give him the income he required. He took inventory of himself, decided to change his profession to law, went back to school and took special courses by which he prepared himself as a corporate lawyer. Despite the fact the depression had not ended, he completed his training, passed the Bar Examination, and quickly built a lucrative law practice, in Dallas, Texas; in fact he is turning away clients.
+
