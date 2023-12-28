@@ -420,3 +420,135 @@ The folly of ignorance in connection with self was displayed by a young man who 
 
 "I will not accept it," the applicant replied, "because I AM GETTING MORE THAN THAT WHERE I AM NOW EMPLOYED."
 
+Before you even start to negotiate for a readjustment of your salary in your present position, or to seek employment elsewhere, BE SURE THAT YOU ARE WORTH MORE THAN YOU NOW RECEIVE.
+
+It is one thing to WANT money-- everyone wants more-- but it is something entirely different to be WORTH MORE! Many people mistake their WANTS for their JUST DUES. Your financial requirements or wants have nothing whatever to do with your WORTH. You value is established entirely by your ability to render useful service or your capacity to induce others to render such service.
+
+### TAKE INVENTORY OF YOURSELF
+
+#### 28 QUESTIONS YOU SHOULD ANSWER
+
+Annual self-analysis is an essential in the effective marketing of personal services, as is annual inventory in merchandising. Moreover, the yearly analysis should disclose a DECREASE IN FAULTS, and an increase in VIRTUES. One goes ahead, stands still, or goes backward in life. One's object should be, of course, to go ahead. Annual self-analysis will disclose whether advancement has been made, and if so, by how much. It will also disclose any backward steps one may have made. The effective marketing of personal services requires one to move forward even if the progress is slow.
+
+Your annual self-analysis should be made at the end of each year, so you can include in your New Year's Resolutions any improvements which the analysis indicates should be made. Take this inventory by asking yourself the following questions, and by checking your answers with the aid of someone who will not permit you to deceive yourself as to their accuracy.
+
+#### SELF-ANALYSIS QUESTIONNAIRE FOR PERSONAL INVENTORY
+
+1. Have I attained the goal which I established as my objective for the year? (You should work with a definite yearly objective to be attained as part of your major life objective).
+
+2. Have I delivered service of the best possible QUALITY of which I was capable, or could I have improved any part of this service?
+
+3. Have I delivered service of the greatest possible QUANTITY of which I was capable?
+
+4. Has the spirit of my conduct been harmonious, and cooperative at all times?
+
+5. Have I permitted the habit of PROCRASTINATION to decrease my efficiency, and if so, to what extent?
+
+6. Have I improved my PERSONALITY, and if so, in what ways?
+
+7. Have I been PERSISTENT in following my plans through to completion?
+
+8. Have I reached DECISIONS PROMPTLY AND DEFINITELY on all occasions?
+
+9. Have I permitted any one or more of the six basic fears to decrease my efficiency?
+
+10. Have I been either "over-cautious," or "under-cautious?"
+
+11. Has my relationship with my associates in work been pleasant, or unpleasant? If it has been unpleasant, has the fault been partly, or wholly mine?
+
+12. Have I dissipated any of my energy through lack of CONCENTRATION of effort?
+
+13. Have I been open minded and tolerant in connection with all subjects?
+
+14. In what way have I improved my ability to render service?
+
+15. Have I been intemperate in any of my habits?
+
+16. Have I expressed, either openly or secretly, any form of EGOTISM?
+
+17. Has my conduct toward my associates been such that it has induced them to RESPECT me?
+
+18. Have my opinions and DECISIONS been based upon guesswork, or accuracy of analysis and THOUGHT?
+
+19. Have I followed the habit of budgeting my time, my expenses, and my income, and have I been conservative in these budgets?
+
+20. How much time have I devoted to UNPROFITABLE effort which I might have used to better advantage?
+
+21. How may I RE-BUDGET my time, and change my habits so I will be more efficient during the coming year?
+
+22. Have I been guilty of any conduct which was not approved by my conscience?
+
+23. In what ways have I rendered MORE SERVICE AND BETTER SERVICE than I was paid to render?
+
+24. Have I been unfair to anyone, and if so, in what way?
+
+25. If I had been the purchaser of my own services for the year, would I be satisfied with my purchase?
+
+26. Am I in the right vocation, and if not, why not?
+
+27. Has the purchaser of my services been satisfied with the service I have rendered, and if not, why not?
+
+28. What is my present rating on the fundamental principles of success? (Make this rating fairly, and frankly, and have it checked by someone who is courageous enough to do it accurately).
+
+Having read and assimilated the information conveyed through this chapter, you are now ready to create a practical plan for marketing your personal services. In this chapter will be found an adequate description of every principle essential in planning the sale of personal services, including the major attributes of leadership; the most common causes of failure in leadership; a description of the fields of opportunity for leadership; the main causes of failure in all walks of life, and the important questions which should be used in self-analysis. This extensive and detailed presentation of accurate information has been included, because it will be needed by all who must begin the accumulation of riches by marketing personal services. Those who have lost their fortunes, and those who are just beginning to earn money, have nothing but personal services to offer in return for riches, therefore it is essential that they have available the practical information needed to market services to best advantage.
+
+The information contained in this chapter will be of great value to all who aspire to attain leadership in any calling. It will be particularly helpful to those aiming to market their services as business or industrial executives.
+
+Complete assimilation and understanding of the information here conveyed will be helpful in marketing one's own services, and it will also help one to become more analytical and capable of judging people. The information will be priceless to personnel directors, employment managers, and other executives charged with the selection of employees, and the maintenance of efficient operations. If you doubt this statement, test its soundness by answering in writing the twenty-eight self-analysis questions. That might be both interesting and profitable, even though you do not doubt the soundness of the statement.
+
+### WHERE AND HOW ONE MAY FIND OPPORTUNITIES TO ACCUMULATE RICHES
+
+Now that we have analyzed the principles by which riches may be accumulated, we naturally ask, "where may one find favorable opportunities to apply these principles?" Very well, let us take inventory and see what the United States of America offer the person seeking riches, great or small.
+
+To begin with, let us remember, all of us, that we live in a country where every law-abiding citizen enjoys freedom of thought and freedom of eed unequaled anywhere in the world. Most of us have never taken inventory of the advantages of this freedom. We have never compared our unlimited freedom with the curtailed freedom in other countries.
+
+Here we have freedom of thought, freedom in the choice and enjoyment of education, freedom in religion, freedom in politics, freedom in the choice of a business, profession or occupation, freedom to accumulate and own without molestation, ALL THE PROPERTY WE CAN ACCUMULATE, freedom to choose our own place of residence, freedom in marriage, freedom through equal opportunity to all races, freedom of travel from one state to another, freedom in our choice of foods, and freedom to AIM FOR ANY STATION IN LIFE FOR WHICH WE HAVE PREPARED OURSELVES, even for the presidency of the United States.
+
+We have other forms of freedom, but this list will give a bird's eye view of the most important, which constitute OPPORTUNITY of the highest order. This advantage of freedom is all the more conspicuous because the United States is the only country guaranteeing to every citizen, whether native born or naturalized, so broad and varied a list of freedom.
+
+Next, let us recount some of the blessings which our widespread freedom has placed within our hands. Take the average American family for example (meaning, the family of average income) and sum up the benefits available to every member of the family, in this land of OPPORTUNITY and plenty!
+
+a. FOOD. Next to freedom of thought and deed comes FOOD, CLOTHING, and SHELTER, the three basic necessities of life.
+
+Because of our universal freedom the average American family has available, at its very door, the choicest selection of food to be found anywhere in the world, and at prices within its financial range.
+
+A family of two, living in the heart of Times Square district of New York City, far removed from the source of production of foods, took careful inventory of the cost of a simple breakfast, with this astonishing result:
+
+Articles of food;  ..............Cost at the breakfast table:
+
+Grape Fruit Juice, (From Florida) . . . .02
+
+Ripped Wheat Breakfast food (Kansas Farm) . . . .02
+
+Tea (From China) . . . .02
+
+Bananas (From South America) . . . .02
+
+Toasted Bread (From Kansas Farm) . . . .01
+
+Fresh Country Eggs (From Utah) . . . .07
+
+Sugar (From Cuba, or Utah) . . . .00
+
+Butter and Cream (From New England) . . . .03
+
+---
+
+Grand total . . . .20  [Jeremy's note: One cent off, as discovered]
+
+It is not very difficult to obtain FOOD in a country where two people can have breakfast consisting of all they want or need for a dime apiece! Observe that this simple breakfast was gathered, by some strange form of magic (?) from China, South America, Utah, Kansas and the New England States, and delivered on the breakfast table, ready for consumption, in the very heart of the most crowded city in America, at a cost well within the means of the most humble laborer.
+
+The cost included all federal, state and city taxes! (Here is a fact the politicians did not mention when they were crying out to the voters to throw their opponents out of office because the people were being taxed to death).
+
+b. SHELTER. This family lives in a comfortable apartment, heated by steam, lighted with electricity, with gas for cooking, all for $65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as $20.00 a month.
+
+The toast they had for breakfast in the food estimate was toasted on an electric toaster, which cost but a few dollars, the apartment is cleaned with a vacuum sweeper that is run by electricity. Hot and cold water is available, at all times, in the kitchen and the bathroom. The food is kept cool in a refrigerator that is run by electricity. The wife curls her hair, washes her clothes and irons them with easily operated electrical equipment, on power obtained by sticking a plug in the wall. The husband shaves with an electric shaver, and they receive entertainment from all over the world, twenty four hours a day, if they want it, without cost, by merely turning a dial of their radio.
+
+There are other conveniences in this apartment, but the foregoing list will give a fair idea of some of the concrete evidences of freedom we, of America, enjoy. (And this is neither political nor economic propaganda).
+
+c. CLOTHING. Anywhere in the United States, the woman of average clothing requirements can dress very comfortably and neatly for less than $200.00 a year, and the average man can dress for the same, or less.
+
+Only the three basic necessities of food, clothing, and shelter have been mentioned. The average American citizen has other privileges and advantages available in return for modest effort, not exceeding eight hours per day of labor. Among these is the privilege of automobile transportation, with which one can go and come at will, at very small cost.
+
+The average American has security of property rights not found in any other country in the world. He can place his surplus money in a bank with the assurance that his government will protect it, and make good to him if the bank fails. If an American citizen wants to travel from one state to another he needs no passport, no one's permission. He may go when he pleases, and return at will. Moreover, he may travel by train, private automobile, bus, airplane, or ship, as his pocketbook permits. In Germany, Russia, Italy, and most of the other European and Oriental countries, the people cannot travel with so much freedom, and at so little cost.
+
