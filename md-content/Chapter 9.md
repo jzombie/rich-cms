@@ -6,7 +6,7 @@
 
 **The Eighth Step toward Riches**
 
-PERSISTENCE is an essential factor in the procedure of transmuting DESIRE into its monetary equivalent. The basis of persistence if the POWER OF WILL.
+PERSISTENCE is an essential factor in the procedure of transmuting DESIRE into its monetary equivalent. The basis of persistence is the POWER OF WILL.
 
 Will-power and desire, when properly combined, make an irresistible pair. Men who accumulate great fortunes are generally known as cold-blooded, and sometimes ruthless. Often they are misunderstood. What they have is will-power, which they mix with persistence, and place back of their desires to insure the attainment of their objectives.
 
@@ -22,7 +22,7 @@ If you are following this book with the intention of applying the knowledge it c
 
 The author is checking you up at this point, because lack of persistence is one of the major causes of failure. Moreover, experience with thousands of people has proved that lack of persistence is a weakness common to the majority of men. It is a weakness which may be overcome by effort. The ease with which lack of persistence may be conquered will depend entirely upon the INTENSITY OF ONE'S DESIRE.
 
-The starting point of all achievement is DESIRE. Keep this constantly in mind. Weak desires bring weak results, just as a small amount of fires makes a small amount of heat. If you find yourself lacking in persistence, this weakness may be remedied by building a stronger fire under your desires.
+The starting point of all achievement is DESIRE. Keep this constantly in mind. Weak desires bring weak results, just as a small amount of fire makes a small amount of heat. If you find yourself lacking in persistence, this weakness may be remedied by building a stronger fire under your desires.
 
 Continue to read through to the end, then go back to Chapter two, and start immediately to carry out the instructions given in connection with the six steps. The eagerness with which you follow these instructions will indicate clearly, how much, or how little you really DESIRE to accumulate money. If you find that you are indifferent, you may be sure that you have not yet acquired the "money consciousness" which you must possess, before you can be sure of accumulating a fortune.
 
@@ -139,3 +139,107 @@ Too many people refuse to set high goals for themselves, or even neglect selecti
 When Andrew Carnegie suggested that I devote twenty years to the organization of a philosophy of individual achievement my first impulse of thought was fear of what people might say. The suggestion set up a goal for me, far out of proportion to any I had ever conceived. As quick as a flash, my mind began to create alibis and excuses, all of them traceable to the inherent FEAR OF CRITICISM. Something inside of me said, "You can't do it-- the job is too big, and requires too much time-- what will your relatives think of you?-- how will you earn a living?-- no one has ever organized a philosophy of success, what right have you to believe you can do it?-- who are you, anyway, to aim so high?-- remember your humble birth-- what do you know about philosophy-- people will think you are crazy--(and they did)-- why hasn't some other person done this before now?"
 
 These, and many other questions flashed into my mind, and demanded attention. It seemed as if the whole world had suddenly turned its attention to me with the purpose of ridiculing me into giving up all desire to carry out Mr. Carnegie's suggestion.
+
+I had a fine opportunity, then and there, to kill off ambition before it gained control of me. Later in life, after having analyzed thousands of people, I discovered that MOST IDEAS ARE STILL-BORN, AND NEED THE BREATH OF LIFE INJECTED INTO THEM THROUGH DEFINITE PLANS OF IMMEDIATE ACTION. The time to nurse an idea is at the time of its birth. Every minute it lives, gives it a better chance of surviving. The FEAR OF CRITICISM is at the bottom of the destruction of most ideas which never reach the PLANNING and ACTION stage.
+
+Many people believe that material success is the result of favorable "breaks." There is an element of ground for the belief, but those depending entirely upon luck, are nearly always disappointed, because they overlook another important factor which must be present before one can be sure of success. It is the knowledge with which favorable "breaks" can be made to order.
+
+During the depression, W. C. Fields, the comedian, lost all his money, and found himself without income, without a job, and his means of earning a living (vaudeville) no longer existed. Moreover, he was past sixty, when many men consider themselves "old." He was so eager to stage a comeback that he offered to work without pay, in a new field (movies). In addition to his other troubles, he fell and injured his neck. To many that would have been the place to give up and QUIT. But Fields was PERSISTENT. He knw that if he carried on he would get the "breaks" sooner or later, and he did get them, but not by chance.
+
+Marie Dressler found herself down and out, with her money gone, with no job, when she was past sixty. She, too, went after the "breaks," and got them. Her PERSISTENCE brought an astounding triumph late in life, long beyond the age when most men and women are done with ambition to achieve.
+
+Eddie Cantor lost his money in the 1929 stock crash, but he still had his PERSISTENCE and his courage. With these, plus two prominent eyes, he exploited himself back into an income of $10,000 a week! Verify, if one has PERSISTENCE, one can get along very well without many other qualities.
+
+The only "break" anyone can afford to rely upon is a self-made "break." These come through the application of PERSISTENCE. The starting point is DEFINITENESS OF PURPOSE.
+
+Examine the first hundred people you meet, ask them what they want most in life, and ninety eight of them will not be able to tell you. If you press them for an answer, some will say-- SECURITY, many will say-- MONEY, a few will say-- HAPPINESS, others will say-- FAME AND POWER, and still others will say-- SOCIAL RECOGNITION, EASE IN LIVING, ABILITY TO SING, DANCE, or WRITE, but none of them will be able to define these terms, or give the slightest indication of a PLAN by which they hope to attain these vaguely expressed wishes. Riches do not respond to wishes. They respond only to definite plans, backed by definite desires, through constant PERSISTENCE.
+
+### HOW TO DEVELOP PERSISTENCE
+
+There are four simple steps which lead to the habit of PERSISTENCE. They call for no great amount of intelligence, no particular amount of education, and but little time or effort. The necessary steps are:--
+
+1. A DEFINITE PURPOSE BACKED BY BURNING DESIRE FOR ITS FULFILLMENT.
+
+2. A DEFINITE PLAN, EXPRESSED IN CONTINUOUS ACTION.
+
+3. A MIND CLOSED TIGHTLY AGAINST ALL NEGATIVE AND DISCOURAGING INFLUENCES, including negative suggestions of relatives, friends and acquaintances.
+
+4. A FRIENDLY ALLIANCE WITH ONE OR MORE PERSONAS WHO WILL ENCOURAGE ONE TO FOLLOW THROUGH WITH BOTH PLAN AND PURPOSE.
+
+These four steps are essential for success in all walks of life. The entire purpose of the thirteen principles of this philosophy is to enable one to take these four steps as a matter of habit.
+
+These are the steps by which one may control one's economic destiny.
+
+They are the steps that lead to freedom and independence of thought.
+
+They are the steps that lead to riches, in small or great quantities.
+
+They lead the way to power, fame, and worldly recognition.
+
+They are the four steps which guarantee favorable "breaks."
+
+They are the steps that convert dreams into physical realities.
+
+They lead, also, to the mastery of FEAR, DISCOURAGEMENT, INDIFFERENCE.
+
+There is a magnificent reward for all who learn to take these four steps. It 
+is the privilege of writing one's own ticket, and of making Life yield whatever price is asked.
+
+I have no way of knowing the facts, but I venture to conjecture that Mrs. Wallis Simpson's great love for a man was not accidental, nor the result of favorable "breaks" alone. There was a burning desire, and careful searching at every step of the way. Her first duty was to love. What is the greatest thing on earth? The Master called it love-- not man made rules, criticism, bitterness, slander, or political "marriages," but love.
+
+She knew what she wanted, not after she met the Prince of Wales, but long before that. Twice when she had failed to find it, she had the courage to continue her search. "To thine own self be true, and it must follow, as the night the day, thou canst not then be false to any man."
+
+Her rise from obscurity as of the slow, progressive, PERSISTENT order, but it was sure! She triumphed over the unbelievably long odds; and, no matter who you are, or what you may think of Wallis Simpson, or the king who gave up his Crown for her love, she is an astounding example of applied PERSISTENCE, an instructor on the rules of self-determination, from whom the entire world might profitably take lessons.
+
+When you think of Wallis Simpson, think of one who knew what she wanted, and shook the greatest empire on earth to get it. Women who complain that this is a man's world, that women do not have an equal chance to win, owe it to themselves to study carefully the life of this unusual woman, who, at an age when most women consider "old," captured the affections of the most desirable bachelor in the entire world.
+
+And what of King Edward? What lesson may we learn from his part in the world's greatest drama of recent times? Did he pay too high a price for the affections of the woman of his choice?
+
+Surely no one but he can give the correct answer. The rest of us can only conjecture. This much we know, the king came into the world without his own consent. He was born to great riches, without requesting them. He was persistently sought in marriage; politicians and statesmen throughout Europe tossed dowagers and princesses at his feet. Because he was the first born of his parents, he inherited a crown, which he did not seek, and perhaps did not desire. For more then forty years he was not a free agent, could not live his life in his own way, had but little privacy, and finally assumed duties inflicted upon him when he ascended the throne.
+
+Some will say, "With all these blessings, King Edward should have found peace of mind, contentment, and joy of living."
+
+The truth is that back of all the privileges of a crown, all the money, the fame, and the power inherited by King Edward, there was an emptiness which could be filled only by love.
+
+His greatest DESIRE was for love. Long before he met Wallis Simpson, he doubtless felt this great universal emotion tugging at the strings of his heart, beating upon the door of his soul, and crying out for expression.
+
+And when he met a kindred spirit, crying out for this same Holy privilege of expression, he recognized it, and without fear or apology, opened his heart and bade it enter. All the scandal-mongers in the world cannot destroy the beauty of this international drama, through which two people found love, and had the courage to face open criticism, renounce ALL ELSE to give it holy expression.
+
+King Edward's DECISION to give up the crown of the world's most powerful empire, for the privilege of going the remainder of the way through life with the woman of this choice, was a decision that required courage. The decision also had a price, but who has the right to say the price was too great? Surely not He who said, "He among you who is without sin, let him cast the first stone."
+
+As a suggestion to any evil-minded person who chooses to find fault with the Duke of Windsor, because his DESIRE was for LOVE, and for openly declaring his love for Wallis Simpson, and giving up his throne for her, let it be remembered that the OPEN DECLARATION was not essential. He could have followed the custom of clandestine liaison which has prevailed in Europe for centuries, without giving up either his throne, or the woman of his choice, and there would have been NO COMPLAINT FROM EITHER CHURCH OR LAITY. But this unusual man was built of sterner stuff. His love was clean. It was deep and sincere. It represented the one thing which, above ALL ELSE he truly DESIRED, therefore, he took what he wanted, and paid the price demanded.
+
+If Europe had been blessed with more rulers with the human heart and the traits of honest of ex-king Edward, for the past century, that unfortunate hemisphere now seething with greed, hate, lust, political connivance, and threats of war, would have ad DIFFERENT AND A BETTER STORY TO TELL. A story in which Love and not Hate would rule.
+
+In the words of Stuart Austin Wier we raise our cup and drink this toast to ex-king Edward and Wallis Simpson:
+
+"Blessed is the man who has come to know that our muted thoughts are our sweetest thoughts.
+
+"Blessed is the man who, from the blackest depths, can see the luminous figure of LOVE, and seeing, sing; and singing, say: 'Sweeter far than uttered lays are the thoughts I have of you.'"
+
+In these words would we pay tribute to the two people who, more than all others of modern times, have been the victims of criticism and the recipients of abuse, because they found Life's greatest treasure, and claimed it. Mrs. Simpson read and approved this analysis.
+
+Most of the world will applaud the Duke of Windsor and Wallis Simpson, because of their PERSISTENCE in searching until they found life's greatest reward. ALL OF US CAN PROFIT by following their example in our own search for that which we demand of life.
+
+What mystical power gives to men of PERSISTENCE the capacity to master difficulties? Does the quality of PERSISTENCE set up in one's mind some form of spiritual, mental or chemical activity which gives one access to supernatural forces? Does Infinite Intelligence throw itself on the side of the person who still fights on, after the battle has been lost, with the whole world on the opposing side?
+
+These and many other similar questions have arisen in my mind as I have observed men like Henry Ford, who started at scratch, and built an Industrial Empire of huge proportions, with little else in the way of a beginning but PERSISTENCE. Or, Thomas A. Edison, who, with less than three months of schooling, became the world's leading inventor and converted PERSISTENCE into the talking machine, the moving picture machine, and the incandescent light, to say nothing of half a hundred of other useful inventions.
+
+I had the happy privilege of analyzing both Mr. Edison and Mr. Ford, year by year, over a long period of years, and therefor, the opportunity to study them at close range, so I speak from actual knowledge when I say that I found no quality save PERSISTENCE, in either of them, that even remotely suggested the major source of their stupendous achievements.
+
+As one makes an impartial study of the prophets, philosophers, "miracle" men, and religious leaders of the past, one is drawn to the inevitable conclusion that PERSISTENCE, concentration of effort, and DEFINITENESS OF PURPOSE, were the major sources of their achievements.
+
+Consider, for example, the strange and fascinating story of Mohammed; analyze his life, compare him with men of achievement in this modern age of industry and finance, and observe how they have one outstanding trait in common, PERSISTENCE!
+
+If you are keenly interested in studying the strange power which gives potency to PERSISTENCE, read a biography of Mohammed, especially the one by Essad Bey. This brief review of that book, by Thomas Sugrue, in the Herald-Tribune, will provide a review of the rare treat in store for those who take the time to read the entire story of one of the most astounding examples of the power of PERSISTENCE known to civilization.
+
+----------
+
+### THE LAST GREAT PROPHET
+
+Reviewed by Thomas Sugrue
+
+"Mohammed was a prophet, but he never performed a miracle. He was not a mystic; he had no formal schooling; he did not begin his mission until he was forty. When he announced that he was the Messenger of God, bringing word of the true religion, he was ridiculed and labeled a lunatic. Children tripped him and women threw filth upon him. He was banished from his native city, Mecca, and his followers were stripped of their worldly goods and sent into the desert after him. When he had been preaching ten years he had nothing to show for it but banishment, poverty and ridicule. Yet before another ten years had passed, he was the dictator of all Arabia, ruler of Mecca, and the head of a New World religion which was to sweep to the Danube and the Pyrenees before exhausting the impetus he gave it. That impetus was three-fold: the power of the words, the efficacy of prayer and man's kinship with God.
+
+"His career never made sense. Mohammed was born to impoverished members of a leading family of Mecca. Because Mecca, the crossroads of the world, home of the magic stone called the Caaba, great city of trade and the center of trade routes, was unsanitary, its children were sent to be raised in the desert by Bedouins. Mohammed was thus nurtured, drawing strength and health from the milk of nomad, vicarious mothers. He tended sheep and soon hired out to a rich widow as leader of her caravans. He traveled to all parts of the Eastern World, talked with many men of diverse beliefs and observed the decline of Christianity into warring sects. When he was twenty-eight, Khadija, the widow, looked upon him with favor, and married him. Her father would have objected to such a marriage, so she got him drunk and help him up while he gave the paternal blessing. For the next twelve years Mohammed lived as a rich and respected and very shrewd trader. Then he took to wandering in the desert, and one day he returned with the first verse of the Koran and told Khadija that the archangel Gabriel had appeared to him and said that he was to be the Messenger of God.
+
