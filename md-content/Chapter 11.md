@@ -154,4 +154,59 @@ Unfortunately, only the genii have made the discovery. Others have accepted the 
 
 For the purpose of refreshing the memory, in connection with the facts available from the biographies of certain men, we here present the names of a few men of outstanding achievement, each of whom was known to have been of a highly sexed nature. The genius which was their's, undoubtedly found its source of power in transmuted sex energy:
 
-...
+GEORGE WASHINGTON
+
+NAPOLEON BONAPARTE
+
+WILLIAM SHAKESPEARE
+
+ABRAHAM LINCOLN
+
+RALPH WALDO EMERSON
+
+ROBERT BURNS
+
+THOMAS JEFFERSON
+
+ELBERT HUBBARD
+
+ELBERT H. GARY
+
+OSCAR WILDE
+
+WOODROW WILSON
+
+JOHN H. PATTERSON
+
+ANDREW JACKSON
+
+ENRICO CARUSO
+
+Your own knowledge of biography will enable you to add to this list. Find, if you can, a single man, in all history of civilization, who achieved outstanding success in any calling, who was not driven by a well developed sex nature.
+
+If you do not wish to rely upon biographies of men not now living, take inventory of those whom you know to be men of great achievement, and see if you can find one among them who is not highly sexed.
+
+Sex energy is the creative energy of all genii. There never has been, and never will be a great leader, builder, or artist lacking in this driving force of sex. Surely no one will misunderstand these statements to mean that ALL WHO ARE highly sexed are genii! Man attains to the status of genius ONLY when, and IF, he stimulates his mind so that it draws upon the forces available, through the creative faculty of the imagination. Chief among the stimuli with which this "stepping up" of the vibrations may be produced in sex energy. The mere possession of this energy is not sufficient to produce a genius. The energy must be transmuted from desire for physical contact, into some other form of desire and action, before it will lift one to the status of a genius.
+
+Far from becoming genii, because of great sex desires, the majority of men lower themselves, through misunderstanding and misuse of this great force, to the status of the lower animals.
+
+### WHY MEN SELDOM SUCCEED BEFORE FORTY
+
+I discovered, from the analysis of over 25,000 people, that men who succeed in an outstanding way, seldom do so before the age of forty, and more often they do not strike their real pace until they are well beyond the age of fifty. This fact was so astounding that it prompted me to go into the study of its cause most carefully, carrying the investigation over a period of more than twelve years.
+
+The study disclosed the fact that the major reason why the majority of men who succeed do not begin to do so before the age of forty to fifty, is their tendency to DISSIPATE their energies through over indulgence in physical expression of the emotion of sex. The majority of men never learn that the urge of sex has other possibilities, which far transcend in importance, that of mere physical expression. The majority of those who make this discovery, do so after having wasted many years at a period when the sex energy is at its height, prior to the age of forty-five to fifty. This usually is followed by noteworthy achievement.
+
+The lives of many men up to, and sometimes well past the age of forty, reflect a continued dissipation of energies, which could have been more profitably turned into better channels. Their finer and more powerful emotions are sown wildly to the four winds. Out of this habit of the male, grew the term, "sowing his wild oats."
+
+The desire for sexual expression is by far the strongest and most impelling of all the human emotions, and for this very reason this desire, when harnessed and transmuted into action, other than that of physical expression, may raise one to the status of a genius.
+
+One of America's most able business men frankly admitted that his attractive secretary was responsible for most of the plans he created. He admitted that her presence lifted him to heights of creative imagination, such as he could experience under no other stimulus.
+
+One of the most successful men in America owes most of his success to the influence of a very charming young woman, who has served as his source of inspiration for more than twelve years. Everyone knows the man to whom this reference is made, but not everyone knows the REAL SOURCE of his achievements.
+
+History is not lacking in examples of men who attained to the status of genii, as the result of the use of artificial mind stimulants in the form of alcohol and narcotics. Edgar Allen Poe wrote the "Raven" while under the influence of liquor, "dreaming dreams that no mortal never dared to dream before." James Whitcomb Riley did his best writing while under the influence of alcohol. Perhaps it was thus he saw "the ordered intermingling of the real and the dream, the mill above the river, and the mist above the stream." Robert Burns wrote best when intoxicated, "For Auld Lang Syne, my dear, we'll take a cup of kindness yet, for Auld Lang Syne."
+
+But let it be remembered that many such men have destroyed themselves in the end. Nature has prepared her own potions with which mean may safely stimulate their minds so they vibrate on a plane that enables them to tune in to fine and rare thoughts which come from-- no man knows where! No satisfactory substitute for Nature's stimulants has ever been found.
+
+
+
