@@ -125,3 +125,8 @@ If you believe this prophesy is far-fetched, take a look at the human race in re
 What reason have men to believe that this same energy does not connect every human brain with Infinite Intelligence? There are no toll-gates between the finite mind of man and Infinite Intelligence.
 
 The communication costs nothing except Patience, Faith, Persistence, Understanding, and a SINCERE DESIRE to communicate. Moreover, the approach can be made only by the individual himself. Paid prayers are worthless. Infinite Intelligence does no business by proxy. You either go direct, or you do not communicate.
+
+You may buy prayer books and repeat them until the day of your doom, without avail. Thoughts which you wish to communicate to Infinite Intelligence, must undergo transformation, such as can be given only through your own subconscious mind.
+
+The method by which you may communicate with Infinite Intelligence is very similar to that through which the vibration of sound is communicated by radio. If you understand the working principle of radio, you of course, know that sound cannot be communicated through the ether until it has been "stepped up," or changed into a rate of vibration which the human ear cannot detect. The radio sending station picks up the sound of the human voice, and "scrambles," or modifies it by stepping up the vibration millions of times. Only in this way, can the vibration of sound be communicated through the ether. After this transformation has taken place, the ether "picks up" the energy (which originally was in the form of vibrations of sound), carries that energy to radio receiving stations, and these receiving sets "step" that energy back down to its original rate of vibration so it is recognized as sound.
+
