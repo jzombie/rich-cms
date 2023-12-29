@@ -70,3 +70,51 @@ You are preparing yourself to influence and control the "inner audience" of your
 
 ---------
 
+### THE SEVEN MAJOR POSITIVE EMOTIONS
+
+The emotion of DESIRE
+
+The emotion of FAITH
+
+The emotion of LOVE
+
+The emotion of SEX
+
+The emotion of ENTHUSIASM
+
+The emotion of ROMANCE
+
+The emotion of HOPE
+
+There are other positive emotions, but these are the seven most powerful and the ones most commonly used in creative effort. Master these seven emotions (they can be mastered only by USE), and the other positive emotions will be at your command when you need them. Remember, in this connection, that you are studying a book which is intended to help you develop a "money consciousness" by filling your mind with positive emotions. One does not become money conscious by filling one's mind with negative emotions.
+
+----------
+
+### THE SEVEN MAJOR NEGATIVE EMOTIONS
+
+(To be avoided)
+
+The emotion of FEAR
+
+The emotion of JEALOUSY
+
+The emotion of HATRED
+
+The emotion of REVENGE
+
+The emotion of GREED
+
+The emotion of SUPERSTITION
+
+The emotion of ANGER
+
+Positive and negative emotions cannot occupy the mind at the same time. One or the other must dominate. It is your responsibility to make sure that positive emotions constitute the dominating influence of your mind. Here the law of HABIT will come to your aid. Form the habit of applying and using the positive emotions! Eventually, they will dominate your mind so completely, that the negative emotions cannot enter it.
+
+Only by following these instructions literally, and continuously, can you gain control over your subconscious mind. The presence of a single negative in your conscious mind is sufficient to destroy all chances of constructive aid from your subconscious mind.
+
+If you are an observing person, you must have noticed that most people resort ot prayer ONLY after everything else has FAILED! Or else they pray by a ritual of meaningless words. And, because it is a fact that most people who pray, do so ONLY AFTER EVERYTHING ELSE HAS FAILED, they go to prayer with their minds filled with FEAR and DOUBT, which are the emotions the subconscious mind acts upon, and passes on to Infinite Intelligence. Likewise, that is the emotion which Infinite Intelligence receives, and ACTS UPON.
+
+If you pray for a thing, but have fear as you pray, that you may not receive it, or that your prayer will not be acted upon by Infinite Intelligence, your prayer will have been in vain.
+
+Prayer does, sometimes, result in the realization of that for which one prays. If you have ever had the experience of receiving that for which YOU prayed go back in your memory, and recall your actual STATE OF MIND, while you were praying, and you will know, for sure, that the theory here described is more than a theory.
+
