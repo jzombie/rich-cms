@@ -314,4 +314,11 @@ Married people often bicker over a multitude of trivialities. If these are analy
 
 Man's greatest motivating force is his desire to please woman! The hunter who excelled during prehistoric days, before the dawn of civilization, did so, because of his desire to appear great in the eyes of woman. Man's nature has not changed in this respect. The "hunter" of today brings home no skins of wild animals, but he indicates his desire for her favor by supplying fine clothes, motor cars, and wealth. Man has the same desire to please woman that he had before the dawn of civilization. The only thing that has changed, is his method of pleasing. Men who accumulate large fortunes, and attain to great heights of power and fame, do so, mainly, to satisfy their desire to please women.
 
-[to be continued...]
+Take women out of their lives, and great wealth would be useless to most men,. It is this inherent desire of man to please woman, which gives woman the power to make or break a man.
+
+The woman who understands man's nature and tactfully caters to it, need have no fear of competition from other women. Men may be "giants" with indomitable will-power when dealing with other men, but they are easily managed by the woman of their choice.
+
+Most men will not admit that they are easily influenced by the women they prefer, because it is in the nature of the male to want to be recognized as the stronger of the species. Moreover, the intelligent woman recognizes this "manly trait" and very wisely makes no issue of it.
+
+Some men know that they are being influenced by the women of their choice-- their wives, sweethearts, mothers or sisters-- but they tactfully refrain from rebelling against the influence because they are intelligent enough to know that NO MAN IS HAPPY OR COMPLETE WITHOUT THE MODIFYING INFLUENCE OF THE RIGHT WOMAN. The man who does not recognize this important truth deprives himself of the power which has done more to help men achieve success than all other forces combined.
+
