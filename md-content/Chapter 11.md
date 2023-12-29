@@ -314,3 +314,4 @@ Married people often bicker over a multitude of trivialities. If these are analy
 
 Man's greatest motivating force is his desire to please woman! The hunter who excelled during prehistoric days, before the dawn of civilization, did so, because of his desire to appear great in the eyes of woman. Man's nature has not changed in this respect. The "hunter" of today brings home no skins of wild animals, but he indicates his desire for her favor by supplying fine clothes, motor cars, and wealth. Man has the same desire to please woman that he had before the dawn of civilization. The only thing that has changed, is his method of pleasing. Men who accumulate large fortunes, and attain to great heights of power and fame, do so, mainly, to satisfy their desire to please women.
 
+[to be continued...]
