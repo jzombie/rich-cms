@@ -58,7 +58,7 @@ Through the combination of energy and matter, has been created everything percep
 
 You are now engaged in the task of trying to profit by Nature's method. You are (sincerely and earnestly, we hope), trying to adapt yourself to Nature's laws, by endeavoring to convert DESIRE into its physical or monetary equivalent.
 
-YOU CAN DO IT! IT HAS BEEN DONE BEFORE!
+### YOU CAN DO IT! IT HAS BEEN DONE BEFORE!
 
 You can build a fortune through the aid of laws which are immutable. But, first, you must become familiar with these laws, and learn to USE them. Through repetition, and by approaching the description of these principles from every conceivable angle, the author hopes to reveal to you the secret through which every great fortune has been accumulated. Strange and paradoxical as it may seem, the "secret" is NOT A SECRET. Nature, herself, advertises it in the earth on which we live, the stars, the planets suspended within our view, in the elements above and around us, in every blade of grass, and every form of life within our vision.
 

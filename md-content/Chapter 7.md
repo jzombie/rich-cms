@@ -6,9 +6,9 @@
 
 **The Sixth Step toward Riches**
 
-YOu have learned that everything man creates or acquires, begins in the form of DESIRE, that desire is taken on the first lap of its journey, from the abstract to the concrete, into the workshop of the IMAGINATION, where PLANS for its transition are created and organized.
+You have learned that everything man creates or acquires, begins in the form of DESIRE, that desire is taken on the first lap of its journey, from the abstract to the concrete, into the workshop of the IMAGINATION, where PLANS for its transition are created and organized.
 
-In Chapter two, you were instructed to take six definite, practical steps, as your first move in translating the desire for money into its monetary equivalent. One of these steps is the formation of a DEFINITE, practical plan, or plans, through which this transformation may be made. YOu will now be instructed how to build plans which will be practical, viz:--
+In Chapter two, you were instructed to take six definite, practical steps, as your first move in translating the desire for money into its monetary equivalent. One of these steps is the formation of a DEFINITE, practical plan, or plans, through which this transformation may be made. You will now be instructed how to build plans which will be practical, viz:--
 
 * (a) Ally yourself with a group of as many people as you may need for the creation, and carrying out of your plan, or plans for the accumulation of money-- making use of the "Master Mind" principle described in a later chapter. (Compliance with this instruction is absolutely essential. Do not neglect it.)
 
