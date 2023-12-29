@@ -208,5 +208,49 @@ History is not lacking in examples of men who attained to the status of genii, a
 
 But let it be remembered that many such men have destroyed themselves in the end. Nature has prepared her own potions with which mean may safely stimulate their minds so they vibrate on a plane that enables them to tune in to fine and rare thoughts which come from-- no man knows where! No satisfactory substitute for Nature's stimulants has ever been found.
 
+It is a fact well known to psychologists that there is a very close relationship between sex desires and spiritual urges-- a fact which accounts for the peculiar behavior of people who participate in the orgies known as religious "revivals," common among the primitive types.
 
+The world is ruled, and the destiny of civilization is established, by the human emotions. People are influenced in their actions, not by reason so much as by "feelings." The creative faculty of the mind is set into action entirely by emotions, and not by cold reason. The most powerful of all human emotions is that of sex. There are other mind stimulants, some of which have been listed, but no one of them, nor all of them combined, can equal the driving power of sex.
+
+A mind stimulant is any influence which will either temporarily, or permanently, increase the vibrations of thought. The ten major stimulants, described, are those most commonly resorted to. Through these sources one may commune with Infinite Intelligence, or enter, at will, the storehouse of the subconscious mind, either one's own, or that of another person, a procedure which is all there is of genius.
+
+A teacher, who has trained and directed the efforts of more than 30,000 sales people, made the astounding discovery that highly sexed men are the most efficient salesmen. The explanation is, that the factor of personality known as "personal magnetism" is nothing more nor less than sex energy. Highly sexed people always have a plentiful supply of magnetism. Through cultivation and understanding, this vital force may be drawn upon and used to great advantage in the relationship between people. This energy may be communicated to others through the following media:
+
+1. The hand-shake. The touch of the hand indicates, instantly, the presence of magnetism, or the lack of it.
+
+2. The tone of voice. Magnetism, or sex energy, is the factor with which the voice may be colored, or made musical and charming.
+
+3. Posture and carriage of the body. Highly sexed people move briskly, and with grace and ease.
+
+4. The vibrations of thought. Highly sexed people mix the emotion of sex with their thoughts, or may do so at will, and in that way, may influence those around them.
+
+5. Body adornment. People who are highly sexed are usually very careful about their personal appearance. They usually select clothing of a style becoming to their personality, physique, complexion, etc.
+
+When employing salesmen, the more capable sales manager looks for the quality of personal magnetism as the first requirement of a salesman. People who lack sex energy will never become enthusiastic nor inspire others with enthusiasm, and enthusiasm is one of the most important requisites in salesmanship, no matter what one is selling.
+
+The public speaker, orator, preacher, lawyer, or salesman who is lacking in sex energy is a "flop," as far as being able to influence others is concerned. Couple with this the fact, that most people can be influenced only through an appeal to their emotions, and you will understand the importance of sex energy as a part of the salesman's native ability. Master salesmen attain the status of mastery in selling, because they, either consciously of unconsciously, transmute the energy of sex into SALES ENTHUSIASM! In this statement may be found a very practical suggestion as to the actual meaning of sex transmutation.
+
+The salesman who knows how to take his mind off the subject of sex, and direct it in sales effort with as much enthusiasm and determination as he would apply to its original purpose, has acquired the art of sex transmutation, whether he knows it or not. The majority of salesmen who transmute their sex energy do so without being in the least aware of what they are doing, or how they are doing it.
+
+Transmutation of sex energy calls for more will power than the average person cares to use for this purpose. Those who find it difficult to summon will-power sufficient for transmutation, may gradually acquire this ability. Though this requires will-power, the reward for the practice is more than worth the effort.
+
+The entire subject of sex is one with which the majority of people appear to be unpardonably ignorant. The urge of sex has been grossly misunderstood, slandered, and burlesqued by the ignorant and the evil minded, for so long that the very word sex is seldom used in polity society. Men and women are known to be blessed-- yes, BLESSED--with highly sexed natures, and usually looked upon as being people who will bear watching. Instead of being called blessed, they are usually called cursed.
+
+Millions of people, even in this age of enlightenment, have inferiority complexes which they developed because of this false belief that a highly sexed nature is a curse. These statements, of the virtue os sex energy, should not be construed as justification for the libertine. The emotion of sex is virtue ONLY when used intelligently, and with discrimination. It may be misused, and often is, to such an extent that it debases, instead of enriches, both body and mind. The better use of this power is the burden of this chapter.
+
+It seemed quite significant to the author, when he made the discovery that practically every great leader, whom he had the privilege of analyzing, was a man whose achievements were largely inspired by a woman. In many instances, the "woman in the case" was a modest, self-denying wife, of whom the public had heard but little or nothing. In a few instances, the source of inspiration has been traced to the "other woman." Perhaps such cases may not be entirely unknown to you.
+
+Intemperance in sex habits is just as detrimental as intemperance in habits of drinking and eating. In this age in which we live, an age which began with the world war, intemperance in habits of sex is common. This orgy of indulgence may account for the shortage of great leaders. No man can avail himself of the forces of his creative imagination, while dissipating them. Man is the only creature on earth which violates Nature's purpose in this connection. Every other animal indulges its sex nature in moderation, and with the purpose which harmonizes with the laws of nature. Every other animal responds to the call of sex only in "season." Man's inclination is to declare "open season."
+
+Every intelligent person knows that stimulation in excess, through alcoholic drink and narcotics, is a form of intemperance which destroys the vital organs of the body, including the brain. Not every person knows, however, that over indulgence in sex expression may become a habit as destructive and as detrimental to creative effort as narcotics or liquor.
+
+A sex-mad man is not essentially different than a dope-mad man! Both have lost control over their faculties of reason and will-power. Sexual overindulgence may not only destroy reason and will-power, but it may also lead to either temporary, or permanent insanity. Many cases of hypochondria (imaginary illness) grow out of habits developed in ignorance of the true function of sex.
+
+From these brief references to the subject, it may be readily seen that ignorance on the subject of sex transmutation, forces stupendous penalties upon the ignorant on the one hand, and withholds from them equally stupendous benefits, on the other.
+
+Widespread ignorance on the subject of sex is due to the fact that the subject has been surrounded with mystery and beclouded by dark silence. The conspiracy of mystery and silence has had the same effect upon the minds of young people that the psychology of prohibition had. The result has been increased curiosity, and desire to acquire more knowledge on this "verboten" subject; and to the shame of all lawmakers, and most physicians-- by training best qualified to educate youth on that subject-information has not been easily available.
+
+Seldom does an individual enter upon highly creative effort in any field of endeavor before the age of forty. The average man reaches the period of his greatest capacity to create between forty and sixty. These statements are based upon analysis of thousands of men and women who have been carefully observed. They should be encouraging to those who fail to arrive before the age of forty, and to those who become frightened at the approach of "old age," around the forty-year mark. The years between forty and fifty are, as a rule, the most fruitful. Man should approach this age, not with fear and trembling, but with hope and eager anticipation.
+
+If you want evidence that most men do not begin to do their best work before the age of forty, study the records of the most successful men known to the American people, and you will find it. Henry Ford had not "hit his pace" of achievement until he had passed the age of forty. Andrew Carnegie was well past forty before he began to reap the reward of his efforts. James J. Hill was still running a telegraph key at the age of forty. His stupendous achievement took pace after that age. Biographies of American industrialists and financier are filled with evidence that the period from forty to sixty is the most productive age of man.
 
