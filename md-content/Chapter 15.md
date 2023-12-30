@@ -170,3 +170,139 @@ Playing upon this common weakness of fear of ill health, dispensers of patent me
 
 During the "flu" epidemic which broke out during the world war, the mayor of New York City took drastic steps to check the damage which people were doing themselves through their inherent fear of ill health. He called in the newspaper men and said to them, "Gentlemen, I feel it necessary to ask you not to publish any scare headlines concerning the 'flu' epidemic. Unless you cooperate with me, we will have a situation which we cannot control." The newspapers quit publishing stories about the "flu," and within one month the epidemic had been successfully checked.
 
+Through a series of experiments conducted some years ago, it was proved that people may be made ill by suggestion. We conducted this experiment by causing three acquaintances to visit the "victims," each of whom asked the question, "What ails you? You look terribly ill." The first questioner unusually provoked a grin, and a nonchalant "Oh, nothing, I'm alright," from the victim. The second questioner usually was answered with the statement, "I don't know exactly, but I do feel badly." The third questioner was usually met with the frank admission that the victim was actually feeling ill.
+
+Try this on an acquaintance if you doubt that it will make him uncomfortable, but do not carry the experiment too far. There is a certain religious sect whose members take vengeance upon their enemies by the "hexing" method. They call it "placing a spell" on the victim.
+
+There is overwhelming evidence that disease sometimes begins in the form of negative thought impulse. Such an impulse may be passed from one mind to another, by suggestion, or created by an individual in his own mind.
+
+A man who was blessed with more wisdom than this incident might indicate, once said "When anyone asks me how I feel, I always want to answer by knocking him down."
+
+Doctors send patients into new climates for their health, because a change of "mental attitude" is necessary. The seed of fear of ill health lives in every human mind. Worry, fear, discouragement, disappointment in love and business affairs, cause this seed to germinate and grow. The recent business depression kept the doctors on the run, because every form of negative thinking may cause ill health.
+
+Disappointments in business and in love stand at the head of the list of causes of fear of ill health. A young man suffered a disappointment in love which sent him to a hospital. For months he hovered between life and death. A specialist in suggestive therapeutics was called in. The specialist changed nurses, placing him in charge of a very charming young woman who began (by pre-arrangement with the doctor) to make love to him the first day of her arrival on the job. Within three weeks the patient was discharged from the hospital, still suffering, but with an entirely different malady. HE WAS IN LOVE AGAIN. The remedy was a hoax, but hte patient and the nurse were later married. Both are in good health at the time of this writing.
+
+### SYMPTOMS OF THE FEAR OF ILL HEALTH
+
+The symptoms of this almost universal fear are:
+
+AUTO-SUGGESTION. The habit of negative use of self-suggestion by looking for, and expecting to find the symptoms of all kinds of disease. "Enjoying" imaginary illness and speaking of it as being real. The habit of trying all "fads" and "isms" recommended by others as having therapeutic value. Talking to others of operations, accidents and other forms of illness. Experimenting with diets, physical exercises, reducing systems, without professional guidance. Trying home remedies, patent medicines and "quack" remedies.
+
+HYPOCHONDRIA. The habit of talking of illness, concentrating the mind upon disease, and expecting its appearance until a nervous break occurs. Nothing that comes in bottles can cure this condition. It is brought on by negative thinking and nothing but positive thought can affect a cure. Hypochondria, (a medical term for imaginary disease) is said to do as much damage on occasion, as the disease once fears might do. Most so-called cases of "nerves" come from imaginary illness.
+
+EXERCISE. Fear of ill health often interferes with proper physical exercise, and results in over-weight, by causing one to avoid outdoor life.
+
+SUSCEPTIBILITY. Fear of ill health breaks down Nature's body resistance, and creates a favorable condition for any form of disease one may contact.
+
+The fear of ill health often is related to the fear of Poverty, especially in the case of the hypochondriac, who constantly worries about the possibility of having to pay doctor's bills, hospital bills, etc. This type of person spends much time preparing for sickness, talking about death, saving money for cemetary lots, and burial expenses, etc.
+
+SELF-CODDLING. The habit of making a bid for sympathy, using imaginary illness as the lure. (People often resort to this trick to avoid work). The habit of feigning illness to cover plain laziness, or to serve as an alibi for lack of ambition.
+
+INTEMPERANCE. The habit of using alcohol or narcotics to destroy pains such as headaches, neuralgia, etc., instead of eliminating the cause.
+
+The habit of reading about illness and worrying over the possibility of being stricken by it. The habit of reading patent medicine advertisements.
+
+### THE FEAR OF LOSS OF LOVE
+
+The original source of this inherent fear needs but little description, because it obviously grew out of man's polygamous habit of stealing his fellow-man's mate, and his habit of taking liberties with her whenever he could.
+
+Jealousy, and other similar forms of dementia praecox grow out of man's inherited fear of the loss of love of someone. This fear is th most painful of all the six basic fears. It probably plays more havoc with the body and mind than any of the other basic fears, as it often leads to permanent insanity.
+
+The fear of the loss of love probably dates back to the stone age, when men stole women by brute force. They continue to steal females, but their technique has changed. Instead of force, they now use persuasion, the promise of pretty clothes, motor cars, and other "bait" much more effective than physical force. Man's habits are the same as they were at the dawn of civilization, but he expresses them differently.
+
+Careful analysis has shown that women are more susceptible to this fear than men. This fact is easily explained. Women have learned, from experience, that men are polygamous by nature, that they are not to be trusted in the hands of rivals.
+
+### SYMPTOMS OF THE FEAR OF LOSS OF LOVE
+
+The distinguishing symptoms of this fear are:--
+
+JEALOUSY. The habit of being suspicious of friends and loved ones without any reasonable evidence of sufficient grounds. (Jealousy is a form of dementia praecox which sometimes becomes violent without the slightest cause). The habit of accusing wife or husband of infidelity without grounds. General suspicion of everyone, absolute faith in no one.
+
+FAULT FINDING. The habit of finding fault with friends, relatives, business associates and loved ones upon the slightest provocation, or without any cause whatsoever.
+
+GAMBLING. The habit of gambling, stealing, cheating, and otherwise taking hazardous chances to provide money for loved ones, with the belief that love can be bought. The habit of spending beyond one's means, or incurring debts, to provide gifts for loved ones, with the object of making a favorable showing. Insomnia, nervousness, lack of persistence, weakness of will, lack of self-control, lack of self-reliance, bad temper.
+
+### THE FEAR OF OLD AGE
+
+In the main, this fear grows out of two sources. First, the thought that old age may bring with it POVERTY. Secondly, and by far the most common source of origin, from false and cruel teachings of the past which have been too well mixed with "fire and brimstone," and other bogies cunningly designed to enslave man through fear.
+
+In the basic fear of old age, man has two very sound reasons for his apprehension-- one growing out of his distrust of his fellowman, who may seize whatever worldly good he may possess, and the other arising from the terrible pictures of the world beyond, which were planted in his mind, through social heredity before he came into full possession of his mind.
+
+The possibility of ill health, which is more common as people grow older, is also a contributing cause of this common fear of old age. Eroticism also enters into the cause of the fear of old age, as no man cherishes the thought of diminishing sex attraction.
+
+The most common cause of fear of old age is associated with the possibility of poverty. "Poorhouse" is not a pretty word. It throws a chill into the mind of every person who faces the possibility of having to spend his declining years on a poor farm.
+
+Another contributing cause of the fear of old age, is the possibility of loss of freedom and independence, as old age may bring with it the loss of both physical and economic freedom.
+
+### SYMPTOMS OF THE FEAR OF OLD AGE
+
+The commonest symptoms of this fear are:
+
+The tendency to slow down and develop an inferiority complex at the age of mental maturity, around the age of forty, falsely believing one's self to be "slipping" because of age. (The truth is that man's most useful years, mentally and spiritually, are those between forty and sixty).
+
+The habit of speaking apologetically of one's self as "being old" merely because one has reached the age of forty, or fifty, instead of reversing the rule and expressing gratitude for having reached the age of wisdom and understanding.
+
+The habit of killing off initiative, imagination, and self-reliance by falsely believing one's self too old to exercise these qualities. The habit of the man or woman of forty dressing with the aim of trying to appear much younger, and affecting mannerisms of youth; thereby inspiring ridicule by both friends and strangers.
+
+### THE FEAR OF DEATH
+
+To some this is the cruelest of all the basic fears. The reason is obvious. The terrible pangs of fear associated with the thought of death, in the majority of cases, may be charged directly to religious fanaticism. So-called "heathen" are less afraid of death than the more "civilized." For hundreds of millions of years man has been asking the still unanswered questions, "whence" and "whither." Where did I come from, and where am I going?
+
+During the darker ages of the past, the more cunning and crafty were not slow to offer the answer to these questions, FOR A PRICE. Witness, now, the major source of origin of the FEAR OF DEATH.
+
+"Come into my tent, embrace my faith, accept my dogmas, and I will give you a ticket that will admit you straightaway into heaven when you die," cries a leader of sectarianism. "Remain out of my tent," says the same leader, "and may the devil take you and burn you throughout eternity."
+
+ETERNITY is a long time. FIRE is a terrible thing. The thought of eternal punishment, with fire, not only causes men to fear death, it often causes him to lose his reason. it destroys interest in life and makes happiness impossible.
+
+During my research, I reviewed a book entitled "A Catalogue of the Gods," in which were listed the 30,000 gods which man has worshiped. Think of it! Thirty thousand of them, represented by everything from a crawfish to a man. It is little wonder than men have become frightened at the approach of death.
+
+While the religious leader may not be able to provide safe conduct into heaven, nor, by lack of suck provision, allow the unfortunate to descend into hell, the possibility of the latter seems so terrible that the very thought of it lays hold of the imagination in such a realistic way that it paralyzes reason, and sets up the fear of death.
+
+In truth, NO MAN KNOWS, and no man has ever known, what heaven or hell is like, nor does any man know if either place actually exists. This very lack of positive knowledge opens the door of the human mind to the charlatan so he may enter and control that mind with his stock of legerdemain and various brands of pious fraud and trickery.
+
+The fear of DEATH is not as common now as it was during the age when there were no great colleges and universities. Men of science have turned the spotlight of truth upon the world, and this truth is rapidly freeing men and women from this terrible fear of DEATH. The young men and young women who attend the colleges and universities are not easily impressed by "fire" and "brimstone." Through the aid of biology, astronomy, geology, and other related sciences, the fears of the dark ages which gripped the minds of men and destroyed their reason have been dispelled.
+
+Insane asylums are filled with men and women who have gone mad, because of the FEAR OF DEATH.
+
+This fear is useless. Death will come, no matter what anyone may think about it. Accept it as a necessity, and pass the thought out of your mind. It must be a, necessity, or it would not come to all. Perhaps it is not as bad as it has been pictured.
+
+The entire world is made up of only two things, ENERGY and MATTER. In elementary physics we learn that neither matter nor energy (the only two realities known to man) can be created nor destroyed. Both matter and energy can be transformed, but neither can be destroyed.
+
+Life is energy, if it is anything. If neither energy nor matter can be destroyed, of course life cannot be destroyed. Life, like other forms of energy, may be passed through various processes of transition, or change, but it cannot be destroyed. Death is mere transition.
+
+If death is not mere change, or transition, then nothing comes after death except a long, eternal, peaceful sleep, and sleep is nothing to be feared. Thus you may wipe out, forever, the fear of Death.
+
+### SYMPTOMS OF THE FEAR OF DEATH
+
+The general symptoms of this fear are:--
+
+The habit of THINKING about dying instead of making the most of LIFE, due, generally, to lack of purpose, or lack of a suitable occupation. This fear is more prevalent among the aged, but sometimes the more youthful are victims of it. The greatest of all remedies for the fear of death is a BURNING DESIRE FOR ACHIEVEMENT, backed by useful service to others. A busy person seldom has time to think about dying. He finds life too thrilling to worry about death. Sometimes the fear of death is closely associated with the Fear of Poverty, where one's death would leave loved ones poverty-stricken. In other cases, the fear of death is caused by illness and the consequent creaking down of physical body resistance. The commonest causes of the fear of death are: ill-health, poverty, lack of appropriate occupation, disappointment over love, insanity, religious fanaticism.
+
+### OLD MAN WORRY
+
+Worry is a state of mind based upon fear. It works slowly, but persistently. It is insidious and subtle. Step by step it "digs itself in" until it paralyzes one's reasoning faculty, destroys self-confidence and initiative. Worry is a form of sustained fear caused by indecision therefore it is a state of mind which can be controlled.
+
+An unsettled mind is helpless. Indecision makes an unsettled mind. Most individuals lack the willpower to reach decisions promptly, and to stand by them after they have been made, even during normal business conditions. During period of economic unrest (such as the world recently experiences), the individual is handicapped, not alone by his inherent nature to be slow at reaching decisions, but he is influenced by the indecision of others around him who have created a state of "mass indecision."
+
+During the depression the who atmosphere, all over the world, was filled with "Fearenza" and "Worryitis," the two mental disease germs which began to spread themselves after the Wall Street frenzy in 1929. There is only one known antidote for these germs; it is the habit of prompt and firm DECISION. Moreover, it is an antidote which every individual must apply for himself.
+
+We do not worry over conditions, once we have reached a decision to follow a definite line of action.
+
+I once interviewed a man who was to be electrocuted two hours later. The condemned man was the calmest of some eight men who were in the death-cell with him. His calmness prompted me to ask him how it felt to know that he was going into eternity in a short while. With a smile of confidence on his face, he said, "It feels fine. Just think, brother, my troubles will soon be over. I have had nothing but trouble all my life. It has been a hardship to get food and clothing. Soon I will not need these things. I have felt fine ever since I learned FOR CERTAIN that I must die. I made up my mind then, to accept my fate in good spirit."
+
+As he spoke he devoured a dinner of proportions sufficient for three men, eating every mouthful of the food brought to him, and apparently enjoying it as much as if no disaster awaited him. DECISION gave this man resignation to his fate! Decision can also prevent one's acceptance of undesired circumstances.
+
+The six basic fears become translated into a state of worry, through indecision. Relieve yourself, forever of the fear of death, by reaching a decision to accept death as an inescapable event. Whip the fear of poverty by reaching a decision to get along with whatever wealth you can accumulate WITHOUT WORRY. Put you foot upon the neck of the fear of criticism by reaching a decision NOT TO WORRY about what other people think, do, or say. Eliminate the fear of old age by reaching a decision to accept it, not as a handicap, but as a great blessing which carries with it wisdom, self-control, and understanding not known to youth.
+
+Acquit yourself of the fear of ill health by the decision to forget symptoms. Master the fear of loss of love by reaching a decision to get along without love, if that is necessary.
+
+Kill the habit of worry, in all its forms, by reaching a general, blanket decision that nothing which life has to offer is worth the price of worry. With this decision will come poise, peace of mind, and calmness of thought which will bring happiness.
+
+A man whose mind is filled with fear not only destroys his own chances of intelligent action, but, he transmits these destructive vibrations to the minds of all who come into contact with him, and destroys, also their chances.
+
+Even a dog or a horse knows when its master lacks courage; moreover, a dog or a horse will pick up the vibrations of fear thrown off by its master, and behave accordingly. Lower down the line of intelligence in the animal kingdom, one finds this same capacity to pick up the vibrations of fear. A honey-bee immediately senses fear in the mind of a person--for reasons unknown, a bee will sting the person whose mind is releasing vibrations of fear, much more readily than it will molest the person whose mind registers no fear.
+
+The vibrations of fear pass from one mind to another just as quickly and as surely as the sound of the human voice passes from the broadcasting station to the receiving set of a radio--and BY THE SELF-SAME MEDIUM.
+
+Mental telepathy is a reality. Thoughts pass from one mind to another, voluntarily, whether or not this fact is recognized by either the person releasing the thoughts, or the persons who pick up these thoughts.
+
