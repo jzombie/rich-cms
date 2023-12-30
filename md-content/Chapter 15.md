@@ -306,3 +306,335 @@ The vibrations of fear pass from one mind to another just as quickly and as sure
 
 Mental telepathy is a reality. Thoughts pass from one mind to another, voluntarily, whether or not this fact is recognized by either the person releasing the thoughts, or the persons who pick up these thoughts.
 
+The person who gives expression, by word of mouth, to negative or destructive thoughts is practically certain to experience the results of those words in the form of a destructive "kick-back." The release of destructive thought impulses, alone, without the aid of words, produces also a "kickback" in more ways than once. First of all, and perhaps most important to be remembered, the person who releases thoughts of a destructive nature, must suffer damage through the breaking down of the faculty of creative imagination. Secondly, the presence in the mind of any destructive emotion develops a negative personality which repels people, and often converts them into antagonists. The third source of damage to the person who entertains or releases negative thoughts, lies in this significant fact-- these thought-impulses are not only damaging to others, but they IMBED THEMSELVES IN THE SUBCONSCIOUS MIND OF THE PERSON RELEASING THEM, and there become a part of his character.
+
+One is never through with a thought, merely by releasing it. When a thought is released, it spreads in every direction, through the medium of the ether, but it also plants itself permanently in the subconscious mind of the person releasing it.
+
+Your business in life is, presumably to achieve success. To be successful, you must find peace of mind, acquire the material needs of lie, and above all, attain HAPPINESS. All of these evidences of success begin in the form of thought impulses.
+
+You may control your own mind, you have the power to feed it whatever thought impulses you choose. With this privilege goes also the responsibility of using it constructively. You are the master of your own earthly destiny just as surely as you have the power to control your own thoughts. You may influence, direct, and eventually control your own environment, making your life what you want it to be-- or, you may neglect to exercise the privilege which is yours, to make your life to order, thus casting yourself upon the broad sea of "Circumstance" where you will be tossed hither and yon, like a chip on the waves of the ocean.
+
+### THE DEVIL'S WORKSHOP
+
+#### THE SEVENTH BASIC EVIL
+
+In addition to the Six Basic Fears, there is another evil by which people suffer. It constitutes a rich soil in which the seeds of failure grow abundantly. It is so subtle that its presence often is not detected. This affliction cannot properly be classed as a fear. IT IS MORE DEEPLY SEATED AND MORE OFTEN FATAL THAN ALL OF THE SIX FEARS. For want of a better name, let us call this evil SUSCEPTIBILITY TO NEGATIVE INFLUENCES.
+
+Men who accumulate great riches always protect themselves against this evil! The poverty stricken never do! Those who succeed in any calling must prepare their minds to resist the evil. If you are reading this philosophy for the purpose of accumulating riches, you should examine yourself very carefully, to determine whether you are susceptible to negative influences. If you neglect this self-analysis, you will forfeit your right to attain the object of your desires.
+
+Make the analysis searching. After you read the questions prepared for this self-analysis, hold yourself to a strict accounting in your answers. Go at the task as carefully as you would search for any other enemy you knew to be awaiting you in ambush and deal with your own faults as you would with a more tangible enemy.
+
+You can easily protect yourself against highway robbers, because the law provides organized cooperation for your benefit, but the "seventh basic evil" is more difficult to master, because it strikes when you are not aware of its presence, when you are asleep, and while you are awake. Moreover, its weapon is intangible, because it consists of merely-- a STATE OF MIND. This evil is also dangerous because it strikes in as many different forms as there are human experiences. Sometimes it enters the mind through the well-meant words of one's own relatives. At other times, it bores from within, through one's own mental attitude. Always it is as deadly as poison, even though it may not kill as quickly.
+
+#### HOW TO PROTECT YOURSELF AGAINST NEGATIVE INFLUENCES
+
+To protect yourself against negative influences, whether of your own making, or the result of the activities of negative people around you, recognize that you have a WILL-POWER, and put it into constant use, until it builds a wall of immunity against negative influences in your own mind.
+
+Recognize the fact that you, and every other human being, are, by nature, lazy, indifferent, and susceptible to all suggestions which harmonize with your weaknesses.
+
+Recognize that you are, by nature, susceptible to all the six basic fears, and set up habits for the purpose of counteracting all these fears.
+
+Recognize that negative influences often work on you through your subconscious mind, therefore they are difficult to detect, and keep your mind closed against all people who depress or discourage you in any way.
+
+Clean out your medicine chest, throw away all pill bottles, and stop pandering to colds, aches, pains and imaginary illness.
+
+Deliberately seek the company of people who influence you to THINK AND ACT FOR YOURSELF.
+
+Do not EXPECT troubles as they have a tendency not to disappoint.
+
+Without doubt, the most common weakness of all human beings is the habit of leaving their minds open to the negative influence of other people. This weakness is all the more damaging, because most people do not recognize that they are cursed by it, and many who acknowledge it, neglect or refuse to correct the evil until it becomes an uncontrollable part of their daily habits.
+
+To aid those who wish to see themselves as they really are, the following list of questions has been prepared. Read the questions and state your answers aloud, so you can hear your own voice. This will make it easier for you to be truthful with yourself.
+
+#### SELF-ANALYSIS TEST QUESTIONS
+
+Do you complain often of "feeling bad," and if so, what is the cause?
+
+Do you mind fault with other people at the slightest provocation?
+
+Do you frequently make mistakes in your work, and if so, why?
+
+Are you sarcastic and offensive in your conversation?
+
+Do you deliberately avoid the association of anyone, and if so, why?
+
+Do you suffer frequently with indigestion? If so, what is the cause?
+
+Does life seem futile and the future hopeless to you? If so, why?
+
+Do you like your occupation? If not, why?
+
+Do you often feel self-pity, and if so, why?
+
+Are you envious of those who excel you?
+
+To which do you devote most time, thinking of SUCCESS, or of FAILURE?
+
+Are you gaining or losing self-confidence as you grow older?
+
+Do you learn something of value from all mistakes?
+
+Are you permitting some relative or acquaintance to worry you? If so, why?
+
+Are you sometimes "in the clouds" and at other times in the depths of despondency?
+
+Who has the most inspiring influence upon you? What is the cause?
+
+Do you tolerate negative or discouraging influences which you can avoid?
+
+Are you careless of your personal appearance? If so, when and why?
+
+Have you learned how to "drown your troubles" by being too busy to be annoyed by them?
+
+Would you call yourself a "spineless weakling" if you permitted others to do your thinking for you?
+
+Do you neglect internal bathing until auto-intoxication makes you ill-tempered and irritable?
+
+How many preventable disturbances annoy you, and why do you tolerate them?
+
+Do you resort to liquor, narcotics, or cigarettes to "quiet your nerves?"  If so, why do you not try will-power instead?
+
+Does anyone "nag" you, and if so, for what reason?
+
+Do you have a DEFINITE MAJOR PURPOSE, and if so, what is it, and what plan have you for achieving it?
+
+Do you suffer from any of the Six Basic Fears? If so, which ones?
+
+Have you a method by which you can shield yourself against the negative influence of others?
+
+Do you make deliberate use of auto-suggestion to make your mind positive?
+
+Which do you value most, your material possessions, or your privilege of controlling your own thoughts?
+
+Are you easily influences by others, against your own judgement?
+
+Has today added anything of value to your stock of knowledge or state of mind?
+
+Do you face squarely the circumstances which make you unhappy, or sidestep the responsibility?
+
+Do you analyze all mistakes and failures and try to profit by them or, do you take the attitude that this is not your duty?
+
+Can you name three of your most damaging weaknesses? What are you doing to correct them?
+
+Do you encourage other people to bring their worries to you for sympathy?
+
+Do you choose, from your daily experiences, lessons or influences which aid in your personal advancement?
+
+Does your presence have a negative influence on other people as a rule?
+
+What habits of other people annoy you most?
+
+Do you form your own opinions or permit yourself to be influenced by other people?
+
+Have you learned how to create a mental state of mind with which you can shield yourself against all discouraging influences?
+
+Does your occupation inspire you with faith and hope?
+
+Are you conscious of possessing spiritual forces of sufficient power to enable you to keep your mind free from all forms of FEAR?
+
+Does your religion help you to keep your own mind positive?
+
+Do you feel it is your duty to share other people's worries? If so, why?
+
+If you believe that "birds of a feather flock together" what have you learned about yourself by studying the friends whom you attract?
+
+What connection, if any, do you see between the people with whom you associate most closely, and any unhappiness you may experience?
+
+Could it be possible that some person whom you consider to be a friend is, in reality, your worst enemy, because of his negative influence on your mind?
+
+By what rules do you judge who is helpful and who is damaging to you?
+
+Are your intimate associates mentally superior or inferior to you?
+
+How much time out of every 24 hours do you devote to:
+
+a. your occupation
+
+b. sleep
+
+c. play and relaxation
+
+d. acquiring mental knowledge
+
+e. plain waste
+
+Who among your acquaintances,
+
+a. encourages you most
+
+b. cautions you most
+
+c. discourages you most
+
+d. helps you most in other ways
+
+What is your greatest worry? Why do you tolerate it?
+
+When others offer you free, unsolicited advice, do you accept it without question, or analyze their motive?
+
+What, above all else, do you most DESIRE? Do you intend to acquire it? Are you willing to subordinate all other desires for this one? How much time daily do you devote to acquiring it?
+
+Do you change your mind often? If so, why?
+
+Do you usually finish everything you begin?
+
+Are you easily impressed by other people's business or professional titles, college degrees, or wealth?
+
+Are you easily influenced by what other people think or say of you?
+
+Do you cater to people because of their social or financial status?
+
+Whom do you believe to be the greatest person living?
+
+In what respect is this person superior to yourself?
+
+How much time have you devoted to studying and answering these questions? (At least one day is necessary for the analysis and the answering of the entire list.)
+
+If you have answered all these questions truthfully, you know more about yourself than the majority of people. Study the questions carefully, come back to them once each week for several months, and be astounded at the amount of additional knowledge of great value to yourself, you will have gained by the simple method of answering the questions truthfully. If you are not certain concerning the answers to some of the questions, seek the counsel of those who know you well, especially those who have no motive in flattering you, and see yourself through their eyes. The experience will be astonishing.
+
+You have ABSOLUTE CONTROL over but one thing, and that is your thoughts. This is the most significant and inspiring of all facts known to man! It reflects man's Divine nature. This Divine prerogative is the sole means by which you may control your own destiny. If you fail to control your own mind, you may be sure you will control nothing else.
+
+If you must be careless with your possessions, let it be in connection with material things. Your mind is your spiritual estate! Protect and use it with the care to which Divine Royalty is entitled. You were given a WILL-POWER for this purpose.
+
+Unfortunately, there is no legal protection against those who, either by design or ignorance, poison the minds of others by negative suggestion. This form of destruction should be punishable by heavy legal penalties, because it may and often does destroy one's chances of acquiring material things which are protected by law.
+
+Men with negative minds tried to convince Thomas A. Edison that he could not build a machine that would record and reproduce the human voice, "because" they said, "no one else had ever produced such a machine." Edison did not believe them. He knew that the mind could produce ANYTHING THE MIND COULD CONCEIVE AND BELIEVE, and that knowledge was the thing that lifted the great Edison above the common herd.
+
+Men with negative minds told F. W. Woolworth, he would go "broke" trying to run a store on five and ten cent sales. He did not believe them. He knew that he could do anything, within reason, if he backed his plans with faith. Exercising his right to keep other men's negative suggestions out of his mind, he piled up a fortune of more than a hundred million dollars.
+
+Men with negative minds told George Washington he could not hope to win against the vastly superior forces of the British, but he exercised his Divine right to BELIEVE, therefore this book was published under the protection of the Stars and Stripes, while the name of Lord Cornwallis has been all but forgotten.
+
+Doubting Thomases scoffed scornfully when Henry Ford tried out his first crudely built automobile on the streets of Detroit. Some said the thing never would become practical. Others said no one would pay money for such a contraption.
+
+FORD SAID, "I'LL BELT THE EARTH WITH DEPENDABLE MOTOR CARS," AND HE DID!
+
+His decision to trust his own judgement has already piled up a fortune far greater than the next five generations of his descendants can squander. For the benefit of those seeking vast riches, let it be remembered that practically the sole difference between Henry Ford and a majority of the more than one hundred thousand men who work for him, is this--FORD HAS A MIND AND CONTROLS IT, THE OTHERS HAVE MINDS WHICH THEY DO NOT TRY TO CONTROL.
+
+Henry Ford has been repeatedly mentioned, because he is an astounding example of what a man with a mind of his own, and a will to control it, can accomplish. His record knocks the foundation from under that time-worn alibi, "I never had a chance." Ford never had a chance, either, but he CREATED AN OPPORTUNITY AND BACKED IT WITH PERSISTENCE UNTIL IT MADE HIM RICHER THAN CROESUS.
+
+Mind control is the result of self-discipline and habit. You either control your mind or it controls you. There is no hall-way compromise. The most practical of all methods for controlling the mind is the habit of keeping it busy with a definite purpose, backed by a definite plan. Study the record of any many who achieves noteworthy success, and you will observe that he has control over his own mind, moreover, that he exercises that control and directs it toward the attainment of definite objectives. Without this control, success is not possible.
+
+----------
+
+### "FIFTY-SEVEN" FAMOUS ALIBIS
+
+By Old Man IF
+
+People who do not succeed have one distinguishing trait in common. They know all the reasons for failure, and have what they believe to be air-tight alibis to explain away their own lack of achievement.
+
+Some of these alibis are clever, and a few of them are justifiable by the facts. But alibis cannot be used for money. The world wants to know only one thing--HAVE YOU ACHIEVED SUCCESS?
+
+A character analyst compiled a list of the most commonly used alibis. As you read the list, examine yourself carefully, and determine how many of these alibis, if any, are your own property. Remember, too, the philosophy presented in this book makes every one of these alibis obsolete.
+
+IF I didn't have a wife and family...
+
+IF I had enough "pull"...
+
+IF I had money...
+
+IF I had a good education...
+
+IF I could get a job...
+
+IF I had good health...
+
+IF I only had time...
+
+IF times were better...
+
+IF other people understood me...
+
+IF conditions around me were only different...
+
+IF I could live my life over again...
+
+IF I did not fear what "THEY" would say...
+
+IF I had been given a chance...
+
+IF I now had a chance...
+
+IF other people didn't "have it in for me"...
+
+IF nothing happens to stop me...
+
+IF I were only younger...
+
+IF I could only do what I want...
+
+IF I had been born rich...
+
+IF I could meet "the right people"...
+
+IF I had the talent that some people have...
+
+IF I dared assert myself....
+
+IF I only had embraced past opportunities...
+
+IF people didn't get on my nerves...
+
+IF I didn't have to keep house and look after the children...
+
+IF I could save some money...
+
+IF the boss only appreciated me...
+
+IF I only had somebody to help me...
+
+IF my family understood me...
+
+IF I lived in a big city...
+
+IF I could just get started...
+
+IF I were only free...
+
+IF I had the personality of some people...
+
+IF I were not so fat...
+
+IF my talents were known...
+
+IF I could just get a "break"...
+
+IF I could only get out of debt...
+
+IF I hadn't failed....
+
+IF I only knew how...
+
+IF everybody didn't oppose me...
+
+IF i didn't have so many worries...
+
+IF i could marry the right person...
+
+IF people weren't so dumb...
+
+IF my family were not so extravagant...
+
+IF I were sure of myself...
+
+IF luck were not against me...
+
+IF I had not been born under the wrong star...
+
+IF it were not true that "what is to be will be"...
+
+IF I did not have to work so hard...
+
+IF I hadn't lost my money...
+
+IF I lived in a different neighborhood...
+
+IF I didn't have a "past"...
+
+IF I only had a business of my own...
+
+IF other people would only listen to me....
+
+IF * * * and this is the greatest of them all * * * I had the courage to see myself as I really am, I would find out what is wrong with me, and correct it, then I might have a chance to profit by my mistakes and learn something from the experiences of others, for I know that there is something WRONG with me, or I would now be where I WOULD HAVE BEEN IF I had spent more time analyzing my weaknesses, and less time building alibis to cover them.
+
+Building alibis with which to explain away failure is a national pastime. The habit is as old as the human race, and it is fatal to success! Why do people cling to their pet alibis? The answer is obvious. They defend their alibis because THEY CREATE them! A man's alibi is the child of his own imagination. It is human nature.
+
