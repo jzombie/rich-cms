@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
       tocContainer.style.display =
         tocContainer.style.display === "none" ? "block" : "none";
+
+      // Scroll to top if TOC container is shown
+      if (tocContainer.style.display === "block") {
+        window.scrollTo(0, 0);
+      }
     });
 
     // Show the button when JavaScript is enabled
