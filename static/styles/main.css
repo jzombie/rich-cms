@@ -72,6 +72,10 @@ a:focus {
   text-decoration: underline;
 }
 
+.active a {
+  color: #c0b298; /* or any other style to indicate active state */
+}
+
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   body {

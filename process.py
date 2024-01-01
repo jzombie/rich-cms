@@ -73,34 +73,46 @@ class RichCMSGenerator:
         toc = "<ul>"
         stack = []
 
+        # Organize articles by directory for structured TOC generation
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
 
+        # Normalize the current file path to be relative to base_input_path.
+        # This helps in identifying the active article in the TOC.
+        normalized_current_path = os.path.normpath(os.path.join(base_input_path, current_file_path))
+
+        # Loop through each directory and its articles
         for _, articles_in_dir in organized_articles.items():
             for article in articles_in_dir:
                 rel_path = article['path']
-                dir_breadcrumbs = [bc for bc in rel_path.split(os.sep)[:-1] if bc != '.']
 
-                # Update stack to match current breadcrumbs
+                # Generate links relative to the current file path. This ensures that
+                # links in the TOC are correct regardless of the current file's location.
+                link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
+                title = article['title']
+
+                # Normalize the article path for a consistent format. This normalization
+                # is crucial for the correct comparison with the normalized current path.
+                normalized_article_path = os.path.normpath(os.path.join(base_input_path, rel_path))
+
+                # Determine if this article is the current one being viewed. If so, add
+                # the 'active' class for CSS styling.
+                active_class = ' class="active"' if normalized_article_path == normalized_current_path else ''
+                toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
+
+                # Handle directory breadcrumbs to build a hierarchical TOC structure.
+                dir_breadcrumbs = [bc for bc in rel_path.split(os.sep)[:-1] if bc != '.']
                 i = 0
                 while i < len(stack) and i < len(dir_breadcrumbs) and stack[i] == dir_breadcrumbs[i]:
                     i += 1
-                # Close tags for breadcrumbs not in the current path
                 while len(stack) > i:
                     toc += "</ul></li>"
                     stack.pop()
-
-                # Open new tags for new breadcrumbs
                 while i < len(dir_breadcrumbs):
                     toc += f"<li>{dir_breadcrumbs[i]}<ul>"
                     stack.append(dir_breadcrumbs[i])
                     i += 1
 
-                # Add the current file
-                link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
-                title = article['title']
-                toc += f"<li><a href='{link}'>{title}</a></li>"
-
-        # Close remaining tags
+        # Close any remaining open tags to ensure valid HTML structure.
         while stack:
             toc += "</ul></li>"
             stack.pop()
