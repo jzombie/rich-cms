@@ -8,7 +8,7 @@ A very simple, markdown-file driven CMS, written in Python.
 python3 -m venv myenv
 
 ### Using
-source venv/bin/activate
+source myenv/bin/activate
 
 ## Testing 
 
