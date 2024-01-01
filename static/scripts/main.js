@@ -32,9 +32,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show the button when JavaScript is enabled
     button.style.display = "block";
 
-    // Hide the TOC by default on mobile
-    if (window.innerWidth <= 768) {
-      tocContainer.style.display = "none";
-    }
+    (() => {
+      function handleResize() {
+        tocContainer.style.display =
+          window.innerWidth <= 768 ? "none" : "block";
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+    })();
   }
 });
