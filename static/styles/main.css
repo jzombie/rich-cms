@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: row; /* Align children in a row */
   flex-wrap: wrap; /* Allow wrapping for flexibility */
   background-color: #1c1c1c; /* Dark background for antique look */
   color: #dcd0c0; /* Soft cream color for text, easy on the eyes */
@@ -8,6 +9,8 @@ body {
   line-height: 1.6; /* Adjust line height for readability */
   border: 1px solid #423f3e; /* Dark border to complement the theme */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+  margin: 0; /* Reset default margin */
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .codehilite {
@@ -29,22 +32,20 @@ header {
 }
 
 .toc-container {
-  flex: 0 0 25%; /* Fixed width for TOC on large screens */
+  flex: 1; /* Allow TOC to grow */
   max-width: 300px; /* Maximum width for TOC */
   background-color: #333; /* Dark, aged TOC background */
   color: #dcd0c0;
   padding: 1em;
-  max-height: 100%;
   overflow-y: auto;
-  transition: flex-basis 0.3s ease;
 }
 
 .article-container {
-  flex: 1;
-  min-width: 300px;
+  flex: 3; /* Allow article container to take the remaining space */
   padding: 1em;
   background: #1c1c1c;
   border-left: 1px solid #423f3e;
+  overflow-x: hidden; /* Prevent horizontal overflow in the article container */
 }
 
 #menu-toggle-button {
@@ -74,16 +75,13 @@ a:focus {
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   body {
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    flex-direction: column; /* Stack children vertically on small screens */
   }
 
-  .toc-container {
-    flex: 0 0 100%;
-    order: -1; /* Ensure TOC is above content on small screens */
-  }
-
+  .toc-container,
   .article-container {
-    flex: 0 0 100%;
+    flex: 0 0 100%; /* Make both containers full width on small screens */
+    max-width: none; /* Override any max-width set previously */
   }
 
   #menu-toggle-button {
