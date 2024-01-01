@@ -13,6 +13,15 @@ body {
   overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
+/* Style for the First Paragraph in the Article Container */
+.article-container .drop-cap {
+  font-size: 4em; /* Increase font size for the first letter */
+  line-height: 1; /* Adjust line height for the drop cap */
+  position: relative;
+  float: left; /* Float the drop cap to the left */
+  margin-right: 8px; /* Add some spacing between the drop cap and the text */
+}
+
 .codehilite {
   background: #222; /* Code block background */
   color: #f0f0f0; /* Code block text color */
