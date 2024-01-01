@@ -71,31 +71,40 @@ class RichCMSGenerator:
     @classmethod
     def create_toc(cls, articles, current_file_path, base_input_path):
         toc = "<ul>"
+        stack = []
+
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
 
-        for k,v in organized_articles.items():
-
-            for article in v:
+        for _, articles_in_dir in organized_articles.items():
+            for article in articles_in_dir:
                 rel_path = article['path']
-                dir_name = os.path.dirname(article['path'])
-                is_base_dir = dir_name == '.'
-                
-                dir_breadcrumbs = rel_path.split(os.sep)[:-1]
+                dir_breadcrumbs = [bc for bc in rel_path.split(os.sep)[:-1] if bc != '.']
 
-                link = os.path.relpath(article['path'], os.path.dirname(current_file_path))
+                # Update stack to match current breadcrumbs
+                i = 0
+                while i < len(stack) and i < len(dir_breadcrumbs) and stack[i] == dir_breadcrumbs[i]:
+                    i += 1
+                # Close tags for breadcrumbs not in the current path
+                while len(stack) > i:
+                    toc += "</ul></li>"
+                    stack.pop()
 
+                # Open new tags for new breadcrumbs
+                while i < len(dir_breadcrumbs):
+                    toc += f"<li>{dir_breadcrumbs[i]}<ul>"
+                    stack.append(dir_breadcrumbs[i])
+                    i += 1
+
+                # Add the current file
+                link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
                 title = article['title']
-
-                if not is_base_dir:
-                    for breadcrumb in dir_breadcrumbs:
-                        toc += f"<li>{breadcrumb}<ul>"
-                
                 toc += f"<li><a href='{link}'>{title}</a></li>"
 
-                if not is_base_dir:
-                    for breadcrumb in dir_breadcrumbs:
-                        toc += f"</li></ul>"
-
+        # Close remaining tags
+        while stack:
+            toc += "</ul></li>"
+            stack.pop()
+        toc += "</ul>"
         return toc
 
     @classmethod
