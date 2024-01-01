@@ -184,21 +184,29 @@ class RichCMSGenerator:
     @classmethod
     def add_drop_cap(cls, html_content):
         soup = BeautifulSoup(html_content, 'html.parser')
-        first_paragraph = soup.select_one('p:first-of-type')
+        paragraphs = soup.find_all('p')
 
-        if first_paragraph and first_paragraph.text.strip():
-            first_letter = first_paragraph.text[0]
+        for idx, paragraph in enumerate(paragraphs):
+            if idx > 1:
+                break
 
-            # Check if the first character is a letter (using a regular expression)
-            if first_letter.isalpha():
-                rest_of_text = first_paragraph.text[1:]
+            # Assume paragraph with less than 50 characters is a heading
+            if paragraph.text.strip() and len(paragraph.text) >= 50:
+                first_letter = paragraph.text[0]
 
-                # Apply drop cap styling
-                first_paragraph.clear()  # Clear the contents of the first paragraph
-                drop_cap_span = soup.new_tag('span', attrs={'class': 'drop-cap'})
-                drop_cap_span.string = first_letter
-                first_paragraph.insert(0, drop_cap_span)  # Insert the drop cap at the beginning
-                first_paragraph.insert(1, rest_of_text)  # Insert the rest of the text
+                # Check if the first character is a letter (using a regular expression)
+                if first_letter.isalpha():
+                    rest_of_text = paragraph.text[1:]
+
+                    # Apply drop cap styling
+                    paragraph.clear()  # Clear the contents of the paragraph
+                    drop_cap_span = soup.new_tag('span', attrs={'class': 'drop-cap'})
+                    drop_cap_span.string = first_letter
+                    paragraph.insert(0, drop_cap_span)  # Insert the drop cap at the beginning
+                    paragraph.insert(1, rest_of_text)  # Insert the rest of the text
+
+                # Stop iterating
+                break
 
         return str(soup)
 

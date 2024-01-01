@@ -20,6 +20,7 @@ body {
   position: relative;
   float: left; /* Float the drop cap to the left */
   margin-right: 8px; /* Add some spacing between the drop cap and the text */
+  margin-top: -2px;
 }
 
 .codehilite {
