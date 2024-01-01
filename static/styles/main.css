@@ -2,20 +2,20 @@ body {
   display: flex;
   flex-direction: row; /* Align children in a row */
   flex-wrap: wrap; /* Allow wrapping for flexibility */
-  background-color: #1c1c1c; /* Dark background for antique look */
-  color: #dcd0c0; /* Soft cream color for text, easy on the eyes */
+  background-color: #333; /* Dark background */
+  color: #f0f0f0; /* Light text color */
   font-family: "EB Garamond", serif;
   font-size: 18px; /* Adjust font size as needed */
   line-height: 1.6; /* Adjust line height for readability */
-  border: 1px solid #423f3e; /* Dark border to complement the theme */
+  border: 1px solid #555; /* Dark border */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
   margin: 0; /* Reset default margin */
   overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .codehilite {
-  background: #2b2b2b;
-  color: #f8f8f2;
+  background: #222; /* Code block background */
+  color: #f0f0f0; /* Code block text color */
   padding: 0.5em;
   border-radius: 4px;
   overflow: auto;
@@ -23,8 +23,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #dcd0c0;
+  background-color: #444;
+  color: #f0f0f0; /* Header text color */
   padding: 1em;
   width: 100%; /* Full width */
   box-sizing: border-box; /* Include padding in width calculation */
@@ -34,8 +34,8 @@ header {
 .toc-container {
   flex: 1; /* Allow TOC to grow */
   max-width: 300px; /* Maximum width for TOC */
-  background-color: #333; /* Dark, aged TOC background */
-  color: #dcd0c0;
+  background-color: #222; /* Dark TOC background */
+  color: #f0f0f0; /* TOC text color */
   padding: 1em;
   overflow-y: auto;
 }
@@ -43,8 +43,9 @@ header {
 .article-container {
   flex: 3; /* Allow article container to take the remaining space */
   padding: 1em;
-  background: #1c1c1c;
-  border-left: 1px solid #423f3e;
+  background: #2c2c2c; /* Slightly lighter background for articles */
+  color: #f0f0f0; /* White text color for articles */
+  border-left: 1px solid #555; /* Dark border */
   overflow-x: hidden; /* Prevent horizontal overflow in the article container */
 }
 
@@ -53,27 +54,31 @@ header {
   top: 1em;
   right: 1em;
   z-index: 1;
-  background-color: #333;
-  color: #dcd0c0;
+  background-color: #444;
+  color: #f0f0f0; /* Button text color */
   border: none;
   padding: 0.5em 1em;
   cursor: pointer;
   display: none; /* Hide the button by default */
 }
 
+ul.nav li {
+  color: #999999; /* Default text color for list items */
+}
+
 a {
-  color: #8a9a5b;
+  color: #007bff; /* Link color */
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #c0b298;
+  color: #00bfff; /* Hover and focus color (bright blue) */
   text-decoration: underline;
 }
 
 .active a {
-  color: #c0b298; /* or any other style to indicate active state */
+  color: #ff8c00; /* Active link color (orange) */
 }
 
 /* Responsive design adjustments */

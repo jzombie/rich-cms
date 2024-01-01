@@ -70,7 +70,7 @@ class RichCMSGenerator:
 
     @classmethod
     def create_toc(cls, articles, current_file_path, base_input_path):
-        toc = "<ul>"
+        toc = '<ul class="nav">'
         stack = []
 
         # Organize articles by directory for structured TOC generation
