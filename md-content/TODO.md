@@ -1,20 +1,21 @@
 # TODO
 
+- [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] <- -> article navigation, w/ titles
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] Show word count after compilation step
 - [] The ability to hotlink to a particular paragraph would be nice
-- [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
 - [] Add sub-headings into table of contents (TOC)
+- [] Add links to headings (including hover links)
 - [] Add breadcrumb links
 - [] Test local links vs hosted (perhaps ditch locally hosted method; very problematic to debug)
-- [] Highlight active link
+- [X] Highlight active link
 - [] Add unit tests
 - [] Make it easy to add images
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
-- [] Live content update as markdown content is changed
+- [PROBABLY-WON'T-DO] [] Live content update as markdown content is changed
 - [] Adding search would be nice
 - [] Sitemap and RSS (this may require using a separate metadata file to keep track of file creations/modifications, unless somehow able to source through git [or just using hardcoded metadata keys -> easy])
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
