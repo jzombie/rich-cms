@@ -1,6 +1,8 @@
 # TODO
 
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
+- [] Fix "Chapter 7" mobile horizontal overflow issue
+- [] Fix TOC issue on mobile where it cannot be scrolled vertically
 - [] Parse & include site name in title / header
 - [X] Sanitize strings / prevent XSS
 - [X] Default "index.md" to top of navigation, per directory
