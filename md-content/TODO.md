@@ -12,7 +12,6 @@
 - [] Add sub-headings into table of contents (TOC)
 - [] Add links to headings (including hover links)
 - [] Add breadcrumb links
-- [] Test local links vs hosted (perhaps ditch locally hosted method; very problematic to debug)
 - [X] Highlight active link
 - [] Add unit tests
 - [] Make it easy to add images
