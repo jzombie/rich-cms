@@ -73,44 +73,52 @@ class RichCMSGenerator:
         toc = '<ul class="nav">'
         stack = []
 
+        # Normalize the base_input_path for comparison purposes
+        normalized_base_input_path = os.path.normpath(base_input_path) + os.path.sep
+
         # Organize articles by directory for structured TOC generation
-        organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
+        organized_articles = cls.organize_articles_by_directory(
+            articles, base_input_path)
 
         # Normalize the current file path to be relative to base_input_path.
-        # This helps in identifying the active article in the TOC.
-        normalized_current_path = os.path.normpath(os.path.join(base_input_path, current_file_path))
+        normalized_current_path = os.path.normpath(
+            os.path.join(base_input_path, current_file_path))
 
         # Loop through each directory and its articles
-        for _, articles_in_dir in organized_articles.items():
+        for dir_path, articles_in_dir in organized_articles.items():
+            normalized_dir_path = os.path.normpath(dir_path) + os.path.sep
+
+            # Determine the relative directory path excluding base_input_path
+            relative_dir_path = normalized_dir_path[len(normalized_base_input_path):]
+
+            # Split into breadcrumbs and determine depth
+            dir_breadcrumbs = relative_dir_path.strip(os.path.sep).split(os.path.sep)
+            dir_depth = len(dir_breadcrumbs) if relative_dir_path else 0
+
+            # Close tags for higher or equal level directories
+            while stack and len(stack) > dir_depth:
+                toc += "</ul></li>"
+                stack.pop()
+
+            # Open tags for new deeper directories
+            while len(stack) < dir_depth:
+                breadcrumb = dir_breadcrumbs[len(stack)]
+                if breadcrumb and not breadcrumb.startswith('.'):
+                    toc += f"<li>{breadcrumb}<ul>"
+                    stack.append(breadcrumb)
+                else:
+                    # Skip creating a sublist for directories starting with a dot
+                    stack.append(breadcrumb)  # Still need to maintain stack depth
+
+            # Add articles to the TOC
             for article in articles_in_dir:
                 rel_path = article['path']
-
-                # Generate links relative to the current file path. This ensures that
-                # links in the TOC are correct regardless of the current file's location.
                 link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
                 title = article['title']
-
-                # Normalize the article path for a consistent format. This normalization
-                # is crucial for the correct comparison with the normalized current path.
-                normalized_article_path = os.path.normpath(os.path.join(base_input_path, rel_path))
-
-                # Determine if this article is the current one being viewed. If so, add
-                # the 'active' class for CSS styling.
+                normalized_article_path = os.path.normpath(
+                    os.path.join(base_input_path, rel_path))
                 active_class = ' class="active"' if normalized_article_path == normalized_current_path else ''
                 toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
-
-                # Handle directory breadcrumbs to build a hierarchical TOC structure.
-                dir_breadcrumbs = [bc for bc in rel_path.split(os.sep)[:-1] if bc != '.']
-                i = 0
-                while i < len(stack) and i < len(dir_breadcrumbs) and stack[i] == dir_breadcrumbs[i]:
-                    i += 1
-                while len(stack) > i:
-                    toc += "</ul></li>"
-                    stack.pop()
-                while i < len(dir_breadcrumbs):
-                    toc += f"<li>{dir_breadcrumbs[i]}<ul>"
-                    stack.append(dir_breadcrumbs[i])
-                    i += 1
 
         # Close any remaining open tags to ensure valid HTML structure.
         while stack:
@@ -118,6 +126,8 @@ class RichCMSGenerator:
             stack.pop()
         toc += "</ul>"
         return toc
+
+
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata):
