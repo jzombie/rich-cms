@@ -1,7 +1,7 @@
 # TODO
 
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
-- [] Fix "Chapter 7" mobile horizontal overflow issue
+- [X] Fix "Chapter 7" mobile horizontal overflow issue
 - [] Add sub-headings into table of contents (TOC) (navigation similar to: https://finalfusion.github.io/)
 - [] Fix TOC issue on mobile where it cannot be scrolled vertically
 - [] Parse & include site name in title / header
