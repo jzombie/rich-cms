@@ -16,8 +16,19 @@ from bs4 import BeautifulSoup
 class RichCMSGenerator:
     @classmethod
     def convert_md_to_html(cls, md_content):
-        md = markdown.Markdown(extensions=['markdown.extensions.fenced_code', TocExtension(), MathExtension(enable_dollar_delimiter=True)])
-        html_content = md.convert(md_content)
+        # Convert URLs to clickable links using regular expressions
+        md_content_with_links = re.sub(
+            r'(https?://\S+)',
+            r'<a href="\1" target="_blank">\1</a>',
+            md_content
+        )
+        
+        md = markdown.Markdown(extensions=[
+            'markdown.extensions.fenced_code',
+            TocExtension(),
+            MathExtension(enable_dollar_delimiter=True),
+        ])
+        html_content = md.convert(md_content_with_links)
         return html_content
 
     @classmethod
