@@ -6,7 +6,7 @@ body {
   color: #f0f0f0; /* Light text color */
   font-family: "EB Garamond", serif;
   font-size: 18px; /* Adjust font size as needed */
-  line-height: 1.6; /* Adjust line height for readability */
+  line-height: 1.4; /* Adjust line height for readability */
   border: 1px solid #555; /* Dark border */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
   margin: 0; /* Reset default margin */
@@ -64,6 +64,19 @@ header {
   border-left: 1px solid #555; /* Dark border */
   overflow-x: hidden; /* Prevent horizontal overflow in the article container */
   min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+h10 {
+  font-weight: 400;
 }
 
 #menu-toggle-button {
