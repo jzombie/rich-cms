@@ -127,8 +127,6 @@ class RichCMSGenerator:
         toc += "</ul>"
         return toc
 
-
-
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata):
         meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in metadata.items())
@@ -165,7 +163,7 @@ class RichCMSGenerator:
                 html_content = cls.convert_md_to_html(md_content_without_metadata)
                 relative_output_path = os.path.relpath(directory_path, base_input_path).replace(' ', '_')
                 output_path = os.path.join(relative_output_path, item.replace('.md', '.html'))
-                article_info = {'title': title, 'path': output_path, 'html_content': html_content, 'metadata': metadata}
+                article_info = {'title': title, 'path': output_path, 'md_file_path': file_path, 'html_content': html_content, 'metadata': metadata}
                 articles.append(article_info)
             elif os.path.isdir(file_path):
                 cls.process_markdown(file_path, base_input_path, articles)
