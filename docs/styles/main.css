@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  flex-direction: row; /* Align children in a row */
+  flex-wrap: wrap; /* Allow wrapping for flexibility */
+  background-color: #333; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+  font-family: "EB Garamond", serif;
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.4; /* Adjust line height for readability */
+  border: 1px solid #555; /* Dark border */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+  margin: 0; /* Reset default margin */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+/* Style for the First Paragraph in the Article Container */
+.article-container .drop-cap {
+  font-size: 4em; /* Increase font size for the first letter */
+  line-height: 1; /* Adjust line height for the drop cap */
+  position: relative;
+  float: left; /* Float the drop cap to the left */
+  margin-right: 8px; /* Add some spacing between the drop cap and the text */
+  margin-top: -2px;
+}
+
+.codehilite {
+  background: #222; /* Code block background */
+  color: #f0f0f0; /* Code block text color */
+  padding: 0.5em;
+  border-radius: 4px;
+  overflow: auto;
+  font-family: "Courier New", monospace;
+}
+
+header {
+  background-color: #444;
+  color: #f0f0f0; /* Header text color */
+  padding: 1em;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-shadow: 1px 1px 2px #000;
+}
+
+.toc-container {
+  flex: 1; /* Allow TOC to grow */
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  max-width: 300px; /* Maximum width for TOC */
+  background-color: #222; /* Dark TOC background */
+  color: #f0f0f0; /* TOC text color */
+  padding: 1em;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Set the height to 100vh (viewport height) */
+}
+
+.article-container {
+  flex: 3; /* Allow article container to take the remaining space */
+  padding: 1em;
+  background: #2c2c2c; /* Slightly lighter background for articles */
+  color: #f0f0f0; /* White text color for articles */
+  border-left: 1px solid #555; /* Dark border */
+  overflow-x: hidden; /* Prevent horizontal overflow in the article container */
+  min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+h10 {
+  font-weight: 400;
+}
+
+#menu-toggle-button {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1;
+  background-color: #444;
+  color: #f0f0f0; /* Button text color */
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  display: none; /* Hide the button by default */
+}
+
+ul.nav li {
+  color: #999999; /* Default text color for list items */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #00bfff; /* Hover and focus color (bright blue) */
+  text-decoration: underline;
+}
+
+.active a {
+  color: #ff8c00; /* Active link color (orange) */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column; /* Stack children vertically on small screens */
+  }
+
+  .toc-container,
+  .article-container {
+    flex: 0 0 100%; /* Make both containers full width on small screens */
+    max-width: none; /* Override any max-width set previously */
+  }
+
+  #menu-toggle-button {
+    display: block; /* Show the button on small screens */
+  }
+}

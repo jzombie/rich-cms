@@ -256,7 +256,6 @@ output_directory = 'docs'
 template_path = 'template.html'
 static_directory = 'static'
 
-# TODO: Re-add this step
-# RichCMSGenerator.clear_output_directory(output_directory)
+RichCMSGenerator.clear_output_directory(output_directory)
 RichCMSGenerator.generate_site(input_directory, output_directory, template_path)
 RichCMSGenerator.copy_static_directory(static_directory, output_directory)
