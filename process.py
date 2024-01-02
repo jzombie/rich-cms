@@ -216,8 +216,10 @@ class RichCMSGenerator:
             if idx > 1:
                 break
 
-            # Assume paragraph with less than 50 characters is a heading
-            if paragraph.text.strip() and len(paragraph.text) >= 50:
+            word_count = len(paragraph.text.strip().split())
+
+            # Assume paragraph with less than 8 words is a heading
+            if word_count >= 8:
                 first_letter = paragraph.text[0]
 
                 # Check if the first character is a letter (using a regular expression)
