@@ -252,7 +252,7 @@ class RichCMSGenerator:
 
 # Main workflow
 input_directory = 'md-content'
-output_directory = 'html-output'
+output_directory = 'docs'
 template_path = 'template.html'
 static_directory = 'static'
 
