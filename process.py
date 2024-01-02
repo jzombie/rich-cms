@@ -24,12 +24,18 @@ class RichCMSGenerator:
 
     @classmethod
     def convert_md_to_html(cls, md_content):
+        # Escape dollar signs that are likely part of monetary values
+        # This regex targets a dollar sign followed by a number, optionally with a decimal part
+        escaped_md_content = re.sub(r'(?<!\\)\$(\d+(\.\d+)?)', r'\\\$\1', md_content)
+
+        # Convert URLs to clickable links
         md_content_with_links = re.sub(
             r'(https?://\S+)',
             r'<a href="\1" target="_blank">\1</a>',
-            md_content
+            escaped_md_content
         )
         
+        # Convert Markdown to HTML
         md = markdown.Markdown(extensions=[
             'markdown.extensions.fenced_code',
             TocExtension(),
@@ -37,6 +43,10 @@ class RichCMSGenerator:
         ])
         html_content = md.convert(md_content_with_links)
         return html_content
+
+
+
+
 
     @classmethod
     def read_markdown_file(cls, file_path):

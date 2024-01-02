@@ -34,6 +34,44 @@ class TestRichCMSGenerator(unittest.TestCase):
         metadata = RichCMSGenerator.extract_metadata_from_yaml(md_content)
         self.assertEqual(metadata, {"title": "Test Page"})
 
+    def test_markdown_dollar_sign_handling(self):
+        """Test handling of dollar signs in different scenarios."""
+
+        # Temporarily increase maxDiff to view the difference
+        original_max_diff = self.maxDiff
+        self.maxDiff = 1024
+
+        scenarios = [
+            # Simple math equation
+            (
+                'This is a simple equation: $E=mc^2$.',
+                '<p>This is a simple equation: <script type="math/tex">E=mc^2</script>.</p>'
+            ),
+            # Complex math equation
+            (
+                "And here's a more complex equation:\n\n$$\n\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\,du \\right) = f(x)\n$$",
+                '<p>And here\'s a more complex equation:</p>\n<p>\n<script type="math/tex; mode=display">\n\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\,du \\right) = f(x)\n</script>\n</p>'
+            ),
+            # Regular string with dollar sign for pricing
+            (
+                "...all for $65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as $20.00 a month.",
+                "<p>...all for \\$65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as \\$20.00 a month.</p>"
+            ),
+            # Regular string with dollar signs used figuratively
+            (
+                "...make lots of $$ . Everybody likes to.",
+                "<p>...make lots of $$ . Everybody likes to.</p>"
+            )
+        ]
+
+        for md_content, expected_output in scenarios:
+            with self.subTest(md_content=md_content):
+                html_content = RichCMSGenerator.convert_md_to_html(md_content)
+                self.assertEqual(html_content, expected_output)
+
+        # Decrease the max diff back to the original value
+        self.maxDiff = original_max_diff
+
     # Additional tests for other methods can be added here
 
 if __name__ == '__main__':
