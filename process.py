@@ -58,15 +58,22 @@ class RichCMSGenerator:
             if dir_path not in organized_articles:
                 organized_articles[dir_path] = []
 
-            # Append the article with a tuple (title, article) for custom sorting
-            organized_articles[dir_path].append((article['title'], article))
+            # Append article directly without changing its structure
+            organized_articles[dir_path].append(article)
 
-        # Sort the articles within each directory alphanumerically by title
+        # Sort the articles within each directory
         for dir_path, dir_articles in organized_articles.items():
-            organized_articles[dir_path] = [article for _, article in natsorted(dir_articles, key=lambda x: x[0].lower())]
+            # First, sort all articles by title using natsorted for natural ordering
+            sorted_articles = natsorted(dir_articles, key=lambda x: x['title'].lower())
+
+            # Separate index.md files and other files
+            index_md_articles = [article for article in sorted_articles if os.path.basename(article['md_file_path']) == 'index.md']
+            non_index_md_articles = [article for article in sorted_articles if os.path.basename(article['md_file_path']) != 'index.md']
+
+            # Concatenate the lists, placing index.md files at the top
+            organized_articles[dir_path] = index_md_articles + non_index_md_articles
 
         return organized_articles
-
 
     @classmethod
     def create_toc(cls, articles, current_file_path, base_input_path):
