@@ -11,6 +11,7 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
   margin: 0; /* Reset default margin */
   overflow-x: hidden; /* Prevent horizontal overflow */
+  min-height: 100vh; /* Set minimum height to viewport height */
 }
 
 /* Style for the First Paragraph in the Article Container */
@@ -50,6 +51,9 @@ header {
   color: #f0f0f0; /* TOC text color */
   padding: 1em;
   overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Set the height to 100vh (viewport height) */
 }
 
 .article-container {
@@ -59,6 +63,7 @@ header {
   color: #f0f0f0; /* White text color for articles */
   border-left: 1px solid #555; /* Dark border */
   overflow-x: hidden; /* Prevent horizontal overflow in the article container */
+  min-height: 100vh; /* Set minimum height to viewport height */
 }
 
 #menu-toggle-button {
