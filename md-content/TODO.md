@@ -1,6 +1,7 @@
 # TODO
 
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
+- [] Default "index.md" to top of navigation, per directory
 - [] <- -> article navigation, w/ titles
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] Show word count after compilation step
