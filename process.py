@@ -11,12 +11,19 @@ from natsort import natsorted
 from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup
-
+import bleach
 
 class RichCMSGenerator:
+    @staticmethod
+    def sanitize_string(input_string):
+        """
+        Sanitizes the input string using the bleach library.
+        """
+        sanitized_string = bleach.clean(input_string, strip=True)
+        return sanitized_string
+
     @classmethod
     def convert_md_to_html(cls, md_content):
-        # Convert URLs to clickable links using regular expressions
         md_content_with_links = re.sub(
             r'(https?://\S+)',
             r'<a href="\1" target="_blank">\1</a>',
@@ -38,14 +45,16 @@ class RichCMSGenerator:
 
     @classmethod
     def extract_title(cls, md_content):
-        match = re.search(r'^#\s*(.+)', md_content, re.MULTILINE)
+        sanitized_md_content = cls.sanitize_string(md_content)
+        match = re.search(r'^#\s*(.+)', sanitized_md_content, re.MULTILINE)
         if match:
             return match.group(1)
         return "No Title"
 
     @classmethod
     def extract_metadata_from_yaml(cls, md_content):
-        match = re.match(r'^---\s*\n(.+?)\n---', md_content, re.DOTALL)
+        sanitized_md_content = cls.sanitize_string(md_content)
+        match = re.match(r'^---\s*\n(.+?)\n---', sanitized_md_content, re.DOTALL)
         if match:
             return yaml.safe_load(match.group(1))
         return {}
@@ -147,13 +156,16 @@ class RichCMSGenerator:
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata):
-        meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in metadata.items())
+        sanitized_title = cls.sanitize_string(title)
+        sanitized_metadata = {key: cls.sanitize_string(str(value)) for key, value in metadata.items()}
+
+        meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in sanitized_metadata.items())
         mathjax_script = """
         <script type="text/javascript" async
                 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
         </script>
         """
-        full_content = template.replace('%BODY%', html_content).replace('%TITLE%', title).replace('%TOC%', toc).replace('%ROOT%', relative_root_path)
+        full_content = template.replace('%BODY%', html_content).replace('%TITLE%', sanitized_title).replace('%TOC%', toc).replace('%ROOT%', relative_root_path)
         full_content = full_content.replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
         soup = BeautifulSoup(full_content, 'html.parser')
