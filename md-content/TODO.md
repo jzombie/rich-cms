@@ -16,7 +16,7 @@
 - [] Add links to headings (including hover links)
 - [] Add breadcrumb links
 - [X] Highlight active link
-- [] Add unit tests
+- [] Add [more] unit tests
 - [] Make it easy to add images
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
 - [PROBABLY-WON'T-DO] [] Live content update as markdown content is changed
