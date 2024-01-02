@@ -2,6 +2,7 @@
 
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Fix "Chapter 7" mobile horizontal overflow issue
+- [] Add sub-headings into table of contents (TOC)
 - [] Fix TOC issue on mobile where it cannot be scrolled vertically
 - [] Parse & include site name in title / header
 - [X] Sanitize strings / prevent XSS
@@ -12,7 +13,6 @@
 - [] The ability to hotlink to a particular paragraph would be nice
 - [] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
-- [] Add sub-headings into table of contents (TOC)
 - [] Add links to headings (including hover links)
 - [] Add breadcrumb links
 - [X] Highlight active link
