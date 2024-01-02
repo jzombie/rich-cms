@@ -1,3 +1,5 @@
 # Rich-CMS
 
-A very simple, markdown-file driven CMS, written in Python.
+A hacky, prototype, markdown-driven CMS, written in Python.
+
+More to come...
