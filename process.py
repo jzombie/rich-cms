@@ -12,6 +12,7 @@ from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup
 import bleach
+import datetime
 
 class RichCMSGenerator:
     @staticmethod
@@ -165,6 +166,9 @@ class RichCMSGenerator:
         sanitized_title = cls.sanitize_string(title)
         sanitized_metadata = {key: cls.sanitize_string(str(value)) for key, value in metadata.items()}
 
+        # Get current date
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d")  # Format date as YYYY-MM-DD
+
         meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in sanitized_metadata.items())
         mathjax_script = """
         <script type="text/javascript" async
@@ -175,6 +179,10 @@ class RichCMSGenerator:
         full_content = full_content.replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
         full_content = full_content.replace('%PREV_LINK%', prev_link).replace('%NEXT_LINK%', next_link)
+
+        # Replace %BUILD_DATE% with the current date
+        full_content = full_content.replace('%BUILD_DATE%', current_date)
+
         soup = BeautifulSoup(full_content, 'html.parser')
         formatted_html = soup.prettify()
         os.makedirs(os.path.dirname(output_path), exist_ok=True)

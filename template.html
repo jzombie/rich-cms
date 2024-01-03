@@ -10,9 +10,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <meta name="generator" content="https://github.com/jzombie/rich-cms" />
     <link rel="icon" href="%ROOT%/images/thinker.png" type="image/png" />
     <script src="%ROOT%/scripts/main.js"></script>
+    <meta name="generator" content="https://github.com/jzombie/rich-cms" />
+    <meta name="build_date" content="%BUILD_DATE%" />
     %DYNAMIC-META-TAGS-BLOCK%
   </head>
   <body>
@@ -29,8 +30,8 @@
     <article>
       <div>%BODY%</div>
       <footer>
+        <div class="build_date">Build date: %BUILD_DATE%</div>
         <nav>%PREV_LINK% %NEXT_LINK%</nav>
-        <!-- TODO: Implement Revision: xxxxxxx (or just date?) -->
       </footer>
     </article>
   </body>

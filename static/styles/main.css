@@ -192,8 +192,11 @@ article .heading-link i.fa-link {
   font-size: 1rem;
 }
 
-article footer nav {
+article footer {
   margin-top: 4rem;
+}
+
+article footer nav {
   border-top: 1px #494949 solid;
 }
 
@@ -217,6 +220,11 @@ article footer nav a.previous {
 
 article footer nav a.next {
   float: right;
+}
+
+article footer div.build_date {
+  clear: both;
+  font-size: 0.8em;
 }
 
 /* Mobile viewport */
