@@ -1,6 +1,7 @@
 # TODO
 
 - [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
+- [] Add breadcrumb navigation links above main content
 - [] Add button to make full-screen
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
@@ -21,7 +22,6 @@
 - [X] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
 - [] Add links to headings (including hover links)
-- [] Add breadcrumb links
 - [X] Highlight active link
 - [] Add [more] unit tests
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
