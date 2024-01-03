@@ -13,6 +13,7 @@ from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup
 import bleach
+from urllib.parse import urlparse
 
 import warnings
 
@@ -54,6 +55,16 @@ class RichCMSGenerator:
                     linked_text = bleach.linkify(str(text_node))
                     new_node = BeautifulSoup(linked_text, 'html.parser')
                     text_node.replace_with(new_node)
+
+            # Convert URLs in text nodes to clickable links using bleach
+            for a_tag in soup.find_all('a', href=True):
+                href = a_tag['href']
+                parsed_href = urlparse(href)
+                if not parsed_href.netloc:
+                    # Do nothing if it's a relative link
+                    continue
+                # Add target="_blank" to non-relative links
+                a_tag['target'] = '_blank'
 
         # Convert soup back to string
         return str(soup)
