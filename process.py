@@ -214,13 +214,13 @@ class RichCMSGenerator:
 
         if prev_article:
             prev_article_rel_path = os.path.relpath(prev_article['path'], current_dir)
-            prev_link = f"<a href='{prev_article_rel_path}'>&laquo; Previous</a>"
+            prev_link = f"<a href='{prev_article_rel_path}' class='previous'>&laquo; Previous</a>"
         else:
             prev_link = ""
 
         if next_article:
             next_article_rel_path = os.path.relpath(next_article['path'], current_dir)
-            next_link = f"<a href='{next_article_rel_path}'>Next &raquo;</a>"
+            next_link = f"<a href='{next_article_rel_path}' class='next'>Next &raquo;</a>"
         else:
             next_link = ""
 

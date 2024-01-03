@@ -22,16 +22,17 @@
     <aside>
       <header>%TITLE%</header>
       <nav class="toc">%TOC%</nav>
-      <footer>%PREV_LINK% %NEXT_LINK%</footer>
+      <footer>
+        <nav>%PREV_LINK% %NEXT_LINK%</nav>
+      </footer>
     </aside>
     <article>
       <div>%BODY%</div>
-      <div>
-        <!-- TODO: Implement -->
-        <div>Revision: xxxxxxx</div>
+      <footer>
         <!-- TODO: Come up w/ string replacements for conditionals to render these; or just use JS? -->
-        %PREV_LINK% %NEXT_LINK%
-      </div>
+        <nav>%PREV_LINK% %NEXT_LINK%</nav>
+        <!-- TODO: Implement Revision: xxxxxxx (or just date?) -->
+      </footer>
     </article>
   </body>
 </html>
