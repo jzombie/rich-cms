@@ -44,10 +44,6 @@ class RichCMSGenerator:
         html_content = md.convert(md_content_with_links)
         return html_content
 
-
-
-
-
     @classmethod
     def read_markdown_file(cls, file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -165,7 +161,7 @@ class RichCMSGenerator:
         return toc
 
     @classmethod
-    def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata):
+    def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link):
         sanitized_title = cls.sanitize_string(title)
         sanitized_metadata = {key: cls.sanitize_string(str(value)) for key, value in metadata.items()}
 
@@ -178,6 +174,7 @@ class RichCMSGenerator:
         full_content = template.replace('%BODY%', html_content).replace('%TITLE%', sanitized_title).replace('%TOC%', toc).replace('%ROOT%', relative_root_path)
         full_content = full_content.replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
+        full_content = full_content.replace('%PREV_LINK%', prev_link).replace('%NEXT_LINK%', next_link)
         soup = BeautifulSoup(full_content, 'html.parser')
         formatted_html = soup.prettify()
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -209,20 +206,47 @@ class RichCMSGenerator:
                 cls.process_markdown(file_path, base_input_path, articles)
 
     @classmethod
+    def generate_navigation_links(cls, current_path, flattened_ordered_articles, current_index):
+        prev_article = flattened_ordered_articles[current_index - 1] if current_index > 0 else None
+        next_article = flattened_ordered_articles[current_index + 1] if current_index < len(flattened_ordered_articles) - 1 else None
+
+        current_dir = os.path.dirname(current_path)
+
+        if prev_article:
+            prev_article_rel_path = os.path.relpath(prev_article['path'], current_dir)
+            prev_link = f"<a href='{prev_article_rel_path}'>&laquo; Previous</a>"
+        else:
+            prev_link = ""
+
+        if next_article:
+            next_article_rel_path = os.path.relpath(next_article['path'], current_dir)
+            next_link = f"<a href='{next_article_rel_path}'>Next &raquo;</a>"
+        else:
+            next_link = ""
+
+        return prev_link, next_link
+
+    @classmethod
     def generate_site(cls, input_directory, output_directory, template_path):
         articles = []
         cls.process_markdown(input_directory, input_directory, articles)
         template = cls.read_template_file(template_path)
         cls.clear_output_directory(output_directory)
-        for article in articles:
+
+        # Organize articles by directory and create a flattened ordered list
+        organized_articles = cls.organize_articles_by_directory(articles, input_directory)
+        flattened_ordered_articles = [article for dir_articles in organized_articles.values() for article in dir_articles]
+
+        for index, article in enumerate(flattened_ordered_articles):
             title = article['title']
             path = article['path']
             content = cls.add_drop_cap(article['html_content'])
             metadata = article['metadata']
             relative_root_path = cls.get_relative_root_path(path)
-            toc = cls.create_toc(articles, path, input_directory)
+            toc = cls.create_toc(flattened_ordered_articles, path, input_directory)
+            prev_link, next_link = cls.generate_navigation_links(path, flattened_ordered_articles, index)
             full_path = os.path.join(output_directory, path)
-            cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata)
+            cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link)
 
     @classmethod
     def copy_static_directory(cls, source, destination):
