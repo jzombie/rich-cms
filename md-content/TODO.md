@@ -3,6 +3,7 @@
 - [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
 - [] Add breadcrumb navigation links above main content
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
+- [] Implement PWA support (read offline)
 - [] Add "Edit on GitHub" link
 - [] Add button to make full-screen
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
