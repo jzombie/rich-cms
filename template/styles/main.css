@@ -298,6 +298,11 @@ tr:nth-child(even) {
   background-color: #3e3e3e;
 }
 
+/* Enabled by JS only */
+.js-only {
+  display: none;
+}
+
 /* Word-wrap fixes */
 
 * {
