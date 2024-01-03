@@ -103,7 +103,7 @@ class RichCMSGenerator:
 
     @classmethod
     def create_toc(cls, articles, current_file_path, base_input_path):
-        toc = '<ul class="nav">'
+        toc = '<ul>'
         stack = []
 
         # Normalize the base_input_path for comparison purposes
