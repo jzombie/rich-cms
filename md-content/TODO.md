@@ -1,5 +1,6 @@
 # TODO
 
+- [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Fix issue where long links can cause horizontal overflow on mobile
 - [] Need persistent "home" link
