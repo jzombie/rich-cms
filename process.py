@@ -5,6 +5,7 @@ This module contains the RichCMSGenerator class for generating rich content.
 import os
 import shutil
 import re
+import datetime
 import markdown
 import yaml
 from natsort import natsorted
@@ -12,7 +13,8 @@ from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup
 import bleach
-import datetime
+
+import warnings
 
 class RichCMSGenerator:
     @staticmethod
@@ -28,22 +30,34 @@ class RichCMSGenerator:
         # Escape dollar signs that are likely part of monetary values
         # This regex targets a dollar sign followed by a number, optionally with a decimal part
         escaped_md_content = re.sub(r'(?<!\\)\$(\d+(\.\d+)?)', r'\\\$\1', md_content)
-
-        # Convert URLs to clickable links
-        md_content_with_links = re.sub(
-            r'(https?://\S+)',
-            r'<a href="\1" target="_blank">\1</a>',
-            escaped_md_content
-        )
         
         # Convert Markdown to HTML
         md = markdown.Markdown(extensions=[
             'markdown.extensions.fenced_code',
+            'markdown.extensions.tables',
             TocExtension(),
             MathExtension(enable_dollar_delimiter=True),
+            'markdown.extensions.extra'
         ])
-        html_content = md.convert(md_content_with_links)
-        return html_content
+        html_content = md.convert(escaped_md_content)
+
+        # Use BeautifulSoup to parse the HTML
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Suppress MarkupResemblesLocatorWarning
+        with warnings.catch_warnings():
+            warnings.filterwarnings("ignore", category=UserWarning, message="The input looks more like a filename than markup.")
+
+            # Convert URLs in text nodes to clickable links using bleach
+            for text_node in soup.find_all(string=True):
+                if text_node.parent.name not in ['a', 'script', 'style']:
+                    linked_text = bleach.linkify(str(text_node))
+                    new_node = BeautifulSoup(linked_text, 'html.parser')
+                    text_node.replace_with(new_node)
+
+        # Convert soup back to string
+        return str(soup)
+
 
     @classmethod
     def read_markdown_file(cls, file_path):
