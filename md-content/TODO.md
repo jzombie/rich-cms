@@ -3,7 +3,6 @@
 - [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
 - [] Add breadcrumb navigation links above main content
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
-- [] Implement PWA support (read offline)
 - [] Add "Edit on GitHub" link
 - [] Add button to make full-screen
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
@@ -36,4 +35,5 @@
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
 - [] optional titles in <- -> article navigation
+- [] Implement PWA support (read offline); use discretion here; it might not be a great idea
 - [] [maybe?] Add pydantic for string replacements?
