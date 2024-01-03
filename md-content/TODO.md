@@ -15,7 +15,7 @@
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] Show word count after compilation step
 - [] The ability to hotlink to a particular paragraph would be nice
-- [] Use font "very similar" to that used in Google Play Books
+- [X] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
 - [] Add links to headings (including hover links)
 - [] Add breadcrumb links
