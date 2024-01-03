@@ -233,6 +233,21 @@ article footer nav a.next {
   }
 }
 
+/* Desktop viewport */
+@media (min-width: 1200px) {
+  /* Adjust this breakpoint as needed */
+  article {
+    column-count: 2; /* Create two columns */
+    column-gap: 40px; /* Space between columns */
+    padding: 1em;
+    max-width: 1024px; /* Adjust as needed */
+    margin: 0 auto; /* Center the article */
+    /* Other styles remain the same */
+  }
+
+  /* Other existing styles for article */
+}
+
 /* Word-wrap fixes */
 
 * {
