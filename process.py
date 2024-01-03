@@ -262,12 +262,28 @@ class RichCMSGenerator:
                 navigation_links[key] = f"<a href='#' class='{key} disabled'>{link_text}</a>"
 
         return navigation_links["previous"], navigation_links["next"]
-
+    
+    @classmethod
+    def copy_directory_contents(cls, source_directory, destination_directory):
+        """
+        Copies all files and directories from source_directory to destination_directory,
+        excluding 'template.html'.
+        """
+        for item in os.listdir(source_directory):
+            if item == 'template.html':
+                continue
+            source_item = os.path.join(source_directory, item)
+            destination_item = os.path.join(destination_directory, item)
+            if os.path.isdir(source_item):
+                shutil.copytree(source_item, destination_item, dirs_exist_ok=True)
+            else:
+                shutil.copy2(source_item, destination_item)
 
     @classmethod
-    def generate_site(cls, input_directory, output_directory, template_path):
+    def generate_site(cls, input_directory, output_directory, template_directory):
         articles = []
         cls.process_markdown(input_directory, input_directory, articles)
+        template_path = os.path.join(template_directory, 'template.html')
         template = cls.read_template_file(template_path)
         cls.clear_output_directory(output_directory)
 
@@ -285,6 +301,8 @@ class RichCMSGenerator:
             prev_link, next_link = cls.generate_navigation_links(path, flattened_ordered_articles, index)
             full_path = os.path.join(output_directory, path)
             cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link)
+
+        cls.copy_directory_contents(template_directory, output_directory)
 
     @classmethod
     def copy_static_directory(cls, source, destination):
@@ -325,9 +343,7 @@ class RichCMSGenerator:
 # Main workflow
 input_directory = 'md-content'
 output_directory = 'docs'
-template_path = 'template.html'
-static_directory = 'static'
+template_directory = 'template'
 
 RichCMSGenerator.clear_output_directory(output_directory)
-RichCMSGenerator.generate_site(input_directory, output_directory, template_path)
-RichCMSGenerator.copy_static_directory(static_directory, output_directory)
+RichCMSGenerator.generate_site(input_directory, output_directory, template_directory)
