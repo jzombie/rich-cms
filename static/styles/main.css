@@ -111,6 +111,27 @@ article .drop-cap {
   margin-top: -2px;
 }
 
+article .heading-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article .heading-link:hover {
+  background-color: #00bfff;
+}
+
+article .heading-link i.fa-link {
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 1rem;
+}
+
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   body {

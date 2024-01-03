@@ -42,5 +42,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
       handleResize();
     })();
+
+    // Article heading links
+    (() => {
+      const maxHeadingLevels = 10;
+
+      const articles = document.getElementsByTagName("article");
+
+      for (const article of articles) {
+        const headings = [];
+        for (let i = 1; i <= maxHeadingLevels; i++) {
+          const levelHeadings = article.getElementsByTagName(`h${i}`);
+          [...levelHeadings].forEach((heading) => headings.push(heading));
+        }
+
+        // Add the link element and set its attributes
+        headings.forEach((heading) => {
+          heading.style.position = "relative";
+
+          const link = document.createElement("a");
+          link.href = `#${heading.id}`;
+          link.className = "heading-link";
+
+          // Add the Font Awesome link icon
+          link.innerHTML = '<i class="fas fa-link"></i>';
+
+          // Prepend link
+          heading.insertBefore(link, heading.firstChild);
+        });
+      }
+    })();
   }
 });
