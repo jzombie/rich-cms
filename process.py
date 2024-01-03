@@ -65,6 +65,8 @@ class RichCMSGenerator:
                     continue
                 # Add target="_blank" to non-relative links
                 a_tag['target'] = '_blank'
+                # Add rel="noopener noreferrer" to non-relative links
+                a_tag['rel'] = 'noopener noreferrer'
 
         # Convert soup back to string
         return str(soup)
