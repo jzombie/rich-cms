@@ -190,7 +190,7 @@ class RichCMSGenerator:
         return toc
 
     @classmethod
-    def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link):
+    def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
         sanitized_title = cls.sanitize_string(title)
         sanitized_metadata = {key: cls.sanitize_string(str(value)) for key, value in metadata.items()}
 
@@ -207,6 +207,7 @@ class RichCMSGenerator:
         full_content = full_content.replace('%DYNAMIC-META-TAGS-BLOCK%', meta_tags)
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
         full_content = full_content.replace('%PREV_LINK%', prev_link).replace('%NEXT_LINK%', next_link)
+        full_content = full_content.replace('%BREADCRUMB_NAV%', breadcrumb_nav)
 
         # Replace %BUILD_DATE% with the current date
         full_content = full_content.replace('%BUILD_DATE%', current_date)
@@ -236,7 +237,17 @@ class RichCMSGenerator:
                 html_content = cls.convert_md_to_html(md_content_without_metadata)
                 relative_output_path = os.path.relpath(directory_path, base_input_path).replace(' ', '_')
                 output_path = os.path.join(relative_output_path, item.replace('.md', '.html'))
-                article_info = {'title': title, 'path': output_path, 'md_file_path': file_path, 'html_content': html_content, 'metadata': metadata}
+                path_parts = output_path.split(os.path.sep)
+                # TODO: Use pydantic here
+                article_info = {
+                    'title': title,
+                    'path': output_path,
+                    'path_parts': path_parts,
+                    'md_file_path': file_path,
+                    'html_content': html_content,
+                    'metadata': metadata
+                }
+
                 articles.append(article_info)
             elif os.path.isdir(file_path):
                 cls.process_markdown(file_path, base_input_path, articles)
@@ -313,7 +324,10 @@ class RichCMSGenerator:
             toc = cls.create_toc(flattened_ordered_articles, path, input_directory)
             prev_link, next_link = cls.generate_navigation_links(path, flattened_ordered_articles, index)
             full_path = os.path.join(output_directory, path)
-            cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link)
+
+            breadcrumb_nav = cls.generate_breadcrumb_nav(article, flattened_ordered_articles)
+
+            cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav)
 
         # Copy template to output
         cls.copy_directory_contents(template_directory, output_directory, exclude_patterns=["template.html"])
@@ -322,9 +336,59 @@ class RichCMSGenerator:
         cls.copy_directory_contents(input_directory, output_directory, exclude_patterns=["*.md"])
 
     @classmethod
-    def copy_static_directory(cls, source, destination):
-        if os.path.exists(source):
-            shutil.copytree(source, destination, dirs_exist_ok=True)
+    def generate_breadcrumb_nav(cls, article, organized_articles):
+        breadcrumbs = []
+        path_parts = article['path_parts']
+
+        # Calculate the relative path back to the root
+        depth = len(path_parts) - 1  # Number of directories to go up to the root
+        root_path = "../" * depth if depth > 0 else "./"
+
+        # Find the first article's filename in the root directory
+        root_article_filename = cls.find_first_article_filename('.', organized_articles)
+        home_link = f"{root_path}{root_article_filename}" if root_article_filename else root_path
+
+        # Join the path parts to display the breadcrumb path
+        breadcrumb_path = '/'.join(path_parts)
+
+        # TODO: Remove debug string includes
+        breadcrumbs.append(f'<a href="{home_link}">Home {depth} {breadcrumb_path}</a>')
+
+
+        # Build the breadcrumb path for each part
+        for i in range(1, len(path_parts)):
+            breadcrumb_segment = '/'.join(path_parts[:i])
+            breadcrumb_name = path_parts[i - 1]
+
+            # Find the first article's filename in the directory
+            dir_path = os.path.join(*path_parts[:i])
+            first_article_filename = cls.find_first_article_filename(dir_path, organized_articles)
+
+            # Construct the link to the first article in the directory
+            breadcrumb_link = f'<a href="{root_path}{breadcrumb_segment}/{first_article_filename}">{breadcrumb_name}</a>'
+            breadcrumbs.append(breadcrumb_link)
+
+        # # Join the breadcrumbs with the separator
+        breadcrumb_nav = ' &gt; '.join(breadcrumbs)
+        return breadcrumb_nav
+
+    @classmethod
+    def find_first_article_filename(cls, dir_path, articles):
+        # Normalize the directory path for consistent matching
+        normalized_dir_path = os.path.normpath(dir_path)
+
+        # Iterate through the articles list
+        for article in articles:
+            article_dir_path = os.path.normpath(os.path.dirname(article['path']))
+
+            if article_dir_path == normalized_dir_path:
+                # Return the filename of the first article in the directory
+                return os.path.basename(article['path'])
+        
+        # If no articles found in the directory, return an empty string
+        return ''
+
+
 
     @classmethod
     def add_drop_cap(cls, html_content):
