@@ -207,24 +207,27 @@ class RichCMSGenerator:
 
     @classmethod
     def generate_navigation_links(cls, current_path, flattened_ordered_articles, current_index):
-        prev_article = flattened_ordered_articles[current_index - 1] if current_index > 0 else None
-        next_article = flattened_ordered_articles[current_index + 1] if current_index < len(flattened_ordered_articles) - 1 else None
-
         current_dir = os.path.dirname(current_path)
+        navigation_links = {"previous": None, "next": None}
 
-        if prev_article:
-            prev_article_rel_path = os.path.relpath(prev_article['path'], current_dir)
-            prev_link = f"<a href='{prev_article_rel_path}' class='previous'>&laquo; Previous</a>"
-        else:
-            prev_link = ""
+        # Determine the previous and next articles
+        if current_index > 0:
+            navigation_links["previous"] = flattened_ordered_articles[current_index - 1]
+        if current_index < len(flattened_ordered_articles) - 1:
+            navigation_links["next"] = flattened_ordered_articles[current_index + 1]
 
-        if next_article:
-            next_article_rel_path = os.path.relpath(next_article['path'], current_dir)
-            next_link = f"<a href='{next_article_rel_path}' class='next'>Next &raquo;</a>"
-        else:
-            next_link = ""
+        # Generate the navigation links
+        for key, article in navigation_links.items():
+            if article:
+                article_rel_path = os.path.relpath(article['path'], current_dir)
+                link_text = "&laquo; Previous" if key == "previous" else "Next &raquo;"
+                navigation_links[key] = f"<a href='{article_rel_path}' class='{key}'>{link_text}</a>"
+            else:
+                link_text = "&laquo; Previous" if key == "previous" else "Next &raquo;"
+                navigation_links[key] = f"<a href='#' class='{key} disabled'>{link_text}</a>"
 
-        return prev_link, next_link
+        return navigation_links["previous"], navigation_links["next"]
+
 
     @classmethod
     def generate_site(cls, input_directory, output_directory, template_path):
