@@ -6,6 +6,7 @@ import os
 import shutil
 import re
 import datetime
+import pytz
 import markdown
 import yaml
 from natsort import natsorted
@@ -194,8 +195,11 @@ class RichCMSGenerator:
         sanitized_title = cls.sanitize_string(title)
         sanitized_metadata = {key: cls.sanitize_string(str(value)) for key, value in metadata.items()}
 
-        # Get current date
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d")  # Format date as YYYY-MM-DD
+        # Get the current datetime in UTC
+        current_datetime_utc = datetime.datetime.now(pytz.utc)
+        gmt_timezone = pytz.timezone('GMT')
+        current_datetime_gmt = current_datetime_utc.astimezone(gmt_timezone)
+        formatted_datetime = current_datetime_gmt.strftime("%Y-%m-%d %H:%M:%S %z")
 
         meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in sanitized_metadata.items())
         mathjax_script = """
@@ -208,9 +212,7 @@ class RichCMSGenerator:
         full_content = full_content.replace('</head>', f'{mathjax_script}</head>')
         full_content = full_content.replace('%PREV_LINK%', prev_link).replace('%NEXT_LINK%', next_link)
         full_content = full_content.replace('%BREADCRUMB_NAV%', breadcrumb_nav)
-
-        # Replace %BUILD_DATE% with the current date
-        full_content = full_content.replace('%BUILD_DATE%', current_date)
+        full_content = full_content.replace('%BUILD_DATETIME%', formatted_datetime)
 
         soup = BeautifulSoup(full_content, 'html.parser')
         formatted_html = soup.prettify()
