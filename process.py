@@ -351,6 +351,10 @@ class RichCMSGenerator:
         # Join the path parts to display the breadcrumb path
         breadcrumb_path = '/'.join(path_parts)
 
+        # TODO: Fix home link (and extract functionality for determining home link into a separate file)
+        # TODO: Implement "find_first_article_filename" in TOC for directories
+        # TODO: Fix '.' directories when in root files
+
         # TODO: Remove debug string includes
         breadcrumbs.append(f'<a href="{home_link}">Home {depth} {breadcrumb_path}</a>')
 
