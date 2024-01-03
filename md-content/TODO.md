@@ -2,6 +2,7 @@
 
 - [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
+- [] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
 - [] Fix issue where long links can cause horizontal overflow on mobile
 - [] Need persistent "home" link
 - [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
@@ -21,7 +22,6 @@
 - [] Add breadcrumb links
 - [X] Highlight active link
 - [] Add [more] unit tests
-- [] Make it easy to add images
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
 - [PROBABLY-WON'T-DO] [] Live content update as markdown content is changed
 - [] Adding search would be nice
