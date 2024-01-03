@@ -53,7 +53,6 @@ h10 {
   border: none;
   padding: 0.5em 1em;
   cursor: pointer;
-  display: none; /* Hide the button by default */
 }
 
 ul.aside li {
