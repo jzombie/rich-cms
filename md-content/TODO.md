@@ -1,6 +1,7 @@
 # TODO
 
 - [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
+- [] Add button to make full-screen
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
 - [] Fix issue where long links can cause horizontal overflow on mobile
