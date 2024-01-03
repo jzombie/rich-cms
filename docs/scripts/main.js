@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var button = document.getElementById("menu-toggle-button");
-  var tocContainer = document.querySelector(".toc-container");
+  var tocContainer = document.querySelector("nav.toc");
 
   if (button && tocContainer) {
     // Hide the button by default

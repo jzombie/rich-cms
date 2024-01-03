@@ -14,16 +14,6 @@ body {
   min-height: 100vh; /* Set minimum height to viewport height */
 }
 
-/* Style for the First Paragraph in the Article Container */
-.article-container .drop-cap {
-  font-size: 4em; /* Increase font size for the first letter */
-  line-height: 1; /* Adjust line height for the drop cap */
-  position: relative;
-  float: left; /* Float the drop cap to the left */
-  margin-right: 8px; /* Add some spacing between the drop cap and the text */
-  margin-top: -2px;
-}
-
 .codehilite {
   background: #222; /* Code block background */
   color: #f0f0f0; /* Code block text color */
@@ -40,30 +30,6 @@ header {
   width: 100%; /* Full width */
   box-sizing: border-box; /* Include padding in width calculation */
   text-shadow: 1px 1px 2px #000;
-}
-
-.toc-container {
-  flex: 1; /* Allow TOC to grow */
-  font-family: "Arial", sans-serif;
-  font-size: 1rem;
-  max-width: 300px; /* Maximum width for TOC */
-  background-color: #222; /* Dark TOC background */
-  color: #f0f0f0; /* TOC text color */
-  padding: 1em;
-  overflow-y: auto;
-  position: sticky;
-  top: 0;
-  height: 100vh; /* Set the height to 100vh (viewport height) */
-}
-
-.article-container {
-  flex: 3; /* Allow article container to take the remaining space */
-  padding: 1em;
-  background: #2c2c2c; /* Slightly lighter background for articles */
-  color: #f0f0f0; /* White text color for articles */
-  border-left: 1px solid #555; /* Dark border */
-  overflow-x: hidden; /* Prevent horizontal overflow in the article container */
-  min-height: 100vh; /* Set minimum height to viewport height */
 }
 
 h1,
@@ -111,14 +77,48 @@ a:focus {
   color: #ff8c00; /* Active link color (orange) */
 }
 
+nav.toc {
+  flex: 1; /* Allow TOC to grow */
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  max-width: 300px; /* Maximum width for TOC */
+  background-color: #222; /* Dark TOC background */
+  color: #f0f0f0; /* TOC text color */
+  padding: 1em;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh; /* Set the height to 100vh (viewport height) */
+}
+
+article {
+  flex: 3; /* Allow article container to take the remaining space */
+  padding: 1em;
+  background: #2c2c2c; /* Slightly lighter background for articles */
+  color: #f0f0f0; /* White text color for articles */
+  border-left: 1px solid #555; /* Dark border */
+  overflow-x: hidden; /* Prevent horizontal overflow in the article container */
+  min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+/* Style for the First Paragraph in the Article Container */
+article .drop-cap {
+  font-size: 4em; /* Increase font size for the first letter */
+  line-height: 1; /* Adjust line height for the drop cap */
+  position: relative;
+  float: left; /* Float the drop cap to the left */
+  margin-right: 8px; /* Add some spacing between the drop cap and the text */
+  margin-top: -2px;
+}
+
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   body {
     flex-direction: column; /* Stack children vertically on small screens */
   }
 
-  .toc-container,
-  .article-container {
+  nav.toc,
+  article {
     flex: 0 0 100%; /* Make both containers full width on small screens */
     max-width: none; /* Override any max-width set previously */
   }

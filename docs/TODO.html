@@ -19,12 +19,12 @@
  <body>
   <header>
    TODO
+   <button aria-label="Toggle TOC" class="hamburger" id="menu-toggle-button">
+    <i class="fas fa-bars">
+    </i>
+   </button>
   </header>
-  <button aria-label="Toggle TOC" class="hamburger" id="menu-toggle-button">
-   <i class="fas fa-bars">
-   </i>
-  </button>
-  <div class="toc-container">
+  <nav class="toc">
    <ul class="nav">
     <li>
      a._FOREWORD
@@ -177,8 +177,8 @@
      </ul>
     </li>
    </ul>
-  </div>
-  <div class="article-container">
+  </nav>
+  <article>
    <h1 id="todo">
     TODO
    </h1>
@@ -235,7 +235,7 @@
      [X] Highlight active link
     </li>
     <li>
-     [] Add unit tests
+     [] Add [more] unit tests
     </li>
     <li>
      [] Make it easy to add images
@@ -265,6 +265,6 @@
      [] [maybe?] Add pydantic for string replacements?
     </li>
    </ul>
-  </div>
+  </article>
  </body>
 </html>
