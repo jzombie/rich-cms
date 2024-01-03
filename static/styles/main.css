@@ -81,14 +81,13 @@ nav.toc {
   flex: 1; /* Allow TOC to grow */
   font-family: "Arial", sans-serif;
   font-size: 1rem;
-  max-width: 300px; /* Maximum width for TOC */
+  max-width: 300px;
+  min-width: 300px;
   background-color: #222; /* Dark TOC background */
   color: #f0f0f0; /* TOC text color */
-  padding: 1em;
   overflow-y: auto;
   position: sticky;
   top: 0;
-  height: 100vh; /* Set the height to 100vh (viewport height) */
 }
 
 nav.toc ul {
@@ -100,6 +99,37 @@ nav.toc ul li {
   padding: 0.1em 0em;
 }
 
+nav.toc .bottom-nav {
+  display: none;
+}
+
+/* Desktop viewport */
+@media (min-width: 769px) {
+  nav.toc {
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Arrange children vertically */
+    height: 100vh; /* Fill the height of its parent container */
+  }
+
+  nav.toc .list {
+    padding-bottom: 2rem;
+  }
+
+  nav.toc .bottom-nav {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+
+    box-sizing: border-box;
+  }
+}
+
 article {
   flex: 3; /* Allow article container to take the remaining space */
   padding: 1em;
@@ -108,6 +138,8 @@ article {
   border-left: 1px solid #555; /* Dark border */
   overflow-x: hidden; /* Prevent horizontal overflow in the article container */
   min-height: 100vh; /* Set minimum height to viewport height */
+
+  max-width: 1024px;
 }
 
 /* Style for the First Paragraph in the Article Container */
@@ -141,7 +173,7 @@ article .heading-link i.fa-link {
   font-size: 1rem;
 }
 
-/* Responsive design adjustments */
+/* Mobile viewport */
 @media (max-width: 768px) {
   body {
     flex-direction: column; /* Stack children vertically on small screens */
