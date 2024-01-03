@@ -232,3 +232,19 @@ article footer nav a.next {
     display: block; /* Show the button on small screens */
   }
 }
+
+/* Word-wrap fixes */
+
+* {
+  word-wrap: break-word; /* Older browsers */
+  overflow-wrap: break-word; /* Preferred for modern browsers */
+}
+
+a {
+  word-break: break-all;
+}
+
+.language-bash {
+  overflow-wrap: break-word;
+  white-space: pre-wrap; /* Allows wrapping and preserves formatting */
+}
