@@ -56,7 +56,7 @@ h10 {
   display: none; /* Hide the button by default */
 }
 
-ul.nav li {
+ul.aside li {
   color: #999999; /* Default text color for list items */
 }
 
@@ -75,7 +75,7 @@ a:focus {
   color: #ff8c00; /* Active link color (orange) */
 }
 
-nav {
+aside {
   flex: 1; /* Allow TOC to grow */
   font-family: "Arial", sans-serif;
   font-size: 1rem;
@@ -88,32 +88,32 @@ nav {
   top: 0;
 }
 
-nav div.toc ul {
+aside div.toc ul {
   list-style: none;
   padding: 0em 0.5em;
 }
 
-nav div.toc ul li {
+aside div.toc ul li {
   padding: 0.1em 0em;
 }
 
-nav footer {
+aside footer {
   display: none;
 }
 
 /* Desktop viewport */
 @media (min-width: 769px) {
-  nav {
+  aside {
     display: flex; /* Make it a flex container */
     flex-direction: column; /* Arrange children vertically */
     height: 100vh; /* Fill the height of its parent container */
   }
 
-  nav div.toc {
+  aside div.toc {
     padding-bottom: 2rem;
   }
 
-  nav footer {
+  aside footer {
     display: block;
     position: fixed;
     left: 0;
@@ -177,14 +177,14 @@ article .heading-link i.fa-link {
     flex-direction: column; /* Stack children vertically on small screens */
   }
 
-  nav,
+  aside,
   article {
     flex: 0 0 100%; /* Make both containers full width on small screens */
     max-width: none; /* Override any max-width set previously */
   }
 
   /* Change the position of the TOC to 'absolute' when in mobile mode */
-  nav {
+  aside {
     position: relative;
     width: 100%; /* Make it full-width */
     max-height: 100%; /* Allow it to occupy the entire viewport height */
