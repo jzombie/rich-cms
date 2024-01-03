@@ -87,13 +87,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add click event listeners to the full-screen-toggle buttons
     [...buttons].forEach((button) => {
-      button.addEventListener("click", () => {
-        RichCMS.toggleFullScreen();
-        updateFullscreenIcon(button); // Update the icon when the button is clicked
-      });
+      if (!RichCMS.isFullScreenSupported()) {
+        button.parentElement.removeChild(button);
+      } else {
+        button.addEventListener("click", () => {
+          RichCMS.toggleFullScreen();
+          updateFullscreenIcon(button); // Update the icon when the button is clicked
+        });
 
-      // Initialize the icon based on the initial fullscreen state
-      updateFullscreenIcon(button);
+        // Initialize the icon based on the initial fullscreen state
+        updateFullscreenIcon(button);
+      }
     });
   })();
 
