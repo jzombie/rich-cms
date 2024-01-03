@@ -76,24 +76,24 @@ a:focus {
 }
 
 aside {
-  flex: 1; /* Allow TOC to grow */
+  flex: 1; /* Allow aside to grow */
   font-family: "Arial", sans-serif;
   font-size: 1rem;
   max-width: 300px;
   min-width: 300px;
-  background-color: #222; /* Dark TOC background */
-  color: #f0f0f0; /* TOC text color */
+  background-color: #222; /* Dark aside background */
+  color: #f0f0f0; /* Aside text color */
   overflow-y: auto;
   position: sticky;
   top: 0;
 }
 
-aside div.toc ul {
+aside nav.toc ul {
   list-style: none;
   padding: 0em 0.5em;
 }
 
-aside div.toc ul li {
+aside nav.toc ul li {
   padding: 0.1em 0em;
 }
 
@@ -109,7 +109,7 @@ aside footer {
     height: 100vh; /* Fill the height of its parent container */
   }
 
-  aside div.toc {
+  aside nav.toc {
     padding-bottom: 2rem;
   }
 
@@ -140,7 +140,6 @@ article {
   max-width: 1024px;
 }
 
-/* Style for the First Paragraph in the Article Container */
 article .drop-cap {
   font-size: 4em; /* Increase font size for the first letter */
   line-height: 1; /* Adjust line height for the drop cap */
@@ -183,12 +182,12 @@ article .heading-link i.fa-link {
     max-width: none; /* Override any max-width set previously */
   }
 
-  /* Change the position of the TOC to 'absolute' when in mobile mode */
+  /* Change the position of the aside to 'absolute' when in mobile mode */
   aside {
     position: relative;
     width: 100%; /* Make it full-width */
     max-height: 100%; /* Allow it to occupy the entire viewport height */
-    overflow-y: auto; /* Enable vertical scrolling for the TOC */
+    overflow-y: auto; /* Enable vertical scrolling for the aside */
   }
 
   #menu-toggle-button {
