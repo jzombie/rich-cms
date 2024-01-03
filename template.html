@@ -16,16 +16,14 @@
     %DYNAMIC-META-TAGS-BLOCK%
   </head>
   <body>
-    <header>
-      %TITLE%
-
-      <button id="menu-toggle-button" class="hamburger" aria-label="Toggle TOC">
-        <i class="fas fa-bars"></i>
-      </button>
-    </header>
+    <button id="menu-toggle-button" class="hamburger" aria-label="Toggle TOC">
+      <i class="fas fa-bars"></i>
+    </button>
     <nav class="toc">
+      <header>%TITLE%</header>
+
       <div class="list">%TOC%</div>
-      <div class="bottom-nav">%PREV_LINK% %NEXT_LINK%</div>
+      <footer>%PREV_LINK% %NEXT_LINK%</footer>
     </nav>
     <article>
       <div>%BODY%</div>

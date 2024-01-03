@@ -30,15 +30,6 @@ body {
   font-family: "Courier New", monospace;
 }
 
-header {
-  background-color: #444;
-  color: #f0f0f0; /* Header text color */
-  padding: 1em;
-  width: 100%; /* Full width */
-  box-sizing: border-box; /* Include padding in width calculation */
-  text-shadow: 1px 1px 2px #000;
-}
-
 h1,
 h2,
 h3,
@@ -106,7 +97,7 @@ nav.toc ul li {
   padding: 0.1em 0em;
 }
 
-nav.toc .bottom-nav {
+nav.toc footer {
   display: none;
 }
 
@@ -122,7 +113,7 @@ nav.toc .bottom-nav {
     padding-bottom: 2rem;
   }
 
-  nav.toc .bottom-nav {
+  nav.toc footer {
     display: block;
     position: fixed;
     left: 0;
