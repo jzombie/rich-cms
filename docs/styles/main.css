@@ -153,6 +153,14 @@ article .heading-link i.fa-link {
     max-width: none; /* Override any max-width set previously */
   }
 
+  /* Change the position of the TOC to 'absolute' when in mobile mode */
+  nav.toc {
+    position: relative;
+    width: 100%; /* Make it full-width */
+    max-height: 100%; /* Allow it to occupy the entire viewport height */
+    overflow-y: auto; /* Enable vertical scrolling for the TOC */
+  }
+
   #menu-toggle-button {
     display: block; /* Show the button on small screens */
   }
