@@ -21,12 +21,12 @@
    <i class="fas fa-bars">
    </i>
   </button>
-  <nav>
+  <aside>
    <header>
     TODO
    </header>
-   <div class="toc">
-    <ul class="nav">
+   <nav class="toc">
+    <ul>
      <li>
       a._FOREWORD
       <ul>
@@ -178,16 +178,18 @@
       </ul>
      </li>
     </ul>
-   </div>
+   </nav>
    <footer>
-    <a href="DRAFT.The Copy Process.html">
-     « Previous
-    </a>
-    <a href="prototype/1._January/index.html">
-     Next »
-    </a>
+    <nav>
+     <a class="previous" href="DRAFT.The Copy Process.html">
+      « Previous
+     </a>
+     <a class="next" href="prototype/1._January/index.html">
+      Next »
+     </a>
+    </nav>
    </footer>
-  </nav>
+  </aside>
   <article>
    <div>
     <h1 id="todo">
@@ -289,19 +291,18 @@
      </li>
     </ul>
    </div>
-   <div>
-    <!-- TODO: Implement -->
-    <div>
-     Revision: xxxxxxx
-    </div>
+   <footer>
     <!-- TODO: Come up w/ string replacements for conditionals to render these; or just use JS? -->
-    <a href="DRAFT.The Copy Process.html">
-     « Previous
-    </a>
-    <a href="prototype/1._January/index.html">
-     Next »
-    </a>
-   </div>
+    <nav>
+     <a class="previous" href="DRAFT.The Copy Process.html">
+      « Previous
+     </a>
+     <a class="next" href="prototype/1._January/index.html">
+      Next »
+     </a>
+    </nav>
+    <!-- TODO: Implement Revision: xxxxxxx (or just date?) -->
+   </footer>
   </article>
  </body>
 </html>

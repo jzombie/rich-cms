@@ -21,12 +21,12 @@
    <i class="fas fa-bars">
    </i>
   </button>
-  <nav>
+  <aside>
    <header>
     CHAPTER 9
    </header>
-   <div class="toc">
-    <ul class="nav">
+   <nav class="toc">
+    <ul>
      <li>
       a._FOREWORD
       <ul>
@@ -178,16 +178,18 @@
       </ul>
      </li>
     </ul>
-   </div>
+   </nav>
    <footer>
-    <a href="Chapter 8.html">
-     « Previous
-    </a>
-    <a href="Chapter 10.html">
-     Next »
-    </a>
+    <nav>
+     <a class="previous" href="Chapter 8.html">
+      « Previous
+     </a>
+     <a class="next" href="Chapter 10.html">
+      Next »
+     </a>
+    </nav>
    </footer>
-  </nav>
+  </aside>
   <article>
    <div>
     <h1 id="chapter-9">
@@ -611,19 +613,18 @@ is the privilege of writing one's own ticket, and of making Life yield whatever 
      "The rise of Islam began. Out of the desert came a flame which would not be extinguished-- a democratic army fighting as a unit and prepared to die without wincing. Mohammed had invited the Jews and Christians to join him; for he was not building a new religion. He was calling all who believed in one God to join in a single faith. If the Jews and Christians had accepted his invitation Islam would have conquered the world. They didn't. They would not even accept Mohammed's innovation of humane warfare. When the armies of the prophet entered Jerusalem not a single person was killed because of his faith. When the crusaders entered the city, centuries later, not a Moslem man, woman, or child was spared. But the Christians did accept one Moslem idea-- the place of learning, the university."
     </p>
    </div>
-   <div>
-    <!-- TODO: Implement -->
-    <div>
-     Revision: xxxxxxx
-    </div>
+   <footer>
     <!-- TODO: Come up w/ string replacements for conditionals to render these; or just use JS? -->
-    <a href="Chapter 8.html">
-     « Previous
-    </a>
-    <a href="Chapter 10.html">
-     Next »
-    </a>
-   </div>
+    <nav>
+     <a class="previous" href="Chapter 8.html">
+      « Previous
+     </a>
+     <a class="next" href="Chapter 10.html">
+      Next »
+     </a>
+    </nav>
+    <!-- TODO: Implement Revision: xxxxxxx (or just date?) -->
+   </footer>
   </article>
  </body>
 </html>

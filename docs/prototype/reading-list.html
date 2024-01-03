@@ -21,12 +21,12 @@
    <i class="fas fa-bars">
    </i>
   </button>
-  <nav>
+  <aside>
    <header>
     Personal Reading List
    </header>
-   <div class="toc">
-    <ul class="nav">
+   <nav class="toc">
+    <ul>
      <li>
       a._FOREWORD
       <ul>
@@ -178,13 +178,15 @@
       </ul>
      </li>
     </ul>
-   </div>
+   </nav>
    <footer>
-    <a href="hello-world.html">
-     « Previous
-    </a>
+    <nav>
+     <a class="previous" href="hello-world.html">
+      « Previous
+     </a>
+    </nav>
    </footer>
-  </nav>
+  </aside>
   <article>
    <div>
     <h1 id="personal-reading-list">
@@ -208,16 +210,15 @@
      </li>
     </ol>
    </div>
-   <div>
-    <!-- TODO: Implement -->
-    <div>
-     Revision: xxxxxxx
-    </div>
+   <footer>
     <!-- TODO: Come up w/ string replacements for conditionals to render these; or just use JS? -->
-    <a href="hello-world.html">
-     « Previous
-    </a>
-   </div>
+    <nav>
+     <a class="previous" href="hello-world.html">
+      « Previous
+     </a>
+    </nav>
+    <!-- TODO: Implement Revision: xxxxxxx (or just date?) -->
+   </footer>
   </article>
  </body>
 </html>
