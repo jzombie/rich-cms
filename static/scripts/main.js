@@ -70,6 +70,41 @@ document.addEventListener("DOMContentLoaded", function () {
           // Prepend link
           heading.insertBefore(link, heading.firstChild);
         });
+
+        (() => {
+          // Function to check if an element is in the viewport
+          const isInViewport = (element) => {
+            const rect = element.getBoundingClientRect();
+            return rect.top >= 0 && rect.bottom <= window.innerHeight;
+          };
+
+          // Function to update the URL based on the currently visible heading
+          const updateUrlBasedOnHeading = () => {
+            // Check if the page is scrolled to the top
+            if (window.scrollY === 0) {
+              // Remove the anchor from the URL
+              //
+              // This also prevents an issue where if scrolling very fast to the top of the page, the hash could reference an older state
+              history.replaceState(null, "", window.location.pathname);
+              return;
+            }
+
+            for (const heading of headings) {
+              if (isInViewport(heading)) {
+                const anchorLink = `#${heading.id}`;
+                // Update the URL without creating a new history entry
+                history.replaceState(null, "", anchorLink);
+                break;
+              }
+            }
+          };
+
+          // Add event listener for the scroll event
+          window.addEventListener("scroll", updateUrlBasedOnHeading);
+
+          // Initial URL update
+          updateUrlBasedOnHeading();
+        })();
       }
     })();
   }
