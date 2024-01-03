@@ -5,7 +5,7 @@
 - [] Add button to make full-screen
 - [] Ability to make an article not be included in TOC; i.e. for 404 pages
 - [] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
-- [] Fix issue where long links can cause horizontal overflow on mobile
+- [X] Fix issue where long links can cause horizontal overflow on mobile
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
 - [] Need persistent "home" link
 - [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
