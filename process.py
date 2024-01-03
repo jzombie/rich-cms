@@ -14,6 +14,7 @@ from mdx_math import MathExtension
 from bs4 import BeautifulSoup
 import bleach
 from urllib.parse import urlparse
+import fnmatch
 
 import warnings
 
@@ -264,16 +265,28 @@ class RichCMSGenerator:
         return navigation_links["previous"], navigation_links["next"]
     
     @classmethod
-    def copy_directory_contents(cls, source_directory, destination_directory):
+    def copy_directory_contents(cls, source_directory, destination_directory, include_patterns=None, exclude_patterns=None):
         """
-        Copies all files and directories from source_directory to destination_directory,
-        excluding 'template.html'.
+        Copies files and directories from source_directory to destination_directory
+        based on include and exclude wildcard patterns.
         """
+        if include_patterns is None:
+            include_patterns = ['*']  # By default include everything
+        if exclude_patterns is None:
+            exclude_patterns = []  # By default exclude nothing
+
         for item in os.listdir(source_directory):
-            if item == 'template.html':
-                continue
             source_item = os.path.join(source_directory, item)
             destination_item = os.path.join(destination_directory, item)
+
+            # Check if item matches any of the exclude patterns
+            if any(fnmatch.fnmatch(item, pattern) for pattern in exclude_patterns):
+                continue
+
+            # Check if item matches any of the include patterns
+            if not any(fnmatch.fnmatch(item, pattern) for pattern in include_patterns):
+                continue
+
             if os.path.isdir(source_item):
                 shutil.copytree(source_item, destination_item, dirs_exist_ok=True)
             else:
@@ -302,7 +315,11 @@ class RichCMSGenerator:
             full_path = os.path.join(output_directory, path)
             cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link)
 
-        cls.copy_directory_contents(template_directory, output_directory)
+        # Copy template to output
+        cls.copy_directory_contents(template_directory, output_directory, exclude_patterns=["template.html"])
+
+        # Copy non-markdown files to output
+        cls.copy_directory_contents(input_directory, output_directory, exclude_patterns=["*.md"])
 
     @classmethod
     def copy_static_directory(cls, source, destination):
