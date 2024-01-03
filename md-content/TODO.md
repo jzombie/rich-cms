@@ -15,7 +15,7 @@
 - [] Parse & include site name in title / header
 - [X] Sanitize strings / prevent XSS
 - [X] Default "index.md" to top of navigation, per directory
-- [] <- -> article navigation, w/ titles
+- [X] <- -> article navigation
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] Show word count after compilation step
 - [] The ability to hotlink to a particular paragraph would be nice
@@ -32,4 +32,5 @@
 - [] Add word count and estimated reading time to meta data
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
+- [] optional titles in <- -> article navigation
 - [] [maybe?] Add pydantic for string replacements?
