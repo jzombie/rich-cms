@@ -91,6 +91,15 @@ nav.toc {
   height: 100vh; /* Set the height to 100vh (viewport height) */
 }
 
+nav.toc ul {
+  list-style: none;
+  padding: 0em 0.5em;
+}
+
+nav.toc ul li {
+  padding: 0.1em 0em;
+}
+
 article {
   flex: 3; /* Allow article container to take the remaining space */
   padding: 1em;
