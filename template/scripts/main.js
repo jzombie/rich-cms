@@ -1,10 +1,19 @@
 class RichCMS {
-  static isFullScreenSupported() {
+  static get isFullScreenSupported() {
     return (
       document.fullscreenEnabled ||
       document.webkitFullscreenEnabled ||
       document.mozFullScreenEnabled ||
       document.msFullscreenEnabled
+    );
+  }
+
+  static get isFullScreen() {
+    return (
+      document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement ||
+      document.msFullscreenElement
     );
   }
 
@@ -32,17 +41,8 @@ class RichCMS {
     }
   }
 
-  static isFullScreen() {
-    return (
-      document.fullscreenElement ||
-      document.webkitFullscreenElement ||
-      document.mozFullScreenElement ||
-      document.msFullscreenElement
-    );
-  }
-
   static toggleFullScreen(element = document.documentElement) {
-    if (RichCMS.isFullScreen()) {
+    if (RichCMS.isFullScreen) {
       RichCMS.exitFullScreen();
     } else {
       RichCMS.enterFullScreen(element);
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Sleep to allow view transition to settle
       await new Promise((resolve) => setTimeout(resolve, 50));
 
-      if (RichCMS.isFullScreen()) {
+      if (RichCMS.isFullScreen) {
         button.icon.className = "fas fa-compress"; // Use Font Awesome's "compress" icon for exit fullscreen
       } else {
         button.icon.className = "fas fa-expand"; // Use Font Awesome's "expand" icon for enter fullscreen
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add click event listeners to the full-screen-toggle buttons
     [...buttons].forEach((button) => {
-      if (!RichCMS.isFullScreenSupported()) {
+      if (!RichCMS.isFullScreenSupported) {
         button.parentElement.removeChild(button);
       } else {
         button.addEventListener("click", () => {
