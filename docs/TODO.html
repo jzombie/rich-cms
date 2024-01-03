@@ -24,7 +24,13 @@
   </button>
   <aside>
    <header>
-    TODO
+    <div>
+     TODO
+    </div>
+    <div class="js-only">
+     <button class="full-screen-toggle">
+     </button>
+    </div>
    </header>
    <nav class="toc">
     <ul>
@@ -197,6 +203,16 @@
    </footer>
   </aside>
   <article>
+   <!-- TODO: Style similar to: https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation -->
+   <nav>
+    <a href="../index.html">
+     Home 1 ./TODO.html
+    </a>
+    &gt;
+    <a href=".././index.html">
+     .
+    </a>
+   </nav>
    <div>
     <h1 id="todo">
      TODO
@@ -207,6 +223,12 @@
      </li>
      <li>
       [] Add breadcrumb navigation links above main content
+     </li>
+     <li>
+      [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
+     </li>
+     <li>
+      [] Add "Edit on GitHub" link
      </li>
      <li>
       [] Add button to make full-screen
@@ -308,6 +330,9 @@
      </li>
      <li>
       [] optional titles in &lt;- -&gt; article navigation
+     </li>
+     <li>
+      [] Implement PWA support (read offline); use discretion here; it might not be a great idea
      </li>
      <li>
       [] [maybe?] Add pydantic for string replacements?

@@ -24,7 +24,13 @@
   </button>
   <aside>
    <header>
-    CHAPTER 2
+    <div>
+     CHAPTER 2
+    </div>
+    <div class="js-only">
+     <button class="full-screen-toggle">
+     </button>
+    </div>
    </header>
    <nav class="toc">
     <ul>
@@ -197,6 +203,16 @@
    </footer>
   </aside>
   <article>
+   <!-- TODO: Style similar to: https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation -->
+   <nav>
+    <a href="../index.html">
+     Home 1 ./Chapter 2.html
+    </a>
+    &gt;
+    <a href=".././index.html">
+     .
+    </a>
+   </nav>
    <div>
     <h1 id="chapter-2">
      CHAPTER 2
