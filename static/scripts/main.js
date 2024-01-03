@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   var button = document.getElementById("menu-toggle-button");
-  var tocContainer = document.querySelector("nav.toc");
+  var navContainer = document.querySelector("nav");
 
-  if (button && tocContainer) {
+  if (button && navContainer) {
     // Hide the button by default
     button.style.display = "none";
 
@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", function () {
       const prevScrollPosition = { x: 0, y: 0 };
 
       button.addEventListener("click", function () {
-        if (tocContainer.style.display != "block") {
+        if (navContainer.style.display != "block") {
           // Cache current position
           prevScrollPosition.x = window.scrollX;
           prevScrollPosition.y = window.scrollY;
         }
 
-        tocContainer.style.display =
-          tocContainer.style.display === "none" ? "block" : "none";
+        navContainer.style.display =
+          navContainer.style.display === "none" ? "block" : "none";
 
-        if (tocContainer.style.display === "block") {
+        if (navContainer.style.display === "block") {
           // Scroll to top
           window.scrollTo(0, 0);
         } else {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     (() => {
       function handleResize() {
-        tocContainer.style.display =
+        navContainer.style.display =
           window.innerWidth <= 768 ? "none" : "block";
       }
 
