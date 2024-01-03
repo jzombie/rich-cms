@@ -58,6 +58,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Add the link element and set its attributes
         headings.forEach((heading) => {
+          if (
+            heading.previousElementSibling &&
+            heading.previousElementSibling.tagName.startsWith("H")
+          ) {
+            // Skip if the previous element is also a heading
+            return;
+          }
+
           heading.style.position = "relative";
 
           const link = document.createElement("a");
