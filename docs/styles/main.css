@@ -267,6 +267,37 @@ article footer div.build_date {
   /* Other existing styles for article */
 }
 
+/* Style for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden; /* Hide overflowing borders */
+}
+
+/* Style for table header row */
+th {
+  background-color: #6d6d6d;
+  border-top: 1px solid #434343; /* Add top border to header cells */
+  border-bottom: 1px solid #434343; /* Add bottom border to header cells */
+  border-left: 1px solid #434343; /* Add left border to header cells */
+  border-right: 1px solid #434343; /* Add right border to header cells */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table header and data cells */
+td {
+  border: 1px solid #434343;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+  background-color: #3e3e3e;
+}
+
 /* Word-wrap fixes */
 
 * {
