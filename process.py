@@ -374,7 +374,10 @@ class RichCMSGenerator:
             breadcrumb_link = f'<a href="{root_path}{breadcrumb_segment}/{first_article_filename}">{breadcrumb_name}</a>'
             breadcrumbs.append(breadcrumb_link)
 
-        # # Join the breadcrumbs with the separator
+        # Note: This is intentionally not in the previous range loop
+        breadcrumbs.append(article['title'])
+
+        # Join the breadcrumbs with the separator
         breadcrumb_nav = ' &gt; '.join(breadcrumbs)
         return breadcrumb_nav
 
