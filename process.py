@@ -406,6 +406,25 @@ class RichCMSGenerator:
                 break
 
         return str(soup)
+    
+    @classmethod
+    def print_article_tree(cls, articles, base_input_path):
+        """
+        Prints the tree structure of articles organized by directory.
+        """
+        organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
+
+        # We create a sorted list of directory paths to print the tree in order
+        for dir_path in sorted(organized_articles.keys()):
+            depth = dir_path.count(os.sep)
+            indent = '    ' * depth
+            dir_name = os.path.basename(dir_path) if dir_path != '.' else base_input_path
+            print(f"{indent}|--{dir_name}/")
+            for article in sorted(organized_articles[dir_path], key=lambda x: x['path']):
+                print(f"{indent}|  |--{os.path.basename(article['path'])}")
+
+
+
 
 # Main workflow
 input_directory = 'md-content'
