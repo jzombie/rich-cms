@@ -337,6 +337,9 @@ class RichCMSGenerator:
         # Copy non-markdown files to output
         cls.copy_directory_contents(input_directory, output_directory, exclude_patterns=["*.md"])
 
+    # TODO: Fix home link (and extract functionality for determining home link into a separate file)
+    # TODO: Implement "find_first_article_filename" in TOC for directories
+    # TODO: Fix '.' directories when in root files
     @classmethod
     def generate_breadcrumb_nav(cls, article, organized_articles):
         breadcrumbs = []
@@ -344,27 +347,24 @@ class RichCMSGenerator:
 
         # Calculate the relative path back to the root
         depth = len(path_parts) - 1  # Number of directories to go up to the root
-        root_path = "../" * depth if depth > 0 else "./"
 
-        # Find the first article's filename in the root directory
+        # If the first part of the path is '.', set root_path to './', otherwise calculate normally
+        root_path = './' if path_parts[0] == '.' else "../" * depth if depth > 0 else ""
+
+        # Home link - point to the first article in the root directory
         root_article_filename = cls.find_first_article_filename('.', organized_articles)
-        home_link = f"{root_path}{root_article_filename}" if root_article_filename else root_path
-
-        # Join the path parts to display the breadcrumb path
-        breadcrumb_path = '/'.join(path_parts)
-
-        # TODO: Fix home link (and extract functionality for determining home link into a separate file)
-        # TODO: Implement "find_first_article_filename" in TOC for directories
-        # TODO: Fix '.' directories when in root files
-
-        # TODO: Remove debug string includes
-        breadcrumbs.append(f'<a href="{home_link}">Home {depth} {breadcrumb_path}</a>')
+        home_link = f'{root_article_filename}' if root_article_filename else 'index.html'
+        breadcrumbs.append(f'<a href="{root_path}{home_link}">Home</a>')
 
 
         # Build the breadcrumb path for each part
         for i in range(1, len(path_parts)):
             breadcrumb_segment = '/'.join(path_parts[:i])
             breadcrumb_name = path_parts[i - 1]
+
+            # Skip adding breadcrumb for current directory ('.')
+            if breadcrumb_name == '.':
+                continue
 
             # Find the first article's filename in the directory
             dir_path = os.path.join(*path_parts[:i])
