@@ -55,8 +55,28 @@ h10 {
   cursor: pointer;
 }
 
-ul.aside li {
-  color: #999999; /* Default text color for list items */
+/* Directory Label Style */
+nav.toc ul li.directory > div.label {
+  background-color: #4a4a4a; /* Slightly lighter than the aside background */
+  color: #f0f0f0; /* Keeping the text color consistent with the body */
+  padding: 0.3em 0.6em; /* Sufficient padding for visibility */
+  margin-bottom: 0.5em; /* Spacing below the label */
+  border-left: 4px solid #007bff; /* A colored border to indicate it's a label */
+  font-weight: bold; /* Make the label text bold */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically center */
+}
+
+/* Icon for the directory label */
+nav.toc ul li.directory > div.label::before {
+  content: "📁"; /* You can replace this with an actual icon */
+  margin-right: 0.5em; /* Space between icon and text */
+  font-size: 1.2em; /* Adjust the size of the icon */
+}
+
+/* Adjust the padding for nested directories */
+nav.toc ul ul li.directory > div.label {
+  padding-left: 1em; /* Increase left padding for nested directories */
 }
 
 a {
