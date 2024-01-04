@@ -339,7 +339,6 @@ class RichCMSGenerator:
 
     # TODO: Fix home link (and extract functionality for determining home link into a separate file)
     # TODO: Implement "find_first_article_filename" in TOC for directories
-    # TODO: Fix '.' directories when in root files
     @classmethod
     def generate_breadcrumb_nav(cls, article, organized_articles):
         breadcrumbs = []
@@ -355,7 +354,6 @@ class RichCMSGenerator:
         root_article_filename = cls.find_first_article_filename('.', organized_articles)
         home_link = f'{root_article_filename}' if root_article_filename else 'index.html'
         breadcrumbs.append(f'<a href="{root_path}{home_link}">Home</a>')
-
 
         # Build the breadcrumb path for each part
         for i in range(1, len(path_parts)):
