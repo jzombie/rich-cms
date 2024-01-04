@@ -133,69 +133,48 @@ class RichCMSGenerator:
         return organized_articles
 
     @classmethod
-    def create_toc(cls, articles, current_file_path, base_input_path):
+    def create_toc(cls, articles, current_article, base_input_path):
         toc = '<ul>'
         stack = []
 
-        # Normalize the base_input_path for comparison purposes
-        normalized_base_input_path = os.path.normpath(base_input_path) + os.path.sep
-
-        # Organize articles by directory for structured TOC generation
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
+        normalized_current_path = os.path.normpath(current_article['path'])
 
-        # Normalize the current file path to be relative to base_input_path.
-        normalized_current_path = os.path.normpath(os.path.join(base_input_path, current_file_path))
-
-        # Loop through each directory and its articles
         for dir_path, articles_in_dir in organized_articles.items():
-            normalized_dir_path = os.path.normpath(dir_path) + os.path.sep
+            # Handle the directory depth
+            dir_depth = len(dir_path.split(os.path.sep)) if dir_path else 0
 
-            # Determine the relative directory path excluding base_input_path
-            relative_dir_path = normalized_dir_path[len(normalized_base_input_path):]
-
-            # Split into breadcrumbs and determine depth
-            dir_breadcrumbs = relative_dir_path.strip(os.path.sep).split(os.path.sep)
-            dir_depth = len(dir_breadcrumbs) if relative_dir_path else 0
-
-            # Close tags for higher or equal level directories
+            # Close tags until reaching the current depth level
             while stack and len(stack) > dir_depth:
                 toc += "</ul></li>"
                 stack.pop()
 
-            # Open tags for new deeper directories
-            while len(stack) < dir_depth:
-                breadcrumb = dir_breadcrumbs[len(stack)]
-                if breadcrumb and not breadcrumb.startswith('.'):
-                    # Construct the full directory path from base directory
-                    full_dir_path = os.path.join(base_input_path, *dir_breadcrumbs[:len(stack) + 1])
+            # Open new tags for the current directory
+            if dir_path:
+                dir_name = os.path.basename(dir_path)
 
-                    # Find the first article's HTML filename in the directory
-                    first_article_html_filename = cls.find_first_article_filename(full_dir_path, articles)
-                    if first_article_html_filename:
-                        # Construct the relative link from the current file
-                        # Use the full directory path to calculate the relative link
-                        dir_link = os.path.relpath(os.path.join(full_dir_path, first_article_html_filename), os.path.dirname(normalized_current_path))
-                        toc += f"<li><a href='{dir_link}'>{breadcrumb}</a><ul>"
-                    else:
-                        toc += f"<li>{breadcrumb}<ul>"
-                    stack.append(breadcrumb)
-                else:
-                    stack.append(breadcrumb)
+                # Omit root dir_name
+                if dir_name != '.':
+                    toc += f"<li>{dir_name}<ul>"
 
-            # Add articles to the TOC
+                stack.append(dir_name)
+
+            # Add articles under the current directory
             for article in articles_in_dir:
-                rel_path = article['path']
-
-                link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
+                link = os.path.relpath(article['path'], os.path.dirname(current_article['path']))
                 title = article['title']
-                normalized_article_path = os.path.normpath(os.path.join(base_input_path, rel_path))
-                active_class = ' class="active"' if normalized_article_path == normalized_current_path else ''
+                active_class = ' class="active"' if normalized_current_path == os.path.normpath(article['path']) else ''
                 toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
 
-        # Close any remaining open tags to ensure valid HTML structure
+            # Close the current directory's tag if it was opened
+            if dir_path and len(stack) > dir_depth:
+                toc += "</ul></li>"
+
+        # Close remaining tags
         while stack:
             toc += "</ul></li>"
             stack.pop()
+
         toc += "</ul>"
         return toc
 
@@ -333,7 +312,7 @@ class RichCMSGenerator:
             content = cls.add_drop_cap(article['html_content'])
             metadata = article['metadata']
             relative_root_path = cls.get_relative_root_path(path)
-            toc = cls.create_toc(flattened_ordered_articles, path, input_directory)
+            toc = cls.create_toc(flattened_ordered_articles, article, input_directory)
             prev_link, next_link = cls.generate_navigation_links(path, flattened_ordered_articles, index)
             full_path = os.path.join(output_directory, path)
 
