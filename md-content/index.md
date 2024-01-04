@@ -1,5 +1,42 @@
-# Think and Grow Rich by Napoleon Hill
+---
+title: "Hello from Rich CMS"
+publish_date: 2023-12-26
+---
 
-1938
+# Welcome to Rich CMS
 
-Scanned at sacred-texts.com, July 2006. Proofed and formatted by John Bruno Hare. This text is in the public domain in the United States by the terms of the Digital Millennium Copyright Act because it was published between 1923 and 1964 inclusive, and not renewed at the US Copyright office in a timely fashion. These files may be used for any non-commercial purpose, provided this notice of attribution is left intact in all copies. This electronic edition is not sponsored or endorsed by, or otherwise affiliated with Napoleon Hill, his family and heirs, the Napoleon Hill Foundation, the Ralston Society, or any past or present publishers of this book.
+<img src="%ROOT%/images/thinker.png" style="width: 180px" />
+
+Let the files do the work...
+
+```bash
+$ some-command
+```
+
+## Generating code highlighting pigments
+
+```bash
+$ pygmentize -S monokai -f html -a .codehilite > static/pygments.css
+```
+
+## My Example Equation
+
+This is a simple equation: $E=mc^2$
+
+## Another Equation
+
+And here's a more complex equation:
+
+$$
+\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du \right) = f(x)
+$$
+
+## Example Table
+
+| Column 1   | Column 2   | Column 3   |
+|------------|------------|------------|
+| Item 1     | Data A     | Detail X   |
+| Item 2     | Data B     | Detail Y   |
+| Item 3     | Data C     | Detail Z   |
+
+
