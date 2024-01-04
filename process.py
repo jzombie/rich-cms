@@ -153,9 +153,13 @@ class RichCMSGenerator:
                 dir_name = os.path.basename(dir_path)
 
                 if dir_name != '.':
-                    # Add a class if the directory contains the active article
+                    # Link to the first article in the directory
+                    # Find the first article's filename in the directory
+                    first_article_filename = cls.find_first_article_filename(dir_path, articles)
+                    link_to_first_article = os.path.relpath(dir_path + os.path.sep + first_article_filename, current_article['directory_path'])
+
                     active_dir_class = ' active-dir' if is_active_dir else ''
-                    toc += f"<li class='directory{active_dir_class}'><div class='label'>{dir_name}</div><ul>"
+                    toc += f"<li class='directory{active_dir_class}'><div class='label'><a href='{link_to_first_article}'>{dir_name}</a></div><ul>"
 
                 stack.append(dir_name)
 
