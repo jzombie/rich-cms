@@ -111,6 +111,7 @@ class RichCMSGenerator:
         organized_articles = {}
         for article in articles:
             dir_path = os.path.dirname(os.path.join(base_input_path, article['path']))
+
             if dir_path not in organized_articles:
                 organized_articles[dir_path] = []
 
@@ -140,12 +141,10 @@ class RichCMSGenerator:
         normalized_base_input_path = os.path.normpath(base_input_path) + os.path.sep
 
         # Organize articles by directory for structured TOC generation
-        organized_articles = cls.organize_articles_by_directory(
-            articles, base_input_path)
+        organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
 
         # Normalize the current file path to be relative to base_input_path.
-        normalized_current_path = os.path.normpath(
-            os.path.join(base_input_path, current_file_path))
+        normalized_current_path = os.path.normpath(os.path.join(base_input_path, current_file_path))
 
         # Loop through each directory and its articles
         for dir_path, articles_in_dir in organized_articles.items():
@@ -167,23 +166,33 @@ class RichCMSGenerator:
             while len(stack) < dir_depth:
                 breadcrumb = dir_breadcrumbs[len(stack)]
                 if breadcrumb and not breadcrumb.startswith('.'):
-                    toc += f"<li>{breadcrumb}<ul>"
+                    # Construct the full directory path from base directory
+                    full_dir_path = os.path.join(base_input_path, *dir_breadcrumbs[:len(stack) + 1])
+
+                    # Find the first article's HTML filename in the directory
+                    first_article_html_filename = cls.find_first_article_filename(full_dir_path, articles)
+                    if first_article_html_filename:
+                        # Construct the relative link from the current file
+                        # Use the full directory path to calculate the relative link
+                        dir_link = os.path.relpath(os.path.join(full_dir_path, first_article_html_filename), os.path.dirname(normalized_current_path))
+                        toc += f"<li><a href='{dir_link}'>{breadcrumb}</a><ul>"
+                    else:
+                        toc += f"<li>{breadcrumb}<ul>"
                     stack.append(breadcrumb)
                 else:
-                    # Skip creating a sublist for directories starting with a dot
-                    stack.append(breadcrumb)  # Still need to maintain stack depth
+                    stack.append(breadcrumb)
 
             # Add articles to the TOC
             for article in articles_in_dir:
                 rel_path = article['path']
+
                 link = os.path.relpath(rel_path, os.path.dirname(current_file_path))
                 title = article['title']
-                normalized_article_path = os.path.normpath(
-                    os.path.join(base_input_path, rel_path))
+                normalized_article_path = os.path.normpath(os.path.join(base_input_path, rel_path))
                 active_class = ' class="active"' if normalized_article_path == normalized_current_path else ''
                 toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
 
-        # Close any remaining open tags to ensure valid HTML structure.
+        # Close any remaining open tags to ensure valid HTML structure
         while stack:
             toc += "</ul></li>"
             stack.pop()
@@ -237,13 +246,14 @@ class RichCMSGenerator:
                 md_content_without_metadata = re.sub(r'^---\s*\n.*?\n---', '', md_content, flags=re.DOTALL)
                 title = cls.extract_title(md_content_without_metadata)
                 html_content = cls.convert_md_to_html(md_content_without_metadata)
-                relative_output_path = os.path.relpath(directory_path, base_input_path).replace(' ', '_')
+                relative_output_path = os.path.relpath(directory_path, base_input_path)
                 output_path = os.path.join(relative_output_path, item.replace('.md', '.html'))
                 path_parts = output_path.split(os.path.sep)
                 # TODO: Use pydantic here
                 article_info = {
                     'title': title,
                     'path': output_path,
+                    'directory_path': directory_path,
                     'path_parts': path_parts,
                     'md_file_path': file_path,
                     'html_content': html_content,
@@ -327,7 +337,7 @@ class RichCMSGenerator:
             prev_link, next_link = cls.generate_navigation_links(path, flattened_ordered_articles, index)
             full_path = os.path.join(output_directory, path)
 
-            breadcrumb_nav = cls.generate_breadcrumb_nav(article, flattened_ordered_articles)
+            breadcrumb_nav = cls.generate_breadcrumb_nav(input_directory, article, flattened_ordered_articles)            
 
             cls.write_html_file(content, full_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav)
 
@@ -340,18 +350,16 @@ class RichCMSGenerator:
     # TODO: Fix home link (and extract functionality for determining home link into a separate file)
     # TODO: Implement "find_first_article_filename" in TOC for directories
     @classmethod
-    def generate_breadcrumb_nav(cls, article, organized_articles):
+    def generate_breadcrumb_nav(cls, input_directory, article, organized_articles):
         breadcrumbs = []
         path_parts = article['path_parts']
 
         # Calculate the relative path back to the root
         depth = len(path_parts) - 1  # Number of directories to go up to the root
-
-        # If the first part of the path is '.', set root_path to './', otherwise calculate normally
         root_path = './' if path_parts[0] == '.' else "../" * depth if depth > 0 else ""
 
         # Home link - point to the first article in the root directory
-        root_article_filename = cls.find_first_article_filename('.', organized_articles)
+        root_article_filename = cls.find_first_article_filename(os.path.join(input_directory, '.'), organized_articles)
         home_link = f'{root_article_filename}' if root_article_filename else 'index.html'
         breadcrumbs.append(f'<a href="{root_path}{home_link}">Home</a>')
 
@@ -360,20 +368,18 @@ class RichCMSGenerator:
             breadcrumb_segment = '/'.join(path_parts[:i])
             breadcrumb_name = path_parts[i - 1]
 
-            # Skip adding breadcrumb for current directory ('.')
             if breadcrumb_name == '.':
                 continue
 
-            # Find the first article's filename in the directory
-            dir_path = os.path.join(*path_parts[:i])
+            # Construct the full directory path
+            dir_path = os.path.join(input_directory, *path_parts[:i])
             first_article_filename = cls.find_first_article_filename(dir_path, organized_articles)
 
             # Construct the link to the first article in the directory
             breadcrumb_link = f'<a href="{root_path}{breadcrumb_segment}/{first_article_filename}">{breadcrumb_name}</a>'
             breadcrumbs.append(breadcrumb_link)
 
-        # Note: This is intentionally not in the previous range loop
-        breadcrumbs.append(article['title'])
+        breadcrumbs.append(article['title'])  # Adding the current article's title
 
         # Join the breadcrumbs with the separator
         breadcrumb_nav = ' &gt; '.join(breadcrumbs)
@@ -381,18 +387,11 @@ class RichCMSGenerator:
 
     @classmethod
     def find_first_article_filename(cls, dir_path, articles):
-        # Normalize the directory path for consistent matching
-        normalized_dir_path = os.path.normpath(dir_path)
-
-        # Iterate through the articles list
         for article in articles:
-            article_dir_path = os.path.normpath(os.path.dirname(article['path']))
-
-            if article_dir_path == normalized_dir_path:
-                # Return the filename of the first article in the directory
-                return os.path.basename(article['path'])
+            if article['directory_path'] == dir_path:
+                html_filename = os.path.basename(article['path'])
+                return html_filename
         
-        # If no articles found in the directory, return an empty string
         return ''
 
 
