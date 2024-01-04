@@ -141,36 +141,33 @@ class RichCMSGenerator:
         normalized_current_path = os.path.normpath(current_article['path'])
 
         for dir_path, articles_in_dir in organized_articles.items():
-            # Handle the directory depth
             dir_depth = len(dir_path.split(os.path.sep)) if dir_path else 0
+            
+            is_active_dir = (base_input_path + os.path.sep + normalized_current_path).startswith(dir_path)
 
-            # Close tags until reaching the current depth level
             while stack and len(stack) > dir_depth:
                 toc += "</ul></li>"
                 stack.pop()
 
-            # Open new tags for the current directory
             if dir_path:
                 dir_name = os.path.basename(dir_path)
 
-                # Omit root dir_name
                 if dir_name != '.':
-                    toc += f"<li>{dir_name}<ul>"
+                    # Add a class if the directory contains the active article
+                    active_dir_class = ' active-dir' if is_active_dir else ''
+                    toc += f"<li class='directory{active_dir_class}'><div class='label'>{dir_name}</div><ul>"
 
                 stack.append(dir_name)
 
-            # Add articles under the current directory
             for article in articles_in_dir:
                 link = os.path.relpath(article['path'], os.path.dirname(current_article['path']))
                 title = article['title']
                 active_class = ' class="active"' if normalized_current_path == os.path.normpath(article['path']) else ''
                 toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
 
-            # Close the current directory's tag if it was opened
             if dir_path and len(stack) > dir_depth:
                 toc += "</ul></li>"
 
-        # Close remaining tags
         while stack:
             toc += "</ul></li>"
             stack.pop()
