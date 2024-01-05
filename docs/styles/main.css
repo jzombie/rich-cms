@@ -345,7 +345,7 @@ a {
   word-break: break-all;
 }
 
-.language-bash {
+code {
   overflow-wrap: break-word;
   white-space: pre-wrap; /* Allows wrapping and preserves formatting */
 }

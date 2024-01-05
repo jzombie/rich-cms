@@ -34,6 +34,7 @@
 - [] Add word count and estimated reading time to meta data
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
+- [] Tiny icon on aside to indicate if it can be scrolled (if overflown)
 - [] optional titles in <- -> article navigation
 - [] Implement PWA support (read offline); use discretion here; it might not be a great idea
 - [] [maybe?] Add pydantic for string replacements?
