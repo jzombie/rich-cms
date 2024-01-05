@@ -1,7 +1,7 @@
 # TODO
 
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
-- [] Add breadcrumb navigation links above main content
+- [X] Add breadcrumb navigation links above main content
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
 - [] Add "Edit on GitHub" link
 - [] Add button to make full-screen
