@@ -22,6 +22,16 @@ from bs4 import BeautifulSoup, Comment
 from urllib.parse import urlparse
 
 class RichCMSGenerator:
+    total_word_count = 0
+
+    @staticmethod
+    def calculate_word_count(text):
+        """
+        Calculates the number of words in the given text.
+        """
+        words = text.split()
+        return len(words)
+
     @staticmethod
     def sanitize_string(input_string):
         """
@@ -263,7 +273,12 @@ class RichCMSGenerator:
             file_path = os.path.join(directory_path, item)
             if os.path.isfile(file_path) and item.endswith(".md"):
                 md_content = cls.read_markdown_file(file_path)
+                word_count = cls.calculate_word_count(md_content)
+                cls.total_word_count += word_count
+
                 metadata = cls.extract_metadata_from_yaml(md_content)
+                metadata['word_count'] = word_count
+
                 md_content_without_metadata = re.sub(r'^---\s*\n.*?\n---', '', md_content, flags=re.DOTALL)
                 title = cls.extract_title(md_content_without_metadata)
                 html_content = cls.convert_md_to_html(md_content_without_metadata)
@@ -278,7 +293,7 @@ class RichCMSGenerator:
                     'path_parts': path_parts,
                     'md_file_path': file_path,
                     'html_content': html_content,
-                    'metadata': metadata
+                    'metadata': metadata,
                 }
 
                 articles.append(article_info)
@@ -503,3 +518,4 @@ base_url = 'https://richcms.zenosmosis.com'  # Replace with your domain
 
 RichCMSGenerator.generate_site(input_directory, output_directory, template_directory, base_url)
 
+print(f"Total word count for the site: {RichCMSGenerator.total_word_count}")

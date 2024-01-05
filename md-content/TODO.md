@@ -19,7 +19,6 @@
 - [X] Default "index.md" to top of navigation, per directory
 - [X] <- -> article navigation
 - [] Includes via env variables (i.e. for tracking, etc.)
-- [] Show word count after compilation step
 - [] The ability to hotlink to a particular paragraph would be nice
 - [X] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
@@ -41,6 +40,7 @@
 - [] RSS generation
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [] Add word count and estimated reading time to meta data
+- [X] Show word count after compilation step
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
 - [] Tiny icon on aside to indicate if it can be scrolled (if overflown)
