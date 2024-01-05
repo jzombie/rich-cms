@@ -110,74 +110,68 @@ class RichCMSGenerator:
     def organize_articles_by_directory(cls, articles, base_input_path):
         organized_articles = {}
         for article in articles:
-            dir_path = os.path.dirname(os.path.join(base_input_path, article['path']))
+            article_dir_path = os.path.dirname(article['path'])
+            rel_dir_path = os.path.relpath(article_dir_path, base_input_path)
+            rel_dir_path = '.' if rel_dir_path == '' else rel_dir_path
 
-            if dir_path not in organized_articles:
-                organized_articles[dir_path] = []
+            if rel_dir_path not in organized_articles:
+                organized_articles[rel_dir_path] = []
 
-            # Append article directly without changing its structure
-            organized_articles[dir_path].append(article)
+            organized_articles[rel_dir_path].append(article)
 
-        # Sort the articles within each directory
-        for dir_path, dir_articles in organized_articles.items():
-            # First, sort all articles by title using natsorted for natural ordering
-            sorted_articles = natsorted(dir_articles, key=lambda x: x['title'].lower())
+        # Sort the directories and articles using natsort
+        sorted_organized_articles = {dir_path: natsorted(articles, key=lambda x: os.path.basename(x['path']))
+                                    for dir_path, articles in natsorted(organized_articles.items(), key=lambda x: (x[0].count(os.sep), x[0]))}
 
-            # Separate index.md files and other files
-            index_md_articles = [article for article in sorted_articles if os.path.basename(article['md_file_path']) == 'index.md']
-            non_index_md_articles = [article for article in sorted_articles if os.path.basename(article['md_file_path']) != 'index.md']
+        return sorted_organized_articles
 
-            # Concatenate the lists, placing index.md files at the top
-            organized_articles[dir_path] = index_md_articles + non_index_md_articles
-
-        return organized_articles
 
     @classmethod
     def create_toc(cls, articles, current_article, base_input_path):
-        toc = '<ul>'
-        stack = []
-
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
-        normalized_current_path = os.path.normpath(current_article['path'])
+        current_article_path = os.path.normpath(current_article['path'])
 
-        for dir_path, articles_in_dir in organized_articles.items():
-            dir_depth = len(dir_path.split(os.path.sep)) if dir_path else 0
-            
-            is_active_dir = (base_input_path + os.path.sep + normalized_current_path).startswith(dir_path)
+        def create_sub_toc(dir_path, indent_level=0):
+            toc_sub = '<ul>'
+            for subdir, subdir_articles in organized_articles.items():
+                if os.path.normpath(os.path.dirname(subdir)) != os.path.normpath(dir_path):
+                    continue
 
-            while stack and len(stack) > dir_depth:
-                toc += "</ul></li>"
-                stack.pop()
+                dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
+                is_current_dir = os.path.abspath(current_article_path).startswith(os.path.abspath(subdir))
 
-            if dir_path:
-                dir_name = os.path.basename(dir_path)
+                print('---')
+                print(os.path.abspath(current_article_path))
+                print(os.path.abspath(subdir))
+                print('----')
 
-                if dir_name != '.':
-                    # Link to the first article in the directory
-                    # Find the first article's filename in the directory
-                    first_article_filename = cls.find_first_article_filename(dir_path, articles)
-                    link_to_first_article = os.path.relpath(dir_path + os.path.sep + first_article_filename, current_article['directory_path'])
+                print(is_current_dir)
 
-                    active_dir_class = ' active-dir' if is_active_dir else ''
-                    toc += f"<li class='directory{active_dir_class}'><div class='label'><a href='{link_to_first_article}'>{dir_name}</a></div><ul>"
+                active_class = ' active-dir' if is_current_dir else ''
+                if subdir != '..':
+                    toc_sub += '  ' * indent_level + f'<li class="directory {active_class}"><div class="label">{dir_label}</div>'
 
-                stack.append(dir_name)
+                # Add articles in this directory
+                toc_sub += '<ul>'
+                for article in subdir_articles:
+                    article_path = article['path']
+                    relative_path = os.path.relpath(article_path, os.path.dirname(current_article_path))
+                    is_current_article = os.path.normpath(current_article_path) == os.path.normpath(article_path)
+                    active_article_class = ' class="active"' if is_current_article else ''
+                    toc_sub += f'<li{active_article_class}><a href="{relative_path}">{article["title"]}</a></li>'
 
-            for article in articles_in_dir:
-                link = os.path.relpath(article['path'], os.path.dirname(current_article['path']))
-                title = article['title']
-                active_class = ' class="active"' if normalized_current_path == os.path.normpath(article['path']) else ''
-                toc += f"<li{active_class}><a href='{link}'>{title}</a></li>"
+                if subdir != '..':
+                    toc_sub += '</ul>'
 
-            if dir_path and len(stack) > dir_depth:
-                toc += "</ul></li>"
+                # Recursively handle subdirectories
+                toc_sub += create_sub_toc(subdir, indent_level + 1)
+                toc_sub += '</li>'
 
-        while stack:
-            toc += "</ul></li>"
-            stack.pop()
+            toc_sub += '</ul>'
+            return toc_sub
 
-        toc += "</ul>"
-        return toc
+        return create_sub_toc('.')
+
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
@@ -327,6 +321,9 @@ class RichCMSGenerator:
         # Copy non-markdown files to output
         cls.copy_directory_contents(input_directory, output_directory, exclude_patterns=["*.md"])
 
+        # Print the article tree
+        cls.print_article_tree(articles, input_directory)
+
     # TODO: Fix home link (and extract functionality for determining home link into a separate file)
     # TODO: Implement "find_first_article_filename" in TOC for directories
     @classmethod
@@ -414,15 +411,13 @@ class RichCMSGenerator:
         """
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
 
-        # We create a sorted list of directory paths to print the tree in order
-        for dir_path in sorted(organized_articles.keys()):
+        for dir_path in organized_articles.keys():
             depth = dir_path.count(os.sep)
             indent = '    ' * depth
             dir_name = os.path.basename(dir_path) if dir_path != '.' else base_input_path
             print(f"{indent}|--{dir_name}/")
             for article in sorted(organized_articles[dir_path], key=lambda x: x['path']):
                 print(f"{indent}|  |--{os.path.basename(article['path'])}")
-
 
 
 
