@@ -1,6 +1,5 @@
 import unittest
-import sys
-import os
+from unittest.mock import patch, mock_open
 from bs4 import BeautifulSoup
 
 # TODO: Update
@@ -33,6 +32,35 @@ class TestRichCMSGenerator(unittest.TestCase):
         md_content = "---\ntitle: Test Page\n---\nContent here."
         metadata = RichCMSGenerator.extract_metadata_from_yaml(md_content)
         self.assertEqual(metadata, {"title": "Test Page"})
+
+    @patch("builtins.open", new_callable=mock_open, read_data="# Test Markdown\nThis is test content.")
+    def test_read_markdown_file(self, mock_file):
+        """Test reading markdown content from a file."""
+        expected_content = "# Test Markdown\nThis is test content."
+        read_content = RichCMSGenerator.read_markdown_file('test.md')
+        mock_file.assert_called_once_with('test.md', 'r', encoding='utf-8')
+        self.assertEqual(read_content, expected_content)
+
+    @patch("os.makedirs")
+    @patch("builtins.open", new_callable=mock_open)
+    def test_write_html_file(self, mock_file, mock_makedirs):
+        """Test writing HTML content to a file."""
+        RichCMSGenerator.write_html_file(
+            "<p>Test Content</p>", 
+            "output/test.html", 
+            "<html><head></head><body>%BODY%</body></html>", 
+            "Test Title", 
+            "", 
+            ".", 
+            {}, 
+            "", 
+            "", 
+            ""
+        )
+        mock_file.assert_called_once_with("output/test.html", 'w', encoding='utf-8')
+        mock_makedirs.assert_called_once_with("output", exist_ok=True)
+        file_handle = mock_file()
+        file_handle.write.assert_called_once()
 
     def test_markdown_dollar_sign_handling(self):
         """Test handling of dollar signs in different scenarios."""

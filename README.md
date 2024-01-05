@@ -10,3 +10,10 @@ More to come...
 cd docs
 python3 -m http.server
 ```
+
+## Coverage
+
+```bash
+coverage run -m unittest discover -s test
+coverage report
+```
