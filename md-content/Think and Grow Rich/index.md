@@ -1,7 +1,3 @@
----
-sort_priority: 1000
----
-
 # Copyright / General Info
 
 1938

@@ -114,6 +114,10 @@ class RichCMSGenerator:
             rel_dir_path = os.path.relpath(article_dir_path, base_input_path)
             rel_dir_path = '.' if rel_dir_path == '' else rel_dir_path
 
+            # Check if the article is an index.html and update metadata if needed
+            if os.path.basename(article['path']).lower() == 'index.html':
+                article['metadata'].setdefault('sort_priority', 1000)
+
             if rel_dir_path not in organized_articles:
                 organized_articles[rel_dir_path] = []
 
