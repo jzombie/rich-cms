@@ -12,7 +12,7 @@ import yaml
 from natsort import natsorted, natsort_keygen
 from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 import bleach
 from urllib.parse import urlparse
 import fnmatch
@@ -237,6 +237,12 @@ class RichCMSGenerator:
         full_content = full_content.replace('%BUILD_DATETIME%', formatted_datetime)
 
         soup = BeautifulSoup(full_content, 'html.parser')
+
+        # Remove HTML comments
+        comments = soup.find_all(string=lambda text: isinstance(text, Comment))
+        for comment in comments:
+            comment.extract()
+
         formatted_html = soup.prettify()
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as file:
