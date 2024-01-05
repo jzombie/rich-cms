@@ -9,7 +9,7 @@ import datetime
 import pytz
 import markdown
 import yaml
-from natsort import natsorted
+from natsort import natsorted, natsort_keygen
 from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup
@@ -119,11 +119,23 @@ class RichCMSGenerator:
 
             organized_articles[rel_dir_path].append(article)
 
-        # Sort the directories and articles using natsort
-        sorted_organized_articles = {dir_path: natsorted(articles, key=lambda x: os.path.basename(x['path']))
-                                    for dir_path, articles in natsorted(organized_articles.items(), key=lambda x: (x[0].count(os.sep), x[0]))}
+        # Create a natsort key generator
+        natsort_key = natsort_keygen()
 
-        return sorted_organized_articles
+        # Sort articles within each directory
+        for dir_path, articles_list in organized_articles.items():
+            organized_articles[dir_path] = sorted(
+                articles_list, 
+                key=lambda x: (
+                    -x['metadata'].get('sort_priority', 0),
+                    natsort_key(os.path.basename(x['path']))
+                )
+            )
+
+        # Use natsort for sorting directories
+        sorted_organized_articles = natsorted(organized_articles.items(), key=lambda x: x[0])
+
+        return dict(sorted_organized_articles)
 
     @classmethod
     def create_toc(cls, articles, current_article, base_input_path):
