@@ -1,23 +1,16 @@
----
-title: "Hello from Rich CMS"
-publish_date: 2023-12-26
----
-
 # Welcome to Rich CMS
+
+Rich CMS is a simple, markdown-driven content management system, written in Python.
+
+It outputs static HTML files that can be used locally without a web server, served via [GitHub Pages](https://pages.github.com/), etc.
 
 <img src="%ROOT%/images/thinker.png" style="width: 180px" />
 
-Let the files do the work...
+## GitHub
+| Coverage Status | Repository Link |
+|-----------------|-----------------|
+| [![Coverage Status](https://coveralls.io/repos/github/jzombie/rich-cms/badge.svg)](https://coveralls.io/github/jzombie/rich-cms) | [RichCMS on GitHub](https://github.com/jzombie/rich-cms) |
 
-```bash
-$ some-command
-```
-
-## Generating code highlighting pigments
-
-```bash
-$ pygmentize -S monokai -f html -a .codehilite > static/pygments.css
-```
 
 ## My Example Equation
 
