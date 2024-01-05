@@ -104,6 +104,10 @@ a:focus {
   text-decoration: inherit;
 }
 
+a.skip-link {
+  display: none;
+}
+
 /* Unlike form elements which have a :disabled psuedo-class, a has to be disabled w/ a class */
 a.disabled {
   color: #cccccc; /* Light gray color */
