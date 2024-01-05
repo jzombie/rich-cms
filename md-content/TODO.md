@@ -1,6 +1,6 @@
 # TODO
 
-- [] Implement custom sort ordering for files/directories (use a separate file to specify absolute list positioning?)
+- [] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [] Add breadcrumb navigation links above main content
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
 - [] Add "Edit on GitHub" link
@@ -28,7 +28,7 @@
 - [] Add [more] unit tests
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
 - [PROBABLY-WON'T-DO] [] Live content update as markdown content is changed
-- [] Adding search would be nice
+- [] Adding search would be nice (related HN discussion: https://news.ycombinator.com/item?id=38845061)
 - [] Sitemap and RSS (this may require using a separate metadata file to keep track of file creations/modifications, unless somehow able to source through git [or just using hardcoded metadata keys -> easy])
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [] Add word count and estimated reading time to meta data
