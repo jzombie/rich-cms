@@ -1,3 +1,7 @@
+
+[![Coverage Status](https://coveralls.io/repos/github/jzombie/rich-cms/badge.svg)](https://coveralls.io/github/jzombie/rich-cmss)
+
+
 # Rich-CMS
 
 A hacky, prototype, markdown-driven CMS, written in Python.
