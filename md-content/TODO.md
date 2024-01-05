@@ -37,7 +37,8 @@
       - https://dawchihliou.github.io/articles/share-rust-types-with-typescript-for-webassembly-in-30-seconds
       
 
-- [] Sitemap and RSS (this may require using a separate metadata file to keep track of file creations/modifications, unless somehow able to source through git [or just using hardcoded metadata keys -> easy])
+- [X] Sitemap generation
+- [] RSS generation
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [] Add word count and estimated reading time to meta data
 - [] Metadata for sharing w/ social media; SEO
