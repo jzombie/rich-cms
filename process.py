@@ -9,15 +9,17 @@ import datetime
 import pytz
 import markdown
 import yaml
+import urllib.parse
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
+import warnings
+import bleach
+import fnmatch
 from natsort import natsorted, natsort_keygen
 from markdown.extensions.toc import TocExtension
 from mdx_math import MathExtension
 from bs4 import BeautifulSoup, Comment
-import bleach
 from urllib.parse import urlparse
-import fnmatch
-
-import warnings
 
 class RichCMSGenerator:
     @staticmethod
@@ -335,7 +337,7 @@ class RichCMSGenerator:
                 shutil.copy2(source_item, destination_item)
 
     @classmethod
-    def generate_site(cls, input_directory, output_directory, template_directory):
+    def generate_site(cls, input_directory, output_directory, template_directory, base_url = None):
         articles = []
         cls.process_markdown(input_directory, input_directory, articles)
         template_path = os.path.join(template_directory, 'template.html')
@@ -366,8 +368,36 @@ class RichCMSGenerator:
         # Copy non-markdown files to output
         cls.copy_directory_contents(input_directory, output_directory, exclude_patterns=["*.md"])
 
+        if base_url:
+            cls.generate_sitemap(articles, base_url, output_directory)
+
         # Print the article tree
         cls.print_article_tree(articles, input_directory)
+
+    @classmethod
+    def generate_sitemap(cls, articles, base_url, output_directory):
+        """
+        Generates a formatted sitemap XML for the website with URL encoding.
+        """
+        urlset = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+        
+        for article in articles:
+            url = ET.SubElement(urlset, 'url')
+            loc = ET.SubElement(url, 'loc')
+            # Normalize and encode the URL path
+            article_url_path = os.path.normpath(article['path']).replace('\\', '/')
+            encoded_article_url_path = urllib.parse.quote(article_url_path, safe='/')
+            loc.text = f"{base_url}/{encoded_article_url_path}"
+            lastmod = ET.SubElement(url, 'lastmod')
+            lastmod.text = datetime.datetime.now().strftime("%Y-%m-%d")
+        
+        # Convert to string and parse using minidom for pretty printing
+        rough_string = ET.tostring(urlset, 'utf-8')
+        reparsed = xml.dom.minidom.parseString(rough_string)
+
+        # Write the formatted XML to file
+        with open(os.path.join(output_directory, 'sitemap.xml'), 'w', encoding='utf-8') as file:
+            file.write(reparsed.toprettyxml(indent="\t"))
 
     # TODO: Extract functionality for determining home link
     @classmethod
@@ -465,11 +495,11 @@ class RichCMSGenerator:
             for article in sorted(organized_articles[dir_path], key=lambda x: x['path']):
                 print(f"{indent}|  |--{os.path.basename(article['path'])}")
 
-
-
 # Main workflow
 input_directory = 'md-content'
 output_directory = 'docs'
 template_directory = 'template'
+base_url = 'https://richcms.zenosmosis.com'  # Replace with your domain
 
-RichCMSGenerator.generate_site(input_directory, output_directory, template_directory)
+RichCMSGenerator.generate_site(input_directory, output_directory, template_directory, base_url)
+
