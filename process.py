@@ -31,6 +31,15 @@ class RichCMSGenerator:
         """
         words = text.split()
         return len(words)
+    
+    @staticmethod
+    def calculate_reading_time(word_count):
+        """
+        Calculates the estimated reading time based on the word count.
+        Average reading speed is considered 200 words per minute.
+        """
+        reading_speed_per_minute = 200
+        return max(1, round(word_count / reading_speed_per_minute))
 
     @staticmethod
     def sanitize_string(input_string):
@@ -234,6 +243,7 @@ class RichCMSGenerator:
         gmt_timezone = pytz.timezone('GMT')
         current_datetime_gmt = current_datetime_utc.astimezone(gmt_timezone)
         formatted_datetime = current_datetime_gmt.strftime("%Y-%m-%d %H:%M:%S %z")
+        reading_time = cls.calculate_reading_time(metadata.get('word_count', 0))
 
         meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in sanitized_metadata.items())
         mathjax_script = """
@@ -247,6 +257,8 @@ class RichCMSGenerator:
         full_content = full_content.replace('%PREV_LINK%', prev_link).replace('%NEXT_LINK%', next_link)
         full_content = full_content.replace('%BREADCRUMB_NAV%', breadcrumb_nav)
         full_content = full_content.replace('%BUILD_DATETIME%', formatted_datetime)
+        full_content = full_content.replace('%READING_TIME%', f"{reading_time}")
+
 
         soup = BeautifulSoup(full_content, 'html.parser')
 

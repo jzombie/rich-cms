@@ -39,7 +39,7 @@
 - [X] Sitemap generation
 - [] RSS generation
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
-- [] Add word count and estimated reading time to meta data
+- [X] Add word count and estimated reading time to meta data
 - [X] Show word count after compilation step
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
