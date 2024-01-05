@@ -1,3 +1,10 @@
+<!--
+  HTML comments, such as this one, are excluded from the finalized HTML.
+
+  These comments are not required at all, nor parsed, and are included solely for
+  illustrative purposes.
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,6 +21,13 @@
     <script src="%ROOT%/scripts/main.js"></script>
     <meta name="generator" content="https://github.com/jzombie/rich-cms" />
     <meta name="build_datetime" content="%BUILD_DATETIME%" />
+    <!--
+      %DYNAMIC-META-TAGS-BLOCK% is a placeholder which gets replaced w/ additional <meta> properties
+      which are parsed from Markdown documents.
+
+      These are not necessary for functionality, but can be useful for integrating with third party
+      services.
+    -->
     %DYNAMIC-META-TAGS-BLOCK%
   </head>
   <body>
@@ -33,15 +47,44 @@
           </div>
         -->
       </header>
-      <nav class="toc">%TOC%</nav>
+      <nav class="toc">
+        <!--
+        %TOC% is the table of contents, a <ul> list that is automatically built
+          with relative links to link HTML documents together.  
+        -->
+        %TOC%
+      </nav>
       <footer>
         <nav>%PREV_LINK% %NEXT_LINK%</nav>
       </footer>
     </aside>
     <article>
       <!-- TODO: Style similar to: https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation -->
-      <nav>%BREADCRUMB_NAV%</nav>
-      <div>%BODY%</div>
+      <nav>
+        <!--
+          %BREADCRUMB_NAV% enables users to navigate to different directory paths
+          
+          This breadcrumb navigation is designed to help users navigate through the directory structure
+          leading to the current document. These are known as the constituent paths.
+          
+          It displays the path hierarchy as follows:
+          
+          Example: /first_level/second_level/document.html
+
+          turns into:
+
+          `first_level` -> `second_level` -> `document_title` (as individual `breadcrumb` links)
+      -->
+        %BREADCRUMB_NAV%
+      </nav>
+      <div>
+        <!--
+          %BODY% is the main article body.
+          
+          This is probably the most important piece, as without it, there's no content.
+        -->
+        %BODY%
+      </div>
       <footer>
         <div class="build_datetime">Build datetime: %BUILD_DATETIME%</div>
         <nav>%PREV_LINK% %NEXT_LINK%</nav>
