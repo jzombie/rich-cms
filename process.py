@@ -449,5 +449,4 @@ input_directory = 'md-content'
 output_directory = 'docs'
 template_directory = 'template'
 
-RichCMSGenerator.clear_output_directory(output_directory)
 RichCMSGenerator.generate_site(input_directory, output_directory, template_directory)
