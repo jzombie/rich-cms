@@ -2,6 +2,7 @@
 
 A collection of utilities...
 
+- Rich CMS: https://github.com/jzombie/rich-cms
 - Pipper: https://github.com/jzombie/pipper
 - Docker Lynx: https://github.com/jzombie/docker-lynx
 - Harlequin (The SQL IDE for Your Terminal): https://github.com/tconbeer/harlequin?tab=readme-ov-file
