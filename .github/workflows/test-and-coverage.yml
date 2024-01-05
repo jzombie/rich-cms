@@ -35,4 +35,7 @@ jobs:
 
       - name: Upload coverage to Coveralls
         if: success()
+        env: # Set the GITHUB_TOKEN environment variable
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This allows Coveralls to access the GitHub token
+
         run: pip install coveralls && coveralls
