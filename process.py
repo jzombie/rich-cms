@@ -125,7 +125,6 @@ class RichCMSGenerator:
 
         return sorted_organized_articles
 
-
     @classmethod
     def create_toc(cls, articles, current_article, base_input_path):
         organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
@@ -138,14 +137,7 @@ class RichCMSGenerator:
                     continue
 
                 dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
-                is_current_dir = os.path.abspath(current_article_path).startswith(os.path.abspath(subdir))
-
-                print('---')
-                print(os.path.abspath(current_article_path))
-                print(os.path.abspath(subdir))
-                print('----')
-
-                print(is_current_dir)
+                is_current_dir = os.path.abspath(current_article_path).startswith(os.path.abspath(os.path.join(base_input_path, subdir)))
 
                 active_class = ' active-dir' if is_current_dir else ''
                 if subdir != '..':
@@ -171,7 +163,6 @@ class RichCMSGenerator:
             return toc_sub
 
         return create_sub_toc('.')
-
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
