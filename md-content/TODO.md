@@ -23,7 +23,7 @@
 - [] The ability to hotlink to a particular paragraph would be nice
 - [X] Use font "very similar" to that used in Google Play Books
 - [] Fix issue where "?" in MD names causes broken links
-- [] Add links to headings (including hover links)
+- [X] Add links to headings
 - [X] Highlight active link
 - [] Add [more] unit tests
 - [] Add simple Docker example that spits out a static website from a directory of markdown files
