@@ -67,6 +67,14 @@ nav.toc ul li.directory > div.label {
   align-items: center; /* Align items vertically center */
 }
 
+nav.toc ul li.directory > div.label a {
+  color: #ccc;
+}
+
+nav.toc ul li.directory.active-dir > div.label a {
+  color: #fff;
+}
+
 nav.toc ul li.directory.active-dir > div.label {
   border-left-color: #ff8c00; /* Active link color (orange) */
 }
