@@ -377,7 +377,7 @@ class RichCMSGenerator:
     @classmethod
     def generate_sitemap(cls, articles, base_url, output_directory):
         """
-        Generates a formatted sitemap XML for the website with URL encoding.
+        Generates a formatted sitemap XML for the website with URL encoding and XML declaration.
         """
         urlset = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
         
@@ -395,9 +395,9 @@ class RichCMSGenerator:
         rough_string = ET.tostring(urlset, 'utf-8')
         reparsed = xml.dom.minidom.parseString(rough_string)
 
-        # Write the formatted XML to file
+        # Write the formatted XML to file with XML declaration
         with open(os.path.join(output_directory, 'sitemap.xml'), 'w', encoding='utf-8') as file:
-            file.write(reparsed.toprettyxml(indent="\t"))
+            file.write(reparsed.toprettyxml(indent="\t", newl="\n", encoding="UTF-8").decode('utf-8'))
 
     # TODO: Extract functionality for determining home link
     @classmethod
