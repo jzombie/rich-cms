@@ -1,5 +1,5 @@
 
-[![Coverage Status](https://coveralls.io/repos/github/jzombie/rich-cms/badge.svg)](https://coveralls.io/github/jzombie/rich-cmss)
+[![Coverage Status](https://coveralls.io/repos/github/jzombie/rich-cms/badge.svg)](https://coveralls.io/github/jzombie/rich-cms)
 
 
 # Rich-CMS
