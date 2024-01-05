@@ -5,6 +5,10 @@ from bs4 import BeautifulSoup
 # TODO: Update
 from process import RichCMSGenerator
 
+# TODO: Add more tests to verify TOC order and other navigation elements are working as expected (i.e. breadcrumb nav)
+# TODO: Add tests to verify string replacements are working as expected
+# TODO: Add tests to verify metadata is properly routed to %DYNAMIC-META-TAGS-BLOCK
+
 class TestRichCMSGenerator(unittest.TestCase):
 
     def test_convert_md_to_html(self):
