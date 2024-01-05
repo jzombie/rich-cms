@@ -137,16 +137,46 @@ class RichCMSGenerator:
                     continue
 
                 dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
-                is_current_dir = os.path.abspath(current_article_path).startswith(os.path.abspath(os.path.join(base_input_path, subdir)))
+
+                is_current_dir = os.path.normpath(current_article_path).startswith(os.path.normpath(os.path.join(base_input_path, subdir)))
+
+                first_article_filename = cls.find_first_article_filename(
+                    os.path.abspath(
+                        os.path.join(
+                            # Note: The base_input_path joined here twice is used intentionally as
+                            # it needs to be joined to a normalized join of base_input_path & subdir
+                            base_input_path,
+                            os.path.normpath(
+                                os.path.join(
+                                    base_input_path,
+                                    subdir
+                                )
+                            )
+                        )
+                    ),
+                    articles
+                )
+                first_article_link = os.path.relpath(
+                    os.path.join(
+                        os.path.normpath(
+                            os.path.join(
+                                base_input_path, subdir
+                            )
+                        ),
+                        first_article_filename
+                    ),
+                    os.path.dirname(current_article_path)
+                )
 
                 active_class = ' active-dir' if is_current_dir else ''
                 if subdir != '..':
-                    toc_sub += '  ' * indent_level + f'<li class="directory {active_class}"><div class="label">{dir_label}</div>'
+                    toc_sub += '  ' * indent_level + f'<li class="directory {active_class}"><div class="label"><a href="{first_article_link}">{dir_label}</a></div>'
 
                 # Add articles in this directory
                 toc_sub += '<ul>'
                 for article in subdir_articles:
                     article_path = article['path']
+
                     relative_path = os.path.relpath(article_path, os.path.dirname(current_article_path))
                     is_current_article = os.path.normpath(current_article_path) == os.path.normpath(article_path)
                     active_article_class = ' class="active"' if is_current_article else ''
@@ -355,8 +385,10 @@ class RichCMSGenerator:
 
     @classmethod
     def find_first_article_filename(cls, dir_path, articles):
+        dir_path = os.path.abspath(dir_path)
+
         for article in articles:
-            if article['directory_path'] == dir_path:
+            if os.path.abspath(article['directory_path']) == dir_path:
                 html_filename = os.path.basename(article['path'])
                 return html_filename
         
