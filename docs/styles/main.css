@@ -67,6 +67,10 @@ nav.toc ul li.directory > div.label {
   align-items: center; /* Align items vertically center */
 }
 
+nav.toc ul li.directory.active-dir > div.label {
+  border-left-color: #ff8c00; /* Active link color (orange) */
+}
+
 /* Icon for the directory label */
 nav.toc ul li.directory > div.label::before {
   content: "📁"; /* You can replace this with an actual icon */
