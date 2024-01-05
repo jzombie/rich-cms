@@ -127,7 +127,9 @@ class RichCMSGenerator:
 
     @classmethod
     def create_toc(cls, articles, current_article, base_input_path):
-        organized_articles = cls.organize_articles_by_directory(articles, base_input_path)
+        # Filtering out non-indexable articles
+        indexable_articles = [article for article in articles if article['metadata'].get('indexable', True)]
+        organized_articles = cls.organize_articles_by_directory(indexable_articles, base_input_path)
         current_article_path = os.path.normpath(current_article['path'])
 
         def create_sub_toc(dir_path, indent_level=0):

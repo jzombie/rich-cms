@@ -5,7 +5,7 @@
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
 - [] Add "Edit on GitHub" link
 - [] Add button to make full-screen
-- [] Ability to make an article not be included in TOC; i.e. for 404 pages
+- [X] Ability to make an article not be included in TOC; i.e. for 404 pages (indexable: no/0/false; etc.)
 - [X] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
 - [X] Fix issue where long links can cause horizontal overflow on mobile
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
