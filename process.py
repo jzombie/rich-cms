@@ -369,8 +369,7 @@ class RichCMSGenerator:
         # Print the article tree
         cls.print_article_tree(articles, input_directory)
 
-    # TODO: Fix home link (and extract functionality for determining home link into a separate file)
-    # TODO: Implement "find_first_article_filename" in TOC for directories
+    # TODO: Extract functionality for determining home link
     @classmethod
     def generate_breadcrumb_nav(cls, input_directory, article, organized_articles):
         breadcrumbs = []
