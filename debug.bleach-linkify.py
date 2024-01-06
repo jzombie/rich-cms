@@ -1,3 +1,5 @@
+# TODO: Replace bleach (https://github.com/mozilla/bleach/issues/698)
+
 from markdown import Markdown
 from bs4 import BeautifulSoup
 import bleach
