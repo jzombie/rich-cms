@@ -41,3 +41,9 @@ $$
 
 > "Hello..."
 
+
+## Example Python
+
+```python
+print("Hello world!")
+```

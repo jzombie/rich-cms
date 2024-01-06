@@ -338,7 +338,6 @@ tr:nth-child(even) {
 code {
   overflow-wrap: break-word;
   white-space: pre-wrap; /* Allows wrapping and preserves formatting */
-  color: #fff;
   background-color: #000;
   padding: 1em;
   display: block;
