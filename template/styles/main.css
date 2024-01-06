@@ -104,7 +104,8 @@ a:focus {
   text-decoration: inherit;
 }
 
-a.skip-link {
+/* Only displays if there is no CSS support, such as a text-only browser */
+.no-css {
   display: none;
 }
 
