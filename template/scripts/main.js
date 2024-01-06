@@ -176,7 +176,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Article heading links
   (() => {
-    const maxHeadingLevels = 10;
+    // HTML only defines heading tags from h1 to h6
+    const maxHeadingLevels = 6;
 
     const articles = document.getElementsByTagName("article");
 
