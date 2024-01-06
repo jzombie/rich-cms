@@ -48,3 +48,4 @@
 - [] optional titles in <- -> article navigation
 - [] Implement PWA support (read offline); use discretion here; it might not be a great idea
 - [] [maybe?] Add pydantic for string replacements?
+- [] Use blockquote format for all "Think and Grow Rich" quotes
