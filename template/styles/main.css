@@ -198,7 +198,7 @@ article {
   max-width: 1024px;
 }
 
-article .drop-cap {
+article p.has-drop-cap::first-letter {
   font-size: 4em; /* Increase font size for the first letter */
   line-height: 1; /* Adjust line height for the drop cap */
   position: relative;

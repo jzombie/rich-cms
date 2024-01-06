@@ -493,19 +493,14 @@ class RichCMSGenerator:
 
                 # Check if the first character is a letter (using a regular expression)
                 if first_letter.isalpha():
-                    rest_of_text = paragraph.text[1:]
-
-                    # Apply drop cap styling
-                    paragraph.clear()  # Clear the contents of the paragraph
-                    drop_cap_span = soup.new_tag('span', attrs={'class': 'drop-cap'})
-                    drop_cap_span.string = first_letter
-                    paragraph.insert(0, drop_cap_span)  # Insert the drop cap at the beginning
-                    paragraph.insert(1, rest_of_text)  # Insert the rest of the text
+                    # Apply drop cap styling by adding class
+                    paragraph['class'] = paragraph.get('class', []) + ['has-drop-cap']
 
                 # Stop iterating
                 break
 
         return str(soup)
+
     
     @classmethod
     def print_article_tree(cls, articles, base_input_path):
