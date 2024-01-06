@@ -106,6 +106,31 @@ document.addEventListener("DOMContentLoaded", function () {
     const button = document.getElementById("menu-toggle-button");
     const asideContainer = document.querySelector("aside");
 
+    const showAsideContainer = () => {
+      asideContainer.style.display = "block";
+
+      // Menu close icon
+      button.innerHTML = '<i class="fas fa-times"></i>';
+    };
+
+    const hideAsideContainer = () => {
+      asideContainer.style.display = "none";
+
+      // Menu icon
+      button.innerHTML = '<i class="fas fa-bars"></i>';
+    };
+
+    const getIsAsideContainerHidden = () =>
+      asideContainer.style.display != "block";
+
+    const toggleAsideContainer = () => {
+      if (getIsAsideContainerHidden()) {
+        showAsideContainer();
+      } else {
+        hideAsideContainer();
+      }
+    };
+
     if (button && asideContainer) {
       // Hide the button by default
       button.style.display = "none";
@@ -114,16 +139,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const prevScrollPosition = { x: 0, y: 0 };
 
         button.addEventListener("click", function () {
-          if (asideContainer.style.display != "block") {
+          if (getIsAsideContainerHidden()) {
             // Cache current position
             prevScrollPosition.x = window.scrollX;
             prevScrollPosition.y = window.scrollY;
           }
 
-          asideContainer.style.display =
-            asideContainer.style.display === "none" ? "block" : "none";
+          toggleAsideContainer();
 
-          if (asideContainer.style.display === "block") {
+          if (!getIsAsideContainerHidden()) {
             // Scroll to top
             window.scrollTo(0, 0);
           } else {
@@ -137,8 +161,11 @@ document.addEventListener("DOMContentLoaded", function () {
       button.style.display = "block";
 
       function handleResize() {
-        asideContainer.style.display =
-          window.innerWidth <= 768 ? "none" : "block";
+        if (window.innerWidth <= 768) {
+          hideAsideContainer();
+        } else {
+          showAsideContainer();
+        }
       }
 
       window.addEventListener("resize", handleResize);
