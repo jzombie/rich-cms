@@ -8,4 +8,4 @@ A collection of utilities...
 - Harlequin (The SQL IDE for Your Terminal): https://github.com/tconbeer/harlequin?tab=readme-ov-file
 - Textual library: https://textual.textualize.io/#what-is-textual (which Harlequin uses; apps over SSH)
 - Sitemap validator: https://www.xml-sitemaps.com/validate-xml-sitemap.html
-- Git UI (Rust-based TUI): https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
+- GitUI (Rust-based TUI): https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
