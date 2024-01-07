@@ -275,6 +275,10 @@ class RichCMSGenerator:
         for a_tag in soup.find_all('a', href=True):
             a_tag['href'] = a_tag['href'].replace(' ', '%20')
 
+        # Ensure alt attribute for images
+        for img_tag in soup.find_all('img', alt=False):
+            img_tag['alt'] = ''  # Add an empty alt attribute if missing
+
         # Remove HTML comments
         comments = soup.find_all(string=lambda text: isinstance(text, Comment))
         for comment in comments:
