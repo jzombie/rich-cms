@@ -260,7 +260,7 @@ class RichCMSGenerator:
 
         meta_tags = "".join(f'<meta name="{key}" content="{value}">\n' for key, value in sanitized_metadata.items())
         mathjax_script = """
-        <script type="text/javascript" async
+        <script async
                 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
         </script>
         """
