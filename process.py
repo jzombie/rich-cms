@@ -243,9 +243,6 @@ class RichCMSGenerator:
 
         return create_sub_toc('.')
 
-
-
-
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
         sanitized_title = cls.sanitize_string(title)
@@ -272,8 +269,11 @@ class RichCMSGenerator:
         full_content = full_content.replace('%BUILD_DATETIME%', formatted_datetime)
         full_content = full_content.replace('%READING_TIME%', f"{reading_time}")
 
-
         soup = BeautifulSoup(full_content, 'html.parser')
+
+        # Replace spaces in links w/ %20
+        for a_tag in soup.find_all('a', href=True):
+            a_tag['href'] = a_tag['href'].replace(' ', '%20')
 
         # Remove HTML comments
         comments = soup.find_all(string=lambda text: isinstance(text, Comment))
