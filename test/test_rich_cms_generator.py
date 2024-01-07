@@ -10,6 +10,43 @@ from process import RichCMSGenerator
 # TODO: Add tests to verify metadata is properly routed to %DYNAMIC-META-TAGS-BLOCK
 
 class TestRichCMSGenerator(unittest.TestCase):
+    @patch('os.path.normpath')
+    @patch('os.path.dirname')
+    def test_create_toc_generates_valid_html(self, mock_dirname, mock_normpath):
+        # Mock behavior setup
+        mock_normpath.side_effect = lambda x: x
+        mock_dirname.side_effect = lambda x: 'dir/subdir' if 'subdir' in x else 'dir'
+
+        # Mock articles setup
+        articles = [
+            {'path': 'dir/article1', 'title': 'Article 1', 'metadata': {'indexable': True}},
+            {'path': 'dir/subdir/article2', 'title': 'Article 2', 'metadata': {'indexable': True}},
+            {'path': 'dir/subdir/subsubdir/article3', 'title': 'Article 3', 'metadata': {'indexable': True}},
+            {'path': 'dir/subdir2/article4', 'title': 'Article 4', 'metadata': {'indexable': True}},
+            {'path': 'dir/subdir2/article5', 'title': 'Article 5', 'metadata': {'indexable': True}},
+        ]
+        current_article = {'path': 'dir/article1'}
+        base_input_path = "dir"
+
+        # Generate TOC HTML
+        toc_html = RichCMSGenerator.create_toc(articles, current_article, base_input_path)
+
+        # Parse the HTML using BeautifulSoup
+        soup = BeautifulSoup(toc_html, 'html.parser')
+
+        # Validate nested structure of <ul> and <li>
+        ul_elements = soup.find_all('ul')
+        for ul in ul_elements:
+            self.assertTrue(all(child.name == 'li' for child in ul.children if child.name is not None), "All children of <ul> should be <li>")
+
+        # Check for no adjacent <ul> tags
+        for ul in ul_elements:
+            self.assertFalse(ul.find_next_sibling("ul"), "<ul> tags should not be adjacent")
+
+        # Check opening and closing tags are <ul>
+        self.assertEqual(soup.contents[0].name, 'ul', "Opening tag should be <ul>")
+        self.assertEqual(soup.contents[-1].name, 'ul', "Closing tag should be <ul>")
+
 
     def test_convert_md_to_html(self):
         """Test conversion of Markdown to HTML."""
