@@ -17,7 +17,7 @@
 - [] Add sub-headings into table of contents (TOC) (navigation similar to: https://finalfusion.github.io/)
 - [X] Fix TOC issue on mobile where it cannot be scrolled vertically
 - [] Parse & include site name in title / header
-- [X] Sanitize strings / prevent XSS
+- [] [partially-implemented] Sanitize strings / prevent XSS
 - [X] Default "index.md" to top of navigation, per directory
 - [X] <- -> article navigation
 - [X] Fix invalid UL tag nesting

@@ -41,6 +41,8 @@ class RichCMSGenerator:
         reading_speed_per_minute = 200
         return max(1, round(word_count / reading_speed_per_minute))
 
+    # TODO: This name might be a bit vague, considering that other portions of
+    # this script remove `script` tag elements directly.
     @staticmethod
     def sanitize_string(input_string):
         """
@@ -67,6 +69,12 @@ class RichCMSGenerator:
 
         # Use BeautifulSoup to parse the HTML
         soup = BeautifulSoup(html_content, 'html.parser')
+
+        # TODO: Remove all bad tags
+        #
+        # Find and remove all script tags
+        for script_tag in soup.find_all('script'):
+            script_tag.extract()
 
         # Suppress MarkupResemblesLocatorWarning
         with warnings.catch_warnings():
