@@ -20,6 +20,7 @@
 - [X] Sanitize strings / prevent XSS
 - [X] Default "index.md" to top of navigation, per directory
 - [X] <- -> article navigation
+- [X] Fix invalid UL tag nesting
 - [] W3C validation: https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] The ability to hotlink to a particular paragraph would be nice
