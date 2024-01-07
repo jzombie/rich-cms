@@ -9,3 +9,7 @@ A collection of utilities...
 - Textual library: https://textual.textualize.io/#what-is-textual (which Harlequin uses; apps over SSH)
 - Sitemap validator: https://www.xml-sitemaps.com/validate-xml-sitemap.html
 - GitUI (Rust-based TUI): https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
+
+## Git Actions Monitoring
+
+- https://github.com/jzombie/rich-cms/actions/
