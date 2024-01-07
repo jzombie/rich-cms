@@ -172,6 +172,12 @@ class RichCMSGenerator:
         def create_sub_toc(dir_path, indent_level=0):
             toc_sub = '<ul>'
             for subdir, subdir_articles in organized_articles.items():
+                # This condition checks if the current subdirectory is directly under the directory we are currently processing.
+                # os.path.normpath() is used to normalize the path by collapsing redundant separators and up-level references.
+                # os.path.dirname(subdir) gets the parent directory of the current 'subdir'.
+                # If the parent directory of 'subdir' is not the same as the 'dir_path' we are currently processing,
+                # it means 'subdir' is not a direct child of 'dir_path' but rather a subdirectory in a different branch of the directory tree.
+                # In such a case, the loop skips this 'subdir' and continues with the next one.
                 if os.path.normpath(os.path.dirname(subdir)) != os.path.normpath(dir_path):
                     continue
 
@@ -182,8 +188,6 @@ class RichCMSGenerator:
                 first_article_filename = cls.find_first_article_filename(
                     os.path.abspath(
                         os.path.join(
-                            # Note: The base_input_path joined here twice is used intentionally as
-                            # it needs to be joined to a normalized join of base_input_path & subdir
                             base_input_path,
                             os.path.normpath(
                                 os.path.join(
@@ -208,8 +212,11 @@ class RichCMSGenerator:
                 )
 
                 active_class = ' active-dir' if is_current_dir else ''
+
                 if subdir != '..':
                     toc_sub += '  ' * indent_level + f'<li class="directory {active_class}"><div class="label"><a href="{first_article_link}">{dir_label}</a></div>'
+                else:
+                    toc_sub += '  ' * indent_level + f'<li>'
 
                 # Add articles in this directory
                 toc_sub += '<ul>'
@@ -221,17 +228,23 @@ class RichCMSGenerator:
                     active_article_class = ' class="active"' if is_current_article else ''
                     toc_sub += f'<li{active_article_class}><a href="{relative_path}">{article["title"]}</a></li>'
 
-                if subdir != '..':
-                    toc_sub += '</ul>'
+                toc_sub += '</ul>'
 
-                # Recursively handle subdirectories
-                toc_sub += create_sub_toc(subdir, indent_level + 1)
                 toc_sub += '</li>'
+
+                # If there are subdirectories, handle them recursively inside the current directory's <li>
+                if any(os.path.normpath(os.path.dirname(sub)) == os.path.normpath(subdir) for sub in organized_articles.keys()):
+                    toc_sub += '<li>'
+                    toc_sub += create_sub_toc(subdir, indent_level + 1)
+                    toc_sub += '</li>'
 
             toc_sub += '</ul>'
             return toc_sub
 
         return create_sub_toc('.')
+
+
+
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
