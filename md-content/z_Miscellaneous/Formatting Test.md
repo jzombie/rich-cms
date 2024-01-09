@@ -1,6 +1,6 @@
 # Formatting Test
 
-Some examples to help verify the markdown formatting is working as intended.
+Some examples to help verify the Markdown formatting is working as intended.
 
 <img src="%ROOT%/images/thinker.png" style="width: 180px" />
 
