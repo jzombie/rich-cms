@@ -30,8 +30,8 @@
 - [X] Add links to headings
 - [X] Highlight active link
 - [] Add [more] unit tests
-- [] Add simple Docker example that spits out a static website from a directory of markdown files
-- [PROBABLY-WON'T-DO] [] Live content update as markdown content is changed
+- [] Add simple Docker example that spits out a static website from a directory of Markdown files
+- [PROBABLY-WON'T-DO] [] Live content update as Markdown content is changed
 - [] Adding semantic search would be nice: 
 
     Related HN discussion: https://news.ycombinator.com/item?id=38845061

@@ -76,7 +76,7 @@ class TestRichCMSGenerator(unittest.TestCase):
 
     @patch("builtins.open", new_callable=mock_open, read_data="# Test Markdown\nThis is test content.")
     def test_read_markdown_file(self, mock_file):
-        """Test reading markdown content from a file."""
+        """Test reading Markdown content from a file."""
         expected_content = "# Test Markdown\nThis is test content."
         read_content = RichCMSGenerator.read_markdown_file('test.md')
         mock_file.assert_called_once_with('test.md', 'r', encoding='utf-8')
