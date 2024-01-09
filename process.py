@@ -55,7 +55,7 @@ class RichCMSGenerator:
     def convert_md_to_html(cls, md_content):
         # Escape dollar signs that are likely part of monetary values
         # This regex targets a dollar sign followed by a number, optionally with a decimal part
-        latex_escaped_md_content = re.sub(r'(?<!\\)\$(?![0-9.,]+)', r'\\$', md_content)
+        latex_escaped_md_content = re.sub(r'(?<!\\)\$(\d+(\.\d+)?)', r'\\\$\1', md_content)
         
         # Convert Markdown to HTML
         md = markdown.Markdown(extensions=[
@@ -71,10 +71,11 @@ class RichCMSGenerator:
         soup = BeautifulSoup(html_content, 'html.parser')
 
         # TODO: Remove all bad tags
+        # TODO: Allow 'safe' scripts... this blocks LaTeX scripts (which might should be embedded as images instead)
         #
         # Find and remove all script tags
-        for script_tag in soup.find_all('script'):
-            script_tag.extract()
+        # for script_tag in soup.find_all('script'):
+        #     script_tag.extract()
 
         # Suppress MarkupResemblesLocatorWarning
         with warnings.catch_warnings():
