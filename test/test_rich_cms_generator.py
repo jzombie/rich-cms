@@ -124,7 +124,7 @@ class TestRichCMSGenerator(unittest.TestCase):
             # Regular string with dollar sign for pricing
             (
                 "...all for $65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as $20.00 a month.",
-                "<p>...all for \\$65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as \\$20.00 a month.</p>"
+                "<p>...all for $65.00 a month. In a smaller city, or a more sparsely settled part of New York city, the same apartment could be had for as low as $20.00 a month.</p>"
             ),
             # Regular string with dollar signs used figuratively
             (

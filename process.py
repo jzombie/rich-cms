@@ -53,9 +53,9 @@ class RichCMSGenerator:
 
     @classmethod
     def convert_md_to_html(cls, md_content):
-        # Escape dollar signs that are likely part of monetary values
-        # This regex targets a dollar sign followed by a number, optionally with a decimal part
-        latex_escaped_md_content = re.sub(r'(?<!\\)\$(\d+(\.\d+)?)', r'\\\$\1', md_content)
+        # Adjust the regex to escape dollar signs in monetary values
+        # This regex will escape a dollar sign followed by digits and optionally a decimal part
+        latex_escaped_md_content = re.sub(r'\$(\d+(\.\d+)?)', r'\\$\1', md_content)
         
         # Convert Markdown to HTML
         md = markdown.Markdown(extensions=[
@@ -66,6 +66,9 @@ class RichCMSGenerator:
             'markdown.extensions.extra'
         ])
         html_content = md.convert(latex_escaped_md_content)
+
+        # Use BeautifulSoup to parse the HTML
+        soup = BeautifulSoup(html_content, 'html.parser')
 
         # Use BeautifulSoup to parse the HTML
         soup = BeautifulSoup(html_content, 'html.parser')
