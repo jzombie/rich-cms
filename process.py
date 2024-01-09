@@ -55,7 +55,7 @@ class RichCMSGenerator:
     def convert_md_to_html(cls, md_content):
         # Escape dollar signs that are likely part of monetary values
         # This regex targets a dollar sign followed by a number, optionally with a decimal part
-        latex_escaped_md_content = re.sub(r'(?<!\\)\$(\d+(\.\d+)?)', r'\\\$\1', md_content)
+        latex_escaped_md_content = re.sub(r'(?<!\\)\$(?![0-9.,]+)', r'\\$', md_content)
         
         # Convert Markdown to HTML
         md = markdown.Markdown(extensions=[
