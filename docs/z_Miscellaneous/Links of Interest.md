@@ -8,4 +8,5 @@
 6. (On building a semantic search) https://vickiboykis.com/2024/01/05/retro-on-viberary/
 7. (Some good pointers on lasting web pages) https://jeffhuang.com/designed_to_last/
 8. (Simple lasts longer) https://newsletter.pnote.eu/p/simple-lasts-longer
-9. (Guide to self-attention): https://twiecki.io/blog/2024/01/04/
+9. (Guide to Self-Attention): https://twiecki.io/blog/2024/01/04/
+10. (Building a Container from Scratch in Rust): https://brianshih1.github.io/mini-container/
