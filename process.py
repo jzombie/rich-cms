@@ -190,7 +190,7 @@ class RichCMSGenerator:
                 # If the parent directory of 'subdir' is not the same as the 'dir_path' we are currently processing,
                 # it means 'subdir' is not a direct child of 'dir_path' but rather a subdirectory in a different branch of the directory tree.
                 # In such a case, the loop skips this 'subdir' and continues with the next one.
-                if os.path.normpath(os.path.dirname(subdir)) != os.path.normpath(dir_path):
+                if subdir == '.' or os.path.normpath(os.path.dirname(subdir)) != os.path.normpath(dir_path):
                     continue
 
                 dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
@@ -219,6 +219,7 @@ class RichCMSGenerator:
                     ),
                     articles
                 )
+
                 first_article_link = os.path.relpath(
                     os.path.join(
                         os.path.normpath(
@@ -231,10 +232,10 @@ class RichCMSGenerator:
                     os.path.dirname(current_article_path)
                 )
 
-                active_class = ' active-dir' if is_current_dir else ''
+                dir_class = 'directory active-dir' if is_current_dir else 'directory'
 
                 if subdir != '..':
-                    toc_sub += '  ' * indent_level + f'<li class="directory {active_class}"><div class="label"><a href="{first_article_link}">{dir_label}</a></div>'
+                    toc_sub += '  ' * indent_level + f'<li class="{dir_class}"><div class="label"><a href="{first_article_link}">{dir_label}</a></div>'
                 else:
                     toc_sub += '  ' * indent_level + f'<li>'
 
