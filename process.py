@@ -175,10 +175,10 @@ class RichCMSGenerator:
         return dict(sorted_organized_articles)
 
     @classmethod
-    def create_toc(cls, articles, current_article, base_input_path):
+    def create_toc(cls, articles, current_article, input_directory):
         # Filtering out non-indexable articles
         indexable_articles = [article for article in articles if article['metadata'].get('indexable', True)]
-        organized_articles = cls.organize_articles_by_directory(indexable_articles, base_input_path)
+        organized_articles = cls.organize_articles_by_directory(indexable_articles, input_directory)
         current_article_path = os.path.normpath(current_article['path'])
 
         def create_sub_toc(dir_path, indent_level=0):
@@ -195,15 +195,23 @@ class RichCMSGenerator:
 
                 dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
 
-                is_current_dir = os.path.normpath(current_article_path).startswith(os.path.normpath(os.path.join(base_input_path, subdir)))
+                is_current_dir = os.path.normpath(
+                    current_article_path
+                ).startswith(
+                    os.path.normpath(
+                        os.path.join(
+                            input_directory, subdir
+                        )
+                    )
+                )
 
                 first_article_filename = cls.find_first_article_filename(
                     os.path.abspath(
                         os.path.join(
-                            base_input_path,
+                            input_directory,
                             os.path.normpath(
                                 os.path.join(
-                                    base_input_path,
+                                    input_directory,
                                     subdir
                                 )
                             )
@@ -215,7 +223,7 @@ class RichCMSGenerator:
                     os.path.join(
                         os.path.normpath(
                             os.path.join(
-                                base_input_path, subdir
+                                input_directory, subdir
                             )
                         ),
                         first_article_filename
