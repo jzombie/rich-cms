@@ -46,6 +46,7 @@
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [X] Add word count and estimated reading time to meta data
 - [X] Show word count after compilation step
+- [] Link graph similar to Obsidian
 - [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
 - [] Tiny icon on aside to indicate if it can be scrolled (if overflown)
