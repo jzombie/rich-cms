@@ -11,3 +11,4 @@
 9. (Guide to Self-Attention): https://twiecki.io/blog/2024/01/04/
 10. (Building a Container from Scratch in Rust): https://brianshih1.github.io/mini-container/
 11. (Nice looking blog w/ contents): https://matthewsanabria.dev/posts/no-shell-for-you-container/#difficulties-of-minimal-container-images
+12. (Setting up Windows 11 w/o Microsoft Account): https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
