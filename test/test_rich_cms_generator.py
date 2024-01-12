@@ -1,5 +1,7 @@
 import unittest
+import os
 from unittest.mock import patch, mock_open
+from pyfakefs.fake_filesystem_unittest import TestCase
 from bs4 import BeautifulSoup
 
 # TODO: Update
@@ -9,27 +11,36 @@ from process import RichCMSGenerator
 # TODO: Add tests to verify string replacements are working as expected
 # TODO: Add tests to verify metadata is properly routed to %DYNAMIC-META-TAGS-BLOCK
 
-class TestRichCMSGenerator(unittest.TestCase):
-    @patch('os.path.normpath')
-    @patch('os.path.dirname')
-    def test_create_toc_generates_valid_html(self, mock_dirname, mock_normpath):
-        # Mock behavior setup
-        mock_normpath.side_effect = lambda x: x
-        mock_dirname.side_effect = lambda x: 'dir/subdir' if 'subdir' in x else 'dir'
+class TestRichCMSGenerator(TestCase):
+    def setUp(self):
+        self.setUpPyfakefs()  # Set up the fake filesystem
+
+    def test_create_toc_generates_valid_html(self):
+        # Create fake directory structure and files
+        self.fs.create_file('/dir/article1.html', contents='Article 1 Content')
+        self.fs.create_dir('/dir/subdir')
+        self.fs.create_file('/dir/subdir/article2.html', contents='Article 2 Content')
+        self.fs.create_dir('/dir/subdir/subsubdir')
+        self.fs.create_file('/dir/subdir/subsubdir/article3.html', contents='Article 3 Content')
+        self.fs.create_dir('/dir/subdir2')
+        self.fs.create_file('/dir/subdir2/article4.html', contents='Article 4 Content')
+        self.fs.create_file('/dir/subdir2/article5.html', contents='Article 5 Content')
 
         # Mock articles setup
         articles = [
-            {'path': 'dir/article1', 'title': 'Article 1', 'metadata': {'indexable': True}},
-            {'path': 'dir/subdir/article2', 'title': 'Article 2', 'metadata': {'indexable': True}},
-            {'path': 'dir/subdir/subsubdir/article3', 'title': 'Article 3', 'metadata': {'indexable': True}},
-            {'path': 'dir/subdir2/article4', 'title': 'Article 4', 'metadata': {'indexable': True}},
-            {'path': 'dir/subdir2/article5', 'title': 'Article 5', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir', 'path': '/dir/article1.html', 'title': 'Article 1', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir', 'path': '/dir/subdir/article2.html', 'title': 'Article 2', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir/subsubdir', 'path': '/dir/subdir/subsubdir/article3.html', 'title': 'Article 3', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir2', 'path': '/dir/subdir2/article4.html', 'title': 'Article 4', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir2', 'path': '/dir/subdir2/article5.html', 'title': 'Article 5', 'metadata': {'indexable': True}},
         ]
-        current_article = {'path': 'dir/article1'}
-        base_input_path = "dir"
+        current_article = {'path': '/dir/article1'}
+        base_input_path = "/dir"
 
-        # Generate TOC HTML
+       # Generate TOC HTML
         toc_html = RichCMSGenerator.create_toc(articles, current_article, base_input_path)
+
+        self.assertEqual(toc_html, '<ul><li class="directory"><div class="label"><a href="subdir/article2.html">subdir</a></div><ul><li><a href="subdir/article2.html">Article 2</a></li></ul></li><li><ul>  <li class="directory"><div class="label"><a href="subdir/subsubdir/article3.html">subsubdir</a></div><ul><li><a href="subdir/subsubdir/article3.html">Article 3</a></li></ul></li></ul></li><li class="directory"><div class="label"><a href="subdir2/article4.html">subdir2</a></div><ul><li><a href="subdir2/article4.html">Article 4</a></li><li><a href="subdir2/article5.html">Article 5</a></li></ul></li></ul>', "toc_html matches expected string")
 
         # Parse the HTML using BeautifulSoup
         soup = BeautifulSoup(toc_html, 'html.parser')
@@ -46,6 +57,55 @@ class TestRichCMSGenerator(unittest.TestCase):
         # Check opening and closing tags are <ul>
         self.assertEqual(soup.contents[0].name, 'ul', "Opening tag should be <ul>")
         self.assertEqual(soup.contents[-1].name, 'ul', "Closing tag should be <ul>")
+
+    def test_create_toc_links_to_valid_directories(self):
+        # Create fake directory structure and files
+        self.fs.create_file('/dir/article1.html', contents='Article 1 Content')
+        self.fs.create_dir('/dir/subdir')
+        self.fs.create_file('/dir/subdir/article2.html', contents='Article 2 Content')
+        self.fs.create_dir('/dir/subdir/subsubdir')
+        self.fs.create_file('/dir/subdir/subsubdir/article3.html', contents='Article 3 Content')
+        self.fs.create_dir('/dir/subdir2')
+        self.fs.create_file('/dir/subdir2/article4.html', contents='Article 4 Content')
+        self.fs.create_file('/dir/subdir2/article5.html', contents='Article 5 Content')
+
+        # Mock articles setup
+        articles = [
+            {'directory_path': '/dir', 'path': '/dir/article1.html', 'title': 'Article 1', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir', 'path': '/dir/subdir/article2.html', 'title': 'Article 2', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir/subsubdir', 'path': '/dir/subdir/subsubdir/article3.html', 'title': 'Article 3', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir2', 'path': '/dir/subdir2/article4.html', 'title': 'Article 4', 'metadata': {'indexable': True}},
+            {'directory_path': '/dir/subdir2', 'path': '/dir/subdir2/article5.html', 'title': 'Article 5', 'metadata': {'indexable': True}},
+        ]
+        current_article = {'path': '/dir/article1'}
+        base_input_path = "/dir"
+
+       # Generate TOC HTML
+        toc_html = RichCMSGenerator.create_toc(articles, current_article, base_input_path)
+
+        # Parse the HTML using BeautifulSoup
+        soup = BeautifulSoup(toc_html, 'html.parser')
+
+        # Validate the directory links in the TOC
+        directory_li_elements = soup.find_all('li', class_='directory')
+        self.assertTrue(len(directory_li_elements) > 0, "There should be directory list items in the TOC")
+
+        for li in directory_li_elements:
+            directory_link = li.find('a')
+            self.assertIsNotNone(directory_link, "Each directory list item should contain a link")
+            href = directory_link['href']
+            dir_label = directory_link.get_text(strip=True)
+
+            # Expected links based on the directory structure
+            expected_links = {
+                'subdir': 'subdir/article2.html',
+                'subsubdir': 'subdir/subsubdir/article3.html',
+                'subdir2': 'subdir2/article4.html'
+            }
+
+            # Check if the href matches the expected link for the directory
+            self.assertTrue(href == expected_links.get(dir_label), 
+                            f"Link for '{dir_label}' should point to '{expected_links.get(dir_label)}', but points to '{href}' instead")
 
 
     def test_convert_md_to_html(self):
