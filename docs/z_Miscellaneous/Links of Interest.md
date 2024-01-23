@@ -9,9 +9,10 @@
 7. (Some good pointers on lasting web pages) https://jeffhuang.com/designed_to_last/
 8. (Simple lasts longer) https://newsletter.pnote.eu/p/simple-lasts-longer
 9. (Guide to Self-Attention): https://twiecki.io/blog/2024/01/04/
-10. (Building a Container from Scratch in Rust): https://brianshih1.github.io/mini-container/
-11. (Nice looking blog w/ contents): https://matthewsanabria.dev/posts/no-shell-for-you-container/#difficulties-of-minimal-container-images
-12. (Setting up Windows 11 w/o Microsoft Account): https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
+10. (Building a Container from Scratch in Rust) https://brianshih1.github.io/mini-container/
+11. (Nice looking blog w/ contents) https://matthewsanabria.dev/posts/no-shell-for-you-container/#difficulties-of-minimal-container-images
+12. (Setting up Windows 11 w/o Microsoft Account) https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
 13. (Follow RSS across the web) https://openrss.org/
 14. (Machine Learning Engineering Open Book
  ): https://github.com/stas00/ml-engineering
+15. (Why is machine learning hard?) https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html
