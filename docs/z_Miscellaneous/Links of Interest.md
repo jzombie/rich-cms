@@ -16,3 +16,4 @@
 14. (Machine Learning Engineering Open Book
  ): https://github.com/stas00/ml-engineering
 15. (Why is machine learning hard?) https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html
+16. (Machine learning is still too hard for software engineers) https://news.ycombinator.com/item?id=39109469
