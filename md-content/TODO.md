@@ -2,6 +2,7 @@
 
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
+- [] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
 - [] Fix issue where language code highlighting isn't colorizing
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
