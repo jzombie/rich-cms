@@ -2,6 +2,8 @@
 
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
+- [] Add simple Docker example that spits out a static website from a directory of Markdown files
+- [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
 - [] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
 - [] Fix issue where language code highlighting isn't colorizing
@@ -31,7 +33,6 @@
 - [X] Add links to headings
 - [X] Highlight active link
 - [] Add [more] unit tests
-- [] Add simple Docker example that spits out a static website from a directory of Markdown files
 - [PROBABLY-WON'T-DO] [] Live content update as Markdown content is changed
 - [] Adding semantic search would be nice: 
 
