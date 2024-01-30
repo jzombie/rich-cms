@@ -14,3 +14,9 @@ A collection of utilities...
 ## Git Actions Monitoring
 
 - https://github.com/jzombie/rich-cms/actions/
+
+## Python Lists on Disks
+
+- DiskList: A python list implementation that uses the disk to handle very large collections of pickle-able objects. https://github.com/Belval/disklist
+- mmaparray: Disk-backed arrays witha  structure similar to Python's built-in array module. https://pypi.org/project/mmaparray/
+- Darr: Python library designed for working with large, disk-based Numpy arrays. https://github.com/gbeckers/darr
