@@ -18,3 +18,4 @@
 15. (Why is machine learning hard?) https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html
 16. (Machine learning is still too hard for software engineers) https://news.ycombinator.com/item?id=39109469
 17. (Build an LLM [from Scratch]) https://github.com/rasbt/LLMs-from-scratch
+18. (Goodhart's law): https://en.wikipedia.org/wiki/Goodhart%27s_law ("When a measure becomes a target, it ceases to be a good measure".)
