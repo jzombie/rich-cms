@@ -20,3 +20,4 @@
 17. (Build an LLM [from Scratch]) https://github.com/rasbt/LLMs-from-scratch
 18. (Goodhart's law) https://en.wikipedia.org/wiki/Goodhart%27s_law ("When a measure becomes a target, it ceases to be a good measure.")
 19. (Technology is the problem [includes mention of "doped silicon user interfaces"]) https://www.shyamsankar.com/p/technology-is-the-problem
+20. (I just like the heading fonts) https://joshstrange.com/2019/09/26/my-mac-apps/
