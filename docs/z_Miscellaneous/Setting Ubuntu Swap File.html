@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Links of Interest
+   Setting Ubuntu Swap File
   </title>
   <link href="../styles/main.css" rel="stylesheet"/>
   <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -14,7 +14,7 @@
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
   <meta content="2024-02-05 21:54:45 +0000" name="build_datetime"/>
-  <meta content="143" name="word_count"/>
+  <meta content="361" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Links of Interest
+     Setting Ubuntu Swap File
     </div>
    </header>
    <nav class="toc">
@@ -164,7 +164,7 @@
            Hacker News API
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Links%20of%20Interest.html">
            Links of Interest
           </a>
@@ -174,7 +174,7 @@
            Lyrics to an Unknown Song
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Setting%20Ubuntu%20Swap%20File.html">
            Setting Ubuntu Swap File
           </a>
@@ -238,10 +238,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="Hacker%20News%20API.html">
+     <a class="previous" href="Lyrics%20to%20an%20Unknown%20Song.html">
       « Previous
      </a>
-     <a class="next" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="next" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       Next »
      </a>
     </nav>
@@ -256,141 +256,151 @@
     <a href="../z_Miscellaneous/Engineering%20Blogs.html">
      z_Miscellaneous
     </a>
-    &gt; Links of Interest
+    &gt; Setting Ubuntu Swap File
    </nav>
    <p>
-    Estimated reading time: 1 minute(s).
+    Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="links-of-interest">
-     Links of Interest
+    <h1 id="setting-ubuntu-swap-file">
+     Setting Ubuntu Swap File
     </h1>
-    <ol>
+    <p class="has-drop-cap">
+     To increase the swap file size on an Ubuntu system using
+     <code>
+      fallocate
+     </code>
+     , follow these updated instructions. This method is efficient and quick, suitable for most modern filesystems.
+    </p>
+    <h2 id="step-1-turn-off-existing-swap-file">
+     Step 1: Turn Off Existing Swap File
+    </h2>
+    <p>
+     Disable the currently active swap file to modify or replace it:
+    </p>
+    <pre><code class="language-bash">sudo swapoff -a
+</code></pre>
+    <p>
+     This command turns off all swap spaces in use.
+    </p>
+    <h2 id="step-2-create-or-resize-the-swap-file-with-fallocate">
+     Step 2: Create or Resize the Swap File with
+     <code>
+      fallocate
+     </code>
+    </h2>
+    <p>
+     Use
+     <code>
+      fallocate
+     </code>
+     to allocate space for the swap file instantly:
+    </p>
+    <pre><code class="language-bash">sudo fallocate -l 4G /swapfile
+</code></pre>
+    <ul>
      <li>
-      <a href="https://www.construction-physics.com/p/no-inventions-no-innovations-a-history" rel="noopener noreferrer" target="_blank">
-       https://www.construction-physics.com/p/no-inventions-no-innovations-a-history
-      </a>
+      <code>
+       -l 4G
+      </code>
+      specifies the desired size of the swap file, 4GB in this example.
      </li>
      <li>
-      <a href="https://eclecticlight.co/2023/12/29/why-are-apple-silicon-vms-so-different/" rel="noopener noreferrer" target="_blank">
-       https://eclecticlight.co/2023/12/29/why-are-apple-silicon-vms-so-different/
-      </a>
+      <code>
+       /swapfile
+      </code>
+      is the file to be used or created for swap.
      </li>
-     <li>
-      <a href="https://www.theverge.com/23373371/arm-chips-chip-shortage-ceo-rene-haas-tech-intel-apple-decoder" rel="noopener noreferrer" target="_blank">
-       https://www.theverge.com/23373371/arm-chips-chip-shortage-ceo-rene-haas-tech-intel-apple-decoder
-      </a>
-     </li>
-     <li>
-      <a href="https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/" rel="noopener noreferrer" target="_blank">
-       https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/
-      </a>
-     </li>
-     <li>
-      <a href="https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog" rel="noopener noreferrer" target="_blank">
-       https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog
-      </a>
-     </li>
-     <li>
-      (On building a semantic search)
-      <a href="https://vickiboykis.com/2024/01/05/retro-on-viberary/" rel="noopener noreferrer" target="_blank">
-       https://vickiboykis.com/2024/01/05/retro-on-viberary/
-      </a>
-     </li>
-     <li>
-      (Some good pointers on lasting web pages)
-      <a href="https://jeffhuang.com/designed_to_last/" rel="noopener noreferrer" target="_blank">
-       https://jeffhuang.com/designed_to_last/
-      </a>
-     </li>
-     <li>
-      (Simple lasts longer)
-      <a href="https://newsletter.pnote.eu/p/simple-lasts-longer" rel="noopener noreferrer" target="_blank">
-       https://newsletter.pnote.eu/p/simple-lasts-longer
-      </a>
-     </li>
-     <li>
-      (Guide to Self-Attention):
-      <a href="https://twiecki.io/blog/2024/01/04/" rel="noopener noreferrer" target="_blank">
-       https://twiecki.io/blog/2024/01/04/
-      </a>
-     </li>
-     <li>
-      (Building a Container from Scratch in Rust)
-      <a href="https://brianshih1.github.io/mini-container/" rel="noopener noreferrer" target="_blank">
-       https://brianshih1.github.io/mini-container/
-      </a>
-     </li>
-     <li>
-      (Nice looking blog w/ contents) https://matthewsanabria.dev/posts/no-shell-for-you-container/#difficulties-of-minimal-container-images
-     </li>
-     <li>
-      (Setting up Windows 11 w/o Microsoft Account)
-      <a href="https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account" rel="noopener noreferrer" target="_blank">
-       https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
-      </a>
-     </li>
-     <li>
-      (Follow RSS across the web)
-      <a href="https://openrss.org/" rel="noopener noreferrer" target="_blank">
-       https://openrss.org/
-      </a>
-     </li>
-     <li>
-      (Machine Learning Engineering Open Book
- ):
-      <a href="https://github.com/stas00/ml-engineering" rel="noopener noreferrer" target="_blank">
-       https://github.com/stas00/ml-engineering
-      </a>
-     </li>
-     <li>
-      (Why is machine learning hard?)
-      <a href="https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html" rel="noopener noreferrer" target="_blank">
-       https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html
-      </a>
-     </li>
-     <li>
-      (Machine learning is still too hard for software engineers)
-      <a href="https://news.ycombinator.com/item?id=39109469" rel="noopener noreferrer" target="_blank">
-       https://news.ycombinator.com/item?id=39109469
-      </a>
-     </li>
-     <li>
-      (Build an LLM [from Scratch])
-      <a href="https://github.com/rasbt/LLMs-from-scratch" rel="noopener noreferrer" target="_blank">
-       https://github.com/rasbt/LLMs-from-scratch
-      </a>
-     </li>
-     <li>
-      (Goodhart's law)
-      <a href="https://en.wikipedia.org/wiki/Goodhart%27s_law" rel="noopener noreferrer" target="_blank">
-       https://en.wikipedia.org/wiki/Goodhart%27s_law
-      </a>
-      ("When a measure becomes a target, it ceases to be a good measure.")
-     </li>
-     <li>
-      (Technology is the problem [includes mention of "doped silicon user interfaces"])
-      <a href="https://www.shyamsankar.com/p/technology-is-the-problem" rel="noopener noreferrer" target="_blank">
-       https://www.shyamsankar.com/p/technology-is-the-problem
-      </a>
-     </li>
-     <li>
-      (I just like the heading fonts)
-      <a href="https://joshstrange.com/2019/09/26/my-mac-apps/" rel="noopener noreferrer" target="_blank">
-       https://joshstrange.com/2019/09/26/my-mac-apps/
-      </a>
-     </li>
-    </ol>
+    </ul>
+    <p>
+     Adjust the size (
+     <code>
+      4G
+     </code>
+     in the example) according to your needs.
+    </p>
+    <h2 id="step-3-secure-the-swap-file">
+     Step 3: Secure the Swap File
+    </h2>
+    <p>
+     Set the swap file's permissions to ensure it is only accessible by the root user:
+    </p>
+    <pre><code class="language-bash">sudo chmod 600 /swapfile
+</code></pre>
+    <p>
+     This command restricts access to the swap file, enhancing security.
+    </p>
+    <h2 id="step-4-make-the-swap-file">
+     Step 4: Make the Swap File
+    </h2>
+    <p>
+     Format the newly created file for use as swap:
+    </p>
+    <pre><code class="language-bash">sudo mkswap /swapfile
+</code></pre>
+    <p>
+     This prepares the swap file for use by setting it up as a swap space.
+    </p>
+    <h2 id="step-5-activate-the-swap-file">
+     Step 5: Activate the Swap File
+    </h2>
+    <p>
+     Enable the swap file, adding it to your system's swap space:
+    </p>
+    <pre><code class="language-bash">sudo swapon /swapfile
+</code></pre>
+    <p>
+     This step makes the swap file active, allowing the system to use it.
+    </p>
+    <h2 id="step-6-make-the-swap-file-permanent">
+     Step 6: Make the Swap File Permanent
+    </h2>
+    <p>
+     Edit
+     <code>
+      /etc/fstab
+     </code>
+     to include the swap file for automatic activation at boot time:
+    </p>
+    <pre><code class="language-bash">echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+</code></pre>
+    <p>
+     Appending this line to
+     <code>
+      /etc/fstab
+     </code>
+     ensures the swap file is recognized and activated at every startup.
+    </p>
+    <h2 id="step-7-verify-the-swap-file">
+     Step 7: Verify the Swap File
+    </h2>
+    <p>
+     Check that the swap is active and verify its size:
+    </p>
+    <pre><code class="language-bash">sudo swapon --show
+</code></pre>
+    <p>
+     To see the total available swap space, including the newly added swap:
+    </p>
+    <pre><code class="language-bash">free -h
+</code></pre>
+    <p>
+     This concludes the steps to increase the swap file size on your Ubuntu system using
+     <code>
+      fallocate
+     </code>
+     . Adjust the swap file size in step 2 as necessary to suit your system's requirements.
+    </p>
    </div>
    <footer>
     <div class="build_datetime">
      Build datetime: 2024-02-05 21:54:45 +0000
     </div>
     <nav>
-     <a class="previous" href="Hacker%20News%20API.html">
+     <a class="previous" href="Lyrics%20to%20an%20Unknown%20Song.html">
       « Previous
      </a>
-     <a class="next" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="next" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       Next »
      </a>
     </nav>
