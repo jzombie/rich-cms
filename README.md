@@ -5,6 +5,8 @@
 
 A hacky, prototype, Markdown-driven CMS, written in Python.
 
+Preview: https://richcms.zenosmosis.com
+
 More to come...
 
 ## Serve (for development debugging)
