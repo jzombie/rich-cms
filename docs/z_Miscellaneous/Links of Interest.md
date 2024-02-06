@@ -24,3 +24,4 @@
 21. (This site's auto-generated sitemap) https://richcms.zenosmosis.com/sitemap.xml
 22. (Running Local LLMs and VLMs on the Raspberri Pi) https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a
 23. (Adding full-text search to a static site) https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/
+24. (AI-driven search engine) https://www.perplexity.ai/
