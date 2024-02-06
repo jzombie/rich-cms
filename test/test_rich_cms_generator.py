@@ -1,10 +1,8 @@
 import unittest
-import os
 from unittest.mock import patch, mock_open
 from pyfakefs.fake_filesystem_unittest import TestCase
 from bs4 import BeautifulSoup
 
-# TODO: Update
 from process import RichCMSGenerator
 
 # TODO: Add more tests to verify TOC order and other navigation elements are working as expected (i.e. breadcrumb nav)
