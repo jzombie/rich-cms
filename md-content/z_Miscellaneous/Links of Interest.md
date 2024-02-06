@@ -22,3 +22,4 @@
 19. (Technology is the problem [includes mention of "doped silicon user interfaces"]) https://www.shyamsankar.com/p/technology-is-the-problem
 20. (I just like the heading fonts) https://joshstrange.com/2019/09/26/my-mac-apps/
 21. (This site's auto-generated sitemap) https://richcms.zenosmosis.com/sitemap.xml
+22. (Running Local LLMs and VLMs on the Raspberri Pi) https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a
