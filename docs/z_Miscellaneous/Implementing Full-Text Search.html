@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Links of Interest
+   Implementing Full-Text Search (in a static HTML website)
   </title>
   <link href="../styles/main.css" rel="stylesheet"/>
   <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -14,7 +14,7 @@
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
   <meta content="2024-02-06 21:32:33 +0000" name="build_datetime"/>
-  <meta content="160" name="word_count"/>
+  <meta content="401" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Links of Interest
+     Implementing Full-Text Search (in a static HTML website)
     </div>
    </header>
    <nav class="toc">
@@ -169,12 +169,12 @@
            Hacker News API
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Implementing%20Full-Text%20Search.html">
            Implementing Full-Text Search (in a static HTML website)
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Links%20of%20Interest.html">
            Links of Interest
           </a>
@@ -253,10 +253,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="Implementing%20Full-Text%20Search.html">
+     <a class="previous" href="Hacker%20News%20API.html">
       « Previous
      </a>
-     <a class="next" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="next" href="Links%20of%20Interest.html">
       Next »
      </a>
     </nav>
@@ -271,153 +271,122 @@
     <a href="../z_Miscellaneous/Courses.html">
      z_Miscellaneous
     </a>
-    &gt; Links of Interest
+    &gt; Implementing Full-Text Search (in a static HTML website)
    </nav>
    <p>
-    Estimated reading time: 1 minute(s).
+    Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="links-of-interest">
-     Links of Interest
+    <h1 id="implementing-full-text-search-in-a-static-html-website">
+     Implementing Full-Text Search (in a static HTML website)
     </h1>
+    <p class="has-drop-cap">
+     To implement context-aware search on your static HTML website, you have several options that range from simple to more advanced, depending on your technical expertise and the specific needs of your website.
+    </p>
+    <p>
+     Here's a summarized approach based on the information I've found:
+    </p>
     <ol>
      <li>
-      <a href="https://www.construction-physics.com/p/no-inventions-no-innovations-a-history" rel="noopener noreferrer" target="_blank">
-       https://www.construction-physics.com/p/no-inventions-no-innovations-a-history
-      </a>
+      <p>
+       <strong>
+        Simple-Jekyll-Search
+       </strong>
+       : If you're using a static site generator like Jekyll, you can implement a basic search functionality using Simple-Jekyll-Search. This tool generates a JSON file that acts as a search index, and you can use client-side JavaScript to search through this index and display results【
+       <a href="https://www.addsearch.com/blog/how-to-add-search-to-you-static-website/】" rel="noopener noreferrer" target="_blank">
+        https://www.addsearch.com/blog/how-to-add-search-to-you-static-website/】
+       </a>
+       .
+      </p>
      </li>
      <li>
-      <a href="https://eclecticlight.co/2023/12/29/why-are-apple-silicon-vms-so-different/" rel="noopener noreferrer" target="_blank">
-       https://eclecticlight.co/2023/12/29/why-are-apple-silicon-vms-so-different/
-      </a>
+      <p>
+       <strong>
+        Third-party Services
+       </strong>
+       : There are several third-party services that you can integrate into your site without much hassle. These services include:
+      </p>
      </li>
      <li>
-      <a href="https://www.theverge.com/23373371/arm-chips-chip-shortage-ceo-rene-haas-tech-intel-apple-decoder" rel="noopener noreferrer" target="_blank">
-       https://www.theverge.com/23373371/arm-chips-chip-shortage-ceo-rene-haas-tech-intel-apple-decoder
+      <strong>
+       Google Programmable Search Engine
+      </strong>
+      : It allows you to add a customized search engine to your site that can index and search web pages. It's customizable, supports image and document search, and can be connected to Google Analytics【
+      <a href="https://simplystatic.com/tutorials/search-on-a-static-site/】" rel="noopener noreferrer" target="_blank">
+       https://simplystatic.com/tutorials/search-on-a-static-site/】
       </a>
+      .
      </li>
      <li>
-      <a href="https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/" rel="noopener noreferrer" target="_blank">
-       https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/
+      <strong>
+       Algolia
+      </strong>
+      : Offers a fast and high-quality search experience with a customizable dashboard, supports sorting strategies, and provides a personalization tool for search relevancy【
+      <a href="https://simplystatic.com/tutorials/search-on-a-static-site/】" rel="noopener noreferrer" target="_blank">
+       https://simplystatic.com/tutorials/search-on-a-static-site/】
       </a>
+      .
      </li>
      <li>
-      <a href="https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog" rel="noopener noreferrer" target="_blank">
-       https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog
+      <strong>
+       MeiliSearch
+      </strong>
+      : An open-source, typo-tolerant search API that offers an intuitive search experience with filters, highlighting, and comprehensive language support【
+      <a href="https://simplystatic.com/tutorials/search-on-a-static-site/】" rel="noopener noreferrer" target="_blank">
+       https://simplystatic.com/tutorials/search-on-a-static-site/】
       </a>
+      .
      </li>
      <li>
-      (On building a semantic search)
-      <a href="https://vickiboykis.com/2024/01/05/retro-on-viberary/" rel="noopener noreferrer" target="_blank">
-       https://vickiboykis.com/2024/01/05/retro-on-viberary/
-      </a>
+      <p>
+       <strong>
+        AddSearch
+       </strong>
+       : A hosted solution that's easy to integrate and customizable. It works on all devices and offers powerful search API capabilities【
+       <a href="https://simplystatic.com/tutorials/search-on-a-static-site/】" rel="noopener noreferrer" target="_blank">
+        https://simplystatic.com/tutorials/search-on-a-static-site/】
+       </a>
+       .
+      </p>
      </li>
      <li>
-      (Some good pointers on lasting web pages)
-      <a href="https://jeffhuang.com/designed_to_last/" rel="noopener noreferrer" target="_blank">
-       https://jeffhuang.com/designed_to_last/
-      </a>
+      <p>
+       <strong>
+        Client-Side Search
+       </strong>
+       : For a more independent approach that doesn't rely on third-party services, you can perform the search directly in the user's browser. This involves generating a search index file during your site's build process, which is then downloaded by the user's browser to perform searches client-side. While this approach can increase the initial load time for the search functionality, it benefits from faster searches without server roundtrips and doesn't require a backend【
+       <a href="https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/】" rel="noopener noreferrer" target="_blank">
+        https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/】
+       </a>
+       .
+      </p>
      </li>
      <li>
-      (Simple lasts longer)
-      <a href="https://newsletter.pnote.eu/p/simple-lasts-longer" rel="noopener noreferrer" target="_blank">
-       https://newsletter.pnote.eu/p/simple-lasts-longer
-      </a>
-     </li>
-     <li>
-      (Guide to Self-Attention):
-      <a href="https://twiecki.io/blog/2024/01/04/" rel="noopener noreferrer" target="_blank">
-       https://twiecki.io/blog/2024/01/04/
-      </a>
-     </li>
-     <li>
-      (Building a Container from Scratch in Rust)
-      <a href="https://brianshih1.github.io/mini-container/" rel="noopener noreferrer" target="_blank">
-       https://brianshih1.github.io/mini-container/
-      </a>
-     </li>
-     <li>
-      (Nice looking blog w/ contents) https://matthewsanabria.dev/posts/no-shell-for-you-container/#difficulties-of-minimal-container-images
-     </li>
-     <li>
-      (Setting up Windows 11 w/o Microsoft Account)
-      <a href="https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account" rel="noopener noreferrer" target="_blank">
-       https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account
-      </a>
-     </li>
-     <li>
-      (Follow RSS across the web)
-      <a href="https://openrss.org/" rel="noopener noreferrer" target="_blank">
-       https://openrss.org/
-      </a>
-     </li>
-     <li>
-      (Machine Learning Engineering Open Book
- ):
-      <a href="https://github.com/stas00/ml-engineering" rel="noopener noreferrer" target="_blank">
-       https://github.com/stas00/ml-engineering
-      </a>
-     </li>
-     <li>
-      (Why is machine learning hard?)
-      <a href="https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html" rel="noopener noreferrer" target="_blank">
-       https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html
-      </a>
-     </li>
-     <li>
-      (Machine learning is still too hard for software engineers)
-      <a href="https://news.ycombinator.com/item?id=39109469" rel="noopener noreferrer" target="_blank">
-       https://news.ycombinator.com/item?id=39109469
-      </a>
-     </li>
-     <li>
-      (Build an LLM [from Scratch])
-      <a href="https://github.com/rasbt/LLMs-from-scratch" rel="noopener noreferrer" target="_blank">
-       https://github.com/rasbt/LLMs-from-scratch
-      </a>
-     </li>
-     <li>
-      (Goodhart's law)
-      <a href="https://en.wikipedia.org/wiki/Goodhart%27s_law" rel="noopener noreferrer" target="_blank">
-       https://en.wikipedia.org/wiki/Goodhart%27s_law
-      </a>
-      ("When a measure becomes a target, it ceases to be a good measure.")
-     </li>
-     <li>
-      (Technology is the problem [includes mention of "doped silicon user interfaces"])
-      <a href="https://www.shyamsankar.com/p/technology-is-the-problem" rel="noopener noreferrer" target="_blank">
-       https://www.shyamsankar.com/p/technology-is-the-problem
-      </a>
-     </li>
-     <li>
-      (I just like the heading fonts)
-      <a href="https://joshstrange.com/2019/09/26/my-mac-apps/" rel="noopener noreferrer" target="_blank">
-       https://joshstrange.com/2019/09/26/my-mac-apps/
-      </a>
-     </li>
-     <li>
-      (This site's auto-generated sitemap)
-      <a href="https://richcms.zenosmosis.com/sitemap.xml" rel="noopener noreferrer" target="_blank">
-       https://richcms.zenosmosis.com/sitemap.xml
-      </a>
-     </li>
-     <li>
-      (Running Local LLMs and VLMs on the Raspberri Pi)
-      <a href="https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a" rel="noopener noreferrer" target="_blank">
-       https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a
-      </a>
+      <p>
+       <strong>
+        Pagefind
+       </strong>
+       : This is an alternative for client-side searching that is particularly useful for larger sites. Instead of one large index file, Pagefind splits the index into multiple smaller files. The user's browser only downloads the fragments of the index that are relevant to the search query, which can significantly reduce the amount of data transferred【
+       <a href="https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/】" rel="noopener noreferrer" target="_blank">
+        https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/】
+       </a>
+       .
+      </p>
      </li>
     </ol>
+    <p>
+     Each of these solutions has its own trade-offs in terms of complexity, dependencies, and cost. You'll need to decide based on your site's size, how much control you want over the search functionality, and whether you're willing to manage a more complex setup or prefer a simpler, service-based approach.
+    </p>
    </div>
    <footer>
     <div class="build_datetime">
      Build datetime: 2024-02-06 21:32:33 +0000
     </div>
     <nav>
-     <a class="previous" href="Implementing%20Full-Text%20Search.html">
+     <a class="previous" href="Hacker%20News%20API.html">
       « Previous
      </a>
-     <a class="next" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="next" href="Links%20of%20Interest.html">
       Next »
      </a>
     </nav>
