@@ -564,3 +564,8 @@ base_url = 'https://richcms.zenosmosis.com'  # Replace with your domain
 RichCMSGenerator.generate_site(input_directory, output_directory, template_directory, base_url)
 
 print(f"Total word count for the site: {RichCMSGenerator.total_word_count}")
+
+# TODO: Integrate Pagefind: https://pagefind.app/docs/#indexing-your-site
+# Command to run "npx -y pagefind --site docs"
+# import subprocess
+# subprocess.run(["npx", "-y", "pagefind", "--site", "docs"], check=True)
