@@ -17,3 +17,7 @@ Here's a summarized approach based on the information I've found:
 4. **Pagefind**: This is an alternative for client-side searching that is particularly useful for larger sites. Instead of one large index file, Pagefind splits the index into multiple smaller files. The user's browser only downloads the fragments of the index that are relevant to the search query, which can significantly reduce the amount of data transferred (https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/).
 
 Each of these solutions has its own trade-offs in terms of complexity, dependencies, and cost. You'll need to decide based on your site's size, how much control you want over the search functionality, and whether you're willing to manage a more complex setup or prefer a simpler, service-based approach.
+
+-------
+
+Conclusion: [Pagefind](https://pagefind.app/) seems to fit the bill nicely.  [Some demos](https://pagefind.app/#pagefind-demos).
