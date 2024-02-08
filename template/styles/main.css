@@ -194,6 +194,23 @@ article {
   max-width: 1024px;
 }
 
+/**
+ * Addresses the issue where paragraphs with a drop cap, especially those
+ * starting with the letter "I", could be improperly split across columns in
+ * a multi-column layout. This splitting disrupts the visual integrity of the
+ * drop cap by separating it from the rest of its paragraph. The following
+ * CSS rules prevent such splits, ensuring that paragraphs with drop caps
+ * remain cohesive within a single column. This fix is crucial for maintaining
+ * the aesthetic appeal and readability of drop-capped paragraphs, particularly
+ * in articles or text bodies where the first letter is "I", which tends to be
+ * more visually isolated due to its narrow width.
+ */
+article p.has-drop-cap {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid-column; /* New standard */
+}
+
 article p.has-drop-cap::first-letter {
   font-size: 4em; /* Increase font size for the first letter */
   line-height: 1; /* Adjust line height for the drop cap */
