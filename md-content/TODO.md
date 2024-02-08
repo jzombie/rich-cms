@@ -6,6 +6,7 @@
 - [] [maybe] Integrate per-file changelog generation into the build process, to track changes made to each content file more effectively. This could involve scripting around Git CLI commands to extract change history for individual files. (Example: `git log --pretty=format:"%h - %an, %ar : %s" -- <file_path>` for a basic changelog or `git log -p -- <file_path>` to include diffs).
 
     This could also be useful for tracking article creation and update dates across multiple systems, as well as in sitemap generation ("lastmod").
+
 - [] Add simple Docker example that spits out a static website from a directory of Markdown files
 - [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
 - [] If no document title in Markdown, use the filename as the title
