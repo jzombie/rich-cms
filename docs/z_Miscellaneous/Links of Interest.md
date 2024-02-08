@@ -27,6 +27,6 @@
 24. (AI-driven search engine) https://www.perplexity.ai/
 25. (Building container images using no tools) https://ravichaganti.com/blog/2022-11-28-building-container-images-using-no-tools/
 26. (A search engine in 80 lines of Python [give or take])
-  - https://news.ycombinator.com/item?id=39293050
-  - https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
-  - Related [found in same HN discussion]: https://github.com/softwaredoug/searcharray
+    - https://news.ycombinator.com/item?id=39293050
+    - https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
+    - Related [found in same HN discussion]: https://github.com/softwaredoug/searcharray
