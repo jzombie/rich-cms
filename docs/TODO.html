@@ -13,8 +13,8 @@
   <script src="./scripts/main.js">
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
-  <meta content="2024-02-08 02:19:35 +0000" name="build_datetime"/>
-  <meta content="713" name="word_count"/>
+  <meta content="2024-02-08 02:28:13 +0000" name="build_datetime"/>
+  <meta content="773" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -311,6 +311,17 @@
       [] Deep linking w/ aliases. The idea is to use an alias as metadata, and other articles can reference that same link alias where it is interpolated back to the actual link when building. If two or more pages share the same alias, an intermediary index page could be used to link them [harder] or, the build process could just throw an error [easier].
      </li>
      <li>
+      [] [maybe] Integrate per-file changelog generation into the build process, to track changes made to each content file more effectively. This could involve scripting around Git CLI commands to extract change history for individual files. (Example:
+      <code>
+       git log --pretty=format:"%h - %an, %ar : %s" -- &lt;file_path&gt;
+      </code>
+      for a basic changelog or
+      <code>
+       git log -p -- &lt;file_path&gt;
+      </code>
+      to include diffs).
+     </li>
+     <li>
       [] Add simple Docker example that spits out a static website from a directory of Markdown files
      </li>
      <li>
@@ -501,7 +512,7 @@
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-02-08 02:19:35 +0000
+     Build datetime: 2024-02-08 02:28:13 +0000
     </div>
     <nav>
      <a class="previous" href="index.html">
