@@ -13,7 +13,7 @@
   <script src="./scripts/main.js">
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
-  <meta content="2024-02-08 02:34:35 +0000" name="build_datetime"/>
+  <meta content="2024-02-08 02:36:26 +0000" name="build_datetime"/>
   <meta content="795" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
@@ -324,67 +324,137 @@
       </p>
       <p>
        This could also be useful for tracking article creation and update dates across multiple systems, as well as in sitemap generation ("lastmod").
-- [] Add simple Docker example that spits out a static website from a directory of Markdown files
-- [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
-- [] If no document title in Markdown, use the filename as the title
-- [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
-- [] Fix issue where language code highlighting isn't colorizing
-- [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
-- [] Replace bleach (
-       <a href="https://github.com/mozilla/bleach/issues/698" rel="noopener noreferrer" target="_blank">
-        https://github.com/mozilla/bleach/issues/698
-       </a>
-       ) Google and Slack linking issues in "Engineering Blogs" (appears to be an issue w/ bleach.linkify:
-       <a href="https://bleach.readthedocs.io/en/latest/linkify.html;" rel="noopener noreferrer" target="_blank">
-        https://bleach.readthedocs.io/en/latest/linkify.html;
-       </a>
-       added
-       <a href="http://debug.bleach-linkify.py" rel="noopener noreferrer" target="_blank">
-        debug.bleach-linkify.py
-       </a>
-       script to debug)
-- [] Add "Edit on GitHub" link
-- [] Add button to make full-screen
-- [X] Ability to make an article not be included in TOC; i.e. for 404 pages (indexable: no/0/false; etc.)
-- [X] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
-- [X] Fix issue where long links can cause horizontal overflow on mobile
-- [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
-- [] Need persistent "home" link
-- [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
-- [X] Fix "Chapter 7" mobile horizontal overflow issue (see "personal reading list")
-- [] Add sub-headings into table of contents (TOC) (navigation similar to:
-       <a href="https://finalfusion.github.io/" rel="noopener noreferrer" target="_blank">
-        https://finalfusion.github.io/
-       </a>
-       )
-- [X] Fix TOC issue on mobile where it cannot be scrolled vertically
-- [] Parse &amp; include site name in title / header
-- [] [partially-implemented] Sanitize strings / prevent XSS
-- [X] Default "
-       <a href="http://index.md" rel="noopener noreferrer" target="_blank">
-        index.md
-       </a>
-       " to top of navigation, per directory
-- [X] &lt;- -&gt; article navigation
-- [X] Fix invalid UL tag nesting
-- [] W3C validation:
-       <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F" rel="noopener noreferrer" target="_blank">
-        https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F
-       </a>
-       (see "void" elements:
-       <a href="https://html.spec.whatwg.org/multipage/syntax.html#void-elements" rel="noopener noreferrer" target="_blank">
-        https://html.spec.whatwg.org/multipage/syntax.html#void-elements
-       </a>
-       )
-- [] Includes via env variables (i.e. for tracking, etc.)
-- [] The ability to hotlink to a particular paragraph would be nice
-- [X] Use font "very similar" to that used in Google Play Books
-- [] Fix issue where "?" in MD names causes broken links
-- [X] Add links to headings
-- [X] Highlight active link
-- [] Add [more] unit tests
-- [PROBABLY-WON'T-DO] [] Live content update as Markdown content is changed
-- [] Adding semantic search would be nice:
+      </p>
+     </li>
+     <li>
+      <p>
+       [] Add simple Docker example that spits out a static website from a directory of Markdown files
+      </p>
+     </li>
+     <li>
+      [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
+     </li>
+     <li>
+      [] If no document title in Markdown, use the filename as the title
+     </li>
+     <li>
+      [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
+     </li>
+     <li>
+      [] Fix issue where language code highlighting isn't colorizing
+     </li>
+     <li>
+      [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
+     </li>
+     <li>
+      [] Replace bleach (
+      <a href="https://github.com/mozilla/bleach/issues/698" rel="noopener noreferrer" target="_blank">
+       https://github.com/mozilla/bleach/issues/698
+      </a>
+      ) Google and Slack linking issues in "Engineering Blogs" (appears to be an issue w/ bleach.linkify:
+      <a href="https://bleach.readthedocs.io/en/latest/linkify.html;" rel="noopener noreferrer" target="_blank">
+       https://bleach.readthedocs.io/en/latest/linkify.html;
+      </a>
+      added
+      <a href="http://debug.bleach-linkify.py" rel="noopener noreferrer" target="_blank">
+       debug.bleach-linkify.py
+      </a>
+      script to debug)
+     </li>
+     <li>
+      [] Add "Edit on GitHub" link
+     </li>
+     <li>
+      [] Add button to make full-screen
+     </li>
+     <li>
+      [X] Ability to make an article not be included in TOC; i.e. for 404 pages (indexable: no/0/false; etc.)
+     </li>
+     <li>
+      [X] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
+     </li>
+     <li>
+      [X] Fix issue where long links can cause horizontal overflow on mobile
+     </li>
+     <li>
+      [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
+     </li>
+     <li>
+      [] Need persistent "home" link
+     </li>
+     <li>
+      [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
+     </li>
+     <li>
+      [X] Fix "Chapter 7" mobile horizontal overflow issue (see "personal reading list")
+     </li>
+     <li>
+      [] Add sub-headings into table of contents (TOC) (navigation similar to:
+      <a href="https://finalfusion.github.io/" rel="noopener noreferrer" target="_blank">
+       https://finalfusion.github.io/
+      </a>
+      )
+     </li>
+     <li>
+      [X] Fix TOC issue on mobile where it cannot be scrolled vertically
+     </li>
+     <li>
+      [] Parse &amp; include site name in title / header
+     </li>
+     <li>
+      [] [partially-implemented] Sanitize strings / prevent XSS
+     </li>
+     <li>
+      [X] Default "
+      <a href="http://index.md" rel="noopener noreferrer" target="_blank">
+       index.md
+      </a>
+      " to top of navigation, per directory
+     </li>
+     <li>
+      [X] &lt;- -&gt; article navigation
+     </li>
+     <li>
+      [X] Fix invalid UL tag nesting
+     </li>
+     <li>
+      [] W3C validation:
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F" rel="noopener noreferrer" target="_blank">
+       https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F
+      </a>
+      (see "void" elements:
+      <a href="https://html.spec.whatwg.org/multipage/syntax.html#void-elements" rel="noopener noreferrer" target="_blank">
+       https://html.spec.whatwg.org/multipage/syntax.html#void-elements
+      </a>
+      )
+     </li>
+     <li>
+      [] Includes via env variables (i.e. for tracking, etc.)
+     </li>
+     <li>
+      [] The ability to hotlink to a particular paragraph would be nice
+     </li>
+     <li>
+      [X] Use font "very similar" to that used in Google Play Books
+     </li>
+     <li>
+      [] Fix issue where "?" in MD names causes broken links
+     </li>
+     <li>
+      [X] Add links to headings
+     </li>
+     <li>
+      [X] Highlight active link
+     </li>
+     <li>
+      [] Add [more] unit tests
+     </li>
+     <li>
+      [PROBABLY-WON'T-DO] [] Live content update as Markdown content is changed
+     </li>
+     <li>
+      <p>
+       [] Adding semantic search would be nice:
       </p>
       <p>
        Related HN discussion:
@@ -449,7 +519,7 @@
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-02-08 02:34:35 +0000
+     Build datetime: 2024-02-08 02:36:26 +0000
     </div>
     <nav>
      <a class="previous" href="index.html">
