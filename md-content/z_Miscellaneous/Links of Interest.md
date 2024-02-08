@@ -25,3 +25,4 @@
 22. (Running Local LLMs and VLMs on the Raspberri Pi) https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a
 23. (Adding full-text search to a static site) https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/
 24. (AI-driven search engine) https://www.perplexity.ai/
+25. (Building container images using no tools) https://ravichaganti.com/blog/2022-11-28-building-container-images-using-no-tools/
