@@ -49,6 +49,7 @@
       
 
 - [X] Sitemap generation
+- [] [maybe?] Auto-generated page which shows all external links (including link[s] to the page[s] the link was mentioned in)
 - [] RSS generation
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
 - [X] Add word count and estimated reading time to meta data
