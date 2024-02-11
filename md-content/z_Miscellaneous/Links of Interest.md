@@ -30,3 +30,4 @@
     - https://news.ycombinator.com/item?id=39293050
     - https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
     - Related [found in same HN discussion]: https://github.com/softwaredoug/searcharray
+27. (Aligning an LLM with human preferences [I like the "trainer" API design, at first glance]): https://datadreamer.dev/docs/latest/pages/get_started/quick_tour/aligning.html
