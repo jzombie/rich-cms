@@ -32,3 +32,4 @@
     - Related [found in same HN discussion]: https://github.com/softwaredoug/searcharray
 27. (Aligning an LLM with human preferences [I like the "trainer" API design, at first glance]) https://datadreamer.dev/docs/latest/pages/get_started/quick_tour/aligning.html
 28. (Self-balancing cube) https://willempennings.nl/balancing-cube/
+29. (StatQuest: An epic journey through statistics and machine learning) https://statquest.org/
