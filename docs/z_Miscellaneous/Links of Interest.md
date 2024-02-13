@@ -33,3 +33,5 @@
 27. (Aligning an LLM with human preferences [I like the "trainer" API design, at first glance]) https://datadreamer.dev/docs/latest/pages/get_started/quick_tour/aligning.html
 28. (Self-balancing cube) https://willempennings.nl/balancing-cube/
 29. (StatQuest: An epic journey through statistics and machine learning) https://statquest.org/
+30. (Fractals in Neural Network Hyperparameter Tuning) https://www.linkedin.com/posts/liorsinclair_this-is-incredible-fractal-patterns-were-ugcPost-7162848575834501125-TuDV?utm_source=share&utm_medium=member_desktop (related paper: https://arxiv.org/abs/2402.06184)
+
