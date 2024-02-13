@@ -11,6 +11,7 @@ A collection of utilities...
 - GitUI (Rust-based TUI): https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
 - Dive (Docker image explorer TUI): https://github.com/wagoodman/dive
 - Pandaral·lel (Parallelize Pandas operations on all CPUs, by changing only one line of code): https://github.com/nalepae/pandarallel (https://github.com/jzombie/pandarallel)
+- Ibis (lightweight, universal interface for data wrangling; Pandas compatible [mostly, according to what I've been lead to believe]): https://github.com/ibis-project/ibis
 
 ## Git Actions Monitoring
 
