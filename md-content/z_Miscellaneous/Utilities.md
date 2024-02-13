@@ -10,6 +10,7 @@ A collection of utilities...
 - Textual library: https://textual.textualize.io/#what-is-textual (which Harlequin uses; apps over SSH)
 - GitUI (Rust-based TUI): https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
 - Dive (Docker image explorer TUI): https://github.com/wagoodman/dive
+- Pandaral·lel (Parallelize Pandas operations on all CPUs, by changing only one line of code): https://github.com/nalepae/pandarallel (https://github.com/jzombie/pandarallel)
 
 ## Git Actions Monitoring
 
