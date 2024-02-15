@@ -35,3 +35,4 @@
 29. (StatQuest: An epic journey through statistics and machine learning) https://statquest.org/
 30. (Fractals in Neural Network Hyperparameter Tuning) https://www.linkedin.com/posts/liorsinclair_this-is-incredible-fractal-patterns-were-ugcPost-7162848575834501125-TuDV?utm_source=share&utm_medium=member_desktop (related paper: https://arxiv.org/abs/2402.06184)
 31. AdaBelief Optimizer: https://arxiv.org/abs/2010.07468 (source code: https://github.com/juntang-zhuang/Adabelief-Optimizer)
+32. [Mostly non-optimized] Machine Learning Algorithms in Python: https://github.com/rushter/MLAlgorithms
