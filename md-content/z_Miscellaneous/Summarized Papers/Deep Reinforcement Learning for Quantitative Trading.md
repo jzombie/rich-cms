@@ -1,5 +1,7 @@
 # Deep Reinforcement Learning for Quantitative Trading
 
+https://arxiv.org/abs/2312.15730v1
+
 This article, authored by Maochun Xu, Zixun Lan, Zheng Tao, Jiawei Du, and Zongao Ye from the Department of Financial and Actuarial Mathematics at Xi’an Jiaotong-Liverpool University, delves into the application of Deep Reinforcement Learning (DRL) for enhancing Quantitative Trading (QT) strategies. The core of their work, named QTNet, leverages advanced algorithms to navigate the complexities of financial markets, aiming to outperform traditional trading strategies by automating the decision-making process in trading actions.
 
 ## Key Points of the Article:
