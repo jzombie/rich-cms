@@ -12,6 +12,7 @@ A collection of utilities...
 - Dive (Docker image explorer TUI): https://github.com/wagoodman/dive
 - Pandaral·lel (Parallelize Pandas operations on all CPUs, by changing only one line of code): https://github.com/nalepae/pandarallel (https://github.com/jzombie/pandarallel)
 - Ibis (lightweight, universal interface for data wrangling; Pandas compatible [mostly, according to what I've been lead to believe]): https://github.com/ibis-project/ibis
+- Python time distribution as a heatmap: https://github.com/csurfer/pyheat
 
 ## Git Actions Monitoring
 
