@@ -13,8 +13,8 @@
   <script src="../scripts/main.js">
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
-  <meta content="2024-02-21 05:16:46 +0000" name="build_datetime"/>
-  <meta content="89" name="word_count"/>
+  <meta content="2024-02-21 05:25:05 +0000" name="build_datetime"/>
+  <meta content="107" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -354,14 +354,24 @@
      <li>
       <p>
        <strong>
-        Dry run (simulate transfer)
+        Syncing a directory w/ progress
        </strong>
        :
-       <code>
-        bash
-  rsync -avz --dry-run -e "ssh" /path/to/local/dir user@remote_host:/path/to/remote/dir
-       </code>
       </p>
+     </li>
+    </ul>
+    <pre><code class="language-bash">rsync --progress -avz -e "ssh" /path/to/local/directory user@remote_host:"/Volumes/Can Contain Spaces/Some Subdirectory"
+</code></pre>
+    <ul>
+     <li>
+      <strong>
+       Dry run (simulate transfer)
+      </strong>
+      :
+      <code>
+       bash
+  rsync -avz --dry-run -e "ssh" /path/to/local/dir user@remote_host:/path/to/remote/dir
+      </code>
      </li>
     </ul>
     <p>
@@ -382,7 +392,7 @@
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-02-21 05:16:46 +0000
+     Build datetime: 2024-02-21 05:25:05 +0000
     </div>
     <nav>
      <a class="previous" href="Quotes.html">
