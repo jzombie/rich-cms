@@ -15,6 +15,11 @@
   rsync -avz -e "ssh" /path/to/local/file.txt user@remote_host:/path/to/remote/dir
   ```
 
+- **Syncing a directory w/ progress**:
+```bash
+rsync --progress -avz -e "ssh" /path/to/local/directory user@remote_host:"/Volumes/Can Contain Spaces/Some Subdirectory"
+```
+
 - **Dry run (simulate transfer)**:
   ```bash
   rsync -avz --dry-run -e "ssh" /path/to/local/dir user@remote_host:/path/to/remote/dir
