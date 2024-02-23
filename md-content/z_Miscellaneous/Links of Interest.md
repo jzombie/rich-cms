@@ -37,3 +37,9 @@
 31. AdaBelief Optimizer: https://arxiv.org/abs/2010.07468 (source code: https://github.com/juntang-zhuang/Adabelief-Optimizer)
 32. [Mostly non-optimized] Machine Learning Algorithms in Python: https://github.com/rushter/MLAlgorithms
 33. Fix loose git object corruption: https://accio.github.io/programming/2021/06/16/fix-loose-objects-in-git.html
+
+## Papers of Interest
+
+1. Fractals in Neural Network Hyperparameter Tuning: https://arxiv.org/abs/2402.06184
+2. Deep Reinforcement Learning for Quantitative Trading: https://arxiv.org/abs/2312.15730v1
+3. Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping: https://arxiv.org/html/2402.14083v1
