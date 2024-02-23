@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Courses
+   Using Git for File Metadata (in regards to create and update)
   </title>
   <link href="../styles/main.css" rel="stylesheet"/>
   <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -14,7 +14,7 @@
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
   <meta content="2024-02-23 19:14:55 +0000" name="build_datetime"/>
-  <meta content="101" name="word_count"/>
+  <meta content="478" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Courses
+     Using Git for File Metadata (in regards to create and update)
     </div>
    </header>
    <nav class="toc">
@@ -154,7 +154,7 @@
            A Tester Walks Into A Bar
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Courses.html">
            Courses
           </a>
@@ -209,7 +209,7 @@
            Setting Up CUPS Network Printer on Ubuntu
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Using%20Git%20for%20File%20Metadata.html">
            Using Git for File Metadata (in regards to create and update)
           </a>
@@ -268,10 +268,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="A%20Tester%20Walks%20Into%20A%20Bar.html">
+     <a class="previous" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       « Previous
      </a>
-     <a class="next" href="Engineering%20Blogs.html">
+     <a class="next" href="Utilities.html">
       Next »
      </a>
     </nav>
@@ -286,125 +286,129 @@
     <a href="../z_Miscellaneous/A%20Tester%20Walks%20Into%20A%20Bar.html">
      z_Miscellaneous
     </a>
-    &gt; Courses
+    &gt; Using Git for File Metadata (in regards to create and update)
    </nav>
    <p>
-    Estimated reading time: 1 minute(s).
+    Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="courses">
-     Courses
+    <h1 id="using-git-for-file-metadata-in-regards-to-create-and-update">
+     Using Git for File Metadata (in regards to create and update)
     </h1>
-    <table>
-     <thead>
-      <tr>
-       <th>
-        Course Title
-       </th>
-       <th>
-        Instructor(s)
-       </th>
-       <th>
-        Subject
-       </th>
-       <th>
-        Platform
-       </th>
-      </tr>
-     </thead>
-     <tbody>
-      <tr>
-       <td>
-        <a href="https://www.coursera.org/learn/advanced-learning-algorithms/" rel="noopener noreferrer" target="_blank">
-         Advanced Learning Algorithms
-        </a>
-       </td>
-       <td>
-        Andrew Ng
-       </td>
-       <td>
-        Machine Learning / Deep Learning
-       </td>
-       <td>
-        Coursera
-       </td>
-      </tr>
-      <tr>
-       <td>
-        <a href="https://www.coursera.org/learn/financial-markets-global" rel="noopener noreferrer" target="_blank">
-         Financial Markets
-        </a>
-       </td>
-       <td>
-        Robert Shiller
-       </td>
-       <td>
-        Financial Markets
-       </td>
-       <td>
-        Coursera
-       </td>
-      </tr>
-      <tr>
-       <td>
-        <a href="https://www.linkedin.com/learning/training-neural-networks-in-c-plus-plus-2021" rel="noopener noreferrer" target="_blank">
-         Training Neural Networks in C++
-        </a>
-       </td>
-       <td>
-        Eduardo Corpeño
-       </td>
-       <td>
-        Neural Networks / Programming
-       </td>
-       <td>
-        LinkedIn Learning
-       </td>
-      </tr>
-      <tr>
-       <td>
-        <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home" rel="noopener noreferrer" target="_blank">
-         CS50's Introduction to Artificial Intelligence with Python
-        </a>
-       </td>
-       <td>
-        David J. Malan and Brian Yu
-       </td>
-       <td>
-        Artificial Intelligence / Computer Science
-       </td>
-       <td>
-        EDX
-       </td>
-      </tr>
-      <tr>
-       <td>
-        <a href="https://www.coursera.org/learn/introduction-trading-machine-learning-gcp" rel="noopener noreferrer" target="_blank">
-         Introduction to Trading, Machine Learning &amp; GCP
-        </a>
-       </td>
-       <td>
-        (Various)
-       </td>
-       <td>
-        Trading / Machine Learning
-       </td>
-       <td>
-        Coursera
-       </td>
-      </tr>
-     </tbody>
-    </table>
+    <p class="has-drop-cap">
+     Searching through git history to determine when a file was originally added can be efficiently done using Git commands. For individual files, you can use the
+     <code>
+      git log
+     </code>
+     command with specific parameters to trace the addition of a file. When scaling this to hundreds of files, automation through scripting can help manage the workload.
+    </p>
+    <h3 id="finding-when-a-file-was-added">
+     Finding When a File Was Added
+    </h3>
+    <p>
+     For a single file, the command to find its initial addition to the repository is:
+    </p>
+    <pre><code class="language-bash">git log --diff-filter=A -- &lt;file_path&gt;
+</code></pre>
+    <p>
+     This command lists commits that added a file, where
+     <code>
+      --diff-filter=A
+     </code>
+     filters for added files, and
+     <code>
+      &lt;file_path&gt;
+     </code>
+     is the path to the file in question. The earliest commit listed is when the file was first added.
+    </p>
+    <h3 id="scaling-to-hundreds-of-files">
+     Scaling to Hundreds of Files
+    </h3>
+    <p>
+     To scale this to hundreds of files, you could automate the process with a script. Here's a basic outline of what that script might do:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       List All Files
+      </strong>
+      : First, if you need to check every file in the repository, generate a list of all files. For a subset, you might already have this list or generate it based on certain criteria.
+     </li>
+     <li>
+      <strong>
+       Loop Through Each File
+      </strong>
+      : For each file in the list, run the
+      <code>
+       git log
+      </code>
+      command to find its initial commit.
+     </li>
+     <li>
+      <strong>
+       Store Results
+      </strong>
+      : Collect and store the results, perhaps in a text file or a database, depending on your needs.
+     </li>
+    </ol>
+    <h3 id="example-script">
+     Example Script
+    </h3>
+    <p>
+     Below is an example bash script that demonstrates this process for all files currently in the repository:
+    </p>
+    <pre><code class="language-bash">#!/bin/bash
+
+# Loop through all files in the current directory and subdirectories
+find . -type f | while read file; do
+    # Use git log to find the first commit that added the file
+    echo "File: $file"
+    git log --diff-filter=A --format="%H %an %ad" -- "$file" | tail -1
+    echo "-----------------------------------"
+done
+</code></pre>
+    <h3 id="impact-on-modern-hardware">
+     Impact on Modern Hardware
+    </h3>
+    <p>
+     Incorporating this process into your build process, especially for a blog with frequent updates, is unlikely to significantly stress modern hardware, given a few considerations:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Frequency of Execution
+      </strong>
+      : If this script runs as part of a build process that's triggered multiple times a day, its impact should remain minimal, especially since the operation is read-only and doesn't involve modifying repository data.
+     </li>
+     <li>
+      <strong>
+       Optimization
+      </strong>
+      : For improved efficiency, especially with a large number of files, consider optimizations like caching previous results and only checking new or modified files.
+     </li>
+     <li>
+      <strong>
+       Hardware Capabilities
+      </strong>
+      : Modern hardware, especially with SSDs, can handle these types of disk and CPU operations without significant performance impacts. However, if the repository is exceptionally large or the server is underpowered, you might notice some delays.
+     </li>
+    </ul>
+    <h3 id="conclusion">
+     Conclusion
+    </h3>
+    <p>
+     While incorporating this git history search into your build process is feasible and unlikely to overstress modern hardware, careful consideration of execution frequency and potential optimizations will ensure it remains efficient and minimally invasive.
+    </p>
    </div>
    <footer>
     <div class="build_datetime">
      Build datetime: 2024-02-23 19:14:55 +0000
     </div>
     <nav>
-     <a class="previous" href="A%20Tester%20Walks%20Into%20A%20Bar.html">
+     <a class="previous" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       « Previous
      </a>
-     <a class="next" href="Engineering%20Blogs.html">
+     <a class="next" href="Utilities.html">
       Next »
      </a>
     </nav>
