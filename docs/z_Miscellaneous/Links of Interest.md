@@ -37,6 +37,8 @@
 31. AdaBelief Optimizer: https://arxiv.org/abs/2010.07468 (source code: https://github.com/juntang-zhuang/Adabelief-Optimizer)
 32. [Mostly non-optimized] Machine Learning Algorithms in Python: https://github.com/rushter/MLAlgorithms
 33. Fix loose git object corruption: https://accio.github.io/programming/2021/06/16/fix-loose-objects-in-git.html
+34. GPT in 500 lines of SQL: https://explainextended.com/2023/12/31/happy-new-year-15/
+35. GPT in 60 lines of NumPy (Hacker News): https://news.ycombinator.com/item?id=34726115
 
 ## Papers of Interest
 
