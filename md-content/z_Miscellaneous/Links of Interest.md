@@ -39,6 +39,7 @@
 33. Fix loose git object corruption: https://accio.github.io/programming/2021/06/16/fix-loose-objects-in-git.html
 34. GPT in 500 lines of SQL: https://explainextended.com/2023/12/31/happy-new-year-15/
 35. GPT in 60 lines of NumPy (Hacker News): https://news.ycombinator.com/item?id=34726115
+36. Emergent mind (monitors social mdedia for discussions about recently-published [arXiv](https://arxiv.org/) papers): https://www.emergentmind.com/
 
 ## Papers of Interest
 
