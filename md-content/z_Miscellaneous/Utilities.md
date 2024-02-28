@@ -14,6 +14,7 @@ A collection of utilities...
 - Ibis (lightweight, universal interface for data wrangling; Pandas compatible [mostly, according to what I've been lead to believe]): https://github.com/ibis-project/ibis
 - Python time distribution as a heatmap: https://github.com/csurfer/pyheat
 - Pip requirements.txt generator based on imports in project: https://pypi.org/project/pipreqs/
+- MLflow: A Machine Learning Lifecycle Platform: https://github.com/mlflow/mlflow/
 
 ## Git Actions Monitoring
 
