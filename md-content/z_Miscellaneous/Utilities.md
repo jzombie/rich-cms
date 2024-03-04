@@ -15,6 +15,7 @@ A collection of utilities...
 - Python time distribution as a heatmap: https://github.com/csurfer/pyheat
 - Pip requirements.txt generator based on imports in project: https://pypi.org/project/pipreqs/
 - MLflow: A Machine Learning Lifecycle Platform: https://github.com/mlflow/mlflow/
+- Galactic: cleaning and curation tools for massive unstructured text datasets: https://github.com/taylorai/galactic
 
 ## Git Actions Monitoring
 
