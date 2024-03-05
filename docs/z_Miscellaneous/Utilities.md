@@ -16,6 +16,7 @@ A collection of utilities...
 - Pip requirements.txt generator based on imports in project: https://pypi.org/project/pipreqs/
 - MLflow: A Machine Learning Lifecycle Platform: https://github.com/mlflow/mlflow/
 - Galactic: cleaning and curation tools for massive unstructured text datasets: https://github.com/taylorai/galactic
+- Radicle: Open-Source, P2P GitHub Alternative: https://news.ycombinator.com/item?id=39600810
 
 ## Git Actions Monitoring
 
