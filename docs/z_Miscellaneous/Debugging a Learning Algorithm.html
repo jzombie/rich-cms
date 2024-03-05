@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Utilities
+   Debugging a Learning Algorithm
   </title>
   <link href="../styles/main.css" rel="stylesheet"/>
   <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -14,7 +14,7 @@
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
   <meta content="2024-03-05 23:19:21 +0000" name="build_datetime"/>
-  <meta content="191" name="word_count"/>
+  <meta content="401" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Utilities
+     Debugging a Learning Algorithm
     </div>
    </header>
    <nav class="toc">
@@ -159,7 +159,7 @@
            Courses
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Debugging%20a%20Learning%20Algorithm.html">
            Debugging a Learning Algorithm
           </a>
@@ -219,7 +219,7 @@
            Using Git for File Metadata (in regards to create and update)
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Utilities.html">
            Utilities
           </a>
@@ -273,10 +273,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="Using%20Git%20for%20File%20Metadata.html">
+     <a class="previous" href="Courses.html">
       « Previous
      </a>
-     <a class="next" href="1.%20January/index.html">
+     <a class="next" href="Engineering%20Blogs.html">
       Next »
      </a>
     </nav>
@@ -291,159 +291,141 @@
     <a href="../z_Miscellaneous/A%20Tester%20Walks%20Into%20A%20Bar.html">
      z_Miscellaneous
     </a>
-    &gt; Utilities
+    &gt; Debugging a Learning Algorithm
    </nav>
    <p>
-    Estimated reading time: 1 minute(s).
+    Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="utilities">
-     Utilities
+    <h1 id="debugging-a-learning-algorithm">
+     Debugging a Learning Algorithm
     </h1>
     <p>
-     A collection of utilities...
+     Reference:
+     <a href="https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited" rel="noopener noreferrer" target="_blank">
+      https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited
+     </a>
+    </p>
+    <p class="has-drop-cap">
+     You've implemented regularized linear regression on housing prices, but it makes unacceptably large errors in predictions. What do you try next?
     </p>
     <ul>
      <li>
-      Rich CMS:
-      <a href="https://github.com/jzombie/rich-cms" rel="noopener noreferrer" target="_blank">
-       https://github.com/jzombie/rich-cms
-      </a>
+      <strong>
+       Get more training examples
+      </strong>
+      — This can help fix high variance.
      </li>
      <li>
-      Pipper:
-      <a href="https://github.com/jzombie/pipper" rel="noopener noreferrer" target="_blank">
-       https://github.com/jzombie/pipper
-      </a>
+      <strong>
+       Try smaller sets of features
+      </strong>
+      — This can help fix high variance.
      </li>
      <li>
-      Sitemap validator:
-      <a href="https://www.xml-sitemaps.com/validate-xml-sitemap.html" rel="noopener noreferrer" target="_blank">
-       https://www.xml-sitemaps.com/validate-xml-sitemap.html
-      </a>
+      <strong>
+       Try getting additional features
+      </strong>
+      — This can help fix high bias.
      </li>
      <li>
-      Docker Lynx:
-      <a href="https://github.com/jzombie/docker-lynx" rel="noopener noreferrer" target="_blank">
-       https://github.com/jzombie/docker-lynx
-      </a>
+      <strong>
+       Try adding polynomial features
+      </strong>
+      — This can help fix high bias. Examples of polynomial features include
+      <script type="math/tex">
+       x_1^2
+      </script>
+      ,
+      <script type="math/tex">
+       x_2^2
+      </script>
+      ,
+      <script type="math/tex">
+       x_1 \times x_2
+      </script>
+      , etc.
      </li>
      <li>
-      Harlequin (The SQL IDE for Your Terminal [TUI]):
-      <a href="https://github.com/tconbeer/harlequin?tab=readme-ov-file" rel="noopener noreferrer" target="_blank">
-       https://github.com/tconbeer/harlequin?tab=readme-ov-file
-      </a>
+      <strong>
+       Try decreasing
+       <script type="math/tex">
+        \lambda
+       </script>
+      </strong>
+      — This can help fix high bias.
      </li>
      <li>
-      Textual library:
-      <a href="https://textual.textualize.io/#what-is-textual" rel="noopener noreferrer" target="_blank">
-       https://textual.textualize.io/#what-is-textual
-      </a>
-      (which Harlequin uses; apps over SSH)
-     </li>
-     <li>
-      GitUI (Rust-based TUI):
-      <a href="https://github.com/extrawurst/gitui?tab=readme-ov-file#installation" rel="noopener noreferrer" target="_blank">
-       https://github.com/extrawurst/gitui?tab=readme-ov-file#installation
-      </a>
-     </li>
-     <li>
-      Dive (Docker image explorer TUI):
-      <a href="https://github.com/wagoodman/dive" rel="noopener noreferrer" target="_blank">
-       https://github.com/wagoodman/dive
-      </a>
-     </li>
-     <li>
-      Pandaral·lel (Parallelize Pandas operations on all CPUs, by changing only one line of code):
-      <a href="https://github.com/nalepae/pandarallel" rel="noopener noreferrer" target="_blank">
-       https://github.com/nalepae/pandarallel
-      </a>
-      (
-      <a href="https://github.com/jzombie/pandarallel" rel="noopener noreferrer" target="_blank">
-       https://github.com/jzombie/pandarallel
-      </a>
-      )
-     </li>
-     <li>
-      Ibis (lightweight, universal interface for data wrangling; Pandas compatible [mostly, according to what I've been lead to believe]):
-      <a href="https://github.com/ibis-project/ibis" rel="noopener noreferrer" target="_blank">
-       https://github.com/ibis-project/ibis
-      </a>
-     </li>
-     <li>
-      Python time distribution as a heatmap:
-      <a href="https://github.com/csurfer/pyheat" rel="noopener noreferrer" target="_blank">
-       https://github.com/csurfer/pyheat
-      </a>
-     </li>
-     <li>
-      Pip requirements.txt generator based on imports in project:
-      <a href="https://pypi.org/project/pipreqs/" rel="noopener noreferrer" target="_blank">
-       https://pypi.org/project/pipreqs/
-      </a>
-     </li>
-     <li>
-      MLflow: A Machine Learning Lifecycle Platform:
-      <a href="https://github.com/mlflow/mlflow/" rel="noopener noreferrer" target="_blank">
-       https://github.com/mlflow/mlflow/
-      </a>
-     </li>
-     <li>
-      Galactic: cleaning and curation tools for massive unstructured text datasets:
-      <a href="https://github.com/taylorai/galactic" rel="noopener noreferrer" target="_blank">
-       https://github.com/taylorai/galactic
-      </a>
-     </li>
-     <li>
-      Radicle: Open-Source, P2P GitHub Alternative:
-      <a href="https://news.ycombinator.com/item?id=39600810" rel="noopener noreferrer" target="_blank">
-       https://news.ycombinator.com/item?id=39600810
-      </a>
+      <strong>
+       Try increasing
+       <script type="math/tex">
+        \lambda
+       </script>
+      </strong>
+      — This can help fix high variance.
      </li>
     </ul>
-    <h2 id="git-actions-monitoring">
-     Git Actions Monitoring
-    </h2>
+    <p>
+     The cost function for regularized linear regression is given by:
+    </p>
+    <p>
+     <script type="math/tex; mode=display">
+      J(\vec{w}, b) = \frac{1}{2m} \sum_{i=1}^{m} (f_{\vec{w},b}(\vec{x}^{(i)}) - y^{(i)})^2 + \frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
+     </script>
+    </p>
     <ul>
      <li>
-      <a href="https://github.com/jzombie/rich-cms/actions/" rel="noopener noreferrer" target="_blank">
-       https://github.com/jzombie/rich-cms/actions/
-      </a>
+      The first term measures how well the model
+      <script type="math/tex">
+       f_{\vec{w},b}
+      </script>
+      fits the training data.
+     </li>
+     <li>
+      The second term penalizes the complexity of the model by adding the squared magnitude of the weights multiplied by the regularization parameter
+      <script type="math/tex">
+       \lambda
+      </script>
+      .
      </li>
     </ul>
-    <h2 id="python-lists-on-disks">
-     Python Lists on Disks
+    <h2 id="bias-and-variance">
+     Bias and Variance
     </h2>
+    <p>
+     High bias and high variance describe two different issues related to the performance of machine learning models on training and validation (or test) datasets.
+    </p>
     <ul>
      <li>
-      DiskList: A python list implementation that uses the disk to handle very large collections of pickle-able objects.
-      <a href="https://github.com/Belval/disklist" rel="noopener noreferrer" target="_blank">
-       https://github.com/Belval/disklist
-      </a>
+      <p>
+       <strong>
+        High Bias
+       </strong>
+       : High bias occurs when a model has insufficient complexity to capture the underlying patterns of the data, leading to poor performance on both the training and validation datasets. This situation is indicative of underfitting, where the model is too simple to accurately represent the data. High bias is characterized by a significant error on the training set, suggesting that the model is not even fitting the training data well.
+      </p>
      </li>
      <li>
-      mmaparray: Disk-backed arrays witha  structure similar to Python's built-in array module.
-      <a href="https://pypi.org/project/mmaparray/" rel="noopener noreferrer" target="_blank">
-       https://pypi.org/project/mmaparray/
-      </a>
-     </li>
-     <li>
-      Darr: Python library designed for working with large, disk-based Numpy arrays.
-      <a href="https://github.com/gbeckers/darr" rel="noopener noreferrer" target="_blank">
-       https://github.com/gbeckers/darr
-      </a>
+      <p>
+       <strong>
+        High Variance
+       </strong>
+       : High variance occurs when a model is too complex, capturing not only the underlying patterns but also the noise in the training dataset. This leads to a model that performs well on the training data but poorly on unseen data (validation or test dataset), indicative of overfitting. High variance is characterized by a significant difference between the training error and the validation error, where the model's performance on the training set is much better than on the validation set.
+      </p>
      </li>
     </ul>
+    <p>
+     In summary, if the training error differs significantly from the validation error, with much lower error on the training set, it's a sign of high variance, not high bias. High variance suggests that the model is overfitting the training data and not generalizing well to unseen data.
+    </p>
    </div>
    <footer>
     <div class="build_datetime">
      Build datetime: 2024-03-05 23:19:21 +0000
     </div>
     <nav>
-     <a class="previous" href="Using%20Git%20for%20File%20Metadata.html">
+     <a class="previous" href="Courses.html">
       « Previous
      </a>
-     <a class="next" href="1.%20January/index.html">
+     <a class="next" href="Engineering%20Blogs.html">
       Next »
      </a>
     </nav>
