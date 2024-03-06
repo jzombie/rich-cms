@@ -17,10 +17,12 @@ A collection of utilities...
 - MLflow: A Machine Learning Lifecycle Platform: https://github.com/mlflow/mlflow/
 - Galactic: cleaning and curation tools for massive unstructured text datasets: https://github.com/taylorai/galactic
 - Radicle: Open-Source, P2P GitHub Alternative: https://news.ycombinator.com/item?id=39600810
+- Borg Backup: Deduplicating backup (compatible w/ rsync.net): https://github.com/borgbackup/borg
 
-## Git Actions Monitoring
+### Services
 
-- https://github.com/jzombie/rich-cms/actions/
+- RichCMS Git Actions Monitoring: https://github.com/jzombie/rich-cms/actions/
+- Rsync.net (cloud backup): https://www.rsync.net/cloudstorage.html
 
 ## Python Lists on Disks
 
