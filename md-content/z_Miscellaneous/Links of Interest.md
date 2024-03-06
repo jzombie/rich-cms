@@ -42,6 +42,7 @@
 36. Emergent mind (monitors social mdedia for discussions about recently-published [arXiv](https://arxiv.org/) papers): https://www.emergentmind.com/
 37. Accelerating Generative AI with PyTorch II: GPT, Fast: https://pytorch.org/blog/accelerating-generative-ai-2/
 38. Keras (MLX backend): https://github.com/keras-team/keras/pull/18962
+39. Kaggle Finance Dataset (search): https://www.kaggle.com/search?q=finance+dataset
 
 ## Papers of Interest
 
