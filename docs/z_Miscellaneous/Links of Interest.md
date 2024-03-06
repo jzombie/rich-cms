@@ -41,6 +41,7 @@
 35. GPT in 60 lines of NumPy (Hacker News): https://news.ycombinator.com/item?id=34726115
 36. Emergent mind (monitors social mdedia for discussions about recently-published [arXiv](https://arxiv.org/) papers): https://www.emergentmind.com/
 37. Accelerating Generative AI with PyTorch II: GPT, Fast: https://pytorch.org/blog/accelerating-generative-ai-2/
+38. Keras (MLX backend): https://github.com/keras-team/keras/pull/18962
 
 ## Papers of Interest
 
