@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Note: This is just a helper script and probably should be replaced with a git hook.
+
 # This script automates the process of committing changes to a Git repository,
 # attempts to run a specified Python script using pipper (if available), falls back
 # to using python if pipper is not a valid command, and then makes a second commit.
