@@ -96,6 +96,3 @@ Join telegram for regular job updates, free coding resources and notes: [https:/
 
 Join for Daily Job Updates: [https://lnkd.in/dQB_BQeT](https://lnkd.in/dQB_BQeT)
 
----
-
-This markdown article includes links and formatting for readability and easy access to the resources mentioned.
