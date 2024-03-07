@@ -43,6 +43,7 @@
 37. Accelerating Generative AI with PyTorch II: GPT, Fast: https://pytorch.org/blog/accelerating-generative-ai-2/
 38. Keras (MLX backend): https://github.com/keras-team/keras/pull/18962
 39. Kaggle Finance Dataset (search): https://www.kaggle.com/search?q=finance+dataset
+40. Eloquent JavaScript 4th Edition (2024): https://news.ycombinator.com/item?id=39629044
 
 ## Papers of Interest
 
