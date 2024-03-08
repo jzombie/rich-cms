@@ -14,4 +14,4 @@
 ### Data Science
 
 - Mar 7, 2024: https://www.scaler.com/topics/course/python-for-data-science
-- Mar 7, 20204: https://olympus.mygreatlearning.com/courses/13680
+- Mar 7, 2024: https://olympus.mygreatlearning.com/courses/13680
