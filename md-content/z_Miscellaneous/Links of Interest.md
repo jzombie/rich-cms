@@ -47,6 +47,7 @@
 41. Famous algorithmic patterns and their everyday usage: https://www.linkedin.com/posts/arslanahmad_systemdesign-softwarearchitecture-softwaredevelopment-activity-7170661917621936128-qwFf?utm_source=share&utm_medium=member_desktop
 42. Big-O cheat sheet: https://www.linkedin.com/posts/arslanahmad_codinginterview-timecomplexity-activity-7167956367599763456-4H4t?utm_source=share&utm_medium=member_desktop
 43. Data structures worth knowing: https://www.linkedin.com/posts/arslanahmad_systemdesign-coding-interviewtips-activity-7171064213992402944-0qSv?utm_source=share&utm_medium=member_desktop
+44. Exponential smoothing animation tricks (with code examples): https://lisyarus.github.io/blog/programming/2023/02/21/exponential-smoothing.html
 
 ## Papers of Interest
 
