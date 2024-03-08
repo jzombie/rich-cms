@@ -8,6 +8,7 @@
     This could also be useful for tracking article creation and update dates across multiple systems, as well as in sitemap generation ("lastmod").
 
 - [] Add simple Docker example that spits out a static website from a directory of Markdown files
+- [] Auto-generated metadata keywords for "SEO" (or just for kicks and giggles)
 - [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
 - [] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
