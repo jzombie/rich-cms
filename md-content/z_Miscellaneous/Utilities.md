@@ -19,6 +19,7 @@ A collection of utilities...
 - Radicle: Open-Source, P2P GitHub Alternative: https://news.ycombinator.com/item?id=39600810
 - Borg Backup: Deduplicating backup (compatible w/ rsync.net): https://github.com/borgbackup/borg
 - Lightweight plotting to the terminal (4x resolution via Unicode): https://github.com/olavolav/uniplot
+- node-red-contrib-machine-learning: https://flows.nodered.org/node/node-red-contrib-machine-learning
 
 ### Services
 
