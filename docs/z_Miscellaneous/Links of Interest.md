@@ -44,6 +44,7 @@
 38. Keras (MLX backend): https://github.com/keras-team/keras/pull/18962
 39. Kaggle Finance Dataset (search): https://www.kaggle.com/search?q=finance+dataset
 40. Eloquent JavaScript 4th Edition (2024): https://news.ycombinator.com/item?id=39629044
+41. Famous algorithmic patterns and their everyday usage: https://www.linkedin.com/posts/arslanahmad_systemdesign-softwarearchitecture-softwaredevelopment-activity-7170661917621936128-qwFf?utm_source=share&utm_medium=member_desktop
 
 ## Papers of Interest
 
