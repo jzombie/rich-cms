@@ -18,6 +18,7 @@ A collection of utilities...
 - Galactic: cleaning and curation tools for massive unstructured text datasets: https://github.com/taylorai/galactic
 - Radicle: Open-Source, P2P GitHub Alternative: https://news.ycombinator.com/item?id=39600810
 - Borg Backup: Deduplicating backup (compatible w/ rsync.net): https://github.com/borgbackup/borg
+- Lightweight plotting to the terminal (4x resolution via Unicode): https://github.com/olavolav/uniplot
 
 ### Services
 
