@@ -377,29 +377,61 @@ class RichCMSGenerator:
     def copy_directory_contents(cls, source_directory, destination_directory, include_patterns=None, exclude_patterns=None):
         """
         Copies files and directories from source_directory to destination_directory
-        based on include and exclude wildcard patterns.
+        based on include and exclude wildcard patterns, not supported by the built-in
+        shutil.copytree.
+
+        Parameters:
+        - source_directory (str): The path to the source directory.
+        - destination_directory (str): The path to the destination directory.
+        - include_patterns (list, optional): Patterns of files to include. Includes all by default.
+        - exclude_patterns (list, optional): Patterns of files to exclude. Excludes none by default.
         """
         if include_patterns is None:
-            include_patterns = ['*']  # By default include everything
+            include_patterns = ['*']  # Include everything by default.
         if exclude_patterns is None:
-            exclude_patterns = []  # By default exclude nothing
+            exclude_patterns = []  # Exclude nothing by default.
 
-        for item in os.listdir(source_directory):
-            source_item = os.path.join(source_directory, item)
-            destination_item = os.path.join(destination_directory, item)
+        def matches_patterns(file, patterns):
+            """Check if the file matches any of the given patterns."""
+            return any(fnmatch.fnmatch(file, pattern) for pattern in patterns)
 
-            # Check if item matches any of the exclude patterns
-            if any(fnmatch.fnmatch(item, pattern) for pattern in exclude_patterns):
-                continue
+        def custom_copytree(src, dst, symlinks=False, include_patterns=None, exclude_patterns=None):
+            """
+            Custom directory tree copy function that supports per-entry filtering
+            based on include and exclude patterns.
 
-            # Check if item matches any of the include patterns
-            if not any(fnmatch.fnmatch(item, pattern) for pattern in include_patterns):
-                continue
+            Parameters:
+            - src (str): Source directory path.
+            - dst (str): Destination directory path.
+            - symlinks (bool): Whether to copy symlinks as symlinks.
+            - include_patterns (list): File patterns to include.
+            - exclude_patterns (list): File patterns to exclude.
+            """
+            if not os.path.exists(dst):
+                os.makedirs(dst)
 
-            if os.path.isdir(source_item):
-                shutil.copytree(source_item, destination_item, dirs_exist_ok=True)
-            else:
-                shutil.copy2(source_item, destination_item)
+            entries = os.listdir(src)
+            for item in entries:
+                s = os.path.join(src, item)
+                d = os.path.join(dst, item)
+                if os.path.isdir(s):
+                    custom_copytree(s, d, symlinks, include_patterns, exclude_patterns)
+                else:
+                    # Check against include and exclude patterns
+                    if matches_patterns(item, exclude_patterns):
+                        continue
+                    if not matches_patterns(item, include_patterns):
+                        continue
+
+                    if symlinks and os.path.islink(s):
+                        if os.path.lexists(d):
+                            os.remove(d)
+                        os.symlink(os.readlink(s), d)
+                    else:
+                        shutil.copy2(s, d)
+
+        # Now call the custom_copytree with include and exclude patterns
+        custom_copytree(source_directory, destination_directory, include_patterns=include_patterns, exclude_patterns=exclude_patterns)
 
     @classmethod
     def generate_site(cls, input_directory, output_directory, template_directory, base_url = None):
