@@ -38,6 +38,9 @@ else
   pipper_exit_code=$?
 fi
 
+# Stage the next current files
+git add .
+
 # If the Python script finishes without errors, commit again with a "Rebuild" message
 if [ $pipper_exit_code -eq 0 ]; then
   git commit -am "Rebuild"
