@@ -1,6 +1,6 @@
 # Fix Yourself
 
-_Reference:_ [LinkedIn Post by Alvinfsc](https://www.linkedin.com/posts/alvinfsc_ask-yourself-this-question-if-u-want-to-know-activity-7172063626961309696-MSBe?utm_source=share&utm_medium=member_desktop)
+_Reference:_ https://www.linkedin.com/posts/alvinfsc_ask-yourself-this-question-if-u-want-to-know-activity-7172063626961309696-MSBe?utm_source=share&utm_medium=member_desktop
 
 Ask yourself this question if you want to know something about yourself:
 

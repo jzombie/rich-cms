@@ -1,6 +1,6 @@
 # Debugging a Learning Algorithm
 
-Reference: https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited
+_Reference:_ https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited
 
 You've implemented regularized linear regression on housing prices, but it makes unacceptably large errors in predictions. What do you try next?
 

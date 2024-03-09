@@ -6,7 +6,7 @@ publish_date: 2024-01-01
 
 # Engineering Blogs
 
-Reference: https://www.linkedin.com/posts/nk-systemdesign-one_programming-coding-systemdesign-activity-7145007597970980864-wFu8
+_Reference:_ https://www.linkedin.com/posts/nk-systemdesign-one_programming-coding-systemdesign-activity-7145007597970980864-wFu8
 
 1. Spotify: https://engineering.atspotify.com/
 
