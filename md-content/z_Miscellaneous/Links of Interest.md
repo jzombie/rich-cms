@@ -56,6 +56,7 @@
 1. Fractals in Neural Network Hyperparameter Tuning: https://arxiv.org/abs/2402.06184
 2. Deep Reinforcement Learning for Quantitative Trading: https://arxiv.org/abs/2312.15730v1
 3. Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping: https://arxiv.org/html/2402.14083v1
+4. MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training (thanks, Apple): https://arxiv.org/abs/2403.09611
 
 ## Books of Interest
 
