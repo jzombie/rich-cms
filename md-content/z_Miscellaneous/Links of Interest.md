@@ -49,6 +49,7 @@
 43. Data structures worth knowing: https://www.linkedin.com/posts/arslanahmad_systemdesign-coding-interviewtips-activity-7171064213992402944-0qSv?utm_source=share&utm_medium=member_desktop
 44. Exponential smoothing animation tricks (with code examples): https://lisyarus.github.io/blog/programming/2023/02/21/exponential-smoothing.html
 45. I Was a Statistics Professor. I Used Sports Betting to Retire at 43: https://www.newsweek.com/i-was-statistics-professor-i-used-sports-betting-retire-43-1858974
+46. Linear warmup with cosine annealing (machine learning): https://github.com/rasbt/LLMs-from-scratch/blob/main/appendix-D/01_main-chapter-code/appendix-D.ipynb
 
 ## Papers of Interest
 
