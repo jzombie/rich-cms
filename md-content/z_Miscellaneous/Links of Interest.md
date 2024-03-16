@@ -57,6 +57,9 @@
 2. Deep Reinforcement Learning for Quantitative Trading: https://arxiv.org/abs/2312.15730v1
 3. Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping: https://arxiv.org/html/2402.14083v1
 
+## Books of Interest
+
+1. Build a Large Language Model (From Scratch) [currently not published as of March 16, 2024]: https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
 
 ## Videos of Interest
 
