@@ -67,3 +67,4 @@
 ## Videos of Interest
 
 - Building transformers from scratch: https://www.youtube.com/watch?v=kCc8FmEb1nY
+- AI beats multiple World Records in Trackmania (reinforcement learning): https://www.youtube.com/watch?v=kojH8a7BW04
