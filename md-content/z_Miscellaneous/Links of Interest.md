@@ -53,7 +53,7 @@
 47. An invention to silence reggaeton with artificial intelligence: https://english.elpais.com/technology/2024-03-17/an-invention-to-silence-reggaeton-with-artificial-intelligence.html
 48. Sam's Journey (new NES game): https://news.ycombinator.com/item?id=39730787
 49. Grok-1 (xAI model): https://github.com/xai-org/grok-1
-50. Spleeter (audio source separation library with pretrained models): https://github.com/deezer/spleeter/wiki/2.-Getting-started#using-docker-image
+50. Spleeter (audio source separation library with pretrained models; stem separation; vocals / drums / bass / piano / other separation): https://github.com/deezer/spleeter/wiki/2.-Getting-started#using-docker-image
 
 ## Papers of Interest
 
