@@ -23,3 +23,7 @@
 ## Potential
 
 - [potentially junk] C++: https://www.scaler.com/topics/course/cpp-beginners/
+
+## Misc.
+
+Currently dissatisfied with Scaler due to not being able to retake exams and messy course material. Coursera seems to be a much more polished experience.
