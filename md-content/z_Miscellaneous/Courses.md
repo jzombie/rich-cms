@@ -11,11 +11,15 @@
 
 ## Current Courses
 
+### Machine Learning
+
+- https://www.coursera.org/learn/machine-learning/lecture/IjrpM/applications-of-machine-learning
+
 ### Data Science
 
-- Mar 7, 2024: https://www.scaler.com/topics/course/python-for-data-science
-- Mar 7, 2024: https://olympus.mygreatlearning.com/courses/13680
+- [potentially junk] Mar 7, 2024: https://www.scaler.com/topics/course/python-for-data-science
+- [potentially junk] Mar 7, 2024: https://olympus.mygreatlearning.com/courses/13680
 
 ## Potential
 
-- C++: https://www.scaler.com/topics/course/cpp-beginners/
+- [potentially junk] C++: https://www.scaler.com/topics/course/cpp-beginners/
