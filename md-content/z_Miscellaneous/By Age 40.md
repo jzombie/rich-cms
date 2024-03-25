@@ -1,5 +1,5 @@
 
-# BY AGE 40 YOU SHOULD BE SMART ENOUGH TO REALIZE THIS:
+# BY AGE 40 YOU SHOULD BE SMART ENOUGH TO REALIZE THIS
 
 Reference: https://www.linkedin.com/feed/update/urn:li:activity:7177734349981724672?utm_source=share&utm_medium=member_desktop
 
