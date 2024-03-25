@@ -20,7 +20,8 @@ A collection of utilities...
 - Borg Backup: Deduplicating backup (compatible w/ rsync.net): https://github.com/borgbackup/borg
 - Lightweight plotting to the terminal (4x resolution via Unicode): https://github.com/olavolav/uniplot
 - node-red-contrib-machine-learning: https://flows.nodered.org/node/node-red-contrib-machine-learning
-- monolith (bundle any web page into a single HTML file): https://github.com/Y2Z/monolith
+- Monolith: bundle any web page into a single HTML file: https://github.com/Y2Z/monolith
+- Jampack: Optimizes static websites for best user experience and best Core Web Vitals scores: https://github.com/divriots/jampack
 
 ### Services
 
