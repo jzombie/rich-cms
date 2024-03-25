@@ -151,6 +151,18 @@ aside nav.toc ul li {
   padding: 0.1em 0em;
 }
 
+/* Override word breaking for the TOC */
+aside nav.toc, nav.toc ul li {
+  word-wrap: normal;
+  overflow-wrap: normal;
+  word-break: keep-all; /* Prevent words from breaking */
+}
+
+/* Ensure links within the TOC also don't break words */
+nav.toc a {
+  word-break: keep-all;
+}
+
 aside footer {
   display: none;
 }
