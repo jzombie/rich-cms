@@ -54,6 +54,7 @@
 48. Sam's Journey (new NES game): https://news.ycombinator.com/item?id=39730787
 49. Grok-1 (xAI model): https://github.com/xai-org/grok-1
 50. Spleeter (audio source separation library with pretrained models; stem separation; vocals / drums / bass / piano / other separation): https://github.com/deezer/spleeter/wiki/2.-Getting-started#using-docker-image
+51. Free Spark Resources: https://www.linkedin.com/posts/shubhamwadekar_spark-data-dataengineering-activity-7178246825999556609-CjSI/?utm_source=share&utm_medium=member_android
 
 ## Papers of Interest
 
