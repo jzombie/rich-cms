@@ -22,3 +22,5 @@ Google has been leading the charge on that front, so these are worth a read:
 Sparse Expert Models](https://arxiv.org/pdf/2202.08906.pdf)
 - [Switch Transformers: Scaling to Trillion Parameter Models
 with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961.pdf)
+
+<img src="../images/moe-scaling-llms.jpeg" alt="Mixture of Experts: How to Properly Scale LLMs" />
