@@ -21,6 +21,11 @@ body {
   min-height: 100vh; /* Set minimum height to viewport height */
 }
 
+/* Prevent image overflow */
+img {
+  max-width: 100%;
+}
+
 .codehilite {
   background: #222; /* Code block background */
   color: #f0f0f0; /* Code block text color */
