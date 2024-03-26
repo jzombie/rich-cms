@@ -16,4 +16,9 @@ Even with only the top-2 experts, the new output hidden state can represent a mu
 
 However, training a MoE model is not trivial as it induces a lot of training instabilities. One difficulty is ensuring each expert sees enough data to learn the relevant statistical patterns. The typical strategy is adding a term to the loss function to provide a balanced data load across experts. 
 
-Google has been leading the charge on that front, so this is worth a read: https://arxiv.org/pdf/2202.08906.pdf https://arxiv.org/pdf/2101.03961.pdf
+Google has been leading the charge on that front, so these are worth a read: 
+
+- [ST-MOE: Designing Stable and Transferable
+Sparse Expert Models](https://arxiv.org/pdf/2202.08906.pdf)
+- [Switch Transformers: Scaling to Trillion Parameter Models
+with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961.pdf)
