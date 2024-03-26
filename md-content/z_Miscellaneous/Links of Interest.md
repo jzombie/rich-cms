@@ -75,3 +75,4 @@
 
 - Building transformers from scratch: https://www.youtube.com/watch?v=kCc8FmEb1nY
 - AI beats multiple World Records in Trackmania (reinforcement learning): https://www.youtube.com/watch?v=kojH8a7BW04
+- PyTorch for Deep Learning & Machine Learning: https://www.youtube.com/watch?v=V_xro1bcAuA
