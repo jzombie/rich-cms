@@ -10,7 +10,9 @@ Prior to the experts layer, we add a router so that each token only goes through
 
 The router is just a linear layer that takes a hidden state and produces a vector with as many entries as there are experts. By using a softmax transformation, we get a probability for each of the experts. We can now use those probabilities to select the top-k experts and build a weighted average of the output of the selected experts. For example, if we take the top 2 experts:
 
+```python
 new state = P(FFN_1) * FFN_1 (hidden state) + P(FFN_2) * FFN_2 (hidden state)
+```
 
 Even with only the top-2 experts, the new output hidden state can represent a much richer set of information learned by the different combinations of experts. This also provides a very natural way to distribute the model computations across multiple GPU machines. Each machine can hold multiple experts, and the computations of the different experts can happen in parallel on the different machines.
 
