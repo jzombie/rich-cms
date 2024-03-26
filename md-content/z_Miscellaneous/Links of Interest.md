@@ -56,6 +56,7 @@
 50. Spleeter (audio source separation library with pretrained models; stem separation; vocals / drums / bass / piano / other separation): https://github.com/deezer/spleeter/wiki/2.-Getting-started#using-docker-image
 51. Free Spark Resources: https://www.linkedin.com/posts/shubhamwadekar_spark-data-dataengineering-activity-7178246825999556609-CjSI/?utm_source=share&utm_medium=member_android
 52. AssemblyScript: A TypeScript-like language for WebAssembly: https://www.assemblyscript.org/
+53. Radios, how do they work? (A brief introduction to antennas, superheterodyne receivers, and signal modulation schemes): https://lcamtuf.substack.com/p/radios-how-do-they-work
 
 ## Papers of Interest
 
