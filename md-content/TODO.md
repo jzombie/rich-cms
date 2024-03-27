@@ -23,6 +23,7 @@
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
 - [] Need persistent "home" link
 - [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
+- [] Create a mind map?
 - [X] Fix "Chapter 7" mobile horizontal overflow issue (see "personal reading list")
 - [] Add sub-headings into table of contents (TOC) (navigation similar to: https://finalfusion.github.io/)
 - [X] Fix TOC issue on mobile where it cannot be scrolled vertically
