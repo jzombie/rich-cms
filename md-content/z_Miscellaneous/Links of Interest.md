@@ -59,6 +59,7 @@
 53. Radios, how do they work? (A brief introduction to antennas, superheterodyne receivers, and signal modulation schemes): https://lcamtuf.substack.com/p/radios-how-do-they- (HN discussion: https://news.ycombinator.com/item?id=39813679)
 54. Modern AI Discourse is Talentless Business Students Trying to Give Young Engineers PTSD: https://www.timokats.xyz/?content=writings/aiblog
 55. Reading and Writing WAV Files in Python: https://realpython.com/python-wav-files/
+56. Conversation as an Interface (2016): https://annjose.com/post/conversation-as-interface/
 
 ## Papers of Interest
 
