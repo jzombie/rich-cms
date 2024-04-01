@@ -22,6 +22,7 @@ A collection of utilities...
 - node-red-contrib-machine-learning: https://flows.nodered.org/node/node-red-contrib-machine-learning
 - Monolith: bundle any web page into a single HTML file: https://github.com/Y2Z/monolith
 - Jampack: Optimizes static websites for best user experience and best Core Web Vitals scores: https://github.com/divriots/jampack
+- QuantStats: Portfolio analytics for quants: https://github.com/ranaroussi/quantstats
 
 ### Services
 
