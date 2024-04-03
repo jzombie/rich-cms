@@ -46,9 +46,21 @@ class RichCMSGenerator:
     @staticmethod
     def sanitize_string(input_string):
         """
-        Sanitizes the input string using the bleach library.
+        Sanitizes the input string using the bleach library, specifically allowing
+        iframe tags along with their essential attributes for embedding content.
         """
-        sanitized_string = bleach.clean(input_string, strip=True)
+        # Convert the frozenset of allowed tags to a list and add 'iframe'
+        allowed_tags = list(bleach.sanitizer.ALLOWED_TAGS) + ['iframe']
+
+        # Define allowed attributes for each tag, extending with iframe attributes
+        allowed_attributes = bleach.sanitizer.ALLOWED_ATTRIBUTES.copy()
+        allowed_attributes['iframe'] = [
+            'src', 'width', 'height', 'frameborder', 'allowfullscreen', 'sandbox'
+        ]
+
+        # Clean the input string using the defined allowed tags and attributes
+        sanitized_string = bleach.clean(input_string, tags=allowed_tags, 
+                                        attributes=allowed_attributes, strip=True)
         return sanitized_string
 
     @classmethod
