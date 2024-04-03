@@ -11,3 +11,5 @@ Ask yourself this question if you want to know something about yourself:
 - **Meditation on the Question**: You meditate on that...
 - **Receiving the Answer**: You'll get an answer.
 - **Accepting the Truth**: And it won't be one you want, but it'll be the necessary one.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7172063626034438144" height="550" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
