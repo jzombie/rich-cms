@@ -21,7 +21,8 @@ body {
   min-height: 100vh; /* Set minimum height to viewport height */
 }
 
-/* Prevent image overflow */
+/* Prevent pixel overflow */
+iframe,
 img {
   max-width: 100%;
 }
