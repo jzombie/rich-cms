@@ -15,20 +15,17 @@
 
 - https://www.coursera.org/learn/machine-learning/lecture/IjrpM/applications-of-machine-learning
 
-### Data Science
-
-- IBM AI Engineering Professional Certificate
- (covers Apache Spark, SciPy, ScikitLearn, Keras, PyTorch, TensorFlow): https://www.coursera.org/professional-certificates/ai-engineer
- - Illinois Tech Master of Data Science (degree; complimentary to IBM AI Engineering Professional Certificate) https://www.coursera.org/degrees/mas-data-science-illinois-tech/admissions
- ---
- - [potentially junk] Mar 7, 2024: https://www.scaler.com/topics/course/python-for-data-science
-- [potentially junk] Mar 7, 2024: https://olympus.mygreatlearning.com/courses/13680
-
 ## Potential
 
 - https://www.coursera.org/professional-certificates/ai-engineer
 - Mathematics for Machine Learning Specialization: https://www.coursera.org/specializations/mathematics-machine-learning
-- [potentially junk] C++: https://www.scaler.com/topics/course/cpp-beginners/
+- IBM AI Engineering Professional Certificate
+ (covers Apache Spark, SciPy, ScikitLearn, Keras, PyTorch, TensorFlow): https://www.coursera.org/professional-certificates/ai-engineer
+ - Illinois Tech Master of Data Science (degree; complimentary to IBM AI Engineering Professional Certificate) https://www.coursera.org/degrees/mas-data-science-illinois-tech/admissions
+ ---
+ - [potentially junk] C++: https://www.scaler.com/topics/course/cpp-beginners/
+ - [potentially junk] Mar 7, 2024: https://www.scaler.com/topics/course/python-for-data-science
+- [potentially junk] Mar 7, 2024: https://olympus.mygreatlearning.com/courses/13680
 
 ## Misc.
 
