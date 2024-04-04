@@ -62,6 +62,7 @@
 56. Conversation as an Interface (2016): https://annjose.com/post/conversation-as-interface/
 57. Svelte parses HTML all wrong: https://github.com/sveltejs/svelte/issues/11052
 58. Find Median from Data Stream: https://leetcode.com/problems/find-median-from-data-stream/ (maybe it could be useful for implementation of RobustScaler partial fit [open-source the solution?])
+59. LeetCode (25 questions to cover the most important patterns): https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-coding-programming-activity-7181538559999238144-lwW8?utm_source=share&utm_medium=member_desktop
 
 ## Papers of Interest
 
