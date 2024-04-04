@@ -60,6 +60,7 @@
 54. Modern AI Discourse is Talentless Business Students Trying to Give Young Engineers PTSD: https://www.timokats.xyz/?content=writings/aiblog
 55. Reading and Writing WAV Files in Python: https://realpython.com/python-wav-files/
 56. Conversation as an Interface (2016): https://annjose.com/post/conversation-as-interface/
+57. Svelte parses HTML all wrong: https://github.com/sveltejs/svelte/issues/11052
 
 ## Papers of Interest
 
