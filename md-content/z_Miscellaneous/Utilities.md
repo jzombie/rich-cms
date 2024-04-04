@@ -25,7 +25,7 @@ A collection of utilities...
 - QuantStats: Portfolio analytics for quants: https://github.com/ranaroussi/quantstats
 - Markmap (Visualize Markdown as mindmaps): https://github.com/markmap/markmap (demo: https://markmap.js.org/repl)
 
-### Services
+## Services
 
 - RichCMS Git Actions Monitoring: https://github.com/jzombie/rich-cms/actions/
 - Rsync.net (cloud backup): https://www.rsync.net/cloudstorage.html
