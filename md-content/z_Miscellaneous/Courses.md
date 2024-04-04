@@ -27,6 +27,7 @@
 ## Potential
 
 - https://www.coursera.org/professional-certificates/ai-engineer
+- Mathematics for Machine Learning Specialization: https://www.coursera.org/specializations/mathematics-machine-learning
 - [potentially junk] C++: https://www.scaler.com/topics/course/cpp-beginners/
 
 ## Misc.
