@@ -63,7 +63,8 @@
 57. Svelte parses HTML all wrong: https://github.com/sveltejs/svelte/issues/11052
 58. Find Median from Data Stream: https://leetcode.com/problems/find-median-from-data-stream/ (maybe it could be useful for implementation of RobustScaler partial fit [open-source the solution?]; related StackOverflow discussion: https://stackoverflow.com/questions/57291876/robustscaler-partial-fit-similar-to-minmaxscaler-or-standardscaler)
 59. LeetCode (25 questions to cover the most important patterns): https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-coding-programming-activity-7181538559999238144-lwW8?utm_source=share&utm_medium=member_desktop
-60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (HN discussion: https://news.ycombinator.com/item?id=39933076) 
+60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (HN discussion: https://news.ycombinator.com/item?id=39933076)
+61. Books for Learning Math for Machine Learning: https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books/
 
 ## Papers of Interest
 
