@@ -17,7 +17,7 @@
 
 ## Potential
 
-- CS25: Transformers United V4: https://web.stanford.edu/class/cs25/
+- CS25: Transformers United V4: https://web.stanford.edu/class/cs25/ (archived lecture recordings: https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 - https://www.coursera.org/professional-certificates/ai-engineer
 - Mathematics for Machine Learning Specialization: https://www.coursera.org/specializations/mathematics-machine-learning
 - IBM AI Engineering Professional Certificate
