@@ -65,6 +65,7 @@
 59. LeetCode (25 questions to cover the most important patterns): https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-coding-programming-activity-7181538559999238144-lwW8?utm_source=share&utm_medium=member_desktop
 60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (HN discussion: https://news.ycombinator.com/item?id=39933076)
 61. Books for Learning Math for Machine Learning: https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books/
+62. llm.c (Karpathy; LLM training in simple, pure C/CUDA): https://github.com/karpathy/llm.c
 
 ## Papers of Interest
 
