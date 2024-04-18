@@ -24,6 +24,7 @@ A collection of utilities...
 - Jampack: Optimizes static websites for best user experience and best Core Web Vitals scores: https://github.com/divriots/jampack
 - QuantStats: Portfolio analytics for quants: https://github.com/ranaroussi/quantstats
 - Markmap (Visualize Markdown as mindmaps): https://github.com/markmap/markmap (demo: https://markmap.js.org/repl)
+- zerve (Data Science & AI Workbench): https://www.zerve.ai/
 
 ## Services
 
