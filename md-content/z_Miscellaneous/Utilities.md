@@ -25,6 +25,7 @@ A collection of utilities...
 - QuantStats: Portfolio analytics for quants: https://github.com/ranaroussi/quantstats
 - Markmap (Visualize Markdown as mindmaps): https://github.com/markmap/markmap (demo: https://markmap.js.org/repl)
 - zerve (Data Science & AI Workbench): https://www.zerve.ai/
+- miceforest: Fast, Memory Efficient Imputation with LightGBM (fill in missing values in datasets) https://github.com/AnotherSamWilson/miceforest (LinkedIn post: https://www.linkedin.com/posts/khuyen-tran-1401_miceforest-is-a-python-library-for-imputing-activity-7187108646344916994-Tqo7)
 
 ## Services
 
