@@ -66,6 +66,7 @@
 60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (HN discussion: https://news.ycombinator.com/item?id=39933076)
 61. Books for Learning Math for Machine Learning: https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books/
 62. llm.c (Karpathy; LLM training in simple, pure C/CUDA): https://github.com/karpathy/llm.c
+63. ETF Dictionary: https://etfdb.com/etfs/
 
 ## Papers of Interest
 
