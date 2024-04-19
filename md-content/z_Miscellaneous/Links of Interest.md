@@ -67,6 +67,7 @@
 61. Books for Learning Math for Machine Learning: https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books/
 62. llm.c (Karpathy; LLM training in simple, pure C/CUDA): https://github.com/karpathy/llm.c
 63. ETF Dictionary: https://etfdb.com/etfs/
+64. Pick great stocks if you are a developer: https://medium.com/@Sanji_vals/pick-great-stocks-if-you-are-a-developer-detailed-guidance-on-stock-selection-for-developers-c1629b3a8eed
 
 ## Papers of Interest
 
