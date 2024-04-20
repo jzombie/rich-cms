@@ -68,6 +68,7 @@
 62. llm.c (Karpathy; LLM training in simple, pure C/CUDA): https://github.com/karpathy/llm.c
 63. ETF Dictionary: https://etfdb.com/etfs/
 64. Pick great stocks if you are a developer: https://medium.com/@Sanji_vals/pick-great-stocks-if-you-are-a-developer-detailed-guidance-on-stock-selection-for-developers-c1629b3a8eed
+65. ML big or small data and how it affects model architecture decisions: https://www.linkedin.com/posts/damienbenveniste_your-data-can-tell-you-a-lot-about-the-type-activity-7186390432434577409-xYI5
 
 ## Papers of Interest
 
