@@ -70,6 +70,7 @@
 64. Pick great stocks if you are a developer: https://medium.com/@Sanji_vals/pick-great-stocks-if-you-are-a-developer-detailed-guidance-on-stock-selection-for-developers-c1629b3a8eed
 65. ML big or small data and how it affects model architecture decisions: https://www.linkedin.com/posts/damienbenveniste_your-data-can-tell-you-a-lot-about-the-type-activity-7186390432434577409-xYI5
 66. JSR (The open-source package registry for modern JavaScript and TypeScript): https://jsr.io/
+67. How Vector Databases Work: https://www.linkedin.com/pulse/understanding-how-vector-databases-work-damien-benveniste-g6htc/
 
 ## Papers of Interest
 
