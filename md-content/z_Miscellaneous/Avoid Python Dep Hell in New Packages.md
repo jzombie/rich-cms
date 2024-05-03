@@ -1,4 +1,4 @@
-# Avoid Python Dependency Hell when creating New Packages
+# Avoid Python Dependency Hell When Creating New Packages
 
 ## Example Scenario: Using Pydantic as a dependency in a package
 
