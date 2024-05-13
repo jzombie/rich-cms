@@ -72,6 +72,7 @@
 66. JSR (The open-source package registry for modern JavaScript and TypeScript): https://jsr.io/
 67. How Vector Databases Work: https://www.linkedin.com/pulse/understanding-how-vector-databases-work-damien-benveniste-g6htc/
 68. Multihead Attention Layer with a Kolmogorov–Arnold Networks (KAN): https://www.linkedin.com/posts/damienbenveniste_here-is-my-implementation-of-a-multihead-activity-7192940670192394240-xq05
+69. Sparse Multihead Attention (implementation): https://www.linkedin.com/posts/damienbenveniste_here-is-how-you-can-create-a-multihead-self-attention-activity-7195828872121102337-OsPg/
 
 ## Papers of Interest
 
