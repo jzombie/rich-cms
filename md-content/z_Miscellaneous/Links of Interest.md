@@ -74,6 +74,7 @@
 68. Multihead Attention Layer with a Kolmogorov–Arnold Networks (KAN): https://www.linkedin.com/posts/damienbenveniste_here-is-my-implementation-of-a-multihead-activity-7192940670192394240-xq05
 69. Sparse Multihead Attention (implementation): https://www.linkedin.com/posts/damienbenveniste_here-is-how-you-can-create-a-multihead-self-attention-activity-7195828872121102337-OsPg/
 70. AI-powered robots are finding the flaws in ‘D’ grade U.S. infrastructure, from commuter bridges to military hardware: https://www.cnbc.com/2024/05/15/these-wall-climbing-robots-are-finding-flaws-in-d-grade-infrastructure.html
+71. MoE multi-head attention (PyTorch example): https://www.linkedin.com/posts/damienbenveniste_can-we-mix-the-concepts-of-multihead-attentions-activity-7199089073381072897-nNfF
 
 ## Papers of Interest
 
