@@ -76,6 +76,7 @@
 70. AI-powered robots are finding the flaws in ‘D’ grade U.S. infrastructure, from commuter bridges to military hardware: https://www.cnbc.com/2024/05/15/these-wall-climbing-robots-are-finding-flaws-in-d-grade-infrastructure.html
 71. MoE multi-head attention (PyTorch example): https://www.linkedin.com/posts/damienbenveniste_can-we-mix-the-concepts-of-multihead-attentions-activity-7199089073381072897-nNfF
 72. Here’s what’s really going on inside an LLM’s neural network: https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/
+73. Economic theory: https://en.wikipedia.org/wiki/Economics#Theoretical_research
 
 ## Papers of Interest
 
