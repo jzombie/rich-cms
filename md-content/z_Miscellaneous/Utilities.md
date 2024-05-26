@@ -28,6 +28,7 @@ A collection of utilities...
 - miceforest: Fast, Memory Efficient Imputation with LightGBM (fill in missing values in datasets) https://github.com/AnotherSamWilson/miceforest (LinkedIn post: https://www.linkedin.com/posts/khuyen-tran-1401_miceforest-is-a-python-library-for-imputing-activity-7187108646344916994-Tqo7). Variable importance may be of additional interest: https://github.com/AnotherSamWilson/miceforest?tab=readme-ov-file#variable-importance
 - Neural Forecast (User friendly state-of-the-art neural forecasting models): https://github.com/Nixtla/neuralforecast (LinkedIn thread: https://www.linkedin.com/posts/khuyen-tran-1401_timeseries-activity-7192169580264337411-BB6q)
 - Itertools (vs. index slicing in Python): https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-7193615521097920512-YwWK (itertools.islice() offers a more efficient approach by enabling the processing of only a portion of the data stream at a time, without the need to load the entire dataset into memory.)
+- Insanely Fast Whisper (STT): https://github.com/Vaibhavs10/insanely-fast-whisper
 
 ## Services
 
