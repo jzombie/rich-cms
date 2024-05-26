@@ -98,4 +98,4 @@
 - AI beats multiple World Records in Trackmania (reinforcement learning): https://www.youtube.com/watch?v=kojH8a7BW04
 - PyTorch for Deep Learning & Machine Learning (long, ~24-hour video): https://www.youtube.com/watch?v=V_xro1bcAuA
 - But what is a GPT? Visual intro to Transformers: https://www.youtube.com/watch?v=wjZofJX0v4M
-- Playing Classic Pink Floyd' Solos with the Black Gilmour Squier Strat: https://www.youtube.com/watch?v=77dnGLYJHlA
+- Playing Classic Pink Floyd Solos with the Black Gilmour Squier Strat: https://www.youtube.com/watch?v=77dnGLYJHlA
