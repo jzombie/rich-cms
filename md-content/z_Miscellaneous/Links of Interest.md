@@ -77,6 +77,7 @@
 71. MoE multi-head attention (PyTorch example): https://www.linkedin.com/posts/damienbenveniste_can-we-mix-the-concepts-of-multihead-attentions-activity-7199089073381072897-nNfF
 72. Here’s what’s really going on inside an LLM’s neural network: https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/
 73. Economic theory: https://en.wikipedia.org/wiki/Economics#Theoretical_research
+74. GuruFocus (investing): https://www.gurufocus.com/
 
 ## Papers of Interest
 
