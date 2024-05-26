@@ -78,6 +78,7 @@
 72. Here’s what’s really going on inside an LLM’s neural network: https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/
 73. Economic theory: https://en.wikipedia.org/wiki/Economics#Theoretical_research
 74. GuruFocus (investing): https://www.gurufocus.com/
+75. Financial Statement Analysis with Large Language Models: https://www.newsletter.datadrivenvc.io/p/financial-statement-analysis-with (LinkedIn thread: https://www.linkedin.com/posts/andreretterath_financial-statement-analysis-with-large-language-activity-7199289952910667776-14At)
 
 ## Papers of Interest
 
