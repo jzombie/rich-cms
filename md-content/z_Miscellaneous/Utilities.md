@@ -30,6 +30,7 @@ A collection of utilities...
 - Itertools (vs. index slicing in Python): https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-7193615521097920512-YwWK (itertools.islice() offers a more efficient approach by enabling the processing of only a portion of the data stream at a time, without the need to load the entire dataset into memory.)
 - Insanely Fast Whisper (STT): https://github.com/Vaibhavs10/insanely-fast-whisper
 - TimeGPT-1: The first foundation model for forecasting and anomaly detection: https://github.com/Nixtla/nixtla (https://www.linkedin.com/posts/khuyen-tran-1401_timegpt-is-a-powerful-generative-pre-trained-activity-7200865032140673026-uUhg)
+- Modin (drop-in Pandas replacement which uses all CPU cores): https://github.com/modin-project/modin (related LinkedIn thread: https://www.linkedin.com/posts/yukikakegawa_python-datascience-dataengineering-activity-7200118431524818946-2-LM/)
 
 ## Services
 
