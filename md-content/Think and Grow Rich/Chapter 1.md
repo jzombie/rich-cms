@@ -18,7 +18,7 @@ He presented himself at Mr. Edison's laboratory, and announced he had come to go
 
 Just what young Barnes said to Mr. Edison on that occasion was far less important than that which he thought. Edison, himself, said so! It could not have been the young man's appearance which got him his start in the Edison office, for that was definitely against him. It was what he THOUGHT that counted.
 
-If the significance of this statement could be conveyed to every person who reads it, there would be no need for the remained of this book.
+If the significance of this statement could be conveyed to every person who reads it, there would be no need for the remainder of this book.
 
 Barnes did not get his partnership with Edison on his first interview. He did get a chance to work in the Edison offices, at a very nominal wage, doing work that was unimportant to Edison, but most important to Barnes, because it gave him an opportunity to display his "merchandise" where his intended "partner" could see it.
 
@@ -28,7 +28,7 @@ Psychologists have correctly said that "when one is truly ready for a thing, it 
 
 Barnes was ready for a business association with Edison, moreover, he was DETERMINED TO REMAIN READY UNTIL HE GOT THAT WHICH HE WAS SEEKING.
 
-He did not say to himself, "Ah well, what's the use? I guess I'll change my mind and try for a salesman's job." But, he did say, "I came here to go into business with Edison, and I'l accomplish this end if it takes the remainder of my life." He meant it! What a different story men would have to tell if only they would adopt a DEFINITE PURPOSE, and stand by that purpose until it had time to become an all-consuming obsession!
+He did not say to himself, "Ah well, what's the use? I guess I'll change my mind and try for a salesman's job." But, he did say, "I came here to go into business with Edison, and I'll accomplish this end if it takes the remainder of my life." He meant it! What a different story men would have to tell if only they would adopt a DEFINITE PURPOSE, and stand by that purpose until it had time to become an all-consuming obsession!
 
 Maybe young Barnes did not know it at the time, but his bulldog determination, his persistence in standing back of a single DESIRE, was destined to mow down all opposition, and bring him the opportunity he was seeking.
 
@@ -62,7 +62,7 @@ Down went the drills! Up went the hopes of Darby and Uncle! Then something happe
 
 Finally, they decided to QUIT.
 
-They sold the machinery to a junk man for a few hundred dollars, and took the train back home. Some "junk" men are dumb, but not this one! H called in a mining engineer to look at the mine and do a little calculating. The engineer advised that the project had failed, because the owners were not familiar with "fault lines." His calculations showed that the vein would be found JUST THREE FEET FROM WHERE THE DARBYS HAD STOPPED DRILLING! That is exactly where it was found!
+They sold the machinery to a junk man for a few hundred dollars, and took the train back home. Some "junk" men are dumb, but not this one! He called in a mining engineer to look at the mine and do a little calculating. The engineer advised that the project had failed, because the owners were not familiar with "fault lines." His calculations showed that the vein would be found JUST THREE FEET FROM WHERE THE DARBYS HAD STOPPED DRILLING! That is exactly where it was found!
 
 The "Junk" man took millions of dollars in ore from the mine, because he knew enough to seek expert counsel before giving up.
 
@@ -94,7 +94,7 @@ Meekly, the child replied, "My mammy say send her fifty cents."
 
 The uncle went ahead with his work, so busily engaged that he did not pay enough attention to the child to observe that she did not leave. When he looked up and saw her still standing there, he yelled at her, "I told you to go on home! Now go, or I'll take a switch to you."
 
-The little girl said "yas sah," be she did not budge an inch.
+The little girl said "yas sah," but she did not budge an inch.
 
 The uncle dropped a sack of grain he was about to pour into the mill hopper, picked up a barrel stave, and started toward the child with an expression on his fact that indicated trouble.
 
@@ -186,13 +186,13 @@ The Ford DETERMINATION had won once more!
 
 This story may not be described with minute accuracy, but the sum and substance of it is correct. Deduce from it, you who wish to THINK AND GROW RICH, the secret of the Ford millions, if you can. You'll not have to look very far.
 
-Henry Ford is a success, because he understands, and applies the principles of success. One of these is DESIRE: knowing what one wants. Remember this FORD story as your read, and pick out the lines in which the secret of his stupendous achievement have been described. If you can do this, if you can lay your finger on the particular group of principles which made Henry Ford rich, you can equal his achievements in almost any calling for which you are suited.
+Henry Ford is a success, because he understands, and applies the principles of success. One of these is DESIRE: knowing what one wants. Remember this FORD story as you read, and pick out the lines in which the secret of his stupendous achievement have been described. If you can do this, if you can lay your finger on the particular group of principles which made Henry Ford rich, you can equal his achievements in almost any calling for which you are suited.
 
 ## YOU ARE "THE MASTER OF YOUR FATE, THE CAPTAIN OF YOUR SOUL," BECAUSE...
 
 When Henley wrote the prophetic lines, "I am the Master of my Fate, I am the Captain of my Soul," he should have informed us that we are the Masters of our Fate, the Captains of our Souls, because we have the power to control our thoughts.
 
-He should have told us that the ether in which this little earth floats, in which we move an have our being, is a form of energy moving at an inconceivably high rate of vibration, and that the ether is filled with a form of universal power which ADAPTS itself to the nature of the thoughts we hold in our minds; and INFLUENCES us, in natural ways, to transmute our thoughts into their physical equivalent.
+He should have told us that the ether in which this little earth floats, in which we move and have our being, is a form of energy moving at an inconceivably high rate of vibration, and that the ether is filled with a form of universal power which ADAPTS itself to the nature of the thoughts we hold in our minds; and INFLUENCES us, in natural ways, to transmute our thoughts into their physical equivalent.
 
 If the poet had told us of this great truth, we would know WHY IT IS that we are the Masters of our Fate, the Captains of our Souls. He should have told us, with great emphasis, that this power makes no attempt to discriminate between destructive thoughts and constructive thoughts, that it will urge us to translate into physical reality thoughts of poverty, just as quickly as it will influence us to act upon thoughts of riches.
 
