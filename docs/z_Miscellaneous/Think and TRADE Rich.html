@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Mixture of Experts: How to Properly Scale LLMs
+   Think and TRADE Rich
   </title>
   <link href="../styles/main.css" rel="stylesheet"/>
   <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -14,7 +14,7 @@
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
   <meta content="2024-05-30 15:51:05 +0000" name="build_datetime"/>
-  <meta content="449" name="word_count"/>
+  <meta content="959" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Mixture of Experts: How to Properly Scale LLMs
+     Think and TRADE Rich
     </div>
    </header>
    <nav class="toc">
@@ -219,7 +219,7 @@
            Lyrics to an Unknown Song
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
            Mixture of Experts: How to Properly Scale LLMs
           </a>
@@ -254,7 +254,7 @@
            Stop Spending Huge Amounts of Money on Online Courses Forever
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Think%20and%20TRADE%20Rich.html">
            Think and TRADE Rich
           </a>
@@ -318,10 +318,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="previous" href="Stop%20Spending%20Huge%20Amounts%20of%20Money%20on%20Online%20Courses%20Forever.html">
       « Previous
      </a>
-     <a class="next" href="Pyrhon%20via%20WASM.html">
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
       Next »
      </a>
     </nav>
@@ -336,60 +336,133 @@
     <a href="../z_Miscellaneous/A%20Tester%20Walks%20Into%20A%20Bar.html">
      z_Miscellaneous
     </a>
-    &gt; Mixture of Experts: How to Properly Scale LLMs
+    &gt; Think and TRADE Rich
    </nav>
    <p>
-    Estimated reading time: 2 minute(s).
+    Estimated reading time: 5 minute(s).
    </p>
    <div>
-    <h1 id="mixture-of-experts-how-to-properly-scale-llms">
-     Mixture of Experts: How to Properly Scale LLMs
+    <h1 id="think-and-trade-rich">
+     Think and TRADE Rich
     </h1>
-    <p>
-     Reference:
-     <a href="https://www.linkedin.com/posts/damienbenveniste_these-days-you-blink-and-there-are-20-new-activity-7178417751282081793-EyiP?utm_source=share&amp;utm_medium=member_desktop" rel="noopener noreferrer" target="_blank">
-      https://www.linkedin.com/posts/damienbenveniste_these-days-you-blink-and-there-are-20-new-activity-7178417751282081793-EyiP?utm_source=share&amp;utm_medium=member_desktop
-     </a>
-    </p>
     <p class="has-drop-cap">
-     These days, you blink, and there are 20 new Machine Learning techniques or tools you need to learn about! The Mixture of Experts architecture is by no means a new technique, but it has now become the default strategy for scaling LLMs. I remember reading about it a couple of years ago and dismissing it as "yet another LLM paper that probably doesn't matter". Well, now it matters! Most larger LLMs are likely to use that strategy moving forward!
+     As a thought experiment, I asked ChatGPT what a conceptual book may look like which mixes ideas from
+     <em>
+      Think and Grow Rich
+     </em>
+     with machine learning and stock trading.
     </p>
     <p>
-     The typical transformer block is a succession of an attention layer, layer normalization, feed-forward layer, and another layer normalization. The strategy to scale transformers has been to just add more transformer blocks one after the other. The idea with MoE is to scale "horizontally" by adding more parallel feed-forward layers in each of the blocks. Those are the "experts".
+     ..............
     </p>
+    <h2 id="think-and-trade-rich-harnessing-machine-learning-for-stock-market-success">
+     Think and Trade Rich: Harnessing Machine Learning for Stock Market Success
+    </h2>
+    <h3 id="introduction">
+     Introduction
+    </h3>
     <p>
-     Prior to the experts layer, we add a router so that each token only goes through a few experts. For example, we can have 64 experts, but with the token's hidden states only going through 2 of those. This ensures diverse learning while minimizing the computational load and, therefore, latency at inference time.
+     In the age of digital transformation, the financial markets are witnessing unprecedented changes. Traditional methods of stock trading are being revolutionized by the advent of machine learning and artificial intelligence. This book aims to merge the timeless principles of Napoleon Hill's "Think and Grow Rich" with the cutting-edge technology of machine learning, providing a comprehensive guide to achieving financial success in the stock market.
     </p>
+    <h3 id="chapter-1-desire-the-starting-point-of-all-achievement">
+     Chapter 1: Desire - The Starting Point of All Achievement
+    </h3>
     <p>
-     The router is just a linear layer that takes a hidden state and produces a vector with as many entries as there are experts. By using a softmax transformation, we get a probability for each of the experts. We can now use those probabilities to select the top-k experts and build a weighted average of the output of the selected experts. For example, if we take the top 2 experts:
+     In "Think and Grow Rich," Napoleon Hill emphasizes the power of a burning desire. This is equally applicable in stock trading. Successful traders possess an unyielding desire to understand the market and make profitable trades. This chapter explores how to cultivate this desire and align it with your trading goals.
     </p>
-    <pre><code class="language-python">new state = P(FFN_1) * FFN_1 (hidden state) + P(FFN_2) * FFN_2 (hidden state)
-</code></pre>
+    <h3 id="chapter-2-faith-visualization-and-belief-in-attainment">
+     Chapter 2: Faith - Visualization and Belief in Attainment
+    </h3>
     <p>
-     Even with only the top-2 experts, the new output hidden state can represent a much richer set of information learned by the different combinations of experts. This also provides a very natural way to distribute the model computations across multiple GPU machines. Each machine can hold multiple experts, and the computations of the different experts can happen in parallel on the different machines.
+     Faith, as Hill describes, is about visualizing and believing in the achievement of your goals. For traders, this means believing in your strategies and the potential of machine learning models to predict market movements. We discuss how to build and maintain this faith through backtesting and continuous learning.
     </p>
+    <h3 id="chapter-3-autosuggestion-the-medium-for-influencing-the-subconscious-mind">
+     Chapter 3: Autosuggestion - The Medium for Influencing the Subconscious Mind
+    </h3>
     <p>
-     However, training a MoE model is not trivial as it induces a lot of training instabilities. One difficulty is ensuring each expert sees enough data to learn the relevant statistical patterns. The typical strategy is adding a term to the loss function to provide a balanced data load across experts.
+     Autosuggestion involves repeatedly affirming your goals to influence your subconscious mind. In the context of stock trading, autosuggestion can help reinforce trading discipline and confidence in machine learning algorithms. Techniques for integrating autosuggestion into your daily routine are covered.
     </p>
+    <h3 id="chapter-4-specialized-knowledge-the-fourth-step-toward-riches">
+     Chapter 4: Specialized Knowledge - The Fourth Step toward Riches
+    </h3>
     <p>
-     Google has been leading the charge on that front, so these are worth a read:
+     Specialized knowledge is crucial for success. This chapter dives into the specialized knowledge required for stock trading and machine learning. Topics include understanding financial markets, mastering technical and fundamental analysis, and learning about various machine learning techniques used in trading.
     </p>
-    <ul>
-     <li>
-      <a href="https://arxiv.org/pdf/2202.08906.pdf" rel="noopener noreferrer" target="_blank">
-       ST-MOE: Designing Stable and Transferable
-Sparse Expert Models
-      </a>
-     </li>
-     <li>
-      <a href="https://arxiv.org/pdf/2101.03961.pdf" rel="noopener noreferrer" target="_blank">
-       Switch Transformers: Scaling to Trillion Parameter Models
-with Simple and Efficient Sparsity
-      </a>
-     </li>
-    </ul>
+    <h3 id="chapter-5-imagination-the-workshop-of-the-mind">
+     Chapter 5: Imagination - The Workshop of the Mind
+    </h3>
     <p>
-     <img alt="Mixture of Experts: How to Properly Scale LLMs" src="../images/moe-scaling-llms.jpeg"/>
+     Imagination is the engine of innovation. In stock trading, imagination can help develop unique trading strategies and innovative uses of machine learning models. We explore how to stimulate and harness creative imagination for trading success.
+    </p>
+    <h3 id="chapter-6-organized-planning-the-crystallization-of-desire-into-action">
+     Chapter 6: Organized Planning - The Crystallization of Desire into Action
+    </h3>
+    <p>
+     Hill emphasizes the importance of organized planning. For traders, this means developing a comprehensive trading plan that includes risk management, position sizing, and machine learning model deployment. This chapter provides a step-by-step guide to creating an effective trading plan.
+    </p>
+    <h3 id="chapter-7-decision-the-mastery-of-procrastination">
+     Chapter 7: Decision - The Mastery of Procrastination
+    </h3>
+    <p>
+     Successful traders make decisions swiftly and with confidence. This chapter discusses how to leverage data-driven decision-making processes in stock trading, supported by machine learning models. We explore various decision-making frameworks and their applications in trading.
+    </p>
+    <h3 id="chapter-8-persistence-the-sustained-effort-necessary-to-induce-faith">
+     Chapter 8: Persistence - The Sustained Effort Necessary to Induce Faith
+    </h3>
+    <p>
+     Persistence is key to overcoming setbacks and achieving success. This chapter highlights the importance of persistence in trading and machine learning model development. Case studies of traders who achieved success through persistence are included.
+    </p>
+    <h3 id="chapter-9-the-master-mind-the-driving-force">
+     Chapter 9: The Master Mind - The Driving Force
+    </h3>
+    <p>
+     The Master Mind principle involves forming alliances with others to achieve your goals. In the context of trading, this means collaborating with other traders, data scientists, and financial analysts. We discuss how to build and benefit from a Master Mind group.
+    </p>
+    <h3 id="chapter-10-the-mystery-of-sex-transmutation-harnessing-creative-energy">
+     Chapter 10: The Mystery of Sex Transmutation - Harnessing Creative Energy
+    </h3>
+    <p>
+     Hill’s concept of sex transmutation can be understood as redirecting creative energy into productive activities. This chapter explores how to channel your energy and passion into developing innovative trading strategies and machine learning models.
+    </p>
+    <h3 id="chapter-11-the-subconscious-mind-the-connecting-link">
+     Chapter 11: The Subconscious Mind - The Connecting Link
+    </h3>
+    <p>
+     The subconscious mind plays a crucial role in decision-making and intuition. This chapter explores techniques to program your subconscious mind for trading success and how to trust your intuition, supported by data and machine learning insights.
+    </p>
+    <h3 id="chapter-12-the-brain-a-broadcasting-and-receiving-station-for-thought">
+     Chapter 12: The Brain - A Broadcasting and Receiving Station for Thought
+    </h3>
+    <p>
+     Hill describes the brain as a broadcasting and receiving station for thoughts. In stock trading, this can be interpreted as being receptive to new ideas and continuously learning from the market. We discuss how to keep your mind open and leverage machine learning to receive market signals.
+    </p>
+    <h3 id="chapter-13-the-sixth-sense-the-door-to-the-temple-of-wisdom">
+     Chapter 13: The Sixth Sense - The Door to the Temple of Wisdom
+    </h3>
+    <p>
+     The sixth sense or intuition is often the deciding factor in trading. This chapter explores how to develop and trust your intuition, complemented by the predictive power of machine learning models.
+    </p>
+    <h3 id="chapter-14-mastering-fear-and-greed-the-stock-traders-greatest-foes">
+     Chapter 14: Mastering Fear and Greed - The Stock Trader's Greatest Foes
+    </h3>
+    <p>
+     Fear and greed are the biggest obstacles to trading success. This chapter examines how to master these emotions through the principles discussed by Hill and the disciplined use of machine learning models to make rational, data-driven decisions.
+    </p>
+    <h3 id="chapter-15-achieving-financial-success-a-harmonious-blend-of-human-intuition-and-machine-intelligence">
+     Chapter 15: Achieving Financial Success - A Harmonious Blend of Human Intuition and Machine Intelligence
+    </h3>
+    <p>
+     The final chapter brings together all the concepts, emphasizing the harmonious blend of human intuition, as described by Hill, and the analytical power of machine learning. We provide a roadmap for continuous learning, adaptation, and success in the stock market.
+    </p>
+    <h3 id="conclusion">
+     Conclusion
+    </h3>
+    <p>
+     "Think and Trade Rich" is more than a guide; it is a philosophy that combines the wisdom of the past with the technology of the future. By integrating Napoleon Hill's principles with machine learning and stock trading, you are equipped to navigate the complexities of the financial markets and achieve unparalleled success.
+    </p>
+    <hr/>
+    <p>
+     This thought experiment illustrates how timeless principles can be adapted and applied to modern challenges, offering a holistic approach to achieving financial success through the power of human and machine intelligence.
     </p>
    </div>
    <footer>
@@ -397,10 +470,10 @@ with Simple and Efficient Sparsity
      Build datetime: 2024-05-30 15:51:05 +0000
     </div>
     <nav>
-     <a class="previous" href="Lyrics%20to%20an%20Unknown%20Song.html">
+     <a class="previous" href="Stop%20Spending%20Huge%20Amounts%20of%20Money%20on%20Online%20Courses%20Forever.html">
       « Previous
      </a>
-     <a class="next" href="Pyrhon%20via%20WASM.html">
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
       Next »
      </a>
     </nav>
