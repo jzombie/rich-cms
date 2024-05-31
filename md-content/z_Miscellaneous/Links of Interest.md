@@ -80,6 +80,7 @@
 74. GuruFocus (investing): https://www.gurufocus.com/
 75. Financial Statement Analysis with Large Language Models: https://www.newsletter.datadrivenvc.io/p/financial-statement-analysis-with (LinkedIn thread: https://www.linkedin.com/posts/andreretterath_financial-statement-analysis-with-large-language-activity-7199289952910667776-14At)
 76. Vector Indexing all of Wikipedia, on a laptop: https://foojay.io/today/indexing-all-of-wikipedia-on-a-laptop/ (HN Discussion: https://news.ycombinator.com/item?id=40514266)
+77. De-Googling: https://blog.nradk.com/posts/degoogling/
 
 ## Papers of Interest
 
