@@ -97,6 +97,7 @@
 
 ## Videos of Interest
 
+- Let's reproduce GPT-2 (124M): https://www.youtube.com/watch?v=l8pRSuU81PU
 - Building transformers from scratch: https://www.youtube.com/watch?v=kCc8FmEb1nY
 - AI beats multiple World Records in Trackmania (reinforcement learning): https://www.youtube.com/watch?v=kojH8a7BW04
 - PyTorch for Deep Learning & Machine Learning (long, ~24-hour video): https://www.youtube.com/watch?v=V_xro1bcAuA
