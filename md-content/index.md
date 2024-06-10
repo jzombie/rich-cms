@@ -7,3 +7,7 @@ It outputs static HTML files that can be used locally without a web server, serv
 <img src="%ROOT%/images/thinker.png" style="width: 180px" />
 
 https://github.com/jzombie/rich-cms
+
+---
+
+I envision this project to eventually become sort of a "database of personal thoughts" that I don't mind sharing with the world.
