@@ -1,6 +1,8 @@
 # Quotes
 
-> "The happiness of those who want to be popular depends on others; the happiness of those who seek pleasure fluctuates with moods outside their control; but the happiness of the wise grows out of their own free acts." —Marcus Aurelius
+> Plus ça change, plus c’est la même chose (The more things change, the more they stay the same)." ~ Jean-Baptiste Alphonse Karr 
+
+> "The happiness of those who want to be popular depends on others; the happiness of those who seek pleasure fluctuates with moods outside their control; but the happiness of the wise grows out of their own free acts." ~ Marcus Aurelius
 
 > "Honesty is a very expensive gift. Do not expect it from cheap people." ~ Warren Buffett
 
