@@ -1,6 +1,8 @@
 # Quotes
 
-> Plus ça change, plus c’est la même chose (The more things change, the more they stay the same)." ~ Jean-Baptiste Alphonse Karr 
+> "Plus ça change, plus c’est la même chose (The more things change, the more they stay the same)." ~ Jean-Baptiste Alphonse Karr
+
+> "85% of your financial success is due to your personality and ability to communicate, negotiate, and lead. Shockingly, only 15% is due to technical knowledge." ~ Dale Carnegie _(with potential paraphrasing and/or incorrect attribution)_
 
 > "The happiness of those who want to be popular depends on others; the happiness of those who seek pleasure fluctuates with moods outside their control; but the happiness of the wise grows out of their own free acts." ~ Marcus Aurelius
 
