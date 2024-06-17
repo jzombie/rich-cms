@@ -82,6 +82,7 @@
 76. Vector Indexing all of Wikipedia, on a laptop: https://foojay.io/today/indexing-all-of-wikipedia-on-a-laptop/ (HN Discussion: https://news.ycombinator.com/item?id=40514266)
 77. De-Googling: https://blog.nradk.com/posts/degoogling/
 78. Don't be stupid about trading: https://www.linkedin.com/posts/alfonso-peccatiello-72156a6a_trading-is-hard-and-the-rule-1-not-to-activity-7203750640576086017-KDKA
+79. Interesting CSS-separator generator (different shapes + demo): https://github.com/wwebdev/separator-generator (demo: https://wweb.dev/resources/css-separator-generator)
 
 ## Papers of Interest
 
