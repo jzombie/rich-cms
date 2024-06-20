@@ -2,7 +2,7 @@
 
 ## What is this website?
 
-<img src="%ROOT%/images/zen-like-water-ripple.jpeg" style="width: 120px; margin-left: 20px; float: right;" alt="zen-like water ripple" />
+<img src="%ROOT%/images/zen-like-water-ripple.jpeg" style="width: 120px; margin-left: 20px; float: right;" title="zen-like water ripple" />
 
 This is a collection of thoughts.
 
@@ -62,7 +62,7 @@ Rich CMS is an experimental Markdown-driven content management system, written i
 
 It outputs static HTML files that can be used locally without a web server, served via [GitHub Pages](https://pages.github.com/), etc.
 
-<img src="%ROOT%/images/thinker.png" style="width: 180px" />
+<img src="%ROOT%/images/thinker.png" style="width: 180px" title="This is me thinking" />
 
 https://github.com/jzombie/rich-cms
 
