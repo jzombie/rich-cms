@@ -52,7 +52,7 @@ Fast-forward one year, we launched the new site, with over 10,000 products, and 
 
 I wrote a script that took the data regarding incoming traffic from search engines to our site, automatically posting the search engine used, the search query, and the landing page to Twitter. This allowed others to see what people were searching for and which pages they were visiting. Over a few years, this resulted in a Twitter feed with several hundred thousand entries and even attracted a few hundred followers, despite no one actively managing the account. Where is it now? I have no idea. It's long gone.
 
-Some things outside of programming that I learned from this were: PCI compliance, merchant accounts, SSL certs, DNS, and Linux.
+Some things outside of programming that I learned from this were: how to ride a street bike [motorcycle (I road dirt bikes as a kid, however)], PCI compliance, merchant accounts, SSL certs, DNS, and Linux.
 
 So, my experience programming websites, up to that point, was the way that I self-taught myself... that was my education; I just learned as I went.
 
