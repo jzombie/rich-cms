@@ -1,6 +1,6 @@
 # TODO
 
-- [] Fix formatting of https://richcms.zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
+- [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
 - [] Deep linking w/ aliases. The idea is to use an alias as metadata, and other articles can reference that same link alias where it is interpolated back to the actual link when building. If two or more pages share the same alias, an intermediary index page could be used to link them [harder] or, the build process could just throw an error [easier].
@@ -33,7 +33,7 @@
 - [X] Default "index.md" to top of navigation, per directory
 - [X] <- -> article navigation
 - [X] Fix invalid UL tag nesting
-- [] W3C validation: https://validator.w3.org/nu/?doc=https%3A%2F%2Frichcms.zenosmosis.com%2F (see "void" elements: https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
+- [] W3C validation: https://validator.w3.org/nu/?doc=https%3A%2F%2Fzenosmosis.com%2F (see "void" elements: https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
 - [] Includes via env variables (i.e. for tracking, etc.)
 - [] The ability to hotlink to a particular paragraph would be nice
 - [X] Use font "very similar" to that used in Google Play Books

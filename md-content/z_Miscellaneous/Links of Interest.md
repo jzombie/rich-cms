@@ -21,7 +21,7 @@
 18. Goodhart's law: https://en.wikipedia.org/wiki/Goodhart%27s_law ("When a measure becomes a target, it ceases to be a good measure.")
 19. Technology is the problem )includes mention of "doped silicon user interfaces"): https://www.shyamsankar.com/p/technology-is-the-problem
 20. (I just like the heading fonts): https://joshstrange.com/2019/09/26/my-mac-apps/
-21. This site's auto-generated sitemap: https://richcms.zenosmosis.com/sitemap.xml
+21. This site's auto-generated sitemap: https://zenosmosis.com/sitemap.xml
 22. Running Local LLMs and VLMs on the Raspberri Pi: https://towardsdatascience.com/running-local-llms-and-vlms-on-the-raspberry-pi-57bd0059c41a
 23. Adding full-text search to a static site: https://www.markusdosch.com/2022/05/adding-full-text-search-to-a-static-site-no-backend-needed/
 24. AI-driven search engine: https://www.perplexity.ai/

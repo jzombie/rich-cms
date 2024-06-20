@@ -603,7 +603,7 @@ class RichCMSGenerator:
 input_directory = 'md-content'
 output_directory = 'docs'
 template_directory = 'template'
-base_url = 'https://richcms.zenosmosis.com'  # Replace with your domain
+base_url = 'https://zenosmosis.com'  # Replace with your domain
 
 RichCMSGenerator.generate_site(input_directory, output_directory, template_directory, base_url)
 
