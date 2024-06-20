@@ -10,7 +10,7 @@ Probably not.
 
 ## Does it make much difference to me, and should it matter to you, whether or not I decide to complete all of these items?
 
-No. This features of this site are not my highest priority in life.
+No. The features of this site are not my highest priority in life.
 
 ## The TODOs
 
