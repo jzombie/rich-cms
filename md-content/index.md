@@ -2,6 +2,8 @@
 
 ## What is this website?
 
+<img src="%ROOT%/images/zen-like-water-ripple.jpeg" style="width: 120px; margin-left: 20px; float: right;" alt="zen-like water ripple" />
+
 This is a collection of thoughts.
 
 This site a static site generator that I hand-rolled: A basic Python script that "compiles" a recursive directory structure mostly consisting of markdown files.

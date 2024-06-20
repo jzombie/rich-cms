@@ -1,6 +1,7 @@
 # TODO
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
+- [] Auto-replace relative links with %ROOT% prefix.
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
 - [] Deep linking w/ aliases. The idea is to use an alias as metadata, and other articles can reference that same link alias where it is interpolated back to the actual link when building. If two or more pages share the same alias, an intermediary index page could be used to link them [harder] or, the build process could just throw an error [easier].
