@@ -4,7 +4,7 @@
 
 <img src="%ROOT%/images/zen-like-water-ripple.jpeg" style="width: 120px; margin-left: 20px; float: right;" title="zen-like water ripple" />
 
-This is a collection of thoughts.
+This is a collection of thoughts... (not very organized yet, mind you...)
 
 This site a static site generator that I hand-rolled: A basic Python script that "compiles" a recursive directory structure mostly consisting of markdown files.
 
