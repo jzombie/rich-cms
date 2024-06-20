@@ -26,7 +26,7 @@ Enter the world of "jzombie," another alias of mine.  Jzombie helps me to realiz
 
 Just a fellow with some ideas and a mix of ADD and OCD, depending on the day and the task.
 
-I started messing with computers at the ripe age of around 5 or 6, sometime in the early 80's, playing around on a Tandy TRS-80, copying BASIC programs from a book into my computer, though I had no clue how to read at the time.
+I started messing with computers at the ripe age of around 5 or 6, sometime in the early 80's, playing around on a [Tandy TRS-80](https://en.wikipedia.org/wiki/TRS-80), copying [BASIC](https://en.wikipedia.org/wiki/BASIC) programs from a book into my computer, though I had no clue how to read at the time.
 
 I believe that when I started first grade, I told my teacher that my goal was to learn how to read, probably so that I could understand what that book actually said.
 
