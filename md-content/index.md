@@ -50,7 +50,7 @@ One of our customers got to talking with me about PHP, and gave me a book on it,
 
 Fast-forward one year, we launched the new site, with over 10,000 products, and I believe that our first customer spent over $1,000 immediately. We got a pretty good bit of traffic, for just two people who ran the store (I think it was something like 1,000 visitors per day, consistently... nothing huge, but it felt like a decent number to me at the time). Our daily averages were about $1,000 in sales, so you could say that we averaged about $1 per visitor, and we had a fairly consistent traffic stream.
 
-I wired the incoming traffic from search engines into Twitter, so that other people could see what others were searching for and what pages they were landing on.  Over a few years, that produced a feed several hundreds of thousands of results long, and actually gained a few followers on that Twitter account that nobody managed personally.  Where it is today?  No clue.  Long gone.
+I wrote a script that took the data regarding incoming traffic from search engines to our site, automatically posting the search engine used, the search query, and the landing page to Twitter. This allowed others to see what people were searching for and which pages they were visiting. Over a few years, this resulted in a Twitter feed with several hundred thousand entries and even attracted a few hundred followers, despite no one actively managing the account. Where is it now? I have no idea. It's long gone.
 
 Some things outside of programming that I learned from this were: PCI compliance, merchant accounts, SSL certs, DNS, and Linux.
 
