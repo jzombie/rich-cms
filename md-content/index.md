@@ -6,7 +6,7 @@
 
 This is a collection of thoughts... (not very organized yet, mind you...)
 
-This site a static site generator that I hand-rolled: A basic Python script that "compiles" a recursive directory structure mostly consisting of markdown files.
+This site a [static site generator that I hand-rolled](https://github.com/jzombie/rich-cms): A basic Python script that "compiles" a recursive directory structure mostly consisting of markdown files.
 
 I did not choose to use a conventional static website generator because I just wanted to create one for myself and be in control of what features it consists of and how often they are updated.
 
