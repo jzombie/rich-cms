@@ -2,7 +2,7 @@
 
 ## Why is this page published on this site?
 
-Because this site is mostly about a collection of personal thoughts and ideas, including TODO pages for itself. I don't typically maintain this site very often, but when I do I sometimes knock off items from this list.
+Because this site is mostly about a collection of personal thoughts and ideas, including TODO items for itself. I don't typically maintain this site very often, but when I do I sometimes knock off items from this list.
 
 ## Will I ever knock off all of the items from this list?
 
