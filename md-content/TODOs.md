@@ -1,4 +1,19 @@
-# TODO
+# TODOs
+
+## Why is this page published on this site?
+
+Because this site is mostly about a collection of personal thoughts and ideas, including TODO pages for itself. I don't typically maintain this site very often, but when I do I sometimes knock off items from this list.
+
+## Will I ever knock off all of the items from this list?
+
+Probably not.
+
+## Does it make much difference to me, and should it matter to you, whether or not I decide to complete all of these items?
+
+No. This features of this site are not my highest priority in life.
+
+## The TODOs
+
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [] Auto-replace relative links with %ROOT% prefix.
