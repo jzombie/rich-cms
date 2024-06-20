@@ -8,7 +8,7 @@ This is a collection of thoughts.
 
 This site a static site generator that I hand-rolled: A basic Python script that "compiles" a recursive directory structure mostly consisting of markdown files.
 
-I did not choose to use a conventional static website generator because I just wanted to create one for myself and be in control of what features it consists of and how often they are updated.
+I did not choose to use a conventional static website generator because I just wanted to create one for myself and be in control of what features it consists of and how often they are updated (such as this hand-rolled sitemap generator: https://zenosmosis.com/sitemap.xml).
 
 The goal here was to just keep things simple... not use a framework of any sort, at least for the "presentation layer" (the generated static HTML files).
 
