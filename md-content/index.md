@@ -16,7 +16,7 @@ Over the years I've become very well acquainted with React, and this is probably
 
 In regards to this static site, I was initially inspired by [Insomnia](https://insomnia.rest/) (because it works off of markdown files as well, and organizes thoughts), but mostly just wanted a blog to publish thoughts and ideas.
 
-## What is zenOSmosis??
+## What is zenOSmosis?
 
 Short version: My alias.
 
