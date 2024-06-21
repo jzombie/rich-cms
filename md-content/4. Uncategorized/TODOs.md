@@ -28,18 +28,18 @@ No. The features of this site are not my highest priority in life.
 - [] Add simple Docker example that spits out a static website from a directory of Markdown files
 - [] Auto-generated metadata keywords for "SEO" (or just for kicks and giggles)
 - [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
-- [] If no document title in Markdown, use the filename as the title
+- [] [isn't this working?] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
 - [] Fix issue where language code highlighting isn't colorizing
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
 - [] Replace bleach (https://github.com/mozilla/bleach/issues/698) Google and Slack linking issues in "Engineering Blogs" (appears to be an issue w/ bleach.linkify: https://bleach.readthedocs.io/en/latest/linkify.html; added debug.bleach-linkify.py script to debug)
-- [] Add "Edit on GitHub" link
+- [] [maybe] Add "Edit on GitHub" link
 - [] Add button to make full-screen
 - [X] Ability to make an article not be included in TOC; i.e. for 404 pages (indexable: no/0/false; etc.)
 - [X] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
 - [X] Fix issue where long links can cause horizontal overflow on mobile
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
-- [] Need persistent "home" link
+- [X] Need persistent "home" link
 - [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
 - [] Create a mindmap? (https://github.com/markmap/markmap)
 - [X] Fix "Chapter 7" mobile horizontal overflow issue (see "personal reading list")
