@@ -1,8 +1,6 @@
 
 # By Age 40 You Should be Smart Enough to Realize This
 
-Reference: https://www.linkedin.com/feed/update/urn:li:activity:7177734349981724672?utm_source=share&utm_medium=member_desktop
-
 1. Someone makes 10x more than you do in a 9-5 job because they have more "leverage" with their work.
 
 2. Distraction is the greatest killer of success. It stunts and destroys your brain.
@@ -32,3 +30,5 @@ Reference: https://www.linkedin.com/feed/update/urn:li:activity:7177734349981724
 14. The family you create is more important than the family you come from.
 
 15. Train yourself to take nothing personally to save yourself from 99.99% of mental problems.
+
+_Source: https://www.linkedin.com/feed/update/urn:li:activity:7177734349981724672?utm_source=share&utm_medium=member_desktop_

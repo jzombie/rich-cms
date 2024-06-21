@@ -22,4 +22,4 @@ You just need to prove the world wrong
 
 And yourself right.
 
-Source: https://www.linkedin.com/posts/jonbrosio_a-gentle-reminder-for-you-in-case-youve-activity-7199386471781277696-Y7Zh
+_Source: https://www.linkedin.com/posts/jonbrosio_a-gentle-reminder-for-you-in-case-youve-activity-7199386471781277696-Y7Zh_
