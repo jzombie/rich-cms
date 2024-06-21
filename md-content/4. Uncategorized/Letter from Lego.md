@@ -14,6 +14,6 @@ them create whatever appeals to them.
 
 LEGO
 
-<img src="%ROOT%/images/letter-from-lego" title="Letter from Lego" />
+<img src="%ROOT%/images/letter-from-lego.jpeg" title="Letter from Lego" />
 
 _Source: https://www.linkedin.com/posts/alvinfsc_an-important-life-lesson-in-a-letter-from-activity-7209842721908219904-Z0J4?utm_source=share&utm_medium=member_desktop_
