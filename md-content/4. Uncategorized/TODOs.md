@@ -17,6 +17,7 @@ No. The features of this site are not my highest priority in life.
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [] Use dashes instead of "%20" for spaces in links
+- [] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
 - [] 404 page JS auto-redirect (even better if it could somehow "smartly" determine which page to navigate to)
 - [] Fix issue where subdirectories without direct files, but contain their own child directories do not appear in TOC
 - [] Auto-replace relative links with %ROOT% prefix.
