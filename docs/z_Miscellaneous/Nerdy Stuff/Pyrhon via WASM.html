@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   12 Steps for Self Care
+   Python via WASM
   </title>
   <link href="../../styles/main.css" rel="stylesheet"/>
   <link href="../../styles/pygments.css" rel="stylesheet"/>
@@ -13,8 +13,8 @@
   <script src="../../scripts/main.js">
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
-  <meta content="2024-06-21 02:54:22 +0000" name="build_datetime"/>
-  <meta content="81" name="word_count"/>
+  <meta content="2024-06-21 02:55:30 +0000" name="build_datetime"/>
+  <meta content="346" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     12 Steps for Self Care
+     Python via WASM
     </div>
    </header>
    <nav class="toc">
@@ -148,10 +148,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="../../Disclaimer.html">
+     <a class="previous" href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
       « Previous
      </a>
-     <a class="next" href="Advice%20from%20Self-Made%20Millionaires.html">
+     <a class="next" href="Rsync%20over%20SSH%20Examples.html">
       Next »
      </a>
     </nav>
@@ -163,102 +163,184 @@
      Home
     </a>
     &gt;
-    <a href="../../Miscellaneous/">
-     Miscellaneous
+    <a href="../../z_Miscellaneous/">
+     z_Miscellaneous
     </a>
     &gt;
-    <a href="../../Miscellaneous/General%20Self-Improvement/12%20Steps%20for%20Self%20Care.html">
-     General Self-Improvement
+    <a href="../../z_Miscellaneous/Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
+     Nerdy Stuff
     </a>
-    &gt; 12 Steps for Self Care
+    &gt; Python via WASM
    </nav>
    <p>
-    Estimated reading time: 1 minute(s).
+    Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="12-steps-for-self-care">
-     12 Steps for Self Care
+    <h1 id="python-via-wasm">
+     Python via WASM
     </h1>
+    <p class="has-drop-cap">
+     Running Python in WebAssembly (WASM) is a growing field with several stable implementations available. Here are some notable options:
+    </p>
     <ol>
      <li>
+      <strong>
+       Pyodide
+      </strong>
+      :
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : Pyodide is a project that brings the Python runtime to the browser via WebAssembly. It includes the Python interpreter and a host of scientific libraries such as NumPy, SciPy, and Pandas.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : Pyodide is actively maintained and widely used in the community, making it one of the most stable options for running Python in WASM.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : It is commonly used for running Python code directly in the browser and can be integrated into web applications.
+     </li>
+     <li>
       <p>
-       If it feels wrong, don't do it.
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://pyodide.org/en/stable/" rel="noopener noreferrer" target="_blank">
+        Pyodide
+       </a>
       </p>
      </li>
      <li>
       <p>
-       Say exactly what you mean.
+       <strong>
+        PyScript
+       </strong>
+       :
+      </p>
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : PyScript builds on top of Pyodide and allows you to run Python scripts in HTML files, providing a way to integrate Python and JavaScript seamlessly in web applications.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : PyScript is also under active development and leverages the stability of Pyodide for executing Python code.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : It is designed to be easy to use, enabling the inclusion of Python code in web pages in a manner similar to JavaScript.
+     </li>
+     <li>
+      <p>
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://pyscript.net/" rel="noopener noreferrer" target="_blank">
+        PyScript
+       </a>
       </p>
      </li>
      <li>
       <p>
-       Don't be a people pleaser.
+       <strong>
+        wasm3
+       </strong>
+       :
+      </p>
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : wasm3 is a high-performance WebAssembly interpreter that supports various languages, including Python, through its integration with other projects.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : Known for its speed and efficiency, wasm3 is a reliable choice for running WebAssembly modules.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : While not specifically focused on Python, it can be used as a backend for projects that execute Python in a WASM context.
+     </li>
+     <li>
+      <p>
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://github.com/wasm3/wasm3" rel="noopener noreferrer" target="_blank">
+        wasm3
+       </a>
       </p>
      </li>
      <li>
       <p>
-       Trust your instincts.
+       <strong>
+        MicroPython and WASM
+       </strong>
+       :
       </p>
      </li>
      <li>
-      <p>
-       Never speak bad about yourself.
-      </p>
+      <strong>
+       Description
+      </strong>
+      : MicroPython, a lean implementation of Python for microcontrollers, can also be compiled to WebAssembly. This allows running MicroPython in web browsers.
      </li>
      <li>
-      <p>
-       Never give up on your dreams.
-      </p>
+      <strong>
+       Stability
+      </strong>
+      : MicroPython is well-maintained, and its WebAssembly port is stable, though more lightweight compared to full Python implementations.
      </li>
      <li>
-      <p>
-       Don't be afraid to say no.
-      </p>
+      <strong>
+       Usage
+      </strong>
+      : Suitable for lightweight applications where full Python features are not required.
      </li>
      <li>
-      <p>
-       Don't be afraid to say yes.
-      </p>
-     </li>
-     <li>
-      <p>
-       Be kind to yourself.
-      </p>
-     </li>
-     <li>
-      <p>
-       Let go of what you can't control.
-      </p>
-     </li>
-     <li>
-      <p>
-       Stay away from drama and negativity.
-      </p>
-     </li>
-     <li>
-      <p>
-       Love.
-      </p>
+      <strong>
+       Website
+      </strong>
+      :
+      <a href="https://micropython.org/" rel="noopener noreferrer" target="_blank">
+       MicroPython
+      </a>
      </li>
     </ol>
     <p>
-     <em>
-      Source:
-      <a href="https://www.linkedin.com/posts/alvinfsc_12-simple-steps-to-a-good-life-activity-7209359420709830656-Mfk8" rel="noopener noreferrer" target="_blank">
-       https://www.linkedin.com/posts/alvinfsc_12-simple-steps-to-a-good-life-activity-7209359420709830656-Mfk8
-      </a>
-     </em>
+     These implementations provide various options depending on the specific requirements and constraints of your project. Pyodide and PyScript are particularly user-friendly for web integration, while wasm3 and MicroPython offer more specialized use cases.
     </p>
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-06-21 02:54:22 +0000
+     Build datetime: 2024-06-21 02:55:30 +0000
     </div>
     <nav>
-     <a class="previous" href="../../Disclaimer.html">
+     <a class="previous" href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
       « Previous
      </a>
-     <a class="next" href="Advice%20from%20Self-Made%20Millionaires.html">
+     <a class="next" href="Rsync%20over%20SSH%20Examples.html">
       Next »
      </a>
     </nav>

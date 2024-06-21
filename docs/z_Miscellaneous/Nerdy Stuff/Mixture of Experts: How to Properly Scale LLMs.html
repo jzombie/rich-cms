@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Advice from Self-Made Millionaires
+   Mixture of Experts: How to Properly Scale LLMs
   </title>
   <link href="../../styles/main.css" rel="stylesheet"/>
   <link href="../../styles/pygments.css" rel="stylesheet"/>
@@ -13,8 +13,8 @@
   <script src="../../scripts/main.js">
   </script>
   <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
-  <meta content="2024-06-21 02:54:22 +0000" name="build_datetime"/>
-  <meta content="453" name="word_count"/>
+  <meta content="2024-06-21 02:55:30 +0000" name="build_datetime"/>
+  <meta content="449" name="word_count"/>
   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
  </head>
@@ -27,7 +27,7 @@
   <aside>
    <header>
     <div>
-     Advice from Self-Made Millionaires
+     Mixture of Experts: How to Properly Scale LLMs
     </div>
    </header>
    <nav class="toc">
@@ -148,10 +148,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="12%20Steps%20for%20Self%20Care.html">
+     <a class="previous" href="Links%20of%20Interest.html">
       « Previous
      </a>
-     <a class="next" href="Biggest%20Mistake.html">
+     <a class="next" href="Pyrhon%20via%20WASM.html">
       Next »
      </a>
     </nav>
@@ -163,109 +163,78 @@
      Home
     </a>
     &gt;
-    <a href="../../Miscellaneous/">
-     Miscellaneous
+    <a href="../../z_Miscellaneous/">
+     z_Miscellaneous
     </a>
     &gt;
-    <a href="../../Miscellaneous/General%20Self-Improvement/12%20Steps%20for%20Self%20Care.html">
-     General Self-Improvement
+    <a href="../../z_Miscellaneous/Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
+     Nerdy Stuff
     </a>
-    &gt; Advice from Self-Made Millionaires
+    &gt; Mixture of Experts: How to Properly Scale LLMs
    </nav>
    <p>
     Estimated reading time: 2 minute(s).
    </p>
    <div>
-    <h1 id="advice-from-self-made-millionaires">
-     Advice from Self-Made Millionaires
+    <h1 id="mixture-of-experts-how-to-properly-scale-llms">
+     Mixture of Experts: How to Properly Scale LLMs
     </h1>
-    <h2 id="anyone-can-do-it">
-     Anyone Can Do It
-    </h2>
+    <p>
+     Reference:
+     <a href="https://www.linkedin.com/posts/damienbenveniste_these-days-you-blink-and-there-are-20-new-activity-7178417751282081793-EyiP?utm_source=share&amp;utm_medium=member_desktop" rel="noopener noreferrer" target="_blank">
+      https://www.linkedin.com/posts/damienbenveniste_these-days-you-blink-and-there-are-20-new-activity-7178417751282081793-EyiP?utm_source=share&amp;utm_medium=member_desktop
+     </a>
+    </p>
     <p class="has-drop-cap">
-     <strong>
-      Jason McGowan of Crumbl Cookies
-     </strong>
-     - Believed in his potential despite no baking experience.
-- "I never imagined in my wildest dreams that we would do over $1 billion in sales," McGowan said. Crumbl became a billion-dollar company.
+     These days, you blink, and there are 20 new Machine Learning techniques or tools you need to learn about! The Mixture of Experts architecture is by no means a new technique, but it has now become the default strategy for scaling LLMs. I remember reading about it a couple of years ago and dismissing it as "yet another LLM paper that probably doesn't matter". Well, now it matters! Most larger LLMs are likely to use that strategy moving forward!
     </p>
     <p>
-     <strong>
-      Anne Mahlum of Solidcore
-     </strong>
-     - Emphasized persistence and hard work.
-- "The biggest thing I’ve learned through Solidcore is: You can do whatever you want to do, as long as you’re willing to do it." She made $88.4 million from her business.
-    </p>
-    <h2 id="lean-into-what-makes-you-unique">
-     Lean Into What Makes You Unique
-    </h2>
-    <p>
-     <strong>
-      Anne Mahlum
-     </strong>
-     - Highlighted the importance of leveraging individual strengths and uniqueness for success.
-- "I really believe in the power of uniqueness. When we... lean into our uniqueness, it really works in our favor, and it really has been a huge part of my success to do that personally and professionally."
+     The typical transformer block is a succession of an attention layer, layer normalization, feed-forward layer, and another layer normalization. The strategy to scale transformers has been to just add more transformer blocks one after the other. The idea with MoE is to scale "horizontally" by adding more parallel feed-forward layers in each of the blocks. Those are the "experts".
     </p>
     <p>
-     <strong>
-      Edward Tirtanata of Kopi Kenangan
-     </strong>
-     - Advised entrepreneurs to differentiate themselves.
-- "I think the best advice that I can give to fellow entrepreneurs is to be different. The next Starbucks is not going to look like a Starbucks, the next McDonald’s is not gonna look like a McDonald’s. The next Google is not going to look like a Google – you need to be radically different in order for you to compete against the incumbent." His coffee chain has over 800 locations and significant annual revenue.
+     Prior to the experts layer, we add a router so that each token only goes through a few experts. For example, we can have 64 experts, but with the token's hidden states only going through 2 of those. This ensures diverse learning while minimizing the computational load and, therefore, latency at inference time.
     </p>
-    <h2 id="be-passionate">
-     Be Passionate
-    </h2>
     <p>
-     <strong>
-      Shawn Tsao of Caviar
-     </strong>
-     - Stressed genuine passion for the product as a driving force through challenges.
-- "If you’re an entrepreneur and you’re really passionate about the product that you’re building — not because you just want the glory of being a CEO or a founder [but] you’re really passionate about what you’re working on — that will get you through the hardest days." His passion for sandwiches led to a successful food-delivery service sold for over $100 million.
+     The router is just a linear layer that takes a hidden state and produces a vector with as many entries as there are experts. By using a softmax transformation, we get a probability for each of the experts. We can now use those probabilities to select the top-k experts and build a weighted average of the output of the selected experts. For example, if we take the top 2 experts:
     </p>
-    <h2 id="just-get-started">
-     Just Get Started
-    </h2>
+    <pre><code class="language-python">new state = P(FFN_1) * FFN_1 (hidden state) + P(FFN_2) * FFN_2 (hidden state)
+</code></pre>
     <p>
-     <strong>
-      Jason McGowan and Anne Mahlum
-     </strong>
-     - Emphasized the importance of taking action and starting, even without complete resources or knowledge.
-- "One of the biggest lessons that I’ve learned from starting Crumbl is just to get started. Whether you don’t have a mixer yet, or you don’t have a recipe for a cookie, you just get started — you start doing things, you start moving," McGowan shared.
-- "Nike got it best, to ‘just do it.’ I have a phrase that says: ‘Just have a day one,’" Mahlum added. Early-stage action is crucial for building momentum.
+     Even with only the top-2 experts, the new output hidden state can represent a much richer set of information learned by the different combinations of experts. This also provides a very natural way to distribute the model computations across multiple GPU machines. Each machine can hold multiple experts, and the computations of the different experts can happen in parallel on the different machines.
     </p>
-    <h2 id="common-themes">
-     Common Themes
-    </h2>
+    <p>
+     However, training a MoE model is not trivial as it induces a lot of training instabilities. One difficulty is ensuring each expert sees enough data to learn the relevant statistical patterns. The typical strategy is adding a term to the loss function to provide a balanced data load across experts.
+    </p>
+    <p>
+     Google has been leading the charge on that front, so these are worth a read:
+    </p>
     <ul>
      <li>
-      Belief in oneself and potential for success.
+      <a href="https://arxiv.org/pdf/2202.08906.pdf" rel="noopener noreferrer" target="_blank">
+       ST-MOE: Designing Stable and Transferable
+Sparse Expert Models
+      </a>
      </li>
      <li>
-      Willingness to take risks and make sacrifices.
-     </li>
-     <li>
-      Passion and persistence are key factors in overcoming challenges and achieving success.
+      <a href="https://arxiv.org/pdf/2101.03961.pdf" rel="noopener noreferrer" target="_blank">
+       Switch Transformers: Scaling to Trillion Parameter Models
+with Simple and Efficient Sparsity
+      </a>
      </li>
     </ul>
     <p>
-     <em>
-      Source:
-      <a href="https://www.cnbc.com/2024/06/21/millionaire-founders-advice-for-success-get-started-show-passion.html" rel="noopener noreferrer" target="_blank">
-       https://www.cnbc.com/2024/06/21/millionaire-founders-advice-for-success-get-started-show-passion.html
-      </a>
-     </em>
+     <img alt="Mixture of Experts: How to Properly Scale LLMs" src="../images/moe-scaling-llms.jpeg"/>
     </p>
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-06-21 02:54:22 +0000
+     Build datetime: 2024-06-21 02:55:30 +0000
     </div>
     <nav>
-     <a class="previous" href="12%20Steps%20for%20Self%20Care.html">
+     <a class="previous" href="Links%20of%20Interest.html">
       « Previous
      </a>
-     <a class="next" href="Biggest%20Mistake.html">
+     <a class="next" href="Pyrhon%20via%20WASM.html">
       Next »
      </a>
     </nav>
