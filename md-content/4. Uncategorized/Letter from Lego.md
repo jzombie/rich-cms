@@ -1,6 +1,6 @@
 # Letter from Lego
 
-To parents
+To parents:
 
 The urge to create is equally strong in all children. Boys and girls.
 It's imagination that counts. Not skill. You build whatever comes into your
