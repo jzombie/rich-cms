@@ -84,6 +84,7 @@
 78. Don't be stupid about trading: https://www.linkedin.com/posts/alfonso-peccatiello-72156a6a_trading-is-hard-and-the-rule-1-not-to-activity-7203750640576086017-KDKA
 79. Interesting CSS-separator generator (different shapes + demo): https://github.com/wwebdev/separator-generator (demo: https://wweb.dev/resources/css-separator-generator)
 80. Google Search console: https://search.google.com/search-console
+81. Apple MusicKit ("what am I listening to?"): https://developer.apple.com/documentation/musickitjs
 
 ## Papers of Interest
 
