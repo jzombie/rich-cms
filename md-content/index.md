@@ -6,13 +6,9 @@
 
 This is a collection of thoughts... (not very organized yet, mind you...)
 
-This site was built using a static site generator that I hand-rolled: A basic Python script that transforms a recursive directory structure mostly consisting of markdown files into static HTML pages (with some JavaScript "sprinkled in"), linking them all together (don't diss the source-code too hard; my Python skills aren't as well-versed as say, my JavaScript skills, but I didn't want to create a Node.js project for this site).
+This site was built using a static site generator that I hand-rolled: A basic Python script that takes a bunch of markdown files and turns them into static HTML pages.
 
-I did not choose to use a conventional static website generator because I just wanted to create one for myself and be in control of what features it consists of and how often they are updated.
-
-The goal here was to just keep things simple... not use a framework of any sort, at least for the "presentation layer" (the generated static HTML files).
-
-Over the years I've become very well acquainted with React, and this is probably the first "vanilla" JavaScript project that I've done since 2018 (yes there is a little bit of JavaScript in here, though this website by no means requires the usage of it to function).
+Over the years I've become very well acquainted with React, and this is probably the first "vanilla" HTML / JavaScript project that I've done since 2018 (yes there is a little bit of JavaScript in here, though this website by no means requires the usage of it to function).
 
 In regards to this static site, I was initially inspired by [Insomnia](https://insomnia.rest/) (because it works off of markdown files as well, and organizes thoughts), but mostly just wanted a blog to publish thoughts and ideas.
 
