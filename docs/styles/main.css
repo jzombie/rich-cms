@@ -57,6 +57,10 @@ h6 {
   cursor: pointer;
 }
 
+aside header .page_title {
+  font-weight: bold;
+}
+
 /* Directory Label Style */
 nav.toc ul li.directory > div.label {
   background-color: #4a4a4a; /* Slightly lighter than the aside background */
