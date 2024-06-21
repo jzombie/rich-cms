@@ -248,3 +248,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   })();
 });
+
+// Hi there
+console.log(atob("SSBzZWUgd2hhdCB5b3UgZGlkIHRoZXJlLi4u"));
