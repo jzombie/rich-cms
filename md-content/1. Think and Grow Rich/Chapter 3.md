@@ -1,4 +1,4 @@
-# CHAPTER 3
+# CHAPTER 3: Faith
 
 ## FAITH
 

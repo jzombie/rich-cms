@@ -1,4 +1,4 @@
-# CHAPTER 5
+# CHAPTER 5: Specialized Knowledge
 
 ## SPECIALIZED KNOWLEDGE
 

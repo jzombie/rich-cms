@@ -1,4 +1,4 @@
-# CHAPTER 14
+# CHAPTER 14: The Sixth Sense
 
 ## THE SIXTH SENSE
 

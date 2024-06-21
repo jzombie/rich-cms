@@ -1,4 +1,4 @@
-# CHAPTER 4
+# CHAPTER 4: Auto-Suggestion
 
 ## AUTO-SUGGESTION
 

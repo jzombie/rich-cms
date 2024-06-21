@@ -1,4 +1,4 @@
-# CHAPTER 7
+# CHAPTER 7: Organized Planning
 
 ## ORGANIZED PLANNING
 

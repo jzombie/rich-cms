@@ -1,4 +1,4 @@
-# CHAPTER 9
+# CHAPTER 9: Persistence
 
 ## PERSISTENCE
 

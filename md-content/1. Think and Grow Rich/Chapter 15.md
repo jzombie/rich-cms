@@ -1,4 +1,4 @@
-# CHAPTER 15
+# CHAPTER 15: How to Outwit the Six Ghosts of Fear
 
 ## HOW TO OUTWIT THE SIX GHOSTS OF FEAR
 

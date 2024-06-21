@@ -1,4 +1,4 @@
-# CHAPTER 12
+# CHAPTER 12: The Subconscious Mind
 
 ## THE SUBCONSCIOUS MIND
 

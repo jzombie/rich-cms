@@ -1,4 +1,4 @@
-# CHAPTER 2
+# CHAPTER 2: Desire
 
 ## DESIRE
 

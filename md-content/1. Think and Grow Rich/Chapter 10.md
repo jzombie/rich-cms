@@ -1,4 +1,4 @@
-# CHAPTER 10
+# CHAPTER 10: Power of the Master Mind
 
 ## POWER OF THE MASTER MIND
 
