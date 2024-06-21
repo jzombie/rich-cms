@@ -16,6 +16,7 @@ No. The features of this site are not my highest priority in life.
 
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
+- [] Fix issue where subdirectories without direct files, but contain their own child directories do not appear in TOC
 - [] Auto-replace relative links with %ROOT% prefix.
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
