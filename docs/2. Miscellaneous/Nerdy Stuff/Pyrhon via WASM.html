@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Python via WASM
+  </title>
+  <link href="../../styles/main.css" rel="stylesheet"/>
+  <link href="../../styles/pygments.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="../../images/thinker.png" rel="icon" type="image/png"/>
+  <script src="../../scripts/main.js">
+  </script>
+  <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
+  <meta content="2024-06-21 02:52:19 +0000" name="build_datetime"/>
+  <meta content="346" name="word_count"/>
+  <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+ </head>
+ <body>
+  <a class="no-css" href="#main-content">
+   Skip to main content
+  </a>
+  <button aria-label="Toggle TOC" class="hamburger js-only" id="menu-toggle-button">
+  </button>
+  <aside>
+   <header>
+    <div>
+     Python via WASM
+    </div>
+   </header>
+   <nav class="toc">
+    <ul>
+     <li>
+      <ul>
+       <li>
+        <a href="../../index.html">
+         Welcome to zenOSmosis
+        </a>
+       </li>
+       <li>
+        <a href="../../Disclaimer.html">
+         Disclaimer
+        </a>
+       </li>
+       <li>
+        <a href="../../TODOs.html">
+         TODOs
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <ul>
+       <li class="directory">
+        <div class="label">
+         <a href="../../1.%20Think%20and%20Grow%20Rich/index.html">
+          1. Think and Grow Rich
+         </a>
+        </div>
+        <ul>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/index.html">
+           Copyright / General Info
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/FOREWORD.html">
+           FOREWORD
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%201.html">
+           CHAPTER 1
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%202.html">
+           CHAPTER 2
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%203.html">
+           CHAPTER 3
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%204.html">
+           CHAPTER 4
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%205.html">
+           CHAPTER 5
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%206.html">
+           CHAPTER 6
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%207.html">
+           CHAPTER 7
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%208.html">
+           CHAPTER 8
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%209.html">
+           CHAPTER 9
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2010.html">
+           CHAPTER 10
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2011.html">
+           CHAPTER 11
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2012.html">
+           CHAPTER 12
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2013.html">
+           CHAPTER 13
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2014.html">
+           CHAPTER 14
+          </a>
+         </li>
+         <li>
+          <a href="../../1.%20Think%20and%20Grow%20Rich/Chapter%2015.html">
+           CHAPTER 15
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </nav>
+   <footer>
+    <nav>
+     <a class="previous" href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
+      « Previous
+     </a>
+     <a class="next" href="Rsync%20over%20SSH%20Examples.html">
+      Next »
+     </a>
+    </nav>
+   </footer>
+  </aside>
+  <article id="main-content">
+   <nav>
+    <a href="../../index.html">
+     Home
+    </a>
+    &gt;
+    <a href="../../2.%20Miscellaneous/">
+     2. Miscellaneous
+    </a>
+    &gt;
+    <a href="../../2.%20Miscellaneous/Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
+     Nerdy Stuff
+    </a>
+    &gt; Python via WASM
+   </nav>
+   <p>
+    Estimated reading time: 2 minute(s).
+   </p>
+   <div>
+    <h1 id="python-via-wasm">
+     Python via WASM
+    </h1>
+    <p class="has-drop-cap">
+     Running Python in WebAssembly (WASM) is a growing field with several stable implementations available. Here are some notable options:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Pyodide
+      </strong>
+      :
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : Pyodide is a project that brings the Python runtime to the browser via WebAssembly. It includes the Python interpreter and a host of scientific libraries such as NumPy, SciPy, and Pandas.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : Pyodide is actively maintained and widely used in the community, making it one of the most stable options for running Python in WASM.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : It is commonly used for running Python code directly in the browser and can be integrated into web applications.
+     </li>
+     <li>
+      <p>
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://pyodide.org/en/stable/" rel="noopener noreferrer" target="_blank">
+        Pyodide
+       </a>
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        PyScript
+       </strong>
+       :
+      </p>
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : PyScript builds on top of Pyodide and allows you to run Python scripts in HTML files, providing a way to integrate Python and JavaScript seamlessly in web applications.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : PyScript is also under active development and leverages the stability of Pyodide for executing Python code.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : It is designed to be easy to use, enabling the inclusion of Python code in web pages in a manner similar to JavaScript.
+     </li>
+     <li>
+      <p>
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://pyscript.net/" rel="noopener noreferrer" target="_blank">
+        PyScript
+       </a>
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        wasm3
+       </strong>
+       :
+      </p>
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : wasm3 is a high-performance WebAssembly interpreter that supports various languages, including Python, through its integration with other projects.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : Known for its speed and efficiency, wasm3 is a reliable choice for running WebAssembly modules.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : While not specifically focused on Python, it can be used as a backend for projects that execute Python in a WASM context.
+     </li>
+     <li>
+      <p>
+       <strong>
+        Website
+       </strong>
+       :
+       <a href="https://github.com/wasm3/wasm3" rel="noopener noreferrer" target="_blank">
+        wasm3
+       </a>
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        MicroPython and WASM
+       </strong>
+       :
+      </p>
+     </li>
+     <li>
+      <strong>
+       Description
+      </strong>
+      : MicroPython, a lean implementation of Python for microcontrollers, can also be compiled to WebAssembly. This allows running MicroPython in web browsers.
+     </li>
+     <li>
+      <strong>
+       Stability
+      </strong>
+      : MicroPython is well-maintained, and its WebAssembly port is stable, though more lightweight compared to full Python implementations.
+     </li>
+     <li>
+      <strong>
+       Usage
+      </strong>
+      : Suitable for lightweight applications where full Python features are not required.
+     </li>
+     <li>
+      <strong>
+       Website
+      </strong>
+      :
+      <a href="https://micropython.org/" rel="noopener noreferrer" target="_blank">
+       MicroPython
+      </a>
+     </li>
+    </ol>
+    <p>
+     These implementations provide various options depending on the specific requirements and constraints of your project. Pyodide and PyScript are particularly user-friendly for web integration, while wasm3 and MicroPython offer more specialized use cases.
+    </p>
+   </div>
+   <footer>
+    <div class="build_datetime">
+     Build datetime: 2024-06-21 02:52:19 +0000
+    </div>
+    <nav>
+     <a class="previous" href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
+      « Previous
+     </a>
+     <a class="next" href="Rsync%20over%20SSH%20Examples.html">
+      Next »
+     </a>
+    </nav>
+   </footer>
+  </article>
+ </body>
+</html>
