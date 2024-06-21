@@ -22,6 +22,8 @@ Enter the world of "jzombie," another alias of mine.  Jzombie helps me to realiz
 
 ## Who am I?
 
+<img src="%ROOT%/images/thinker.png" style="width: 180px; float: right" title="This is me thinking" />
+
 Just a fellow with some ideas and a bit of an obsessive-compulsive disorder.
 
 I started messing with computers at the ripe age of around 5 or 6, sometime in the early 80's, playing around on a [Tandy TRS-80](https://en.wikipedia.org/wiki/TRS-80), copying [BASIC](https://en.wikipedia.org/wiki/BASIC) programs from a book into my computer, though I had no clue how to read at the time.
