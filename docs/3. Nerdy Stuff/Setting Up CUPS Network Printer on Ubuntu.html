@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Setting Up CUPS Network Printer on Ubuntu
+  </title>
+  <link href="../styles/main.css" rel="stylesheet"/>
+  <link href="../styles/pygments.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="../images/thinker.png" rel="icon" type="image/png"/>
+  <script src="../scripts/main.js">
+  </script>
+  <meta content="https://github.com/jzombie/rich-cms" name="generator"/>
+  <meta content="2024-06-21 03:01:44 +0000" name="build_datetime"/>
+  <meta content="840" name="word_count"/>
+  <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+ </head>
+ <body>
+  <a class="no-css" href="#main-content">
+   Skip to main content
+  </a>
+  <button aria-label="Toggle TOC" class="hamburger js-only" id="menu-toggle-button">
+  </button>
+  <aside>
+   <header>
+    <div>
+     Setting Up CUPS Network Printer on Ubuntu
+    </div>
+   </header>
+   <nav class="toc">
+    <ul>
+     <li>
+      <ul>
+       <li>
+        <a href="../index.html">
+         Welcome to zenOSmosis
+        </a>
+       </li>
+       <li>
+        <a href="../Disclaimer.html">
+         Disclaimer
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <ul>
+       <li class="directory">
+        <div class="label">
+         <a href="../1.%20Think%20and%20Grow%20Rich/index.html">
+          1. Think and Grow Rich
+         </a>
+        </div>
+        <ul>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/index.html">
+           Copyright / General Info
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/FOREWORD.html">
+           FOREWORD
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%201.html">
+           CHAPTER 1
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%202.html">
+           CHAPTER 2
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%203.html">
+           CHAPTER 3
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%204.html">
+           CHAPTER 4
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%205.html">
+           CHAPTER 5
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%206.html">
+           CHAPTER 6
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%207.html">
+           CHAPTER 7
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%208.html">
+           CHAPTER 8
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%209.html">
+           CHAPTER 9
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2010.html">
+           CHAPTER 10
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2011.html">
+           CHAPTER 11
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2012.html">
+           CHAPTER 12
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2013.html">
+           CHAPTER 13
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2014.html">
+           CHAPTER 14
+          </a>
+         </li>
+         <li>
+          <a href="../1.%20Think%20and%20Grow%20Rich/Chapter%2015.html">
+           CHAPTER 15
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="directory">
+        <div class="label">
+         <a href="../2.%20General%20Self-Improvement/12%20Steps%20for%20Self%20Care.html">
+          2. General Self-Improvement
+         </a>
+        </div>
+        <ul>
+         <li>
+          <a href="../2.%20General%20Self-Improvement/12%20Steps%20for%20Self%20Care.html">
+           12 Steps for Self Care
+          </a>
+         </li>
+         <li>
+          <a href="../2.%20General%20Self-Improvement/Advice%20from%20Self-Made%20Millionaires.html">
+           Advice from Self-Made Millionaires
+          </a>
+         </li>
+         <li>
+          <a href="../2.%20General%20Self-Improvement/Biggest%20Mistake.html">
+           Biggest Mistake You Can Make
+          </a>
+         </li>
+         <li>
+          <a href="../2.%20General%20Self-Improvement/By%20Age%2040.html">
+           By Age 40 You Should be Smart Enough to Realize This
+          </a>
+         </li>
+         <li>
+          <a href="../2.%20General%20Self-Improvement/Fix%20Yourself.html">
+           Fix Yourself
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="directory active-dir">
+        <div class="label">
+         <a href="A%20Tester%20Walks%20Into%20A%20Bar.html">
+          3. Nerdy Stuff
+         </a>
+        </div>
+        <ul>
+         <li>
+          <a href="A%20Tester%20Walks%20Into%20A%20Bar.html">
+           A Tester Walks Into A Bar
+          </a>
+         </li>
+         <li>
+          <a href="Avoid%20Python%20Dep%20Hell%20in%20New%20Packages.html">
+           Avoid Python Dependency Hell When Creating New Packages
+          </a>
+         </li>
+         <li>
+          <a href="Debugging%20a%20Learning%20Algorithm.html">
+           Debugging a Learning Algorithm
+          </a>
+         </li>
+         <li>
+          <a href="Engineering%20Blogs.html">
+           Engineering Blogs
+          </a>
+         </li>
+         <li>
+          <a href="Formatting%20Test.html">
+           Formatting Test
+          </a>
+         </li>
+         <li>
+          <a href="Generating%20Synthetic%20Data%20from%20a%20Pandas%20Dataframe.html">
+           Generating Synthetic Data from a Pandas Dataframe
+          </a>
+         </li>
+         <li>
+          <a href="Hacker%20News%20API.html">
+           Hacker News API
+          </a>
+         </li>
+         <li>
+          <a href="Implementing%20Full-Text%20Search.html">
+           Implementing Full-Text Search (in a static HTML website)
+          </a>
+         </li>
+         <li>
+          <a href="Links%20of%20Interest.html">
+           Links of Interest
+          </a>
+         </li>
+         <li>
+          <a href="Mixture%20of%20Experts:%20How%20to%20Properly%20Scale%20LLMs.html">
+           Mixture of Experts: How to Properly Scale LLMs
+          </a>
+         </li>
+         <li>
+          <a href="Pyrhon%20via%20WASM.html">
+           Python via WASM
+          </a>
+         </li>
+         <li>
+          <a href="Rsync%20over%20SSH%20Examples.html">
+           Rsync over SSH Examples
+          </a>
+         </li>
+         <li>
+          <a href="Setting%20Ubuntu%20Swap%20File.html">
+           Setting Ubuntu Swap File
+          </a>
+         </li>
+         <li class="active">
+          <a href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
+           Setting Up CUPS Network Printer on Ubuntu
+          </a>
+         </li>
+         <li>
+          <a href="Using%20Git%20for%20File%20Metadata.html">
+           Using Git for File Metadata (in regards to create and update)
+          </a>
+         </li>
+         <li>
+          <a href="Utilities.html">
+           Utilities
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="directory">
+        <div class="label">
+         <a href="../4.%20Uncategorized/Lyrics%20to%20an%20Unknown%20Song.html">
+          4. Uncategorized
+         </a>
+        </div>
+        <ul>
+         <li>
+          <a href="../4.%20Uncategorized/Lyrics%20to%20an%20Unknown%20Song.html">
+           Lyrics to an Unknown Song
+          </a>
+         </li>
+         <li>
+          <a href="../4.%20Uncategorized/Quotes.html">
+           Quotes
+          </a>
+         </li>
+         <li>
+          <a href="../4.%20Uncategorized/Stop%20Spending%20Huge%20Amounts%20of%20Money%20on%20Online%20Courses%20Forever.html">
+           Stop Spending Huge Amounts of Money on Online Courses Forever
+          </a>
+         </li>
+         <li>
+          <a href="../4.%20Uncategorized/TODOs.html">
+           TODOs
+          </a>
+         </li>
+         <li>
+          <a href="../4.%20Uncategorized/Think%20and%20TRADE%20Rich.html">
+           Think and TRADE Rich
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </nav>
+   <footer>
+    <nav>
+     <a class="previous" href="Setting%20Ubuntu%20Swap%20File.html">
+      « Previous
+     </a>
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
+      Next »
+     </a>
+    </nav>
+   </footer>
+  </aside>
+  <article id="main-content">
+   <nav>
+    <a href="../index.html">
+     Home
+    </a>
+    &gt;
+    <a href="../3.%20Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
+     3. Nerdy Stuff
+    </a>
+    &gt; Setting Up CUPS Network Printer on Ubuntu
+   </nav>
+   <p>
+    Estimated reading time: 4 minute(s).
+   </p>
+   <div>
+    <h1 id="setting-up-cups-network-printer-on-ubuntu">
+     Setting Up CUPS Network Printer on Ubuntu
+    </h1>
+    <p class="has-drop-cap">
+     Setting up CUPS (Common Unix Printing System) for network printing on Ubuntu involves several steps. Here's a guide to help you through the process:
+    </p>
+    <h2 id="step-1-install-cups">
+     Step 1: Install CUPS
+    </h2>
+    <p>
+     First, ensure that CUPS is installed on your Ubuntu system. You can install it using the terminal. Open a terminal window and type the following command:
+    </p>
+    <pre><code class="language-bash">sudo apt-get update
+sudo apt-get install cups
+</code></pre>
+    <h2 id="step-2-start-and-enable-cups-service">
+     Step 2: Start and Enable CUPS Service
+    </h2>
+    <p>
+     Once CUPS is installed, start the CUPS service and enable it to start on boot with the following commands:
+    </p>
+    <pre><code class="language-bash">sudo systemctl start cups
+sudo systemctl enable cups
+</code></pre>
+    <h2 id="step-3-configure-cups">
+     Step 3: Configure CUPS
+    </h2>
+    <p>
+     To configure CUPS, you need to edit its configuration file. Open the file in a text editor with root privileges:
+    </p>
+    <pre><code class="language-bash">sudo nano /etc/cups/cupsd.conf
+</code></pre>
+    <p>
+     Make the following changes in the
+     <code>
+      cupsd.conf
+     </code>
+     file:
+    </p>
+    <ul>
+     <li>
+      Find the line that says
+      <code>
+       Listen localhost:631
+      </code>
+      and change it to
+      <code>
+       Port 631
+      </code>
+      to allow remote access to the CUPS server.
+     </li>
+     <li>
+      Modify the
+      <code>
+       &lt;Location /&gt;
+      </code>
+      ,
+      <code>
+       &lt;Location /admin&gt;
+      </code>
+      , and
+      <code>
+       &lt;Location /admin/conf&gt;
+      </code>
+      sections to allow remote access. You can do this by adding
+      <code>
+       Allow @LOCAL
+      </code>
+      to each section.
+     </li>
+    </ul>
+    <p>
+     For example:
+    </p>
+    <pre><code class="language-conf">&lt;Location /&gt;
+  # existing settings...
+  Allow @LOCAL
+&lt;/Location&gt;
+
+&lt;Location /admin&gt;
+  # existing settings...
+  Allow @LOCAL
+&lt;/Location&gt;
+
+&lt;Location /admin/conf&gt;
+  AuthType Default
+  Require user @SYSTEM
+  # existing settings...
+  Allow @LOCAL
+&lt;/Location&gt;
+</code></pre>
+    <p>
+     Save and close the file.
+    </p>
+    <h2 id="step-4-allow-cups-through-the-firewall">
+     Step 4: Allow CUPS Through the Firewall
+    </h2>
+    <p>
+     If you have a firewall enabled, allow CUPS through the firewall:
+    </p>
+    <pre><code class="language-bash">sudo ufw allow 631
+</code></pre>
+    <h2 id="step-5-restart-cups">
+     Step 5: Restart CUPS
+    </h2>
+    <p>
+     After making changes to the configuration file, restart the CUPS service to apply the changes:
+    </p>
+    <pre><code class="language-bash">sudo systemctl restart cups
+</code></pre>
+    <h2 id="step-6-access-cups-web-interface">
+     Step 6: Access CUPS Web Interface
+    </h2>
+    <p>
+     You can now access the CUPS web interface by going to
+     <code>
+      http://your-server-ip:631
+     </code>
+     from any computer in your network. Replace
+     <code>
+      your-server-ip
+     </code>
+     with the IP address of the Ubuntu server where CUPS is installed.
+    </p>
+    <h2 id="step-7-add-a-printer">
+     Step 7: Add a Printer
+    </h2>
+    <p>
+     To add a network printer:
+    </p>
+    <ol>
+     <li>
+      Go to the CUPS web interface.
+     </li>
+     <li>
+      Click on “Administration” and then “Add Printer.”
+     </li>
+     <li>
+      Enter your Ubuntu username and password if prompted.
+     </li>
+     <li>
+      Follow the on-screen instructions to add your network printer.
+     </li>
+    </ol>
+    <h2 id="step-8-configure-client-computers">
+     Step 8: Configure Client Computers
+    </h2>
+    <p>
+     On each client computer, you need to install CUPS and configure it to use the CUPS server you set up. Repeat the installation process on each client and point them to your CUPS server.
+    </p>
+    <p>
+     Make sure the client computers are on the same network as the CUPS server. You may need to adjust their CUPS configuration files (
+     <code>
+      /etc/cups/client.conf
+     </code>
+     ) to point to your server.
+    </p>
+    <p>
+     By following these steps, you should be able to set up CUPS for network printing on your Ubuntu system. If you encounter any issues, refer to the CUPS documentation or Ubuntu community forums for further assistance.
+    </p>
+    <h2 id="additional-setup-for-hp-printers">
+     Additional Setup for HP Printers
+    </h2>
+    <p>
+     The log information you've provided indicates that the system is having trouble recognizing the HP Smart Tank 520/540 series printer attributes from the HPLIP (HP Linux Imaging and Printing) database. The
+     <code>
+      hpmud
+     </code>
+     (HP Multi-Point Transport Driver) subsystem is not finding the necessary data for this printer model.
+    </p>
+    <p>
+     Here are the steps to resolve this issue:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Update HPLIP
+      </strong>
+      : The version of HPLIP installed on your system may not have the necessary data for your printer model. You should update HPLIP to the latest version available. Open a terminal and run:
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   sudo apt-get update
+   sudo apt-get install --reinstall hplip
+     </code>
+    </p>
+    <p>
+     After updating, you can check the installed version with
+     <code>
+      hp-check -v
+     </code>
+     .
+    </p>
+    <ol>
+     <li>
+      <strong>
+       HP Device Manager
+      </strong>
+      : Sometimes, using the HP Device Manager (
+      <code>
+       hp-toolbox
+      </code>
+      ) can help in resolving printer issues. Run
+      <code>
+       hp-setup
+      </code>
+      to configure the printer.
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   hp-setup
+     </code>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Check for Additional Driver Support
+      </strong>
+      : Not all printers are supported out of the box by the HPLIP database included with your Linux distribution. You might need to download a plugin or additional drivers from HP.
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   sudo hp-plugin
+     </code>
+    </p>
+    <ol>
+     <li>
+      <p>
+       <strong>
+        Manual Driver Installation
+       </strong>
+       : If
+       <code>
+        hp-plugin
+       </code>
+       doesn't automatically fix the issue, you might need to manually download the plugin or driver from HP's website.
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        Permissions
+       </strong>
+       : Ensure that your user is part of the
+       <code>
+        lpadmin
+       </code>
+       group which is typically required for printer administration tasks.
+      </p>
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   sudo usermod -a -G lpadmin your_username
+     </code>
+    </p>
+    <p>
+     Replace
+     <code>
+      your_username
+     </code>
+     with your actual username.
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Restart CUPS
+      </strong>
+      : After making changes, restart the CUPS service.
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   sudo systemctl restart cups
+     </code>
+    </p>
+    <ol>
+     <li>
+      <p>
+       <strong>
+        Check Connectivity
+       </strong>
+       : Verify that your printer is connected via USB and is turned on. Sometimes the connection can be intermittent.
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        Reconnect the Printer
+       </strong>
+       : Disconnect and reconnect the printer and see if it's recognized.
+      </p>
+     </li>
+     <li>
+      <p>
+       <strong>
+        Consult Logs
+       </strong>
+       : Check
+       <code>
+        /var/log/cups/error_log
+       </code>
+       for more detailed error messages that can help diagnose the issue.
+      </p>
+     </li>
+    </ol>
+    <p>
+     <code>
+      bash
+   less /var/log/cups/error_log
+     </code>
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Seeking Further Help
+      </strong>
+      : If none of the above resolves the issue, consider seeking help from the Ubuntu community forums, as users there may have encountered similar issues with the same printer model.
+     </li>
+    </ol>
+    <p>
+     By following these steps, you should be able to address the issue of the printer not being recognized by your Ubuntu system.
+    </p>
+   </div>
+   <footer>
+    <div class="build_datetime">
+     Build datetime: 2024-06-21 03:01:44 +0000
+    </div>
+    <nav>
+     <a class="previous" href="Setting%20Ubuntu%20Swap%20File.html">
+      « Previous
+     </a>
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
+      Next »
+     </a>
+    </nav>
+   </footer>
+  </article>
+ </body>
+</html>
