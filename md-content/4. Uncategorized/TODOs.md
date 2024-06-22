@@ -17,7 +17,9 @@ No. The features of this site are not my highest priority in life.
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [] Use dashes instead of "%20" for spaces in links
-- [] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
+- [] [is it always an issue?] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
+- [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
+- [] Don't auto-split into two-column format if content is really short (and allow this to be configurable with a variable)
 - [] 404 page JS auto-redirect (even better if it could somehow "smartly" determine which page to navigate to)
 - [] Fix issue where subdirectories without direct files, but contain their own child directories do not appear in TOC
 - [] Auto-replace relative links with %ROOT% prefix.
@@ -41,7 +43,6 @@ No. The features of this site are not my highest priority in life.
 - [X] Ability to make an article not be included in TOC; i.e. for 404 pages (indexable: no/0/false; etc.)
 - [X] Make it easy to add images (this would involve moving template.html and most existing static content into a template directory and enabling static, user-created content to be also included from the md-content directory w/ checks to ensure there are no overlaps)
 - [X] Fix issue where long links can cause horizontal overflow on mobile
-- [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
 - [X] Need persistent "home" link
 - [] History tracking would be nice (but wouldn't sync w/o having some sort of backend, which is not a goal I have in mind; could a QR code suffice, somehow??)
 - [] Create a mindmap? (https://github.com/markmap/markmap)
