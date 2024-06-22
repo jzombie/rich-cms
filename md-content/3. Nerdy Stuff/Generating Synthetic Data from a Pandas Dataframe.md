@@ -1,4 +1,4 @@
-# Generating Synthetic Data from a Pandas Dataframe
+# Generating Synthetic Data from a Pandas DataFrame
 
 There are libraries that can generate synthetic data from a pandas DataFrame, creating a simulated dataset that mimics the statistical properties of the original data. One popular Python library for this purpose is **SDV (Synthetic Data Vault)**. SDV allows you to model and sample from multi-table, relational databases, and it supports various types of data, including numerical, categorical, and datetime data. It can be used to generate synthetic data that follows the same distributions as your original pandas DataFrame.
 
