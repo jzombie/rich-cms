@@ -16,7 +16,7 @@ No. The features of this site are not my highest priority in life.
 
 
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
-- [] Use dashes instead of "%20" for spaces in links
+- [] Use dashes instead of "%20" for spaces in links (also use lower-case)
 - [] [is it always an issue?] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
 - [] Don't auto-split into two-column format if content is really short (and allow this to be configurable with a variable)
