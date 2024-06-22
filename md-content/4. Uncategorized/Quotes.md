@@ -1,5 +1,7 @@
 # Quotes
 
+> "You are the average of the five people you spend the most time with." ~ Jim Rohn
+
 > "Plus ça change, plus c’est la même chose (The more things change, the more they stay the same)." ~ Jean-Baptiste Alphonse Karr
 
 > "85% of your financial success is due to your personality and ability to communicate, negotiate, and lead. Shockingly, only 15% is due to technical knowledge." ~ Dale Carnegie _(with potential paraphrasing and/or incorrect attribution)_
