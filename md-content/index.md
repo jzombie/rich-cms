@@ -53,3 +53,7 @@ I wrote a script that took the data regarding incoming traffic from search engin
 Some things outside of programming that I learned from this were: how to ride a street bike [motorcycle (I road dirt bikes as a kid, however)], PCI compliance, merchant accounts, SSL certs, DNS, and Linux.
 
 So, my experience programming websites, up to that point, was the way that I self-taught myself... that was my education; I just learned as I went.
+
+## Moving On
+
+My experiences of "learning as I went" carried onto learning some C/C++, Objective-C, Python, and a bunch of tools and libraries, some good, and some bad.
