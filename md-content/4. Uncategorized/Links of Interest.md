@@ -85,6 +85,8 @@
 79. Interesting CSS-separator generator (different shapes + demo): https://github.com/wwebdev/separator-generator (demo: https://wweb.dev/resources/css-separator-generator)
 80. Google Search console: https://search.google.com/search-console
 81. Apple MusicKit ("what am I listening to?"): https://developer.apple.com/documentation/musickitjs
+82. Immersive Linear Algebra (interactive book): https://immersivemath.com/ila/index.html
+
 
 ## Papers of Interest
 
