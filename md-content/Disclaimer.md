@@ -1,6 +1,8 @@
 # Disclaimer
 
-The thoughts and opinions in this site are mostly my own and it probably has a lot of typos.
+The thoughts and opinions in this site are not entirely my own, but generally what I agree with.
+
+The site probably also has a lot of typos.
 
 Also: Any third-party works should also be in the public domain.
 
