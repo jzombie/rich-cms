@@ -1,5 +1,7 @@
 # Quotes
 
+> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing." ~ Pele
+
 > "You are the average of the five people you spend the most time with." ~ Jim Rohn
 
 > "Plus ça change, plus c’est la même chose (The more things change, the more they stay the same)." ~ Jean-Baptiste Alphonse Karr
