@@ -1,6 +1,6 @@
 # Quotes
 
-> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing." ~ Pele
+> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing." ~ Pelé
 
 > "You are the average of the five people you spend the most time with." ~ Jim Rohn
 
