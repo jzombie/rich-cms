@@ -24,7 +24,7 @@ Repetition of affirmation of orders to your subconscious mind is the only known 
 
 Perhaps the meaning may be made clearer through the following explanation as to the way men sometimes become criminals. Stated in the words of a famous criminologist, "When men first come into contact with crime, they abhor it. If they remain in contact with crime for a time, they become accustomed to it, and endure it. If they remain in contact with it long enough, they finally embrace it, and become influenced by it."
 
-This is the equivalent of saying that any impulse of thought which is reputedly passed on to the subconscious mind is, finally, accepted and acted upon by the subconscious mind, which proceeds to translate that impulse into its physical equivalent, by the most practical procedure available.
+This is the equivalent of saying that any impulse of thought which is repeatedly passed on to the subconscious mind is, finally, accepted and acted upon by the subconscious mind, which proceeds to translate that impulse into its physical equivalent, by the most practical procedure available.
 
 In connection with this, consider again the statement, ALL THOUGHTS WHICH HAVE BEEN EMOTIONALIZED, (given feeling) AND MIXED WITH FAITH, begin immediately to translate themselves into their physical equivalent or counterpart.
 
