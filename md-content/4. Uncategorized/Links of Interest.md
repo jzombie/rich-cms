@@ -88,6 +88,7 @@
 82. Immersive Linear Algebra (interactive book): https://immersivemath.com/ila/index.html
 83. Extracting Concepts from GPT-4: https://openai.com/index/extracting-concepts-from-gpt-4/
 84. Polars-Cookbook (Jupyter notebook examples for Python Polars): https://github.com/PacktPublishing/Polars-Cookbook
+85. Naked JSX: https://nakedjsx.org/
 
 ## Papers of Interest
 
