@@ -14,7 +14,7 @@ No. The features of this site are not my highest priority in life.
 
 ## The TODOs
 
-
+- [] Fix issue where language code highlighting isn't colorizing (also, code blocks have way too much padding).
 - [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [] Use dashes instead of "%20" for spaces in links (also use lower-case)
 - [] [is it always an issue?] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
@@ -35,7 +35,6 @@ No. The features of this site are not my highest priority in life.
 - [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
 - [] [isn't this working?] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
-- [] Fix issue where language code highlighting isn't colorizing
 - [] Maintain aside scroll position when clicking on links, with the exception the active link is out of the viewport, then scroll to it by default (this should make the site feel more like a SPA)
 - [] Replace bleach (https://github.com/mozilla/bleach/issues/698) Google and Slack linking issues in "Engineering Blogs" (appears to be an issue w/ bleach.linkify: https://bleach.readthedocs.io/en/latest/linkify.html; added debug.bleach-linkify.py script to debug)
 - [] [maybe] Add "Edit on GitHub" link
