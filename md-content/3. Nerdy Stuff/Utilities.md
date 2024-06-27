@@ -32,6 +32,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - TimeGPT-1: The first foundation model for forecasting and anomaly detection: https://github.com/Nixtla/nixtla (https://www.linkedin.com/posts/khuyen-tran-1401_timegpt-is-a-powerful-generative-pre-trained-activity-7200865032140673026-uUhg)
 - Modin (drop-in Pandas replacement which uses all CPU cores): https://github.com/modin-project/modin (related LinkedIn thread: https://www.linkedin.com/posts/yukikakegawa_python-datascience-dataengineering-activity-7200118431524818946-2-LM/)
 - Dask (Python library for parallel and distributed computing): https://docs.dask.org/en/stable/
+- PyOD (Python library for detecting anomalies in multivariate data): https://github.com/yzhao062/pyod
 - Lunr (site search with vector support): https://lunrjs.com/ (Getting started: https://lunrjs.com/guides/getting_started.html)
 
 ## Services
