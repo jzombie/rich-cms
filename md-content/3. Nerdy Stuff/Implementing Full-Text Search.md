@@ -1,5 +1,9 @@
 # Implementing Full-Text Search (in a static HTML website)
 
+Update (June 26, 2024): Look into Lunr: https://lunrjs.com/guides/getting_started.html
+
+---
+
 To implement context-aware search on your static HTML website, you have several options that range from simple to more advanced, depending on your technical expertise and the specific needs of your website.
 
 Here's a summarized approach based on the information I've found:
