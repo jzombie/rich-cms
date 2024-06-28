@@ -89,6 +89,7 @@
 83. Extracting Concepts from GPT-4: https://openai.com/index/extracting-concepts-from-gpt-4/
 84. Polars-Cookbook (Jupyter notebook examples for Python Polars): https://github.com/PacktPublishing/Polars-Cookbook
 85. Naked JSX: https://nakedjsx.org/
+86. Why Google Sheets ported its calculation worker from JavaScript to WasmGC: https://web.dev/case-studies/google-sheets-wasmgc
 
 ## Papers of Interest
 
