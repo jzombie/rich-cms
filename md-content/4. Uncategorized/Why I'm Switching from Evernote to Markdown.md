@@ -14,7 +14,7 @@ If the focus is solely on making money, perhaps it’s time to reconsider the ap
 - **Pricing and Monetization Strategy**: Evernote’s pricing strategy has changed over time, and not for the better. The value I get from the service no longer justifies the cost — and I’m not even paying for it.
 - **Loss of Core Features**: Evernote has removed or limited some of its core features, such as the ability to export notes and the inclusion of reminders without needing to connect to Google or Outlook.
 - **Lack of Innovation**: While competitors have introduced new features and integrations, Evernote seems to be stuck in time. The company doesn’t appear to be innovating or updating its service to keep up with user expectations and market trends.
-Leadership Changes: Frequent changes in leadership have led to inconsistency in vision and strategy, which may have contributed to some of the issues I’ve experienced with Evernote.
+- **Leadership Changes**: Frequent changes in leadership have led to inconsistency in vision and strategy, which may have contributed to some of the issues I’ve experienced with Evernote.
 
 ## The Simplicity and Efficiency of Markdown
 
