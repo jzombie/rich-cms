@@ -1,6 +1,6 @@
 # Why I'm Switching from Evernote to Markdown
 
-Originally published on [Medium](https://jzombie.medium.com/why-im-switching-from-evernote-to-markdown-b1dacbfa1d8e), July 19, 2023
+_Originally published on [Medium](https://jzombie.medium.com/why-im-switching-from-evernote-to-markdown-b1dacbfa1d8e), July 19, 2023_
 
 Living with ADD, I understand the importance of maintaining focus and productivity. However, my experience with Evernote lately has been more of a distraction than a support. The constant interruptions by paywalls not only disrupt my workflow but also cause me to lose track of my initial purpose for using the app. It feels as if the app is more focused on monetizing than providing a seamless user experience. Adding to this frustration is the fact that the web clipper interferes with my browser’s console when I’m debugging web apps. Moreover, the Android client refuses to capture notes unless I reinstall it each time.
 
