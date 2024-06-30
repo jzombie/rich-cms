@@ -27,12 +27,13 @@ No. The features of this site are not my highest priority in life.
 - [X] Implement custom sort ordering for files/directories (priority listing, per file; OR use a separate file to specify absolute list positioning?)
 - [X] Add breadcrumb navigation links above main content
 - [] Deep linking w/ aliases. The idea is to use an alias as metadata, and other articles can reference that same link alias where it is interpolated back to the actual link when building. If two or more pages share the same alias, an intermediary index page could be used to link them [harder] or, the build process could just throw an error [easier].
+- [] Metadata for sharing w/ social media; SEO
 - [] [maybe] [Related article: "Using Git for File Metadata"...sorry no link] Integrate per-file changelog generation into the build process, to track changes made to each content file more effectively. This could involve scripting around Git CLI commands to extract change history for individual files. (Example: `git log --pretty=format:"%h - %an, %ar : %s" -- <file_path>` for a basic changelog or `git log -p -- <file_path>` to include diffs).
 
     This could also be useful for tracking article creation and update dates across multiple systems, as well as in sitemap generation ("lastmod").
 
 - [] Add simple Docker example that spits out a static website from a directory of Markdown files
-- [] Auto-generated metadata keywords for "SEO" (or just for kicks and giggles)
+- [] Auto-generated metadata keywords and content summarization for "SEO" (or just for kicks and giggles)
 - [] [maybe] Add Docker example which auto-pushes to GitHub pages when directory content is updated (be careful with this)
 - [] [isn't this working?] If no document title in Markdown, use the filename as the title
 - [] Embed LaTeX as images instead of scripts? (is it possible as SVG and still respect font color?)
@@ -76,10 +77,9 @@ No. The features of this site are not my highest priority in life.
 - [] [maybe?] Auto-generated page which shows all external links (including link[s] to the page[s] the link was mentioned in)
 - [] RSS generation
 - [] Include download links to original Markdown files? (if so, slightly modified to include main document title, hierarchy, or link)
-- [X] Add word count and estimated reading time to meta data
+- [X] Add word count and estimated reading time to metadata
 - [X] Show word count after compilation step
 - [] Link graph similar to Obsidian
-- [] Metadata for sharing w/ social media; SEO
 - [] Include configurable option to open external links as a new tab or not
 - [] Tiny icon on aside to indicate if it can be scrolled (if overflown)
 - [] optional titles in <- -> article navigation
