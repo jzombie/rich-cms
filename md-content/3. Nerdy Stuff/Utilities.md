@@ -34,6 +34,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Dask (Python library for parallel and distributed computing): https://docs.dask.org/en/stable/
 - PyOD (Python library for detecting anomalies in multivariate data): https://github.com/yzhao062/pyod (LinkedIn thread: https://www.linkedin.com/posts/eric-vyacheslav-156273169_amazing-python-library-pyod-use-it-to-detect-activity-7212107779673661443-hEt5?utm_source=share&utm_medium=member_desktop)
 - Hyperfine (Compare the Speed of Two Commands): https://codecut.ai/hyperfine-compare-the-speed-of-two-commands/
+- GPU.js (GPU accelerated JavaScript): https://gpu.rocks/
 - Lunr (site search with vector support): https://lunrjs.com/ (Getting started: https://lunrjs.com/guides/getting_started.html)
 
 ## Services
