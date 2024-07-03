@@ -90,6 +90,9 @@
 84. Polars-Cookbook (Jupyter notebook examples for Python Polars): https://github.com/PacktPublishing/Polars-Cookbook
 85. Naked JSX: https://nakedjsx.org/
 86. Why Google Sheets ported its calculation worker from JavaScript to WasmGC: https://web.dev/case-studies/google-sheets-wasmgc
+87. Rust learning resources:
+    - Small exercises: https://github.com/rust-lang/rustlings
+    - Book: https://doc.rust-lang.org/book/
 
 ## Papers of Interest
 
