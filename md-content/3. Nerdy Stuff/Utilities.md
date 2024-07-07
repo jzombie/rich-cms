@@ -39,6 +39,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Text to icon: https://text2icon.app/
 - Image to vector SVG: https://vectormaker.co/
 - WASM-based image to vector SVG (lower quality, but much faster): https://igutechung.github.io/
+- Datamuse (word-finding query engine for developers): https://www.datamuse.com/api/
 
 ## Services
 
