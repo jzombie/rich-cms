@@ -38,6 +38,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Lunr (site search with vector support): https://lunrjs.com/ (Getting started: https://lunrjs.com/guides/getting_started.html)
 - Text to icon: https://text2icon.app/
 - Image to vector SVG: https://vectormaker.co/
+- WASM-based image to vector SVG (lower quality, but much faster): https://igutechung.github.io/
 
 ## Services
 
