@@ -1,5 +1,9 @@
 # Quotes
 
+> "You will continue to suffer if you have an emotional reaction to everything that is said to you. True power is sitting back and observing things with logic. True power is restraint. If words control you that means everyone else can control you. Breathe and allow things to pass." ~ Warren Buffett
+
+> "We do these things not because they are easy, but because we thought they were going to be easy" ~ The Programmers' Credo (No idea who came up with this)
+
 > "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing." ~ Pelé
 
 > "You are the average of the five people you spend the most time with." ~ Jim Rohn
