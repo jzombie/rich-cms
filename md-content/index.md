@@ -57,3 +57,5 @@ So, my experience programming websites, up to that point, was the way that I sel
 ## Moving On
 
 My experiences of "learning as I went" carried onto learning some C/C++, Objective-C, Python, and a bunch of tools and libraries: working in highly regulated industries such as finance and virtual healthcare to the growing field of regulated cryptocurrency.
+
+My most recent projects have involved working with TensorFlow and Pandas and developing a Rust application compiled to WASM for doing portfolio analysis.
