@@ -36,6 +36,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Hyperfine (Compare the Speed of Two Commands): https://codecut.ai/hyperfine-compare-the-speed-of-two-commands/
 - GPU.js (GPU accelerated JavaScript): https://gpu.rocks/
 - Lunr (site search with vector support): https://lunrjs.com/ (Getting started: https://lunrjs.com/guides/getting_started.html)
+- Text to icon: https://text2icon.app/
+- Image to vector SVG: https://vectormaker.co/
 
 ## Services
 
