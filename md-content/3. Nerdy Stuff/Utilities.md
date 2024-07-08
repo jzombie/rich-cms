@@ -40,6 +40,10 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Image to vector SVG: https://vectormaker.co/
 - WASM-based image to vector SVG (lower quality, but much faster): https://igutechung.github.io/
 - Datamuse (word-finding query engine for developers): https://www.datamuse.com/api/
+- Cloudflare Tunnels (reverse-proxy tunnels):
+  - https://www.cloudflare.com/products/tunnel/
+  - https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
+  - https://www.reddit.com/r/selfhosted/comments/ync1zd/cloudflare_tunnels_are_so_awesome/
 
 ## Services
 
