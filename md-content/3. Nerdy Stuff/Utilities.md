@@ -44,6 +44,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
   - https://www.cloudflare.com/products/tunnel/
   - https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
   - https://www.reddit.com/r/selfhosted/comments/ync1zd/cloudflare_tunnels_are_so_awesome/
+- react-ts-tradingview-widgets docs: https://tradingview-widgets.jorrinkievit.xyz/docs/intro
 
 ## Services
 
