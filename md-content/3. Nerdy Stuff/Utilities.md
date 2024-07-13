@@ -47,6 +47,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - react-ts-tradingview-widgets docs: https://tradingview-widgets.jorrinkievit.xyz/docs/intro
 - Record and share terminal sessions: https://asciinema.org/
 - svg-term-cli: https://github.com/marionebl/svg-term-cli
+- Hermes JS Engine [Facebook / React Native] (video: https://www.youtube.com/watch?v=ipYQpxAyunc): https://github.com/facebook/hermes
 
 ## Services
 
