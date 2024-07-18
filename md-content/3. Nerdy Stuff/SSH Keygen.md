@@ -1,4 +1,4 @@
-# SSH Keygen (Password-less Server Login)
+# SSH Keygen for Password-less Server Login
 
 Using SSH keys for authentication is a secure and convenient way to log into a remote server without needing to enter a password every time. Below are the steps to set up password-less SSH login using RSA keys.
 
