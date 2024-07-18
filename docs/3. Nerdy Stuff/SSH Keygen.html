@@ -16,8 +16,8 @@
     <script src="../scripts/main.js">
     </script>
     <meta content="https://github.com/jzombie/rich-cms" name="generator">
-     <meta content="2024-07-18 23:16:42 +0000" name="build_datetime"/>
-     <meta content="311" name="word_count"/>
+     <meta content="2024-07-18 23:19:43 +0000" name="build_datetime"/>
+     <meta content="305" name="word_count"/>
      <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
      </script>
     </meta>
@@ -383,15 +383,12 @@
     <h1 id="ssh-keygen-password-less-server-login">
      SSH Keygen (Password-less Server Login)
     </h1>
-    <h2 id="ssh-keygen-password-less-server-login_1">
-     SSH Keygen (Password-less Server Login)
-    </h2>
     <p class="has-drop-cap">
      Using SSH keys for authentication is a secure and convenient way to log into a remote server without needing to enter a password every time. Below are the steps to set up password-less SSH login using RSA keys.
     </p>
-    <h3 id="step-1-generate-an-ssh-key-pair">
+    <h2 id="step-1-generate-an-ssh-key-pair">
      Step 1: Generate an SSH Key Pair
-    </h3>
+    </h2>
     <p>
      First, generate an SSH key pair on your local machine. This command will create a public-private key pair.
     </p>
@@ -400,9 +397,9 @@
     <p>
      You'll be prompted to specify a location to save the key and optionally enter a passphrase. If you choose to enter a passphrase, you'll add an extra layer of security, but you'll need to enter the passphrase each time you use the key.
     </p>
-    <h3 id="step-2-copy-the-public-key-to-the-server">
+    <h2 id="step-2-copy-the-public-key-to-the-server">
      Step 2: Copy the Public Key to the Server
-    </h3>
+    </h2>
     <p>
      Use the
      <code>
@@ -423,17 +420,17 @@
     <p>
      You'll be prompted to enter the remote user's password. This is the last time you should need to use the password to log in to the server.
     </p>
-    <h3 id="step-3-log-into-the-server">
+    <h2 id="step-3-log-into-the-server">
      Step 3: Log into the Server
-    </h3>
+    </h2>
     <p>
      Now, you can log into the remote server without being prompted for a password.
     </p>
     <pre><code class="language-bash">ssh user@server
 </code></pre>
-    <h3 id="using-a-custom-port">
+    <h2 id="using-a-custom-port">
      Using a Custom Port
-    </h3>
+    </h2>
     <p>
      If your SSH server listens on a port other than the default port (22), you can specify the custom port using the
      <code>
@@ -479,7 +476,7 @@
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-07-18 23:16:42 +0000
+     Build datetime: 2024-07-18 23:19:43 +0000
     </div>
     <nav>
      <a class="previous" href="Rsync%20over%20SSH%20Examples.html">
