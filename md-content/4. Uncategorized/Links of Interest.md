@@ -95,6 +95,7 @@
     - Book: https://doc.rust-lang.org/book/
 88. Active Strategies Are Looking Good, But Don’t Abandon Your ETFs: https://www.barrons.com/articles/active-strategies-are-looking-good-but-dont-abandon-your-etfs-2057c60d
 89. Eureka Labs (Andrej Karpathy education project): https://eurekalabs.ai/
+90. GitHub Status: https://www.githubstatus.com/
 
 ## Papers of Interest
 
