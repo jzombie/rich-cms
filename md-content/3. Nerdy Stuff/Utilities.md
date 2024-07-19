@@ -49,6 +49,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - svg-term-cli: https://github.com/marionebl/svg-term-cli
 - Hermes JS Engine [Facebook / React Native] (video: https://www.youtube.com/watch?v=ipYQpxAyunc): https://github.com/facebook/hermes
 - "World's Fastest Voice Bot Demo": https://github.com/CerebriumAI/examples/tree/master/18-realtime-voice-agent
+- Pipecat (framework for building [streaming] voice [and multimodal] conversational agents): https://github.com/pipecat-ai/pipecat
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
