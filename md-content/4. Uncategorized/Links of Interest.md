@@ -96,6 +96,7 @@
 88. Active Strategies Are Looking Good, But Don’t Abandon Your ETFs: https://www.barrons.com/articles/active-strategies-are-looking-good-but-dont-abandon-your-etfs-2057c60d
 89. Eureka Labs (Andrej Karpathy education project): https://eurekalabs.ai/
 90. GitHub Status: https://www.githubstatus.com/
+91. CrowdStrike Technical Details on Today’s [July 19, 2024] Outage: https://www.crowdstrike.com/blog/technical-details-on-todays-outage/
 
 ## Papers of Interest
 
