@@ -97,6 +97,7 @@
 89. Eureka Labs (Andrej Karpathy education project): https://eurekalabs.ai/
 90. GitHub Status: https://www.githubstatus.com/
 91. CrowdStrike Technical Details on Today’s [July 19, 2024] Outage: https://www.crowdstrike.com/blog/technical-details-on-todays-outage/
+92. Branchless Programming: https://www.linkedin.com/posts/heriklima_cplusplus-branchlessprogramming-optimization-activity-7218766293506674688-RQu5
 
 ## Papers of Interest
 
