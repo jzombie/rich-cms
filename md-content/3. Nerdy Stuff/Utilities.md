@@ -51,6 +51,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - "World's Fastest Voice Bot Demo": https://github.com/CerebriumAI/examples/tree/master/18-realtime-voice-agent
 - Pipecat (framework for building [streaming] voice [and multimodal] conversational agents): https://github.com/pipecat-ai/pipecat
 - mlforecast (Scalable machine learning for time series forecasting): https://github.com/Nixtla/mlforecast
+- SDL (Simple DirectMedia Layer; cross-platform development library to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL and Direct3D): https://www.libsdl.org/
+- Rayon (data-parallelism library for Rust [can even be made to work via WASM]): https://crates.io/crates/rayon (usage with WebAssembly: https://github.com/rayon-rs/rayon?tab=readme-ov-file#usage-with-webassembly) (LinkedIn discussion: https://www.linkedin.com/feed/update/urn:li:activity:7220084077826031617)
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
