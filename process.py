@@ -61,7 +61,29 @@ class RichCMSGenerator:
         # Clean the input string using the defined allowed tags and attributes
         sanitized_string = bleach.clean(input_string, tags=allowed_tags, 
                                         attributes=allowed_attributes, strip=True)
+        # Sanitize URLs to ensure valid URLs
+        sanitized_string = RichCMSGenerator.sanitize_urls(sanitized_string)
         return sanitized_string
+
+    @staticmethod
+    def sanitize_urls(input_string):
+        """
+        Ensures all local URLs in the input string are properly sanitized.
+        """
+        soup = BeautifulSoup(input_string, 'html.parser')
+
+        for tag in soup.find_all(['a', 'img'], href=True):
+            href = tag['href']
+            if not urlparse(href).netloc:  # Check if it's a local link
+                tag['href'] = urllib.parse.quote(href, safe=':/')
+
+        for tag in soup.find_all(['a', 'img'], src=True):
+            src = tag['src']
+            if not urlparse(src).netloc:  # Check if it's a local link
+                tag['src'] = urllib.parse.quote(src, safe=':/')
+
+        return str(soup)
+
 
     @classmethod
     def convert_md_to_html(cls, md_content):
@@ -196,54 +218,15 @@ class RichCMSGenerator:
         def create_sub_toc(dir_path, indent_level=0):
             toc_sub = '<ul>'
             for subdir, subdir_articles in organized_articles.items():
-                # This condition checks if the current subdirectory is directly under the directory we are currently processing.
-                # os.path.normpath() is used to normalize the path by collapsing redundant separators and up-level references.
-                # os.path.dirname(subdir) gets the parent directory of the current 'subdir'.
-                # If the parent directory of 'subdir' is not the same as the 'dir_path' we are currently processing,
-                # it means 'subdir' is not a direct child of 'dir_path' but rather a subdirectory in a different branch of the directory tree.
-                # In such a case, the loop skips this 'subdir' and continues with the next one.
                 if subdir == '.' or os.path.normpath(os.path.dirname(subdir)) != os.path.normpath(dir_path):
                     continue
 
                 dir_label = os.path.basename(subdir) if subdir != '..' else 'Home'
+                is_current_dir = os.path.normpath(current_article_path).startswith(os.path.normpath(os.path.join(input_directory, subdir)))
 
-                is_current_dir = os.path.normpath(
-                    current_article_path
-                ).startswith(
-                    os.path.normpath(
-                        os.path.join(
-                            input_directory, subdir
-                        )
-                    )
-                )
-
-                first_article_filename = cls.find_first_article_filename(
-                    os.path.abspath(
-                        os.path.join(
-                            input_directory,
-                            os.path.normpath(
-                                os.path.join(
-                                    input_directory,
-                                    subdir
-                                )
-                            )
-                        )
-                    ),
-                    articles
-                )
-
-                first_article_link = os.path.relpath(
-                    os.path.join(
-                        os.path.normpath(
-                            os.path.join(
-                                input_directory, subdir
-                            )
-                        ),
-                        first_article_filename
-                    ),
-                    os.path.dirname(current_article_path)
-                )
-
+                first_article_filename = cls.find_first_article_filename(os.path.abspath(os.path.join(input_directory, os.path.normpath(os.path.join(input_directory, subdir)))), articles)
+                first_article_link = os.path.relpath(os.path.join(os.path.normpath(os.path.join(input_directory, subdir)), first_article_filename), os.path.dirname(current_article_path))
+                first_article_link = urllib.parse.quote(first_article_link, safe=':/')
                 dir_class = 'directory active-dir' if is_current_dir else 'directory'
 
                 if subdir != '..':
@@ -251,30 +234,26 @@ class RichCMSGenerator:
                 else:
                     toc_sub += '  ' * indent_level + f'<li>'
 
-                # Add articles in this directory
                 toc_sub += '<ul>'
                 for article in subdir_articles:
                     article_path = article['path']
-
                     relative_path = os.path.relpath(article_path, os.path.dirname(current_article_path))
+                    relative_path = urllib.parse.quote(relative_path, safe=':/')
                     is_current_article = os.path.normpath(current_article_path) == os.path.normpath(article_path)
                     active_article_class = ' class="active"' if is_current_article else ''
                     toc_sub += f'<li{active_article_class}><a href="{relative_path}">{article["title"]}</a></li>'
-
                 toc_sub += '</ul>'
-
                 toc_sub += '</li>'
 
-                # If there are subdirectories, handle them recursively inside the current directory's <li>
                 if any(os.path.normpath(os.path.dirname(sub)) == os.path.normpath(subdir) for sub in organized_articles.keys()):
                     toc_sub += '<li>'
                     toc_sub += create_sub_toc(subdir, indent_level + 1)
                     toc_sub += '</li>'
-
             toc_sub += '</ul>'
             return toc_sub
 
         return create_sub_toc('.')
+
 
     @classmethod
     def write_html_file(cls, html_content, output_path, template, title, toc, relative_root_path, metadata, prev_link, next_link, breadcrumb_nav):
@@ -377,6 +356,7 @@ class RichCMSGenerator:
         for key, article in navigation_links.items():
             if article:
                 article_rel_path = os.path.relpath(article['path'], current_dir)
+                article_rel_path = urllib.parse.quote(article_rel_path, safe=':/')
                 link_text = "&laquo; Previous" if key == "previous" else "Next &raquo;"
                 navigation_links[key] = f"<a href='{article_rel_path}' class='{key}'>{link_text}</a>"
             else:
@@ -384,6 +364,7 @@ class RichCMSGenerator:
                 navigation_links[key] = f"<a href='#' class='{key} disabled'>{link_text}</a>"
 
         return navigation_links["previous"], navigation_links["next"]
+
     
     @classmethod
     def copy_directory_contents(cls, source_directory, destination_directory, include_patterns=None, exclude_patterns=None):
@@ -507,6 +488,7 @@ class RichCMSGenerator:
         # Write the formatted XML to file with XML declaration
         with open(os.path.join(output_directory, 'sitemap.xml'), 'w', encoding='utf-8') as file:
             file.write(reparsed.toprettyxml(indent="\t", newl="\n", encoding="UTF-8").decode('utf-8'))
+
 
     # TODO: Extract functionality for determining home link
     @classmethod
