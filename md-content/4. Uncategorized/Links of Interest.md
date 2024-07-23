@@ -98,6 +98,7 @@
 90. GitHub Status: https://www.githubstatus.com/
 91. CrowdStrike Technical Details on Today’s [July 19, 2024] Outage: https://www.crowdstrike.com/blog/technical-details-on-todays-outage/
 92. Branchless Programming: https://www.linkedin.com/posts/heriklima_cplusplus-branchlessprogramming-optimization-activity-7218766293506674688-RQu5
+93. HATEOAS (Hypermedia as the engine of application state): https://en.wikipedia.org/wiki/HATEOAS (Roy Fielding: https://en.wikipedia.org/wiki/Roy_Fielding)
 
 ## Papers of Interest
 
