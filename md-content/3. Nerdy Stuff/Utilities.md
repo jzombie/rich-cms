@@ -55,6 +55,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Rayon (data-parallelism library for Rust [can even be made to work via WASM]): https://crates.io/crates/rayon (usage with WebAssembly: https://github.com/rayon-rs/rayon?tab=readme-ov-file#usage-with-webassembly) (LinkedIn discussion: https://www.linkedin.com/feed/update/urn:li:activity:7220084077826031617)
 - Warp (Web server in Rust: "A super-easy, composable, web server framework for warp speeds."): https://github.com/seanmonstar/warp (WebSocket chat example: https://github.com/seanmonstar/warp/blob/master/examples/websockets_chat.rs)
 - Cursor ("The AI Code Editor"): https://www.cursor.com/
+- GIT GUI clients: https://git-scm.com/download/gui/linux
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
