@@ -1,5 +1,7 @@
 # Quotes
 
+> "Compound interest is the eighth wonder of the world. He who understands it, earns it... he who doesn't... pays it." ~ Albert Einstein
+
 > "You will continue to suffer if you have an emotional reaction to everything that is said to you. True power is sitting back and observing things with logic. True power is restraint. If words control you that means everyone else can control you. Breathe and allow things to pass." ~ Warren Buffett
 
 > "We do these things not because they are easy, but because we thought they were going to be easy" ~ The Programmers' Credo (No idea who came up with this)
