@@ -56,6 +56,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Warp (Web server in Rust: "A super-easy, composable, web server framework for warp speeds."): https://github.com/seanmonstar/warp (WebSocket chat example: https://github.com/seanmonstar/warp/blob/master/examples/websockets_chat.rs)
 - Cursor ("The AI Code Editor"): https://www.cursor.com/
 - GIT GUI clients: https://git-scm.com/download/gui/linux
+- "Favicon Generator. For real.": https://realfavicongenerator.net/
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
