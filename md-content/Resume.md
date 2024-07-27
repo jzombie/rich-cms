@@ -1,5 +1,7 @@
 # Jeremy Harris' Resume
 
+_Updated: July 26, 2024_
+
 - Email: jeremy.harris@zenosmosis.com
 - Phone: 415-562-7140
 - GitHub: https://github.com/jzombie
