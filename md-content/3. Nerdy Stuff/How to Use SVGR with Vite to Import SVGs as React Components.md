@@ -85,4 +85,3 @@ Using SVGR with Vite simplifies the process of integrating and managing SVG asse
 - [SVGR Documentation](https://react-svgr.com/docs/getting-started/)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
-
