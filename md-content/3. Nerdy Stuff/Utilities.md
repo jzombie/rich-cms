@@ -57,6 +57,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Cursor ("The AI Code Editor"): https://www.cursor.com/
 - GIT GUI clients: https://git-scm.com/download/gui/linux
 - "Favicon Generator. For real.": https://realfavicongenerator.net/ (includes a nice checker ["Check your favicon"] which analyzes the site for what can be improved)
+- Nostr relays (API): https://api.nostr.watch/
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
