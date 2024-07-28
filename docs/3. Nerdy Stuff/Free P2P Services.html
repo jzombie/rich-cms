@@ -16,8 +16,8 @@
     <script src="../scripts/main.js">
     </script>
     <meta content="https://github.com/jzombie/rich-cms" name="generator">
-     <meta content="2024-07-28 02:19:10 +0000" name="build_datetime"/>
-     <meta content="682" name="word_count"/>
+     <meta content="2024-07-28 02:24:19 +0000" name="build_datetime"/>
+     <meta content="292" name="word_count"/>
      <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
      </script>
     </meta>
@@ -397,7 +397,7 @@
     &gt; Free P2P Services
    </nav>
    <p>
-    Estimated reading time: 3 minute(s).
+    Estimated reading time: 1 minute(s).
    </p>
    <div>
     <h1 id="free-p2p-services">
@@ -434,42 +434,7 @@
       </code>
       object without any additional configuration.
      </li>
-     <li>
-      <strong>
-       Example:
-      </strong>
-     </li>
     </ul>
-    <p>
-     ```javascript
-  // Include PeerJS library
-  const peer = new Peer(); // Uses the default free PeerJS server
-    </p>
-    <p>
-     // Generate a unique ID for the peer
-  peer.on('open', (id) =&gt; {
-    console.log('My peer ID is: ' + id);
-  });
-    </p>
-    <p>
-     // Connect to another peer
-  const conn = peer.connect('another-peer-id');
-    </p>
-    <p>
-     // Send a message
-  conn.on('open', () =&gt; {
-    conn.send('Hello!');
-  });
-    </p>
-    <p>
-     // Receive a message
-  peer.on('connection', (conn) =&gt; {
-    conn.on('data', (data) =&gt; {
-      console.log('Received', data);
-    });
-  });
-  ```
-    </p>
     <h2 id="2-skyway">
      2.
      <strong>
@@ -494,40 +459,7 @@
       </strong>
       SkyWay provides an API for peer-to-peer connections. You need to sign up to get an API key.
      </li>
-     <li>
-      <strong>
-       Example:
-      </strong>
-     </li>
     </ul>
-    <p>
-     ```javascript
-  const peer = new Peer({
-    key: 'your-api-key',
-    debug: 3
-  });
-    </p>
-    <p>
-     peer.on('open', id =&gt; {
-    console.log('My peer ID is: ' + id);
-  });
-    </p>
-    <p>
-     const conn = peer.connect('another-peer-id');
-    </p>
-    <p>
-     conn.on('open', () =&gt; {
-    conn.send('Hello!');
-  });
-    </p>
-    <p>
-     peer.on('connection', conn =&gt; {
-    conn.on('data', data =&gt; {
-      console.log('Received', data);
-    });
-  });
-  ```
-    </p>
     <h2 id="3-socketio-webrtc">
      3.
      <strong>
@@ -566,115 +498,7 @@
       </a>
       (e.g., Heroku, Vercel) to set up your signaling server.
      </li>
-     <li>
-      <strong>
-       Example:
-      </strong>
-     </li>
     </ul>
-    <p>
-     <strong>
-      Server (Node.js with
-      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
-       Socket.io
-      </a>
-      ):
-     </strong>
-     ```javascript
-  const express = require('express');
-  const http = require('http');
-  const socketIo = require('
-     <a href="http://socket.io" rel="noopener noreferrer" target="_blank">
-      socket.io
-     </a>
-     ');
-    </p>
-    <p>
-     const app = express();
-  const server = http.createServer(app);
-  const io = socketIo(server);
-    </p>
-    <p>
-     io.on('connection', (socket) =&gt; {
-    socket.on('signal', (data) =&gt; {
-     <a href="http://io.to" rel="noopener noreferrer" target="_blank">
-      io.to
-     </a>
-     (data.peerId).emit('signal', data.signal);
-    });
-  });
-    </p>
-    <p>
-     server.listen(3000, () =&gt; {
-    console.log('Server is running on port 3000');
-  });
-  ```
-    </p>
-    <p>
-     <strong>
-      Client (Browser with WebRTC and
-      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
-       Socket.io
-      </a>
-      ):
-     </strong>
-     ```html
-     <br/>
-     <script src="/socket.io/socket.io.js">
-     </script>
-    </p>
-    <script>
-     const socket = io();
-
-    // Create a new RTCPeerConnection
-    const pc = new RTCPeerConnection();
-
-    // Handle ICE candidates
-    pc.onicecandidate = (event) => {
-      if (event.candidate) {
-        socket.emit('signal', { peerId: 'another-peer-id', signal: { candidate: event.candidate } });
-      }
-    };
-
-    // Handle data channel events
-    pc.ondatachannel = (event) => {
-      const dataChannel = event.channel;
-      dataChannel.onopen = () => {
-        console.log('Data channel is open');
-        dataChannel.send('Hello from peer1');
-      };
-      dataChannel.onmessage = (event) => {
-        console.log('Received message:', event.data);
-      };
-    };
-
-    // Create a data channel
-    const dataChannel = pc.createDataChannel('chat');
-
-    // Create an offer
-    pc.createOffer().then(offer => {
-      pc.setLocalDescription(offer);
-      socket.emit('signal', { peerId: 'another-peer-id', signal: { sdp: offer } });
-    });
-
-    socket.on('signal', (data) => {
-      if (data.signal.sdp) {
-        pc.setRemoteDescription(new RTCSessionDescription(data.signal.sdp)).then(() => {
-          if (pc.remoteDescription.type === 'offer') {
-            pc.createAnswer().then(answer => {
-              pc.setLocalDescription(answer);
-              socket.emit('signal', { peerId: data.peerId, signal: { sdp: answer } });
-            });
-          }
-        });
-      } else if (data.signal.candidate) {
-        pc.addIceCandidate(new RTCIceCandidate(data.signal.candidate));
-      }
-    });
-    </script>
-    <p>
-     ```
-    </p>
     <h2 id="4-p2p-cdn-services-webtorrent">
      4.
      <strong>
@@ -699,47 +523,14 @@
       </strong>
       WebTorrent provides a free library that you can use to share files between browsers using P2P.
      </li>
-     <li>
-      <strong>
-       Example:
-      </strong>
-     </li>
     </ul>
-    <p>
-     ```html
-     <br/>
-     <script src="https://cdn.jsdelivr.net/npm/webtorrent/webtorrent.min.js">
-     </script>
-    </p>
-    <script>
-     const client = new WebTorrent();
-
-    // Create a new torrent
-    client.seed(file, (torrent) => {
-      console.log('Torrent info hash:', torrent.infoHash);
-      console.log('Magnet URI:', torrent.magnetURI);
-    });
-
-    // Download a torrent
-    client.add('magnet-uri', (torrent) => {
-      torrent.files.forEach((file) => {
-        file.getBlobURL((err, url) => {
-          if (err) throw err;
-          console.log('File URL:', url);
-        });
-      });
-    });
-    </script>
-    <p>
-     ```
-    </p>
     <p>
      These services and libraries offer various ways to establish peer-to-peer connections between browsers, facilitating direct object exchange without the need for an intermediary server after the initial connection is established.
     </p>
    </div>
    <footer>
     <div class="build_datetime">
-     Build datetime: 2024-07-28 02:19:10 +0000
+     Build datetime: 2024-07-28 02:24:19 +0000
     </div>
     <nav>
      <a class="previous" href="Formatting%20Test.html">
