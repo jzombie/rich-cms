@@ -7,7 +7,7 @@
   <meta charset="utf-8">
    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>
-     Setting Ubuntu Swap File
+     Free P2P Services
     </title>
     <link href="../styles/main.css" rel="stylesheet"/>
     <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -17,7 +17,7 @@
     </script>
     <meta content="https://github.com/jzombie/rich-cms" name="generator">
      <meta content="2024-07-28 02:19:10 +0000" name="build_datetime"/>
-     <meta content="361" name="word_count"/>
+     <meta content="682" name="word_count"/>
      <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
      </script>
     </meta>
@@ -33,7 +33,7 @@
   <aside>
    <header>
     <div class="page_title">
-     Setting Ubuntu Swap File
+     Free P2P Services
     </div>
    </header>
    <nav class="toc">
@@ -234,7 +234,7 @@
            Formatting Test
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Free%20P2P%20Services.html">
            Free P2P Services
           </a>
@@ -289,7 +289,7 @@
            SSH Keygen for Password-less Server Login
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Setting%20Ubuntu%20Swap%20File.html">
            Setting Ubuntu Swap File
           </a>
@@ -376,10 +376,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="SSH%20Keygen.html">
+     <a class="previous" href="Formatting%20Test.html">
       « Previous
      </a>
-     <a class="next" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
+     <a class="next" href="Generating%20Synthetic%20Data%20from%20a%20Pandas%20Dataframe.html">
       Next »
      </a>
     </nav>
@@ -394,140 +394,347 @@
     <a href="../3.%20Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
      3. Nerdy Stuff
     </a>
-    &gt; Setting Ubuntu Swap File
+    &gt; Free P2P Services
    </nav>
    <p>
-    Estimated reading time: 2 minute(s).
+    Estimated reading time: 3 minute(s).
    </p>
    <div>
-    <h1 id="setting-ubuntu-swap-file">
-     Setting Ubuntu Swap File
+    <h1 id="free-p2p-services">
+     Free P2P Services
     </h1>
     <p class="has-drop-cap">
-     To increase the swap file size on an Ubuntu system using
-     <code>
-      fallocate
-     </code>
-     , follow these updated instructions. This method is efficient and quick, suitable for most modern filesystems.
+     There are several free hosted services that can facilitate peer-to-peer object exchange between browsers. These services typically provide a signaling server for WebRTC, which is necessary for establishing the initial connection between peers. Here are a few options:
     </p>
-    <h2 id="step-1-turn-off-existing-swap-file">
-     Step 1: Turn Off Existing Swap File
+    <h2 id="1-peerjs-cloud-server">
+     1.
+     <strong>
+      PeerJS Cloud Server
+     </strong>
     </h2>
     <p>
-     Disable the currently active swap file to modify or replace it:
+     PeerJS provides a free cloud-hosted server for signaling, making it easy to set up peer-to-peer connections.
     </p>
-    <pre><code class="language-bash">sudo swapoff -a
-</code></pre>
-    <p>
-     This command turns off all swap spaces in use.
-    </p>
-    <h2 id="step-2-create-or-resize-the-swap-file-with-fallocate">
-     Step 2: Create or Resize the Swap File with
-     <code>
-      fallocate
-     </code>
-    </h2>
-    <p>
-     Use
-     <code>
-      fallocate
-     </code>
-     to allocate space for the swap file instantly:
-    </p>
-    <pre><code class="language-bash">sudo fallocate -l 4G /swapfile
-</code></pre>
     <ul>
      <li>
-      <code>
-       -l 4G
-      </code>
-      specifies the desired size of the swap file, 4GB in this example.
+      <strong>
+       Website:
+      </strong>
+      <a href="https://peerjs.com/" rel="noopener noreferrer" target="_blank">
+       PeerJS
+      </a>
      </li>
      <li>
+      <strong>
+       How to Use:
+      </strong>
+      PeerJS offers a free, hosted signaling server. You can use it by simply creating a new
       <code>
-       /swapfile
+       Peer
       </code>
-      is the file to be used or created for swap.
+      object without any additional configuration.
+     </li>
+     <li>
+      <strong>
+       Example:
+      </strong>
      </li>
     </ul>
     <p>
-     Adjust the size (
-     <code>
-      4G
-     </code>
-     in the example) according to your needs.
+     ```javascript
+  // Include PeerJS library
+  const peer = new Peer(); // Uses the default free PeerJS server
     </p>
-    <h2 id="step-3-secure-the-swap-file">
-     Step 3: Secure the Swap File
+    <p>
+     // Generate a unique ID for the peer
+  peer.on('open', (id) =&gt; {
+    console.log('My peer ID is: ' + id);
+  });
+    </p>
+    <p>
+     // Connect to another peer
+  const conn = peer.connect('another-peer-id');
+    </p>
+    <p>
+     // Send a message
+  conn.on('open', () =&gt; {
+    conn.send('Hello!');
+  });
+    </p>
+    <p>
+     // Receive a message
+  peer.on('connection', (conn) =&gt; {
+    conn.on('data', (data) =&gt; {
+      console.log('Received', data);
+    });
+  });
+  ```
+    </p>
+    <h2 id="2-skyway">
+     2.
+     <strong>
+      SkyWay
+     </strong>
     </h2>
     <p>
-     Set the swap file's permissions to ensure it is only accessible by the root user:
+     SkyWay is a P2P WebRTC platform that offers a free tier for basic usage. It supports both data channels and media streams.
     </p>
-    <pre><code class="language-bash">sudo chmod 600 /swapfile
-</code></pre>
+    <ul>
+     <li>
+      <strong>
+       Website:
+      </strong>
+      <a href="https://webrtc.ecl.ntt.com/" rel="noopener noreferrer" target="_blank">
+       SkyWay
+      </a>
+     </li>
+     <li>
+      <strong>
+       How to Use:
+      </strong>
+      SkyWay provides an API for peer-to-peer connections. You need to sign up to get an API key.
+     </li>
+     <li>
+      <strong>
+       Example:
+      </strong>
+     </li>
+    </ul>
     <p>
-     This command restricts access to the swap file, enhancing security.
+     ```javascript
+  const peer = new Peer({
+    key: 'your-api-key',
+    debug: 3
+  });
     </p>
-    <h2 id="step-4-make-the-swap-file">
-     Step 4: Make the Swap File
+    <p>
+     peer.on('open', id =&gt; {
+    console.log('My peer ID is: ' + id);
+  });
+    </p>
+    <p>
+     const conn = peer.connect('another-peer-id');
+    </p>
+    <p>
+     conn.on('open', () =&gt; {
+    conn.send('Hello!');
+  });
+    </p>
+    <p>
+     peer.on('connection', conn =&gt; {
+    conn.on('data', data =&gt; {
+      console.log('Received', data);
+    });
+  });
+  ```
+    </p>
+    <h2 id="3-socketio-webrtc">
+     3.
+     <strong>
+      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+       Socket.io
+      </a>
+      + WebRTC
+     </strong>
     </h2>
     <p>
-     Format the newly created file for use as swap:
+     <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+      Socket.io
+     </a>
+     can be used as a signaling server for WebRTC. While
+     <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+      Socket.io
+     </a>
+     itself isn't specifically a WebRTC signaling service, it's a powerful tool that can facilitate the necessary signaling process for establishing WebRTC connections.
     </p>
-    <pre><code class="language-bash">sudo mkswap /swapfile
-</code></pre>
+    <ul>
+     <li>
+      <strong>
+       Website:
+      </strong>
+      <a href="https://socket.io/" rel="noopener noreferrer" target="_blank">
+       Socket.io
+      </a>
+     </li>
+     <li>
+      <strong>
+       How to Use:
+      </strong>
+      You can use a free tier from any cloud provider that supports
+      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+       Socket.io
+      </a>
+      (e.g., Heroku, Vercel) to set up your signaling server.
+     </li>
+     <li>
+      <strong>
+       Example:
+      </strong>
+     </li>
+    </ul>
     <p>
-     This prepares the swap file for use by setting it up as a swap space.
+     <strong>
+      Server (Node.js with
+      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+       Socket.io
+      </a>
+      ):
+     </strong>
+     ```javascript
+  const express = require('express');
+  const http = require('http');
+  const socketIo = require('
+     <a href="http://socket.io" rel="noopener noreferrer" target="_blank">
+      socket.io
+     </a>
+     ');
     </p>
-    <h2 id="step-5-activate-the-swap-file">
-     Step 5: Activate the Swap File
+    <p>
+     const app = express();
+  const server = http.createServer(app);
+  const io = socketIo(server);
+    </p>
+    <p>
+     io.on('connection', (socket) =&gt; {
+    socket.on('signal', (data) =&gt; {
+     <a href="http://io.to" rel="noopener noreferrer" target="_blank">
+      io.to
+     </a>
+     (data.peerId).emit('signal', data.signal);
+    });
+  });
+    </p>
+    <p>
+     server.listen(3000, () =&gt; {
+    console.log('Server is running on port 3000');
+  });
+  ```
+    </p>
+    <p>
+     <strong>
+      Client (Browser with WebRTC and
+      <a href="http://Socket.io" rel="noopener noreferrer" target="_blank">
+       Socket.io
+      </a>
+      ):
+     </strong>
+     ```html
+     <br/>
+     <script src="/socket.io/socket.io.js">
+     </script>
+    </p>
+    <script>
+     const socket = io();
+
+    // Create a new RTCPeerConnection
+    const pc = new RTCPeerConnection();
+
+    // Handle ICE candidates
+    pc.onicecandidate = (event) => {
+      if (event.candidate) {
+        socket.emit('signal', { peerId: 'another-peer-id', signal: { candidate: event.candidate } });
+      }
+    };
+
+    // Handle data channel events
+    pc.ondatachannel = (event) => {
+      const dataChannel = event.channel;
+      dataChannel.onopen = () => {
+        console.log('Data channel is open');
+        dataChannel.send('Hello from peer1');
+      };
+      dataChannel.onmessage = (event) => {
+        console.log('Received message:', event.data);
+      };
+    };
+
+    // Create a data channel
+    const dataChannel = pc.createDataChannel('chat');
+
+    // Create an offer
+    pc.createOffer().then(offer => {
+      pc.setLocalDescription(offer);
+      socket.emit('signal', { peerId: 'another-peer-id', signal: { sdp: offer } });
+    });
+
+    socket.on('signal', (data) => {
+      if (data.signal.sdp) {
+        pc.setRemoteDescription(new RTCSessionDescription(data.signal.sdp)).then(() => {
+          if (pc.remoteDescription.type === 'offer') {
+            pc.createAnswer().then(answer => {
+              pc.setLocalDescription(answer);
+              socket.emit('signal', { peerId: data.peerId, signal: { sdp: answer } });
+            });
+          }
+        });
+      } else if (data.signal.candidate) {
+        pc.addIceCandidate(new RTCIceCandidate(data.signal.candidate));
+      }
+    });
+    </script>
+    <p>
+     ```
+    </p>
+    <h2 id="4-p2p-cdn-services-webtorrent">
+     4.
+     <strong>
+      P2P CDN Services (WebTorrent)
+     </strong>
     </h2>
     <p>
-     Enable the swap file, adding it to your system's swap space:
+     WebTorrent is a streaming torrent client for the web. It uses WebRTC for peer-to-peer communication and can be used to share files between browsers.
     </p>
-    <pre><code class="language-bash">sudo swapon /swapfile
-</code></pre>
+    <ul>
+     <li>
+      <strong>
+       Website:
+      </strong>
+      <a href="https://webtorrent.io/" rel="noopener noreferrer" target="_blank">
+       WebTorrent
+      </a>
+     </li>
+     <li>
+      <strong>
+       How to Use:
+      </strong>
+      WebTorrent provides a free library that you can use to share files between browsers using P2P.
+     </li>
+     <li>
+      <strong>
+       Example:
+      </strong>
+     </li>
+    </ul>
     <p>
-     This step makes the swap file active, allowing the system to use it.
+     ```html
+     <br/>
+     <script src="https://cdn.jsdelivr.net/npm/webtorrent/webtorrent.min.js">
+     </script>
     </p>
-    <h2 id="step-6-make-the-swap-file-permanent">
-     Step 6: Make the Swap File Permanent
-    </h2>
+    <script>
+     const client = new WebTorrent();
+
+    // Create a new torrent
+    client.seed(file, (torrent) => {
+      console.log('Torrent info hash:', torrent.infoHash);
+      console.log('Magnet URI:', torrent.magnetURI);
+    });
+
+    // Download a torrent
+    client.add('magnet-uri', (torrent) => {
+      torrent.files.forEach((file) => {
+        file.getBlobURL((err, url) => {
+          if (err) throw err;
+          console.log('File URL:', url);
+        });
+      });
+    });
+    </script>
     <p>
-     Edit
-     <code>
-      /etc/fstab
-     </code>
-     to include the swap file for automatic activation at boot time:
+     ```
     </p>
-    <pre><code class="language-bash">echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-</code></pre>
     <p>
-     Appending this line to
-     <code>
-      /etc/fstab
-     </code>
-     ensures the swap file is recognized and activated at every startup.
-    </p>
-    <h2 id="step-7-verify-the-swap-file">
-     Step 7: Verify the Swap File
-    </h2>
-    <p>
-     Check that the swap is active and verify its size:
-    </p>
-    <pre><code class="language-bash">sudo swapon --show
-</code></pre>
-    <p>
-     To see the total available swap space, including the newly added swap:
-    </p>
-    <pre><code class="language-bash">free -h
-</code></pre>
-    <p>
-     This concludes the steps to increase the swap file size on your Ubuntu system using
-     <code>
-      fallocate
-     </code>
-     . Adjust the swap file size in step 2 as necessary to suit your system's requirements.
+     These services and libraries offer various ways to establish peer-to-peer connections between browsers, facilitating direct object exchange without the need for an intermediary server after the initial connection is established.
     </p>
    </div>
    <footer>
@@ -535,10 +742,10 @@
      Build datetime: 2024-07-28 02:19:10 +0000
     </div>
     <nav>
-     <a class="previous" href="SSH%20Keygen.html">
+     <a class="previous" href="Formatting%20Test.html">
       « Previous
      </a>
-     <a class="next" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
+     <a class="next" href="Generating%20Synthetic%20Data%20from%20a%20Pandas%20Dataframe.html">
       Next »
      </a>
     </nav>
