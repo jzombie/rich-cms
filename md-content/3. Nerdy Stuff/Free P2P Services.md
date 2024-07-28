@@ -27,3 +27,10 @@ WebTorrent is a streaming torrent client for the web. It uses WebRTC for peer-to
 - **How to Use:** WebTorrent provides a free library that you can use to share files between browsers using P2P.
 
 These services and libraries offer various ways to establish peer-to-peer connections between browsers, facilitating direct object exchange without the need for an intermediary server after the initial connection is established.
+
+## 5. **Trystero**
+
+Trystero is a library that provides instant, serverless peer-to-peer communication over WebRTC. It supports multiple strategies for peer discovery, including BitTorrent, Nostr, MQTT, Supabase, Firebase, and IPFS.
+
+- **Website:** [Trystero](https://oxism.com/trystero/)
+- **How to Use:** Install Trystero via npm and use it to join a room for peer-to-peer communication.
