@@ -34,3 +34,10 @@ Trystero is a library that provides instant, serverless peer-to-peer communicati
 
 - **Website:** [Trystero](https://oxism.com/trystero/)
 - **How to Use:** Install Trystero via npm and use it to join a room for peer-to-peer communication.
+
+## 6. **Docker MQTT Mosquitto Cloudflare Tunnel (rolled my own)**
+
+Using Cloudflare Tunnels and Docker, roll your own MQTT service, hosting it from your local computer without exposing your ports directly to the internet.
+
+- **Website:** https://github.com/jzombie/docker-mqtt-mosquitto-cloudflare-tunnel
+- **How to Use:** Instructions in the README.
