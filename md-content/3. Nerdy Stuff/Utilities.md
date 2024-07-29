@@ -58,6 +58,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - GIT GUI clients: https://git-scm.com/download/gui/linux
 - "Favicon Generator. For real.": https://realfavicongenerator.net/ (includes a nice checker ["Check your favicon"] which analyzes the site for what can be improved)
 - Nostr relays (API): https://api.nostr.watch/
+- Lazygit (git TUI): https://github.com/jesseduffield/lazygit
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
