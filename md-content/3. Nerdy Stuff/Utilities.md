@@ -59,7 +59,9 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - "Favicon Generator. For real.": https://realfavicongenerator.net/ (includes a nice checker ["Check your favicon"] which analyzes the site for what can be improved)
 - Nostr relays (API): https://api.nostr.watch/
 - Lazygit (git TUI): https://github.com/jesseduffield/lazygit
+- Rust Simple Virtual DOM: https://github.com/richardanaya/rust-simple-virtual-dom
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
+
 
 ## Services
 
