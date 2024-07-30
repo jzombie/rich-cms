@@ -62,7 +62,6 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Rust Simple Virtual DOM: https://github.com/richardanaya/rust-simple-virtual-dom
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
-
 ## Services
 
 - RichCMS Git Actions Monitoring: https://github.com/jzombie/rich-cms/actions/
