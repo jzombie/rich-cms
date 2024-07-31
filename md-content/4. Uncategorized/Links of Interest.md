@@ -100,6 +100,7 @@
 92. Branchless Programming: https://www.linkedin.com/posts/heriklima_cplusplus-branchlessprogramming-optimization-activity-7218766293506674688-RQu5
 93. HATEOAS (Hypermedia as the engine of application state): https://en.wikipedia.org/wiki/HATEOAS (Roy Fielding: https://en.wikipedia.org/wiki/Roy_Fielding)
 94. Argo tunnels that live forever: https://blog.cloudflare.com/argo-tunnels-that-live-forever
+95. The Standard (A collection of decades of experience in the engineering industry): https://github.com/hassanhabib/The-Standard
 
 ## Papers of Interest
 
