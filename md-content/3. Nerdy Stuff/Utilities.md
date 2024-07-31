@@ -60,6 +60,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Nostr relays (API): https://api.nostr.watch/
 - Lazygit (git TUI): https://github.com/jesseduffield/lazygit
 - Rust Simple Virtual DOM: https://github.com/richardanaya/rust-simple-virtual-dom
+- SVGO ("SVG Optimizer" - A Node.js library and command-line application for optimizing SVG files): https://github.com/svg/svgo
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
