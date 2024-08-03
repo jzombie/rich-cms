@@ -1,22 +1,30 @@
 # Jeremy Harris' Resume
 
-_Updated: July 26, 2024_
+_Updated: August 3, 2024_
 
 - Email: jeremy.harris@zenosmosis.com
 - Phone: 415-562-7140
 - GitHub: https://github.com/jzombie
 - LinkedIn: https://www.linkedin.com/in/jeremyharrisconsultant/
+- Website: https://etfmatcher.com
+- Website: https://zenosmosis.com
+
+## Professional Summary
+
+Expertise in handling sensitive information and building robust applications with extensive experience in developing innovative solutions across financial (banking and crypto) and healthcare sectors. Committed to continuous learning and adept at quickly adapting to new technologies.
 
 ## Work History
 
 ### Founder
 **zenOSmosis - Full-time**  
-*Jul 2010 - Present | 14 yrs 1 mo*  
+*Jul 2010 - Present | 14 yrs*  
 Big Pine, Florida, United States | On-site
 
-Currently building a quant trading machine learning pipeline using Rust/WASM, Python, TensorFlow, Keras, TensorBoard, TypeScript, and several data sources, to help me determine which market sectors and stocks are hot or not.
+- Currently building a quant trading machine learning pipeline using Rust/WASM, Python, TensorFlow, Keras, TensorBoard, TypeScript, and several data sources, to help me determine which market sectors and stocks are hot or not.
+- Developed tooling for depositing checks on mobile devices for a software company that develops applications for regional banks.
+- Developed tooling to help a California school system send emergency broadcast messages to parents and staff.
 
-**Skills:** Python · Docker · TensorFlow · Keras · Linux · Machine Learning · React.js · TypeScript · Rust (Programming Language)
+**Skills:** git, Docker, Node.js, React, TypeScript, Socket.io, MQTT, WebSocket, Python, NumPy, Pandas, TensorFlow, Keras, Rust
 
 ---
 
@@ -25,94 +33,98 @@ Currently building a quant trading machine learning pipeline using Rust/WASM, Py
 *Mar 2022 - Jul 2023 | 1 yr 5 mos*  
 Toronto, Ontario, Canada | Remote
 
-- Helped drive increased revenue, user engagement, and retention by building out a price alert system, which comprised of several Docker-based microservices using a Firebase backend.
-- Integrated translation by adding i18next into the React website, including building some tooling to automate part of the translation process, ensuring our language tokens were consistent, and not duplicated, across all languages, and that 100% of them were incorporated into the site.
+- Built a desktop & mobile price alert system, using Firebase, which increased revenue, user engagement, and retention.
+- Helped increase global usability by adding i18next, and wrote some tooling to help our developers manage the translations easier, including auto-removing non-utilized translations, and syncing translation keys across languages.
 - Strengthened team security by implementing 1Password integrations across a significant portion of our development stack.
-- Ported the AlphaPoint (crypto exchange platform) SDK to TypeScript, documenting the process and adding extensive unit tests. We originally had multiple implementations of the AlphaPoint connector, across mobile, web, and various backend services, and this approach helped unify that.
-- Ported our TypeScript API SDK into Python and also wrote example authenticators, with unit tests, in Ruby and PHP.
-- Fostered a collaborative and supportive team environment by always trying to help a team member in need.
+- Made development life easier by porting AlphaPoint’s (crypto exchange platform) SDK to TypeScript, documenting the process and adding extensive unit tests. Prior to this switch, our backend services and web/mobile apps had ad-hoc implementations.
+- Ported our own TypeScript API SDK into Python, Ruby, and PHP, and wrote a common test interface to ensure feature parity across languages.
 
-**Skills:** React.js · Python · i18n · TypeScript · Firebase Cloud Messaging · WebSocket · Docker · NodeJS · React Native
+**Skills:** git, React, React Native, i18n, TypeScript, Firebase Cloud Messaging, WebSocket, Docker, Node.js
 
 ---
 
 ### Full Stack Developer
 **Nation Safe Drivers - Contract**  
 *Aug 2021 - Dec 2021 | 5 mos*  
-Remote
+Ft. Lauderdale, Florida, United States | Remote
 
+- Integrated i18next translation services and built additional tooling to automate the translation file generation process, using an Azure backend.
 - Helped build an automated invoice scanning and parsing system by forking Microsoft’s OCR Form Tools package and writing a custom adapter for our React-based use case.
-- Integrated i18next translation services and built additional tooling for that workflow to automate the translation process, using an Azure backend.
-- Wrote an SVG country map parser, which took maps of countries downloaded from Wikipedia and integrated the ability to dynamically add text and style overrides on each region, including mouse/touch event support for each respective region.
-- Helped other team members with any support requests they had for their own projects.
+- Wrote an SVG-based country map parser, which took maps of countries downloaded from Wikipedia and parsed out regions to make them interactive (such as hovering over a region, making it highlight, and showing various metrics as an overlay on the SVG itself).
 
-**Skills:** JavaScript · React.js · i18n · Apollo GraphQL · Git · Microsoft Azure · NodeJS
+**Skills:** git, JavaScript, React, i18n, Apollo GraphQL, Microsoft Azure, Node.js
 
 ---
 
 ### Full Stack Developer
 **Synzi - Contract**  
-*Jan 2020 - Feb 2021 | 1 yr 2 mos*  
-Remote
+*Jan 2020 - Feb 2021 | 14 mos*  
+Ft. Lauderdale, Florida, United States | Remote
 
-- Helped the company financially, by implementing a critical piece of software that would fulfill one of our largest contractual obligations. This involved constructing a WebRTC bridge integrating live, video-based translation services into our own telehealthcare calls. The translation service did not originally have a WebRTC connector, and my bridge fixed that gap.
-- Transitioned our telecommunications platform from Jitsi to Twilio, ensuring a seamless user experience, in the peak of the Covid crisis.
-- Actively participated in the decision to use a mono-repo, and/or sharable modules, for sharing code between our multiple frontend and mobile apps.
-- We were incentivized to move fast and PRs never sat in code review for more than 15 minutes before someone (such as me) was looking at them.
+- Helped the company fulfill a B2B contractual obligation by writing a WebRTC to SIP bridge, which enabled live translators to join healthcare calls from outside of our network.
+- Transitioned our telecommunications platform from Jitsi to Twilio, ensuring a seamless user experience, at the peak of the Covid crisis.
+- Improved frontend developer experience for our team by writing a custom adapter for GraphQL, using a Socket.io bridge, to pipe in events not natively supported by GraphQL (this was a request from our team lead).
 
-**Skills:** JavaScript · React.js · Github · Linux · Apollo GraphQL · WebRTC · Git · Docker · Socket.io · Twilio
+**Skills:** git, JavaScript, React, Apollo GraphQL, Socket.io, Twilio
 
 ---
 
 ### Full Stack Developer
 **Florida Blue - Contract**  
 *Oct 2019 - Jan 2020 | 4 mos*  
-Remote
+Jacksonville, Florida, United States | Remote
 
-- Helped solve a data ingression issue by building a Swiss-army-like Python library for converting JSON, CSV, and XML files to various formats, using some constraints that were specific to our particular system.
-- Helped support our React frontend developers to make the transition to hooks, from the older, class-based style.
+- Built a portion of a data ingression pipeline that converted JSON, CSV, and XML files from and to a specific format, within the constraints of our system.
+- Helped support our React frontend developers, and took on projects outside of the required scope of work.
 
-**Skills:** JavaScript · React.js · Python · Git
+**Skills:** git, JavaScript, React, Python
 
 ---
 
 ### Full Stack Developer
-**SoundBite Inc. - Contract**  
-*Dec 2017 - Oct 2019 | 1 yr 11 mos*  
-Miami, FL - Remote
+**SoundBite - Contract**  
+*Oct 2017 - Oct 2019 | 1 yr 11 mos*  
+Miami, Florida, United States | Remote
 
-- Crafted a cutting-edge audio app transforming voice commands into instant messaging, allowing users to effortlessly dispatch audio notes by uttering the recipient’s name. This breakthrough was powered by sophisticated NLP algorithms and robust real-time communication frameworks, streamlined through deployments on Google Cloud and Digital Ocean, ensuring a seamless and secure user experience.
+- Lead the team on the transition to using WebRTC in our voice messaging app.
+- Created an API that determined who a user was speaking to and identified the recipient, if any, in the response.
+- Made many, many prototypes and participated in hundreds of hours of design discussions.
 
-**Skills:** JavaScript · React.js · Python · Linux · WebRTC · Git · WebSocket · Docker · NodeJS · Socket.io
+**Skills:** git, WebRTC, Socket.io, React, Node.js, TypeScript
 
 ---
 
 ### UI / API Developer
-**Akira Technologies, Inc - Contract**  
+**Akira Technologies - Contract**  
 *Oct 2018 - May 2019 | 8 mos*  
-Washington DC-Baltimore Area - Remote
+Washington DC-Baltimore Area, United States | Remote
 
-- Facilitated the creation of a pioneering Identity Governance and Administration as a Service (IGAaaS) platform for the Centers for Medicare & Medicaid Services (CMS), streamlining the integration of diverse third-party APIs. Transitioned from a UI-centric role to a pivotal backend development position, adapting to team needs by employing React for API demonstrations and innovating a Node.js-based database for efficient JSON file management. This approach drastically cut down the manual effort in modifying data formats across numerous files. Actively engaged in refining project documentation alongside business analysts and played a key role in the hiring process for new Node.js developers. Key technologies harnessed included Linux, Git, Docker, Node.js, JavaScript, Express, React, and AWS (EC2), significantly contributing to the project’s success and operational efficiency.
+- Developed API endpoints for the Identity Governance and Administration as a Service (IGAaaS) platform for the Centers for Medicare & Medicaid Services (CMS).
+- Collaborated with business analysts to refine and enhance project documentation.
+- Played a crucial role in the hiring process for new Node.js developers, strengthening the team, leading them to adopt TypeScript.
+- Contributed significantly to the project’s overall success and operational efficiency.
 
-**Skills:** JavaScript · React.js · Linux · Git · NodeJS
+**Skills:** git, JavaScript, React, Node.js, Express
 
 ---
 
 ### Full Stack Developer
 **CMS Website Services - Full-time**  
 *Feb 2016 - Nov 2017 | 1 yr 10 mos*  
-Raleigh-Durham, North Carolina Area - Remote
+Raleigh-Durham, North Carolina, United States | Remote
 
-- Supported marketing initiatives by developing a web-scraper Docker microservice, leveraging Linux, PHP, JavaScript, and Node.js to extract industry verticals, contact information, and "About" pages from millions of websites, enhancing our data collection for targeted campaigns. Simplified back-office operations by creating a system that automatically adjusts scanned documents to the correct orientation, improving document handling efficiency. Additionally, I utilized the AWS EC2 API to construct a PHP and JavaScript-based service for server provisioning and management, facilitating smoother operations in our cloud infrastructure.
+- Simplified back-office operations by developing a utility that took a stream of scanned documents and auto-corrected their orientation.
+- Developed a website scraper that parsed out industry verticals, contact information, and “about” pages from millions of websites, for targeted ad campaigns.
+- Wrote an AWS EC2 API integration to configure and launch new remote virtual machines from a UI panel.
 
-**Skills:** JavaScript · PHP · Linux · MySQL · Git · Docker
+**Skills:** git, Linux, Docker, MySQL, JavaScript, PHP
 
 ---
 
 ### Internet Researcher
 **Appen - Part-time**  
 *Sep 2015 - Dec 2016 | 1 yr 4 mos*  
-San Francisco, CA - Remote
+San Francisco, California, United States | Remote
 
 - Researched and formulated data to help make online experiences better for everyone.
 
@@ -120,42 +132,50 @@ San Francisco, CA - Remote
 
 ### Website Administrator
 **First State Bank of the Florida Keys - Full-time**  
-*Dec 2012 - Nov 2014 | 2 yrs*  
-Key West, FL - On-site
+*Dec 2011 - Nov 2014 | 2 yrs*  
+Key West, Florida, United States | On-site
 
-- I acted as a crucial link between marketing and IT departments, overseeing a diverse set of web platforms, including the primary corporate site, a real estate foreclosure portal, and an innovative online loan origination system. I led the development of a secure, PHP and JavaScript-based loan origination platform, integrating a RESTful API and ensuring compliance through continuous OWASP scans and exhaustive testing, in partnership with various internal teams and security experts. Additionally, I built an internal search engine for a 400+ page .NET community portal for the Florida Keys, utilizing MySQL, JavaScript, and PHP, and designed a UI overlay for website audits, fostering company-wide engagement in content refinement. My role was pivotal in driving online modernization and enhancing inter-departmental cooperation, alongside managing deployments on RackSpace and VMWare servers within our infrastructure.
+- Acted as a crucial link between marketing and IT departments, overseeing diverse web platforms including the primary corporate site, a real estate foreclosure portal, and an innovative online loan origination platform.
+- Led the development of a secure, PHP and JavaScript-based loan origination platform, ensuring that it met all compliance requirements.
+- Ensured compliance of various services through continuous OWASP scans and exhaustive testing, collaborating with internal teams and security experts.
+- Built an internal search engine for a 400+ page .NET community portal for the Florida Keys using MySQL, JavaScript, and PHP.
+- Designed a UI overlay for internal auditing of our customer-facing website, where various departments of the bank could audit individual sections of the site to make sure they were up to date, integrating changes as needed.
+- Pivotal in driving online modernization and enhancing inter-departmental cooperation.
+- Managed deployments on RackSpace and VMWare servers within our infrastructure.
 
-**Skills:** JavaScript · PHP · Linux · Web Development · Git
+**Skills:** git, Linux, MySQL, JavaScript, PHP
 
 ---
 
 ### Internet & Media Developer
 **HelmetHead Cycle - Part-time**  
 *Dec 2004 - Aug 2012 | 7 yrs 9 mos*  
-Atlanta, GA - On-site
+Atlanta, Georgia, United States | On-site
 
-- I spearheaded the development of an e-commerce platform, complete with CRM and inventory management for a catalog of over 12,000 products. This project was a comprehensive learning journey where I acquired skills in HTML, MySQL, PHP, JavaScript, PCI compliance, and SEO. To streamline product management for thousands of SKUs across numerous brands and vendors, I designed custom MySQL CSV database import/export routines in PHP. I also enhanced our marketing strategy by creating an automated Twitter bot in PHP to increase referral traffic. Further innovating, I established a bespoke affiliate program using PHP, JavaScript, and MySQL integrated with CloudFlare, enabling customers to generate subdomains, track link interactions, and observe peer purchases. Utilizing U.S. census data for market analysis, I developed a custom PHP and MySQL parser for web scraping a third-party site. Throughout the project, I managed the deployment of various website versions across RackSpace, Linode, and DigitalOcean, ensuring optimal performance and reliability.
+- Spearheaded the development of an e-commerce platform with CRM and inventory management for a catalog of over 12,000 products.
+- Acquired and applied skills in HTML, MySQL, PHP, JavaScript, PCI compliance, and SEO.
+- Designed custom MySQL CSV database import/export routines in PHP to streamline product management for thousands of SKUs.
+- Enhanced marketing strategy by creating an automated Twitter bot in PHP to increase referral traffic.
+- Established a bespoke affiliate program using PHP, JavaScript, and MySQL integrated with Cloudflare, enabling customers to generate subdomains, track link interactions, and observe peer purchases.
+- Developed a popular utility that allowed customers to upload photos of their motorcycles, and their trips, and displayed them all throughout the site.
+- Utilized U.S. census data for market analysis.
+- Managed deployment of various website versions across RackSpace, Linode, and DigitalOcean, ensuring optimal performance and reliability. We were up over 99% of the time.
 
-**Skills:** JavaScript · PHP · Linux · MySQL · Web Development · Git
+**Skills:** JavaScript, PHP, MySQL, Linux, and some Perl
 
 ---
 
 ### Web Developer & Advertiser Support Specialist
 **MDirectory - Full-time**  
 *Jan 2008 - Dec 2008 | 1 yr*  
-New York, NY - Remote
+New York, New York, United States | Remote
 
-- I played a key role in developing a mobile communications platform designed specifically for physicians, enhancing their ability to connect while on the move. Additionally, I was responsible for managing relationships with
+- Played a key role in developing a mobile communications platform for physicians, enhancing their ability to connect while on the move.
+- Managed relationships with key pharmaceutical advertisers in purchasing advertising space on the platform.
+- Developed a substantial portion of the website using PHP, JavaScript, HTML, and CSS.
+- Promised and delivered an “over the weekend” project that would rebrand our website for a particular set of doctors.
 
- key pharmaceutical advertisers interested in purchasing advertising space on the platform. My contribution extended to developing a substantial portion of the website, utilizing PHP and JavaScript, as well as HTML & CSS, with the final deployment of the solution on RackSpace.
-
-**Skills:** JavaScript · PHP · Linux · Web Development · Git
-
-## Licenses & Certifications
-
-Here is a markdown-formatted section for the licenses and certifications based on the provided image:
-
----
+**Skills:** JavaScript, PHP, Linux
 
 ## Licenses & Certifications
 
@@ -177,7 +197,7 @@ Credential ID ZLMWRJAM8APK
 **DeepLearning.AI**  
 Issued May 2024  
 Credential ID C7EYPT62RDTZ  
-[Show credential](https://www.coursera.org/account/accomplishments/records/C7EYPT62RDTZ)
+[Show credential](https://www.coursera.org/account/accomplishments/verify/C7EYPT62RDTZ)
 
 ### Statistics for Data Science
 **Great Learning**  
@@ -217,8 +237,6 @@ Issued Oct 2023
 Credential ID N8BD458VP3VX  
 [Show credential](https://www.coursera.org/account/accomplishments/certificate/N8BD458VP3VX)
 
-### Fundamentals of Project Management
-**Alison**  
-Issued Feb 2016  
+## Awards
 
-
+Over 9,000 GitHub contributions during the past year (August 2023 - August 2024): [GitHub Contributions](https://github.com/jzombie)
