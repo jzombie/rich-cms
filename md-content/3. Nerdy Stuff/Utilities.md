@@ -63,6 +63,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - SVGO ("SVG Optimizer" - A Node.js library and command-line application for optimizing SVG files): https://github.com/svg/svgo
 - cargo-selector (Cargo subcommand [TUI] to select and execute binary/example targets): https://github.com/lusingander/cargo-selector
 - Ratatui (An open source Rust library that's all about cooking up terminal user interfaces (TUIs)): https://www.linkedin.com/company/ratatui-rs/
+- GitHub Desktop (Linux fork): https://github.com/shiftkey/desktop
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
