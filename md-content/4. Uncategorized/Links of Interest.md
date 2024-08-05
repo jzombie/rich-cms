@@ -112,7 +112,7 @@
 
 ## Books of Interest
 
-1. Build a Large Language Model (From Scratch) [currently not published as of March 16, 2024]: https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
+1. Build a Large Language Model (From Scratch): https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
 2. WebGPU Unleashed: A Practical Tutorial (free book on WebGPU programming): https://shi-yan.github.io/webgpuunleashed/ (HN thread: https://news.ycombinator.com/item?id=41156872)
 
 ## Videos of Interest
