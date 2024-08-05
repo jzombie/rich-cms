@@ -101,6 +101,7 @@
 93. HATEOAS (Hypermedia as the engine of application state): https://en.wikipedia.org/wiki/HATEOAS (Roy Fielding: https://en.wikipedia.org/wiki/Roy_Fielding)
 94. Argo tunnels that live forever: https://blog.cloudflare.com/argo-tunnels-that-live-forever
 95. The Standard (A collection of decades of experience in the engineering industry): https://github.com/hassanhabib/The-Standard
+96. How Postgres stores data on disk: https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/ (HN thread: https://news.ycombinator.com/)
 
 ## Papers of Interest
 
