@@ -104,6 +104,8 @@
 96. How Postgres stores data on disk: https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/ (HN thread: https://news.ycombinator.com/)
 97. This Week in Rust (Aug. 7, 2024): https://this-week-in-rust.org/blog/2024/08/07/this-week-in-rust-559/
 98. Distributed Filesystem written in Rust: https://medium.com/@xorio42/list/distributed-filesystem-written-in-rust-317d40f38304
+99. Thoughts on vector-database searches: https://www.linkedin.com/posts/damienbenveniste_we-have-recently-seen-a-surge-in-vector-databases-activity-7226984916687708160-K-1Z/
+100. e18e (initiative to improve JavaScript ecosystem performance): https://e18e.dev/
 
 ## Papers of Interest
 
