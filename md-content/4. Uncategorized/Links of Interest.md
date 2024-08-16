@@ -106,6 +106,7 @@
 98. Distributed Filesystem written in Rust: https://medium.com/@xorio42/list/distributed-filesystem-written-in-rust-317d40f38304
 99. Thoughts on vector-database searches: https://www.linkedin.com/posts/damienbenveniste_we-have-recently-seen-a-surge-in-vector-databases-activity-7226984916687708160-K-1Z/
 100. e18e (initiative to improve JavaScript ecosystem performance): https://e18e.dev/
+101. Information bottleneck method: https://en.wikipedia.org/wiki/Information_bottleneck_method
 
 ## Papers of Interest
 
