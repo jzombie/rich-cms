@@ -107,6 +107,7 @@
 99. Thoughts on vector-database searches: https://www.linkedin.com/posts/damienbenveniste_we-have-recently-seen-a-surge-in-vector-databases-activity-7226984916687708160-K-1Z/
 100. e18e (initiative to improve JavaScript ecosystem performance): https://e18e.dev/
 101. Information bottleneck method: https://en.wikipedia.org/wiki/Information_bottleneck_method
+102. Winsorizing (transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers): https://en.wikipedia.org/wiki/Winsorizing
 
 ## Papers of Interest
 
