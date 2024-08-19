@@ -65,6 +65,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Ratatui (An open source Rust library that's all about cooking up terminal user interfaces (TUIs)): https://www.linkedin.com/company/ratatui-rs/
 - GitHub Desktop (Linux fork): https://github.com/shiftkey/desktop
 - Linear ("purpose-built tool for planning and building products"): https://linear.app/
+- node-red-node-pglite (PGlite is a WASM build of Postgres, packaged into a TypeScript/JavaScript client library): https://github.com/conoro/node-red-pglite (https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/; https://news.ycombinator.com/item?id=41287478)
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
