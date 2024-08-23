@@ -109,6 +109,7 @@
 101. Information bottleneck method: https://en.wikipedia.org/wiki/Information_bottleneck_method
 102. Winsorizing (transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers): https://en.wikipedia.org/wiki/Winsorizing
 103. How to Make Your Machine Learning Models Robust to Outliers: https://www.comet.com/site/blog/how-to-make-your-machine-learning-models-robust-to-outliers/
+104. Apache Parquet vs. CSV: https://www.databricks.com/glossary/what-is-parquet
 
 ## Papers of Interest
 
