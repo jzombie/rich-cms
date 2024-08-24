@@ -67,6 +67,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Linear ("purpose-built tool for planning and building products"): https://linear.app/
 - node-red-node-pglite (PGlite is a WASM build of Postgres, packaged into a TypeScript/JavaScript client library): https://github.com/conoro/node-red-pglite (https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/; https://news.ycombinator.com/item?id=41287478)
 - DuckDB WASM: https://duckdb.org/docs/api/wasm/overview.html
+- websocat (Netcat, curl and socat for WebSockets; also written in Rust and has a Dockerfile): https://github.com/vi/websocat
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 
 ## Services
