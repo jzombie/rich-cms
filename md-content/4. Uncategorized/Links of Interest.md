@@ -110,6 +110,7 @@
 102. Winsorizing (transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers): https://en.wikipedia.org/wiki/Winsorizing
 103. How to Make Your Machine Learning Models Robust to Outliers: https://www.comet.com/site/blog/how-to-make-your-machine-learning-models-robust-to-outliers/
 104. Apache Parquet vs. CSV: https://www.databricks.com/glossary/what-is-parquet
+105. Ask HN: What are your favorite index ETFs for Investing? https://news.ycombinator.com/item?id=40947524
 
 ## Papers of Interest
 
