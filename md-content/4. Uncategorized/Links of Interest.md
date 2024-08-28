@@ -111,6 +111,7 @@
 103. How to Make Your Machine Learning Models Robust to Outliers: https://www.comet.com/site/blog/how-to-make-your-machine-learning-models-robust-to-outliers/
 104. Apache Parquet vs. CSV: https://www.databricks.com/glossary/what-is-parquet
 105. Ask HN: What are your favorite index ETFs for Investing? https://news.ycombinator.com/item?id=40947524
+106. DFS as a filesystem (use DNS for a filesystem): https://www.linkedin.com/posts/laurie-kirk_dns-can-be-used-as-a-filesystem-yes-you-activity-7234610957002399744-Lqjv
 
 ## Papers of Interest
 
