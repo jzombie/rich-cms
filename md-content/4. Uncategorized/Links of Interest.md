@@ -113,6 +113,7 @@
 105. Ask HN: What are your favorite index ETFs for Investing? https://news.ycombinator.com/item?id=40947524
 106. DFS as a filesystem (use DNS for a filesystem): https://www.linkedin.com/posts/laurie-kirk_dns-can-be-used-as-a-filesystem-yes-you-activity-7234610957002399744-Lqjv
 107. "Microsoft's Phi 3.5 vision model is really good at OCR/text extraction": https://x.com/dylfreed/status/1828132226523131931
+108. ETF Research Center: https://www.etfrc.com/portfolios/builder.php
 
 ## Papers of Interest
 
