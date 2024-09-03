@@ -115,6 +115,7 @@
 107. "Microsoft's Phi 3.5 vision model is really good at OCR/text extraction": https://x.com/dylfreed/status/1828132226523131931
 108. ETF Research Center: https://www.etfrc.com/portfolios/builder.php
 109. Information about passive investing (inspired by the philosophy of Vanguard founder John C. Bogle): https://bogleheads.org/
+110. Multithreading in Node.js: Using Atomics for Safe Shared Memory Operations: https://pavel-romanov.com/multithreading-in-nodejs-using-atomics-for-safe-shared-memory-operations
 
 ## Papers of Interest
 
