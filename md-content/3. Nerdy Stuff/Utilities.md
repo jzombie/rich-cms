@@ -70,6 +70,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - websocat (Netcat, curl and socat for WebSockets; also written in Rust and has a Dockerfile): https://github.com/vi/websocat
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
 - Rust-based Electron alternative ("Build an optimized, secure, and frontend-independent application for multi-platform deployment."): https://tauri.app/
+- sec-edgar ("download all of a company’s periodic reports, filings and forms from the EDGAR database with a single command"): https://github.com/sec-edgar/sec-edgar (docs: https://sec-edgar.github.io/sec-edgar/)
 
 ## Services
 
