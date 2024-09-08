@@ -7,7 +7,7 @@
   <meta charset="utf-8">
    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>
-     Debugging a Learning Algorithm
+     Free Stock Data Resources for Research and Archiving
     </title>
     <link href="../styles/main.css" rel="stylesheet"/>
     <link href="../styles/pygments.css" rel="stylesheet"/>
@@ -17,7 +17,7 @@
     </script>
     <meta content="https://github.com/jzombie/rich-cms" name="generator">
      <meta content="2024-09-08 16:36:20 +0000" name="build_datetime"/>
-     <meta content="401" name="word_count"/>
+     <meta content="168" name="word_count"/>
      <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
      </script>
     </meta>
@@ -33,7 +33,7 @@
   <aside>
    <header>
     <div class="page_title">
-     Debugging a Learning Algorithm
+     Free Stock Data Resources for Research and Archiving
     </div>
    </header>
    <nav class="toc">
@@ -224,7 +224,7 @@
            Avoid Python Dependency Hell When Creating New Packages
           </a>
          </li>
-         <li class="active">
+         <li>
           <a href="Debugging%20a%20Learning%20Algorithm.html">
            Debugging a Learning Algorithm
           </a>
@@ -309,7 +309,7 @@
            Setting Up CUPS Network Printer on Ubuntu
           </a>
          </li>
-         <li>
+         <li class="active">
           <a href="Stock%20Data%20Resources.html">
            Free Stock Data Resources for Research and Archiving
           </a>
@@ -391,10 +391,10 @@
    </nav>
    <footer>
     <nav>
-     <a class="previous" href="Avoid%20Python%20Dep%20Hell%20in%20New%20Packages.html">
+     <a class="previous" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       « Previous
      </a>
-     <a class="next" href="Engineering%20Blogs.html">
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
       Next »
      </a>
     </nav>
@@ -409,143 +409,98 @@
     <a href="../3.%20Nerdy%20Stuff/A%20Tester%20Walks%20Into%20A%20Bar.html">
      3. Nerdy Stuff
     </a>
-    &gt; Debugging a Learning Algorithm
+    &gt; Free Stock Data Resources for Research and Archiving
    </nav>
    <p>
-    Estimated reading time: 2 minute(s).
+    Estimated reading time: 1 minute(s).
    </p>
    <div>
-    <h1 id="debugging-a-learning-algorithm">
-     Debugging a Learning Algorithm
+    <h1 id="free-stock-data-resources-for-research-and-archiving">
+     Free Stock Data Resources for Research and Archiving
     </h1>
-    <p>
-     <em>
-      Reference:
-     </em>
-     <a href="https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited" rel="noopener noreferrer" target="_blank">
-      https://www.coursera.org/learn/advanced-learning-algorithms/lecture/WbRtr/deciding-what-to-try-next-revisited
-     </a>
-    </p>
     <p class="has-drop-cap">
-     You've implemented regularized linear regression on housing prices, but it makes unacceptably large errors in predictions. What do you try next?
+     These resources are listed for
+     <strong>
+      research purposes only
+     </strong>
+     , and I’m still exploring their capabilities. All options are
+     <strong>
+      free
+     </strong>
+     , and many seem to support bulk requests for efficient data retrieval and archiving, though further investigation is needed.
+    </p>
+    <h2 id="company-logos">
+     Company Logos
+    </h2>
+    <h3 id="clearbit-logo-api">
+     Clearbit Logo API
+    </h3>
+    <p>
+     Clearbit provides a free API to access logos for public companies. From what I’ve gathered, you can use the domain name of the company (e.g.,
+     <code>
+      <a href="http://apple.com" rel="noopener noreferrer" target="_blank">
+       apple.com
+      </a>
+     </code>
+     ) to retrieve the logo. It appears to support bulk requests and may be useful for archiving, but I haven't tested this extensively.
     </p>
     <ul>
      <li>
       <strong>
-       Get more training examples
+       URL
       </strong>
-      — This can help fix high variance.
+      :
+      <a href="https://clearbit.com/logo" rel="noopener noreferrer" target="_blank">
+       https://clearbit.com/logo
+      </a>
      </li>
      <li>
       <strong>
-       Try smaller sets of features
+       Usage
       </strong>
-      — This can help fix high variance.
-     </li>
-     <li>
-      <strong>
-       Try getting additional features
-      </strong>
-      — This can help fix high bias.
-     </li>
-     <li>
-      <strong>
-       Try adding polynomial features
-      </strong>
-      — This can help fix high bias. Examples of polynomial features include
-      <script type="math/tex">
-       x_1^2
-      </script>
-      ,
-      <script type="math/tex">
-       x_2^2
-      </script>
-      ,
-      <script type="math/tex">
-       x_1 \times x_2
-      </script>
-      , etc.
-     </li>
-     <li>
-      <strong>
-       Try decreasing
-       <script type="math/tex">
-        \lambda
-       </script>
-      </strong>
-      — This can help fix high bias.
-     </li>
-     <li>
-      <strong>
-       Try increasing
-       <script type="math/tex">
-        \lambda
-       </script>
-      </strong>
-      — This can help fix high variance.
+      : Simply use a URL like
+      <code>
+       <a href="https://logo.clearbit.com/" rel="noopener noreferrer" target="_blank">
+        https://logo.clearbit.com/
+       </a>
+       {domain}
+      </code>
+      to fetch the logo.
      </li>
     </ul>
-    <p>
-     The cost function for regularized linear regression is given by:
-    </p>
-    <p>
-     <script type="math/tex; mode=display">
-      J(\vec{w}, b) = \frac{1}{2m} \sum_{i=1}^{m} (f_{\vec{w},b}(\vec{x}^{(i)}) - y^{(i)})^2 + \frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
-     </script>
-    </p>
-    <ul>
-     <li>
-      The first term measures how well the model
-      <script type="math/tex">
-       f_{\vec{w},b}
-      </script>
-      fits the training data.
-     </li>
-     <li>
-      The second term penalizes the complexity of the model by adding the squared magnitude of the weights multiplied by the regularization parameter
-      <script type="math/tex">
-       \lambda
-      </script>
-      .
-     </li>
-    </ul>
-    <h2 id="bias-and-variance">
-     Bias and Variance
+    <pre><code class="language-html"><img alt="Apple Logo" src="https://logo.clearbit.com/apple.com"/>
+</code></pre>
+    <h2 id="fundamentals">
+     Fundamentals
     </h2>
     <p>
-     High bias and high variance describe two different issues related to the performance of machine learning models on training and validation (or test) datasets.
+     Although I haven't fully explored it,
+     <strong>
+      SEC-Edgar
+     </strong>
+     seems to simplify the process of obtaining filings for multiple companies at once. It allows for bulk downloads of a company’s periodic reports, filings, and forms, which could be valuable for archival purposes.
     </p>
     <ul>
      <li>
-      <p>
-       <strong>
-        High Bias
-       </strong>
-       : High bias occurs when a model has insufficient complexity to capture the underlying patterns of the data, leading to poor performance on both the training and validation datasets. This situation is indicative of underfitting, where the model is too simple to accurately represent the data. High bias is characterized by a significant error on the training set, suggesting that the model is not even fitting the training data well.
-      </p>
-     </li>
-     <li>
-      <p>
-       <strong>
-        High Variance
-       </strong>
-       : High variance occurs when a model is too complex, capturing not only the underlying patterns but also the noise in the training dataset. This leads to a model that performs well on the training data but poorly on unseen data (validation or test dataset), indicative of overfitting. High variance is characterized by a significant difference between the training error and the validation error, where the model's performance on the training set is much better than on the validation set.
-      </p>
+      <strong>
+       GitHub Repository
+      </strong>
+      :
+      <a href="https://github.com/sec-edgar/sec-edgar" rel="noopener noreferrer" target="_blank">
+       sec-edgar
+      </a>
      </li>
     </ul>
-    <p>
-     In summary, if the training error differs significantly from the validation error, with much lower error on the training set, it's a sign of high variance, not high bias. High variance suggests that the model is overfitting the training data and not generalizing well to unseen data.
-    </p>
    </div>
    <footer>
     <div class="build_datetime">
      Build datetime: 2024-09-08 16:36:20 +0000
     </div>
     <nav>
-     <a class="previous" href="Avoid%20Python%20Dep%20Hell%20in%20New%20Packages.html">
+     <a class="previous" href="Setting%20Up%20CUPS%20Network%20Printer%20on%20Ubuntu.html">
       « Previous
      </a>
-     <a class="next" href="Engineering%20Blogs.html">
+     <a class="next" href="Using%20Git%20for%20File%20Metadata.html">
       Next »
      </a>
     </nav>
