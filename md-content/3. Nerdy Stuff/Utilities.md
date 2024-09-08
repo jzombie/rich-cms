@@ -69,6 +69,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - DuckDB WASM: https://duckdb.org/docs/api/wasm/overview.html
 - websocat (Netcat, curl and socat for WebSockets; also written in Rust and has a Dockerfile): https://github.com/vi/websocat
 - ETF Matcher (match ETFs using potential fractional shares): https://etfmatcher.com/
+- Rust-based Electron alternative ("Build an optimized, secure, and frontend-independent application for multi-platform deployment."): https://tauri.app/
 
 ## Services
 
