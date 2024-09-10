@@ -116,6 +116,7 @@
 108. ETF Research Center: https://www.etfrc.com/portfolios/builder.php
 109. Information about passive investing (inspired by the philosophy of Vanguard founder John C. Bogle): https://bogleheads.org/
 110. Multithreading in Node.js: Using Atomics for Safe Shared Memory Operations: https://pavel-romanov.com/multithreading-in-nodejs-using-atomics-for-safe-shared-memory-operations
+111. Windows NT vs. Unix - A design comparison: https://blogsystem5.substack.com/p/windows-nt-vs-unix-design
 
 ## Papers of Interest
 
