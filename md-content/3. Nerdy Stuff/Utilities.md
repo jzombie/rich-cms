@@ -72,6 +72,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Rust-based Electron alternative ("Build an optimized, secure, and frontend-independent application for multi-platform deployment."): https://tauri.app/
 - sec-edgar ("download all of a company’s periodic reports, filings and forms from the EDGAR database with a single command"): https://github.com/sec-edgar/sec-edgar (docs: https://sec-edgar.github.io/sec-edgar/)
 - handcalcs ("Python calculations in Jupyter, as though you wrote them by hand"): https://github.com/connorferster/handcalcs
+- Eget( "easy pre-built binary installation"): https://github.com/zyedidia/eget/
 
 ## Services
 
