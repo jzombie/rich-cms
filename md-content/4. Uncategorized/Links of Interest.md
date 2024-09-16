@@ -117,6 +117,7 @@
 109. Information about passive investing (inspired by the philosophy of Vanguard founder John C. Bogle): https://bogleheads.org/
 110. Multithreading in Node.js: Using Atomics for Safe Shared Memory Operations: https://pavel-romanov.com/multithreading-in-nodejs-using-atomics-for-safe-shared-memory-operations
 111. Windows NT vs. Unix - A design comparison: https://blogsystem5.substack.com/p/windows-nt-vs-unix-design
+112. DARPA Translating All C to Rust (TRACTOR): https://www.darpa.mil/program/translating-all-c-to-rust (Related HackerNews thread: https://news.ycombinator.com/item?id=41110269)
 
 ## Papers of Interest
 
