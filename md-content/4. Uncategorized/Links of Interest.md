@@ -29,7 +29,7 @@
 26. (A search engine in 80 lines of Python [give or take])
     - https://news.ycombinator.com/item?id=39293050
     - https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
-    - Related [found in same HN discussion]: https://github.com/softwaredoug/searcharray
+    - Related [found in same Hacker News discussion]: https://github.com/softwaredoug/searcharray
 27. Aligning an LLM with human preferences (I like the "trainer" API design, at first glance): https://datadreamer.dev/docs/latest/pages/get_started/quick_tour/aligning.html
 28. Self-balancing cube: https://willempennings.nl/balancing-cube/
 29. StatQuest: An epic journey through statistics and machine learning: https://statquest.org/
@@ -56,14 +56,14 @@
 50. Spleeter (audio source separation library with pretrained models; stem separation; vocals / drums / bass / piano / other separation): https://github.com/deezer/spleeter/wiki/2.-Getting-started#using-docker-image
 51. Free Spark Resources: https://www.linkedin.com/posts/shubhamwadekar_spark-data-dataengineering-activity-7178246825999556609-CjSI/?utm_source=share&utm_medium=member_android
 52. AssemblyScript: A TypeScript-like language for WebAssembly: https://www.assemblyscript.org/
-53. Radios, how do they work? (A brief introduction to antennas, superheterodyne receivers, and signal modulation schemes): https://lcamtuf.substack.com/p/radios-how-do-they- (HN discussion: https://news.ycombinator.com/item?id=39813679)
+53. Radios, how do they work? (A brief introduction to antennas, superheterodyne receivers, and signal modulation schemes): https://lcamtuf.substack.com/p/radios-how-do-they- (Hacker News discussion: https://news.ycombinator.com/item?id=39813679)
 54. Modern AI Discourse is Talentless Business Students Trying to Give Young Engineers PTSD: https://www.timokats.xyz/?content=writings/aiblog
 55. Reading and Writing WAV Files in Python: https://realpython.com/python-wav-files/
 56. Conversation as an Interface (2016): https://annjose.com/post/conversation-as-interface/
 57. Svelte parses HTML all wrong: https://github.com/sveltejs/svelte/issues/11052
 58. Find Median from Data Stream: https://leetcode.com/problems/find-median-from-data-stream/ (maybe it could be useful for implementation of RobustScaler partial fit [open-source the solution?]; related StackOverflow discussion: https://stackoverflow.com/questions/57291876/robustscaler-partial-fit-similar-to-minmaxscaler-or-standardscaler)
 59. LeetCode (25 questions to cover the most important patterns): https://www.linkedin.com/posts/alexandre-zajac_softwareengineering-coding-programming-activity-7181538559999238144-lwW8?utm_source=share&utm_medium=member_desktop
-60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (HN discussion: https://news.ycombinator.com/item?id=39933076)
+60. JetMoE: Reaching LLaMA2 Performance with 0.1M Dollars: https://research.myshell.ai/jetmoe (Hacker News discussion: https://news.ycombinator.com/item?id=39933076)
 61. Books for Learning Math for Machine Learning: https://mltechniques.com/2022/06/13/math-for-machine-learning-12-must-read-books/
 62. llm.c (Karpathy; LLM training in simple, pure C/CUDA): https://github.com/karpathy/llm.c
 63. ETF Dictionary: https://etfdb.com/etfs/
@@ -79,7 +79,7 @@
 73. Economic theory: https://en.wikipedia.org/wiki/Economics#Theoretical_research
 74. GuruFocus (investing): https://www.gurufocus.com/
 75. Financial Statement Analysis with Large Language Models: https://www.newsletter.datadrivenvc.io/p/financial-statement-analysis-with (LinkedIn thread: https://www.linkedin.com/posts/andreretterath_financial-statement-analysis-with-large-language-activity-7199289952910667776-14At)
-76. Vector Indexing all of Wikipedia, on a laptop: https://foojay.io/today/indexing-all-of-wikipedia-on-a-laptop/ (HN Discussion: https://news.ycombinator.com/item?id=40514266)
+76. Vector Indexing all of Wikipedia, on a laptop: https://foojay.io/today/indexing-all-of-wikipedia-on-a-laptop/ (Hacker News discussion: https://news.ycombinator.com/item?id=40514266)
 77. De-Googling: https://blog.nradk.com/posts/degoogling/
 78. Don't be stupid about trading: https://www.linkedin.com/posts/alfonso-peccatiello-72156a6a_trading-is-hard-and-the-rule-1-not-to-activity-7203750640576086017-KDKA
 79. Interesting CSS-separator generator (different shapes + demo): https://github.com/wwebdev/separator-generator (demo: https://wweb.dev/resources/css-separator-generator)
@@ -101,7 +101,7 @@
 93. HATEOAS (Hypermedia as the engine of application state): https://en.wikipedia.org/wiki/HATEOAS (Roy Fielding: https://en.wikipedia.org/wiki/Roy_Fielding)
 94. Argo tunnels that live forever: https://blog.cloudflare.com/argo-tunnels-that-live-forever
 95. The Standard (A collection of decades of experience in the engineering industry): https://github.com/hassanhabib/The-Standard
-96. How Postgres stores data on disk: https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/ (HN thread: https://news.ycombinator.com/)
+96. How Postgres stores data on disk: https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/ (Hacker News thread: https://news.ycombinator.com/)
 97. This Week in Rust (Aug. 7, 2024): https://this-week-in-rust.org/blog/2024/08/07/this-week-in-rust-559/
 98. Distributed Filesystem written in Rust: https://medium.com/@xorio42/list/distributed-filesystem-written-in-rust-317d40f38304
 99. Thoughts on vector-database searches: https://www.linkedin.com/posts/damienbenveniste_we-have-recently-seen-a-surge-in-vector-databases-activity-7226984916687708160-K-1Z/
@@ -117,7 +117,7 @@
 109. Information about passive investing (inspired by the philosophy of Vanguard founder John C. Bogle): https://bogleheads.org/
 110. Multithreading in Node.js: Using Atomics for Safe Shared Memory Operations: https://pavel-romanov.com/multithreading-in-nodejs-using-atomics-for-safe-shared-memory-operations
 111. Windows NT vs. Unix - A design comparison: https://blogsystem5.substack.com/p/windows-nt-vs-unix-design
-112. DARPA Translating All C to Rust (TRACTOR): https://www.darpa.mil/program/translating-all-c-to-rust (Related HackerNews thread: https://news.ycombinator.com/item?id=41110269)
+112. DARPA Translating All C to Rust (TRACTOR): https://www.darpa.mil/program/translating-all-c-to-rust (related Hacker News thread: https://news.ycombinator.com/item?id=41110269)
 
 ## Papers of Interest
 
@@ -130,7 +130,7 @@
 ## Books of Interest
 
 1. Build a Large Language Model (From Scratch): https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
-2. WebGPU Unleashed: A Practical Tutorial (free book on WebGPU programming): https://shi-yan.github.io/webgpuunleashed/ (HN thread: https://news.ycombinator.com/item?id=41156872)
+2. WebGPU Unleashed: A Practical Tutorial (free book on WebGPU programming): https://shi-yan.github.io/webgpuunleashed/ (Hacker News thread: https://news.ycombinator.com/item?id=41156872)
 
 ## Videos of Interest
 

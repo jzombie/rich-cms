@@ -66,7 +66,7 @@ No. The features of this site are not my highest priority in life.
 - [PROBABLY-WON'T-DO] [] Live content update as Markdown content is changed
 - [] Adding semantic search would be nice: 
 
-    Related HN discussion: https://news.ycombinator.com/item?id=38845061
+    Related Hacker News discussion: https://news.ycombinator.com/item?id=38845061
     
     Key takeaways:
       - https://github.com/tantaraio/voy
