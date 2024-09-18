@@ -76,6 +76,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - DBpedia Spotlight (open-source tool that automatically annotates text with DBpedia resources, enabling entity recognition and linking of text to structured data within the DBpedia knowledge base; primarily trained on data extracted from Wikipedia): https://www.dbpedia-spotlight.org/
 - WordLlama ("fast, lightweight NLP toolkit that handles tasks like fuzzy-deduplication, similarity and ranking with minimal inference-time dependencies and optimized for CPU hardware): https://github.com/dleemiller/WordLlama
 - CommandDash - AI Assist for Libraries: https://commanddash.io/
+- SAQ (Simple Async Queue [for Python]): https://github.com/tobymao/saq
 
 ## Services
 
