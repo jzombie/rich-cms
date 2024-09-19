@@ -77,6 +77,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - WordLlama ("fast, lightweight NLP toolkit that handles tasks like fuzzy-deduplication, similarity and ranking with minimal inference-time dependencies and optimized for CPU hardware): https://github.com/dleemiller/WordLlama
 - CommandDash - AI Assist for Libraries: https://commanddash.io/
 - SAQ (Simple Async Queue [for Python]): https://github.com/tobymao/saq
+- Crawl4AI ("Crawl4AI simplifies web crawling and data extraction, making it accessible for large language models (LLMs) and AI applications"): https://github.com/unclecode/crawl4ai
 
 ## Services
 
