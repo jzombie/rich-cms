@@ -120,6 +120,7 @@
 112. DARPA Translating All C to Rust (TRACTOR): https://www.darpa.mil/program/translating-all-c-to-rust (related Hacker News thread: https://news.ycombinator.com/item?id=41110269)
 113. Moodist - Ambient sounds for focus and calm: https://moodist.app/
 114. Apple Mobile Processors Are Now Made in America (By TSMC): https://timculpan.substack.com/p/apple-mobile-processors-are-now-made
+115. The 2 ETFs That Track Congressional Stock Trades: https://www.morningstar.com/funds/2-etfs-that-track-congressional-stock-trades
 
 ## Papers of Interest
 
