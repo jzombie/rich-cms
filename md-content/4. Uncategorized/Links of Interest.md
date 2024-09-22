@@ -121,6 +121,7 @@
 113. Moodist - Ambient sounds for focus and calm: https://moodist.app/
 114. Apple Mobile Processors Are Now Made in America (By TSMC): https://timculpan.substack.com/p/apple-mobile-processors-are-now-made
 115. The 2 ETFs That Track Congressional Stock Trades: https://www.morningstar.com/funds/2-etfs-that-track-congressional-stock-trades
+116. MLOps-Basics ("Understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc."): https://github.com/graviraja/MLOps-Basics
 
 ## Papers of Interest
 
