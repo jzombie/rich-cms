@@ -80,6 +80,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Crawl4AI ("Crawl4AI simplifies web crawling and data extraction, making it accessible for large language models (LLMs) and AI applications"): https://github.com/unclecode/crawl4ai
 - Workalendar (Python module that offers classes able to handle calendars, list legal / religious holidays and gives working-day-related computation functions): https://github.com/workalendar/workalendar
 - Andi ("Search for the next generation with an AI chat assistant"): https://andisearch.com/
+0 OpenBB ("Investment research made easy with AI"): https://openbb.co/
 
 ## Services
 
