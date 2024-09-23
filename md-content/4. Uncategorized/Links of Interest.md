@@ -122,6 +122,7 @@
 114. Apple Mobile Processors Are Now Made in America (By TSMC): https://timculpan.substack.com/p/apple-mobile-processors-are-now-made
 115. The 2 ETFs That Track Congressional Stock Trades: https://www.morningstar.com/funds/2-etfs-that-track-congressional-stock-trades
 116. MLOps-Basics ("Understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc."): https://github.com/graviraja/MLOps-Basics
+117. LLMs in Finance: https://github.com/hananedupouy/LLMs-in-Finance/tree/main (Related LinkedIn post: https://www.linkedin.com/posts/hanane-d-algo-trader_anthropic-agent-with-llamaindex-financial-activity-7241080939131392000-5sJa)
 
 ## Papers of Interest
 
