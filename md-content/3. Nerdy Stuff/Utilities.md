@@ -82,6 +82,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Andi ("Search for the next generation with an AI chat assistant"): https://andisearch.com/
 0 OpenBB ("Investment research made easy with AI"): https://openbb.co/
 - Stock intrinsic value calculator: https://www.alphaspread.com/dashboard/watchlists
+- Google's AlphaChip ("open-source framework for generating chip floorplans with distributed deep reinforcement learning"): https://github.com/google-research/circuit_training/?tab=readme-ov-file#PreTrainedModelCheckpoint (related Ars Technica article: https://arstechnica.com/information-technology/2024/09/major-ai-updates-from-meta-and-google-and-a-new-era-for-ai-designed-chips/)
 
 ## Services
 
