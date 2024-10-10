@@ -125,6 +125,7 @@
 117. LLMs in Finance: https://github.com/hananedupouy/LLMs-in-Finance/tree/main (Related LinkedIn post: https://www.linkedin.com/posts/hanane-d-algo-trader_anthropic-agent-with-llamaindex-financial-activity-7241080939131392000-5sJa)
 118. Google Illuminate ("Transform your content into engaging AI‑generated audio discussions"): https://illuminate.google.com/
 119. ML - How to optimally sample Imbalanced Data: https://www.linkedin.com/feed/update/urn:li:activity:7247530677594718209
+120. JavaScript Structs proposal: https://github.com/tc39/proposal-structs
 
 ## Papers of Interest
 
