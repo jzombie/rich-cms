@@ -85,6 +85,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Google's AlphaChip ("open-source framework for generating chip floorplans with distributed deep reinforcement learning"): https://github.com/google-research/circuit_training/?tab=readme-ov-file#PreTrainedModelCheckpoint (related Ars Technica article: https://arstechnica.com/information-technology/2024/09/major-ai-updates-from-meta-and-google-and-a-new-era-for-ai-designed-chips/)
 - Playwright Test Generator (automatically generates test scripts by recording user interactions with the browser): https://playwright.dev/docs/codegen
 - git-of-theseus (graphical tools to analyze git repos): https://github.com/erikbern/git-of-theseus
+- Dockview ("Zero dependency layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue and Vanilla TypeScript"): https://github.com/mathuo/dockview (demo: https://dockview.dev/)
 
 ## Services
 
