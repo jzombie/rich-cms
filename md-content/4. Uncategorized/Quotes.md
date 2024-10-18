@@ -1,5 +1,7 @@
 # Quotes
 
+> "Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again." ~ Steve Jobs
+
 > "Compound interest is the eighth wonder of the world. He who understands it, earns it... he who doesn't... pays it." ~ Albert Einstein
 
 > "You will continue to suffer if you have an emotional reaction to everything that is said to you. True power is sitting back and observing things with logic. True power is restraint. If words control you that means everyone else can control you. Breathe and allow things to pass." ~ Warren Buffett
