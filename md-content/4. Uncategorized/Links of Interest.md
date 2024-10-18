@@ -126,6 +126,7 @@
 118. Google Illuminate ("Transform your content into engaging AI‑generated audio discussions"): https://illuminate.google.com/
 119. ML - How to optimally sample Imbalanced Data: https://www.linkedin.com/feed/update/urn:li:activity:7247530677594718209
 120. JavaScript Structs proposal: https://github.com/tc39/proposal-structs
+121. "Whenever I lack motivation, I watch this": https://www.linkedin.com/posts/linasbeliunas_whenever-i-lack-motivation-i-watch-this-activity-7253121679277641728-koQo
 
 ## Papers of Interest
 
