@@ -143,6 +143,7 @@
 
 ## Videos of Interest
 
+- Introducing Temporal Similarity Search for Vector Databases: https://www.youtube.com/watch?v=5XRAIcVAMFU
 - How many kernel system calls do runtimes make? https://www.youtube.com/watch?v=ERaGORGfLF4
 - Nvidia CEO on doing great work: https://www.linkedin.com/posts/alvinfsc_nvidia-ceo-doing-great-work-is-not-about-activity-7210139644032692224-pYvo
 - Let's reproduce GPT-2 (124M): https://www.youtube.com/watch?v=l8pRSuU81PU
