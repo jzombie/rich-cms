@@ -128,7 +128,7 @@
 120. JavaScript Structs proposal: https://github.com/tc39/proposal-structs
 121. "Whenever I lack motivation, I watch this": https://www.linkedin.com/posts/linasbeliunas_whenever-i-lack-motivation-i-watch-this-activity-7253121679277641728-koQo
 122. The pros and cons for investors of nonstop trading as NYSE looks to go 22 hours a day: https://www.cnbc.com/2024/10/28/the-pros-and-cons-for-investors-of-nonstop-trading-as-nyse-looks-to-go-22-hours-a-day-.html
-123. (Send Web Push notifications from a Node.js server): https://github.com/node-push-notifications/push-notifications
+123. Send Web Push notifications from a Node.js server: https://www.bocoup.com/blog/full-stack-web-push-api-guide (also: https://www.npmjs.com/package/web-push)
 
 ## Papers of Interest
 
