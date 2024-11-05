@@ -30,6 +30,8 @@
 
 > "A man is great not because he hasn't failed; a man is great because failure hasn't stopped him." ~ Confucius
 
+> "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." ~ Brian Kernighan
+
 # Excerpts
 
 > "In an autonomy-supportive environment, the leader acts as a guide, a person who is on the journey with the individual. The leader pokes, prods, nudges, and maybe even pushes individuals in certain directions, but the leader understands that they are there to help others reach their potential. That while they can direct and guide, it ultimately is up to the individual to take ownership of their actions." ~ Steve Magness (from _Do Hard Things_)
