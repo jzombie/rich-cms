@@ -86,6 +86,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Playwright Test Generator (automatically generates test scripts by recording user interactions with the browser): https://playwright.dev/docs/codegen
 - git-of-theseus (graphical tools to analyze git repos): https://github.com/erikbern/git-of-theseus
 - Dockview ("Zero dependency layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue and Vanilla TypeScript"): https://github.com/mathuo/dockview (demo: https://dockview.dev/)
+- Wasmer (WebAssembly runtime; run WebAssembly modules on servers, desktops, and embedded devices, not just in browsers): https://wasmer.io/
 
 ## Services
 
