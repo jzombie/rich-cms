@@ -131,6 +131,7 @@
 123. Send Web Push notifications from a Node.js server: https://www.bocoup.com/blog/full-stack-web-push-api-guide (also: https://www.npmjs.com/package/web-push)
 124. The Rust eBookshelf (The Rust Language & Ecosystem): https://dieterplex.github.io/rust-ebookshelf/ (https://github.com/dieterplex/rust-ebookshelf)
 125. Your Hacker News (personalized, newspaper-like Hacker News): https://yourhackernews.com/
+126. You can work at McDonald’s and still become a millionaire: https://www.cnbc.com/2024/11/09/how-to-work-at-mcdonalds-and-still-become-a-millionaire.html
 
 ## Papers of Interest
 
