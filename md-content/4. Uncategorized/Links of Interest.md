@@ -148,6 +148,8 @@
 
 ## Videos of Interest
 
+- Jack Bogle on Index Funds, Vanguard, and Investing Advice: https://www.youtube.com/watch?v=MLgn_kVKjCE&t=871s
+- Warren Buffett reveals his investment strategy for mastering the market: https://www.youtube.com/watch?v=SEZwkbliJr8
 - Introducing Temporal Similarity Search for Vector Databases: https://www.youtube.com/watch?v=5XRAIcVAMFU
 - How many kernel system calls do runtimes make? https://www.youtube.com/watch?v=ERaGORGfLF4
 - Nvidia CEO on doing great work: https://www.linkedin.com/posts/alvinfsc_nvidia-ceo-doing-great-work-is-not-about-activity-7210139644032692224-pYvo
