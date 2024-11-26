@@ -89,6 +89,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Wasmer (WebAssembly runtime; run WebAssembly modules on servers, desktops, and embedded devices, not just in browsers): https://wasmer.io/
 - LiteRT (short for Lite Runtime; formerly TensorFlow Lite): https://ai.google.dev/edge/lite (related: https://www.npmjs.com/package/@tensorflow/tfjs-tflite)
 - splink ("Fast, accurate and scalable data linkage and deduplication"): https://github.com/moj-analytical-services/splink
+- httpfs (Create virtual filesystems using any HTTP framework): https://github.com/progrium/httpfs
 
 ## Services
 
