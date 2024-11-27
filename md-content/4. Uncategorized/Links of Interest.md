@@ -132,6 +132,7 @@
 124. The Rust eBookshelf (The Rust Language & Ecosystem): https://dieterplex.github.io/rust-ebookshelf/ (https://github.com/dieterplex/rust-ebookshelf)
 125. Your Hacker News (personalized, newspaper-like Hacker News): https://yourhackernews.com/
 126. You can work at McDonald’s and still become a millionaire: https://www.cnbc.com/2024/11/09/how-to-work-at-mcdonalds-and-still-become-a-millionaire.html
+127. Draw graphing trees with OpenAI: https://www.linkedin.com/posts/damienbenveniste_can-we-draw-trees-with-llms-you-bet-you-activity-7267594686788182016-CLQi/
 
 ## Papers of Interest
 
