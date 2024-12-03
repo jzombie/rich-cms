@@ -91,7 +91,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - splink ("Fast, accurate and scalable data linkage and deduplication"): https://github.com/moj-analytical-services/splink
 - httpfs (Create virtual filesystems using any HTTP framework): https://github.com/progrium/httpfs
 - supertree (Interactive Decision Tree Visualization): https://github.com/mljar/supertree
-- TensorFlow Quantum: https://www.tensorflow.org/quantum
+- TensorFlow Quantum (hybrid quantum-classical machine learning): https://www.tensorflow.org/quantum
 
 ## Services
 
