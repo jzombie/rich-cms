@@ -92,6 +92,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - httpfs (Create virtual filesystems using any HTTP framework): https://github.com/progrium/httpfs
 - supertree (Interactive Decision Tree Visualization): https://github.com/mljar/supertree
 - TensorFlow Quantum (hybrid quantum-classical machine learning): https://www.tensorflow.org/quantum
+- Chart.xkcd (JS chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts): https://github.com/timqian/chart.xkcd
+- CuteCharts (Python chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts): https://github.com/cutecharts/cutecharts.py
 
 ## Services
 
