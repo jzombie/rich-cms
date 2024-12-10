@@ -94,6 +94,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - TensorFlow Quantum (hybrid quantum-classical machine learning): https://www.tensorflow.org/quantum
 - Chart.xkcd (JS chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts): https://github.com/timqian/chart.xkcd
 - CuteCharts (Python chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts): https://github.com/cutecharts/cutecharts.py
+- Jupyter Rust ("A prototype Docker container for Jupyter Lab with Rust"): https://github.com/davideuler/jupyter-rust
 
 ## Services
 
