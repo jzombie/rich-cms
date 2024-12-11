@@ -134,6 +134,7 @@
 126. You can work at McDonald’s and still become a millionaire: https://www.cnbc.com/2024/11/09/how-to-work-at-mcdonalds-and-still-become-a-millionaire.html
 127. Draw graphing trees with OpenAI: https://www.linkedin.com/posts/damienbenveniste_can-we-draw-trees-with-llms-you-bet-you-activity-7267594686788182016-CLQi/
 128. Rust WebAssembly OCR experiments: https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html
+129. Very simple C compiler, in C: https://www.linkedin.com/posts/maximilianfeldthusen_programming-compiler-parsing-activity-7272498448786989057-0THx
 
 ## Papers of Interest
 
