@@ -96,6 +96,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - CuteCharts (Python chart library that plots “sketchy”, “cartoony” or “hand-drawn” styled charts): https://github.com/cutecharts/cutecharts.py
 - Jupyter Rust ("A prototype Docker container for Jupyter Lab with Rust"): https://github.com/davideuler/jupyter-rust
 - Tree Sitter (code parser generator tool used in neovim): https://tree-sitter.github.io/tree-sitter/
+- Ocrs (ocrs is a Rust library and CLI tool for extracting text from images): https://github.com/robertknight/ocrs
 
 ## Services
 
