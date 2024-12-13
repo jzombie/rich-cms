@@ -152,6 +152,8 @@
 
 ## Videos of Interest
 
+- [comedy] Huawei phone hand data transfer: https://www.linkedin.com/posts/itsmrmetaverse_peanutbutter-apple-bashing-time-its-been-ugcPost-7273321954244284416-B51h
+- [comedy] AI Granny waste phone scammer's time: https://www.linkedin.com/posts/linasbeliunas_this-is-brilliant-o2-has-introduced-daisy-activity-7271828712692621312-dWe4
 - Jack Bogle on Index Funds, Vanguard, and Investing Advice: https://www.youtube.com/watch?v=MLgn_kVKjCE&t=871s
 - Warren Buffett reveals his investment strategy for mastering the market: https://www.youtube.com/watch?v=SEZwkbliJr8
 - Introducing Temporal Similarity Search for Vector Databases: https://www.youtube.com/watch?v=5XRAIcVAMFU
