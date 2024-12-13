@@ -135,6 +135,7 @@
 127. Draw graphing trees with OpenAI: https://www.linkedin.com/posts/damienbenveniste_can-we-draw-trees-with-llms-you-bet-you-activity-7267594686788182016-CLQi/
 128. Rust WebAssembly OCR experiments: https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html
 129. Very simple C compiler, in C: https://www.linkedin.com/posts/maximilianfeldthusen_programming-compiler-parsing-activity-7272498448786989057-0THx
+130. [disregard if this seems totally irrelevant] Michael Saylor briefly mentions LVMH handbags: https://www.linkedin.com/posts/linasbeliunas_in-2012-michael-saylor-made-the-best-long-term-activity-7272598673509806080-uz7o/
 
 ## Papers of Interest
 
