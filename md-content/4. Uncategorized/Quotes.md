@@ -1,5 +1,7 @@
 # Quotes
 
+> "If you want to conquer fear, don't sit home and think about it. Go out and get busy." ~ Dale Carnegie
+
 > "Reading an hour a day is only 4% of your day. But that 4% will put you at the top of your field within 10 years. Find the time." ~ Patrick Bet-David
 
 > "Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again." ~ Steve Jobs
