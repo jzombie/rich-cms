@@ -97,6 +97,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Jupyter Rust ("A prototype Docker container for Jupyter Lab with Rust"): https://github.com/davideuler/jupyter-rust
 - Tree Sitter (code parser generator tool used in neovim): https://tree-sitter.github.io/tree-sitter/
 - Ocrs (ocrs is a Rust library and CLI tool for extracting text from images): https://github.com/robertknight/ocrs
+- Microsoft Clarity ("Clarity is a free product that captures how people use your site"): https://clarity.microsoft.com (discovered via: https://www.linkedin.com/posts/mahomedalid_microsoft-clarity-is-like-google-analytics-activity-7275208241263878144-cZZY)
 
 ## Services
 
