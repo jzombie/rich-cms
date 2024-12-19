@@ -98,7 +98,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Tree Sitter (code parser generator tool used in neovim): https://tree-sitter.github.io/tree-sitter/
 - Ocrs (ocrs is a Rust library and CLI tool for extracting text from images): https://github.com/robertknight/ocrs
 - Microsoft Clarity ("Clarity is a free product that captures how people use your site"): https://clarity.microsoft.com (discovered via: https://www.linkedin.com/posts/mahomedalid_microsoft-clarity-is-like-google-analytics-activity-7275208241263878144-cZZY)
-- Genesis ("A Generative and Universal Physics Engine for Robotics and Beyond"): https://genesis-embodied-ai.github.io/ (https://github.com/Genesis-Embodied-AI/Genesis)
+- Genesis ("A Generative and Universal Physics Engine for Robotics and Beyond"): https://genesis-embodied-ai.github.io/ (https://github.com/Genesis-Embodied-AI/Genesis; LinkedIn discussion: https://www.linkedin.com/posts/drjimfan_if-an-ai-can-control-1000-robots-to-perform-activity-7275562526661062657-EavX)
 
 ## Services
 
