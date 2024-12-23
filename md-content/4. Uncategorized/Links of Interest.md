@@ -137,6 +137,7 @@
 129. Very simple C compiler, in C: https://www.linkedin.com/posts/maximilianfeldthusen_programming-compiler-parsing-activity-7272498448786989057-0THx
 130. [disregard if this seems totally irrelevant] Michael Saylor briefly mentions LVMH handbags: https://www.linkedin.com/posts/linasbeliunas_in-2012-michael-saylor-made-the-best-long-term-activity-7272598673509806080-uz7o/
 131. CNBC: "ETFs will soon beat mutual funds among financial advisor holdings, report finds": https://www.cnbc.com/2024/12/17/etfs-will-soon-beat-mutual-funds-among-advisor-holdings-report.html
+132. ONNX (Open Neural Network Exchange; The open standard for machine learning interoperability): https://onnx.ai/
 
 ## Papers of Interest
 
