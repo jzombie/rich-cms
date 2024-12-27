@@ -155,6 +155,7 @@
 
 ## Videos of Interest
 
+- Using leverage (How to make $100k to $1M in 2025): https://www.youtube.com/watch?v=V87X4AtZE5s
 - 2,600 year old shipwreck found off the coast of Spain: https://www.youtube.com/watch?v=YPwGi3sEFjo
 - [comedy] Huawei phone hand data transfer: https://www.linkedin.com/posts/itsmrmetaverse_peanutbutter-apple-bashing-time-its-been-ugcPost-7273321954244284416-B51h
 - [comedy] AI Granny waste phone scammer's time: https://www.linkedin.com/posts/linasbeliunas_this-is-brilliant-o2-has-introduced-daisy-activity-7271828712692621312-dWe4
