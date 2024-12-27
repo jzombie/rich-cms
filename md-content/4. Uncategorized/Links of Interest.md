@@ -139,6 +139,7 @@
 131. CNBC: "ETFs will soon beat mutual funds among financial advisor holdings, report finds": https://www.cnbc.com/2024/12/17/etfs-will-soon-beat-mutual-funds-among-advisor-holdings-report.html
 132. ONNX (Open Neural Network Exchange; The open standard for machine learning interoperability): https://onnx.ai/
 133. TensorFlow Hub ("repository of trained machine learning models"): https://www.tensorflow.org/hub
+134. Deep clustering with fusion autoencoder: https://arxiv.org/pdf/2201.04727
 
 ## Papers of Interest
 
