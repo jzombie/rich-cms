@@ -101,6 +101,9 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Genesis ("A Generative and Universal Physics Engine for Robotics and Beyond"): https://genesis-embodied-ai.github.io/ (https://github.com/Genesis-Embodied-AI/Genesis; LinkedIn discussion: https://www.linkedin.com/posts/drjimfan_if-an-ai-can-control-1000-robots-to-perform-activity-7275562526661062657-EavX)
 - DXOS (open-source framework for real-time, collaborative web apps which operate entirely on the client-side): https://www.dxos.org/
 - ipyvizzu-story: Create animated, interactive data stories in Jupyter Notebooks; exports to HTML files: https://github.com/vizzuhq/ipyvizzu-story
+- yellowbrick (extends scikit-learn API to allow human steering of the model selection process): https://github.com/DistrictDataLabs/yellowbrick
+- sweetviz ("In-depth EDA (target analysis, comparison, feature analysis, correlation) in two lines of code!"): https://github.com/fbdesignpro/sweetviz
+- ydata-profiling (formerly "pandas-profiling "; one-line EDA for pandas DataFrames; can be exported to HTML and JSON): https://github.com/ydataai/ydata-profiling
 
 ## Services
 
