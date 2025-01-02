@@ -104,6 +104,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - yellowbrick (extends scikit-learn API to allow human steering of the model selection process): https://github.com/DistrictDataLabs/yellowbrick
 - sweetviz ("In-depth EDA (target analysis, comparison, feature analysis, correlation) in two lines of code!"): https://github.com/fbdesignpro/sweetviz
 - ydata-profiling (formerly "pandas-profiling "; one-line EDA for pandas DataFrames; can be exported to HTML and JSON): https://github.com/ydataai/ydata-profiling
+- Feature-engine ("Unlike Scikit-learn, Feature-engine is designed to work with dataframes. No column order or name changes. A dataframe comes in, same dataframe comes out, with the transformed variables"): https://feature-engine.trainindata.com/
 
 ## Services
 
