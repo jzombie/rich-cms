@@ -141,6 +141,7 @@
 133. TensorFlow Hub ("repository of trained machine learning models"): https://www.tensorflow.org/hub
 134. Deep clustering with fusion autoencoder: https://arxiv.org/pdf/2201.04727
 135. Inside Zildjian, a 400-year-old cymbal-making company in Massachusetts: https://www.wbur.org/news/2024/12/16/400-years-zildjian-cymbals-massachusetts
+136. Building effective agents (maybe skip the frameworks): https://www.anthropic.com/research/building-effective-agents
 
 ## Papers of Interest
 
