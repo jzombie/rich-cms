@@ -105,6 +105,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - sweetviz ("In-depth EDA (target analysis, comparison, feature analysis, correlation) in two lines of code!"): https://github.com/fbdesignpro/sweetviz
 - ydata-profiling (formerly "pandas-profiling "; one-line EDA for pandas DataFrames; can be exported to HTML and JSON): https://github.com/ydataai/ydata-profiling
 - Feature-engine ("Unlike Scikit-learn, Feature-engine is designed to work with dataframes. No column order or name changes. A dataframe comes in, same dataframe comes out, with the transformed variables"): https://feature-engine.trainindata.com/
+- Raspberry Pi Pico FreeRTOS Shell ("add an interactive shell with custom commands to your application"): https://github.com/JZimnol/pico_freertos_shell (LinkedIn thread: https://www.linkedin.com/posts/jakub-zimnol-309395221_what-do-programmers-do-in-their-free-time-activity-7281308306353082368-RoHB)
+
 
 ## Services
 
