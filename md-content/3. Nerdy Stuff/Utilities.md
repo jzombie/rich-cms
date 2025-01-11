@@ -107,7 +107,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Feature-engine ("Unlike Scikit-learn, Feature-engine is designed to work with dataframes. No column order or name changes. A dataframe comes in, same dataframe comes out, with the transformed variables"): https://feature-engine.trainindata.com/
 - Raspberry Pi Pico FreeRTOS Shell ("add an interactive shell with custom commands to your application"): https://github.com/JZimnol/pico_freertos_shell (LinkedIn thread: https://www.linkedin.com/posts/jakub-zimnol-309395221_what-do-programmers-do-in-their-free-time-activity-7281308306353082368-RoHB)
 - Plotters ("A Rust drawing library focusing on data plotting for both WASM and native applications"): https://github.com/plotters-rs/plotters (Note: It includes demo project links for WebAssembly, minifb [frame buffer], and interactive GTK usage)
-
+- uutils coreutils ("Cross-platform Rust rewrite of the GNU coreutils"): https://github.com/uutils/coreutils
 
 ## Services
 
