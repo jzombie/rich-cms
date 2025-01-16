@@ -16,7 +16,7 @@ No. The features of this site are not my highest priority in life.
 
 - [] Fix issue where language code highlighting isn't colorizing (also, code blocks have way too much padding).
 - [] Don't use drop-caps on leading paragraphs with custom styling (such as all italic, etc.)
-- [] Fix formatting of https://zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
+- [] Fix formatting of https://blog.zenosmosis.com/z_Miscellaneous/Pyrhon%20via%20WASM.html#python-via-wasm so that it matches VSCode's preview
 - [] Use dashes instead of "%20" for spaces in links (also use lower-case)
 - [] [is it always an issue?] Don't auto-change URL hash on initial landing (issue caused by "deep linking" to URL hash but navigating to that hashed URL doesn't automatically scroll the page)
 - [] Finish implementing multi-column layout, with the ability to toggle it on/off (can more than 2 columns be achieved?)
