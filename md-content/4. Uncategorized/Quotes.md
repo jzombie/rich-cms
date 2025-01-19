@@ -1,5 +1,7 @@
 # Quotes
 
+> "To be fair, if you know how to code and you 'have a clue _what_ to code' and aren't living on a beach somewhere making millions in interest per month, you either don't know what to code, or don't know how to code." ~ Me
+
 > "If you want to conquer fear, don't sit home and think about it. Go out and get busy." ~ Dale Carnegie
 
 > "Reading an hour a day is only 4% of your day. But that 4% will put you at the top of your field within 10 years. Find the time." ~ Patrick Bet-David
