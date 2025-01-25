@@ -109,6 +109,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Plotters ("A Rust drawing library focusing on data plotting for both WASM and native applications"): https://github.com/plotters-rs/plotters (Note: It includes demo project links for WebAssembly, minifb [frame buffer], and interactive GTK usage)
 - uutils coreutils ("Cross-platform Rust rewrite of the GNU coreutils"): https://github.com/uutils/coreutils
 - py2many ("Python to many CLike languages transpiler"): https://github.com/py2many/py2many
+- Excalidraw (hand-drawn inspired schematics; "all your data is saved locally in your browser"): https://excalidraw.com/
+- Open R1 ("A fully open reproduction of DeepSeek-R1"): https://github.com/huggingface/open-r1
 
 ## Services
 
