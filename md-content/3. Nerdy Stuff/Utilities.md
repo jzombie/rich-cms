@@ -119,7 +119,6 @@ While some of the above could likely go in here, these definitely go in here.
 - Signals from scratch: https://github.com/tigerabrodi/signals-from-scratch/
 - Jotai from scratch: https://github.com/tigerabrodi/jotai-from-scratch
 
-
 ## Services
 
 - RichCMS Git Actions Monitoring: https://github.com/jzombie/rich-cms/actions/
