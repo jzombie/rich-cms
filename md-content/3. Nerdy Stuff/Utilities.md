@@ -111,6 +111,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - py2many ("Python to many CLike languages transpiler"): https://github.com/py2many/py2many
 - Excalidraw (hand-drawn inspired schematics; "all your data is saved locally in your browser"): https://excalidraw.com/
 - Open R1 ("A fully open reproduction of DeepSeek-R1"): https://github.com/huggingface/open-r1
+- Pandera (Data validation schemas for Pandas & Polars [similar to Pydantic for dataframes?]) https://github.com/unionai-oss/pandera
 
 ## Interesting Research Prototypes
 
