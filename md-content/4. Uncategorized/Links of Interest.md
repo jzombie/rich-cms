@@ -142,6 +142,7 @@
 134. Deep clustering with fusion autoencoder: https://arxiv.org/pdf/2201.04727
 135. Inside Zildjian, a 400-year-old cymbal-making company in Massachusetts: https://www.wbur.org/news/2024/12/16/400-years-zildjian-cymbals-massachusetts
 136. Building effective agents (maybe skip the frameworks): https://www.anthropic.com/research/building-effective-agents
+137. Standard Schema (A common interface for TypeScript validation libraries): https://standardschema.dev/
 
 ## Papers of Interest
 
