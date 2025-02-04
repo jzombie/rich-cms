@@ -144,6 +144,7 @@
 136. Building effective agents (maybe skip the frameworks): https://www.anthropic.com/research/building-effective-agents
 137. Standard Schema (A common interface for TypeScript validation libraries): https://standardschema.dev/
 138. Rust and Web Assembly: https://rustwasm.github.io/ (book: https://rustwasm.github.io/docs/book/introduction.html)
+139. Tokio - Bridging with sync code (for use cases where a majority of the app is synchronous and parts of it are asynchronous): https://tokio.rs/tokio/topics/bridging
 
 ## Papers of Interest
 
