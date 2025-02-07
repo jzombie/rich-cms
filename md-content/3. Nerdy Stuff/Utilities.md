@@ -112,6 +112,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Excalidraw (hand-drawn inspired schematics; "all your data is saved locally in your browser"): https://excalidraw.com/
 - Open R1 ("A fully open reproduction of DeepSeek-R1"): https://github.com/huggingface/open-r1
 - Pandera (Data validation schemas for Pandas & Polars [similar to Pydantic for dataframes?]) https://github.com/unionai-oss/pandera
+- Tokio - Bridging with sync code (for use cases where a majority of the app is synchronous and parts of it are asynchronous): https://tokio.rs/tokio/topics/bridging
+- Twiggy ("[Rust-based] code size profiler for Wasm"): https://github.com/rustwasm/twiggy
 
 ## Interesting Research Prototypes
 
