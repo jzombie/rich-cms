@@ -116,6 +116,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Twiggy ("[Rust-based] code size profiler for Wasm"): https://github.com/rustwasm/twiggy
 - Reticulum ("the cryptography-based networking stack for building local and wide-area networks with readily available hardware"): https://github.com/markqvist/Reticulum
 - Yew ("a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly" [looks similar to React]): https://github.com/yewstack/yew
+- Helium ("Helium is a Python library for automating browsers such as Chrome and Firefox. The name Helium was chosen because it is also a chemical element like Selenium, but it is lighter."): https://github.com/mherrmann/helium
 
 ## Interesting Research Prototypes
 
