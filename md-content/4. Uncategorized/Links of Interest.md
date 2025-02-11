@@ -144,6 +144,7 @@
 136. Building effective agents (maybe skip the frameworks): https://www.anthropic.com/research/building-effective-agents
 137. Standard Schema (A common interface for TypeScript validation libraries): https://standardschema.dev/
 138. Rust and Web Assembly: https://rustwasm.github.io/ (book: https://rustwasm.github.io/docs/book/introduction.html)
+139. GitHub ETF topic search: https://github.com/topics/etfs
 
 ## Papers of Interest
 
