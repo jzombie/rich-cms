@@ -115,6 +115,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Tokio - Bridging with sync code (for use cases where a majority of the app is synchronous and parts of it are asynchronous): https://tokio.rs/tokio/topics/bridging
 - Twiggy ("[Rust-based] code size profiler for Wasm"): https://github.com/rustwasm/twiggy
 - Reticulum ("the cryptography-based networking stack for building local and wide-area networks with readily available hardware"): https://github.com/markqvist/Reticulum
+- Yew ("a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly" [looks similar to React]): https://github.com/yewstack/yew
 
 ## Interesting Research Prototypes
 
