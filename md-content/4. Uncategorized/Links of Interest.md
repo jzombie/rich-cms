@@ -160,6 +160,7 @@
 
 ## Videos of Interest
 
+- Alex Iron Man suit: https://www.youtube.com/watch?v=BsScbDG2Tqo
 - Using leverage to increase growth potential: https://www.youtube.com/watch?v=V87X4AtZE5s
 - 2,600 year old shipwreck found off the coast of Spain: https://www.youtube.com/watch?v=YPwGi3sEFjo
 - [comedy] Huawei phone hand data transfer: https://www.linkedin.com/posts/itsmrmetaverse_peanutbutter-apple-bashing-time-its-been-ugcPost-7273321954244284416-B51h
