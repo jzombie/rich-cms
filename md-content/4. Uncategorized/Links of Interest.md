@@ -161,6 +161,7 @@
 
 ## Videos of Interest
 
+- Jordan Peterson's secret to success: https://www.linkedin.com/posts/alvinfsc_jordan-peterson-reveals-the-secret-to-success-activity-7295936084843118592-OjKp
 - Alex Iron Man suit: https://www.youtube.com/watch?v=BsScbDG2Tqo
 - Using leverage to increase growth potential: https://www.youtube.com/watch?v=V87X4AtZE5s
 - 2,600 year old shipwreck found off the coast of Spain: https://www.youtube.com/watch?v=YPwGi3sEFjo
