@@ -538,8 +538,6 @@ class RichCMSGenerator:
         
         return ''
 
-
-
     @classmethod
     def add_drop_cap(cls, html_content):
         soup = BeautifulSoup(html_content, 'html.parser')
