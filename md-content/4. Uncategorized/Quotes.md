@@ -1,6 +1,6 @@
 # Quotes
 
-> "To be fair, if you know how to code and you 'have a clue _what_ to code' and aren't living on a beach somewhere making millions in interest per month, you either don't know what to code, or don't know how to code." ~ Me
+> "[...] I often tell my clients, especially young people. They say, 'well, I don't know what to do.' It's like, that's okay, nobody does. Go do something. Do the best thing that you can think of. Put the best plan you have into practice. It's not going to be perfect, and it will change along the way, but it will change partly because you become disciplined pursuing the path, and as you become disciplined you become wiser, and as you become wiser you become able to formulate better and better plans." ~ Jordan Peterson
 
 > "If you want to conquer fear, don't sit home and think about it. Go out and get busy." ~ Dale Carnegie
 
@@ -35,6 +35,8 @@
 > "A man is great not because he hasn't failed; a man is great because failure hasn't stopped him." ~ Confucius
 
 > "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." ~ Brian Kernighan
+
+> "To be fair, if you know how to code and you 'have a clue _what_ to code' and aren't living on a beach somewhere making millions in interest per month, you either don't know what to code, or don't know how to code." ~ Me
 
 # Excerpts
 
