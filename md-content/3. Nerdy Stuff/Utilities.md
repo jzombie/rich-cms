@@ -118,6 +118,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Yew ("a modern Rust framework for creating multi-threaded front-end web apps with WebAssembly" [looks similar to React]): https://github.com/yewstack/yew
 - Helium ("Helium is a Python library for automating browsers such as Chrome and Firefox. The name Helium was chosen because it is also a chemical element like Selenium, but it is lighter."): https://github.com/mherrmann/helium
 - nes-rust (Nintendo emulator written in Rust; runs in WASM): https://github.com/takahirox/nes-rust
+- Gitingest ("Turn any Git repository into a simple text digest of its codebase; This is useful for feeding a codebase into any LLM"; hint: can replace `github` in repo URL with `gitingest` to view directly): https://gitingest.com/
 
 ## Interesting Research Prototypes
 
