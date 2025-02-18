@@ -120,7 +120,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - nes-rust (Nintendo emulator written in Rust; runs in WASM): https://github.com/takahirox/nes-rust
 - Gitingest ("Turn any Git repository into a simple text digest of its codebase; This is useful for feeding a codebase into any LLM"; hint: can replace `github` in repo URL with `gitingest` to view directly): https://gitingest.com/
 - Luckyshot (Rust-based "finding the most relevant files in your codebase for AI-assisted programming."): https://github.com/richardanaya/luckyshot
-- GDELT Full Text Search API: https://blog.gdeltproject.org/announcing-the-gdelt-full-text-search-api/
+- GDELT Full Text Search API: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
 
 ## Interesting Research Prototypes
 
