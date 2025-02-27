@@ -121,6 +121,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Gitingest ("Turn any Git repository into a simple text digest of its codebase; This is useful for feeding a codebase into any LLM"; hint: can replace `github` in repo URL with `gitingest` to view directly): https://gitingest.com/
 - Luckyshot (Rust-based "finding the most relevant files in your codebase for AI-assisted programming."): https://github.com/richardanaya/luckyshot
 - GDELT Full Text Search API: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
+- Lapce (Rust-powered native IDE; supports remote development; plugins; terminal): https://lap.dev/lapce/
+- Helix (Rust-powered terminal IDE): https://helix-editor.com/
 
 ## Interesting Research Prototypes
 
