@@ -123,6 +123,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - GDELT Full Text Search API: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
 - Lapce (Rust-powered native IDE; supports remote development; plugins; terminal): https://lap.dev/lapce/
 - Helix (Rust-powered terminal IDE): https://helix-editor.com/
+- Rune programming language (dynamic programming language built in Rust): https://rune-rs.github.io/
 
 ## Interesting Research Prototypes
 
