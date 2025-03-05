@@ -145,6 +145,7 @@
 137. Standard Schema (A common interface for TypeScript validation libraries): https://standardschema.dev/
 138. Rust and Web Assembly: https://rustwasm.github.io/ (book: https://rustwasm.github.io/docs/book/introduction.html)
 139. GitHub ETF topic search: https://github.com/topics/etfs
+140. NetBSD on a JavaStation: https://fatsquirrel.org/oldfartsalmanac/netbsd-on-a-javastation/
 
 ## Papers of Interest
 
