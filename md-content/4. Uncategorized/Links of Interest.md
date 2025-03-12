@@ -146,6 +146,7 @@
 138. Rust and Web Assembly: https://rustwasm.github.io/ (book: https://rustwasm.github.io/docs/book/introduction.html)
 139. GitHub ETF topic search: https://github.com/topics/etfs
 140. NetBSD on a JavaStation: https://fatsquirrel.org/oldfartsalmanac/netbsd-on-a-javastation/
+141. Flatbuffers Rust threading: https://flatbuffers.dev/languages/rust/#:~:text=Creating%20a%20FlatBuffer%20is%20not,outside%20of%20it%20is%20touched
 
 ## Papers of Interest
 
