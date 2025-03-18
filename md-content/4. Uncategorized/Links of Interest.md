@@ -156,6 +156,7 @@
 3. Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping: https://arxiv.org/html/2402.14083v1
 4. [Apple's multi-modal, foundational model] MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training: https://arxiv.org/abs/2403.09611 (relevant Hacker News discussion: https://news.ycombinator.com/item?id=39722498)
 5. Can Large Language Models Reason and Plan? (PDF): https://arxiv.org/pdf/2403.04121.pdf
+6. ConnectorX: Accelerating Data Loading form Databases to Dataframes: https://www.vldb.org/pvldb/vol15/p2994-wang.pdf
 
 ## Books of Interest
 

@@ -124,6 +124,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Lapce (Rust-powered native IDE; supports remote development; plugins; terminal): https://lap.dev/lapce/
 - Helix (Rust-powered terminal IDE): https://helix-editor.com/
 - Rune programming language (dynamic programming language built in Rust): https://rune-rs.github.io/
+- ConnectorX (Fast dataframe loader): https://github.com/sfu-db/connector-x
 
 ## Interesting Research Prototypes
 
