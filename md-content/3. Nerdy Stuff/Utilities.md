@@ -125,6 +125,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Helix (Rust-powered terminal IDE): https://helix-editor.com/
 - Rune programming language (dynamic programming language built in Rust): https://rune-rs.github.io/
 - ConnectorX (Fast dataframe loader): https://github.com/sfu-db/connector-x
+- Apache Arrow: https://arrow.apache.org/
 
 ## Interesting Research Prototypes
 
