@@ -127,6 +127,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - ConnectorX (Fast dataframe loader): https://github.com/sfu-db/connector-x
 - Apache Arrow: https://arrow.apache.org/
 - Dragonfly DB: https://www.dragonflydb.io/
+- IronRDP ("A collection of Rust crates providing an implementation of the Microsoft Remote Desktop Protocol [RDP], with a focus on security"): https://github.com/Devolutions/IronRDP
+
 
 ## Interesting Research Prototypes
 
