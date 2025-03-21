@@ -129,7 +129,6 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Dragonfly DB: https://www.dragonflydb.io/
 - IronRDP ("A collection of Rust crates providing an implementation of the Microsoft Remote Desktop Protocol [RDP], with a focus on security"): https://github.com/Devolutions/IronRDP
 
-
 ## Interesting Research Prototypes
 
 While some of the above could likely go in here, these definitely go in here.
