@@ -148,6 +148,7 @@
 140. NetBSD on a JavaStation: https://fatsquirrel.org/oldfartsalmanac/netbsd-on-a-javastation/
 141. Flatbuffers Rust threading: https://flatbuffers.dev/languages/rust/#:~:text=Creating%20a%20FlatBuffer%20is%20not,outside%20of%20it%20is%20touched
 142. Slowroads (endless driving in a browser): https://slowroads.io/
+143. "The little book about OS development": https://news.ycombinator.com/item?id=43440473
 
 ## Papers of Interest
 
