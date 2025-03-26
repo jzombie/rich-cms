@@ -128,6 +128,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Apache Arrow: https://arrow.apache.org/
 - Dragonfly DB: https://www.dragonflydb.io/
 - IronRDP ("A collection of Rust crates providing an implementation of the Microsoft Remote Desktop Protocol [RDP], with a focus on security"): https://github.com/Devolutions/IronRDP
+- OpenBB ("The first financial Platform that is free and fully open source"): https://github.com/OpenBB-finance/OpenBB
 
 ## Interesting Research Prototypes
 
