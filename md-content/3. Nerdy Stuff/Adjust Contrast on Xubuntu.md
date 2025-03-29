@@ -44,7 +44,7 @@ xrandr --output eDP-1 --brightness 0.9 --gamma 1.0:0.9:0.9
 
 3. Save and reboot.
 
-### 🛠 If still not fixed: Check GPU drivers
+### If still not fixed: Check GPU drivers
 
 If you’re on Intel, AMD, or NVIDIA, ensure you're using the correct drivers:
 
