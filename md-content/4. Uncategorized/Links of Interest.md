@@ -149,6 +149,7 @@
 141. Flatbuffers Rust threading: https://flatbuffers.dev/languages/rust/#:~:text=Creating%20a%20FlatBuffer%20is%20not,outside%20of%20it%20is%20touched
 142. Slowroads (endless driving in a browser): https://slowroads.io/
 143. "The little book about OS development": https://news.ycombinator.com/item?id=43440473
+144. File Systems Unfit as Distributed Storage Backends: https://news.ycombinator.com/item?id=21730502
 
 ## Papers of Interest
 
@@ -158,6 +159,7 @@
 4. [Apple's multi-modal, foundational model] MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training: https://arxiv.org/abs/2403.09611 (relevant Hacker News discussion: https://news.ycombinator.com/item?id=39722498)
 5. Can Large Language Models Reason and Plan? (PDF): https://arxiv.org/pdf/2403.04121.pdf
 6. ConnectorX: Accelerating Data Loading form Databases to Dataframes: https://www.vldb.org/pvldb/vol15/p2994-wang.pdf
+7. File Systems Unfit as Distributed Storage Backends: https://dl.acm.org/doi/pdf/10.1145/3341301.3359656
 
 ## Books of Interest
 
