@@ -151,6 +151,7 @@
 143. "The little book about OS development": https://news.ycombinator.com/item?id=43440473
 144. File Systems Unfit as Distributed Storage Backends: https://news.ycombinator.com/item?id=21730502
 145. Log-structured merge-tree: https://en.wikipedia.org/wiki/Log-structured_merge-tree
+146. XBRL: "Parsing it wasn't fun": https://news.ycombinator.com/item?id=41847826
 
 ## Papers of Interest
 
