@@ -1,5 +1,7 @@
 # Quotes
 
+> "If you don't have time to do it right, when will you have time to do it over?" ~ John Wooden
+
 > "[...] I often tell my clients, especially young people. They say, 'well, I don't know what to do.' It's like, that's okay, nobody does. Go do something. Do the best thing that you can think of. Put the best plan you have into practice. It's not going to be perfect, and it will change along the way, but it will change partly because you become disciplined pursuing the path, and as you become disciplined you become wiser, and as you become wiser you become able to formulate better and better plans." ~ Jordan Peterson
 
 > "If you want to conquer fear, don't sit home and think about it. Go out and get busy." ~ Dale Carnegie
