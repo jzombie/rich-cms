@@ -1,5 +1,7 @@
 # Quotes
 
+> "Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided. It's the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them." ~ Brian Eno
+
 > "If you don't have time to do it right, when will you have time to do it over?" ~ John Wooden
 
 > "[...] I often tell my clients, especially young people. They say, 'well, I don't know what to do.' It's like, that's okay, nobody does. Go do something. Do the best thing that you can think of. Put the best plan you have into practice. It's not going to be perfect, and it will change along the way, but it will change partly because you become disciplined pursuing the path, and as you become disciplined you become wiser, and as you become wiser you become able to formulate better and better plans." ~ Jordan Peterson
