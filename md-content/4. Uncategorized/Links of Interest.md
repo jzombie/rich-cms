@@ -153,6 +153,7 @@
 145. Log-structured merge-tree: https://en.wikipedia.org/wiki/Log-structured_merge-tree
 146. XBRL: "Parsing it wasn't fun": https://news.ycombinator.com/item?id=41847826
 147. The cultural evolution of distortion in music (HN thread): https://news.ycombinator.com/item?id=43575379
+148. Model Context Protocol (MCP): https://modelcontextprotocol.io/introduction
 
 ## Papers of Interest
 
