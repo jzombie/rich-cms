@@ -130,6 +130,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - IronRDP ("A collection of Rust crates providing an implementation of the Microsoft Remote Desktop Protocol [RDP], with a focus on security"): https://github.com/Devolutions/IronRDP
 - OpenBB ("The first financial Platform that is free and fully open source"): https://github.com/OpenBB-finance/OpenBB
 - heretek (GDB TUI Dashboard): https://github.com/wcampbell0x2a/heretek
+- Apache ECharts (Open-source JavaScript Visualization Library): https://echarts.apache.org/en/index.html (HN Thread: https://news.ycombinator.com/item?id=43624220)
 
 ## Interesting Research Prototypes
 
