@@ -175,6 +175,7 @@
 
 ## Videos of Interest
 
+- Special Theory of Machine-based Communication of Semantic Information of Financial Statements: https://www.youtube.com/watch?v=EDtjz7qdjHQ
 - Jordan Peterson's secret to success: https://www.linkedin.com/posts/alvinfsc_jordan-peterson-reveals-the-secret-to-success-activity-7295936084843118592-OjKp
 - Alex Iron Man suit: https://www.youtube.com/watch?v=BsScbDG2Tqo
 - Using leverage to increase growth potential: https://www.youtube.com/watch?v=V87X4AtZE5s
