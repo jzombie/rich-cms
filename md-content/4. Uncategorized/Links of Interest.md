@@ -166,6 +166,7 @@
 5. Can Large Language Models Reason and Plan? (PDF): https://arxiv.org/pdf/2403.04121.pdf
 6. ConnectorX: Accelerating Data Loading form Databases to Dataframes: https://www.vldb.org/pvldb/vol15/p2994-wang.pdf
 7. File Systems Unfit as Distributed Storage Backends: https://dl.acm.org/doi/pdf/10.1145/3341301.3359656
+8. Towards a Theory of Semantic Communication: https://ieeexplore.ieee.org/document/6004632 (possible related alternative: https://arxiv.org/pdf/2212.01485)
 
 ## Books of Interest
 
