@@ -154,6 +154,7 @@
 146. XBRL: "Parsing it wasn't fun": https://news.ycombinator.com/item?id=41847826
 147. The cultural evolution of distortion in music (HN thread): https://news.ycombinator.com/item?id=43575379
 148. Model Context Protocol (MCP): https://modelcontextprotocol.io/introduction
+149. Seattle Method (financial accounting): http://www.xbrlsite.com/seattlemethod/
 
 ## Papers of Interest
 
