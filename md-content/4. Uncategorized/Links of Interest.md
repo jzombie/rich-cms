@@ -178,6 +178,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 
 ## Videos of Interest
 
+- The reverse psychology of getting rich: https://www.linkedin.com/posts/alvinfsc_the-reverse-psychology-of-getting-rich-activity-7316988653895880704-8BvR
 - Special Theory of Machine-based Communication of Semantic Information of Financial Statements: https://www.youtube.com/watch?v=EDtjz7qdjHQ
 - Jordan Peterson's secret to success: https://www.linkedin.com/posts/alvinfsc_jordan-peterson-reveals-the-secret-to-success-activity-7295936084843118592-OjKp
 - Alex Iron Man suit: https://www.youtube.com/watch?v=BsScbDG2Tqo
