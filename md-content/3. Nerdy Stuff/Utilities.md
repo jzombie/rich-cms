@@ -132,6 +132,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - heretek (GDB TUI Dashboard): https://github.com/wcampbell0x2a/heretek
 - Apache ECharts (Open-source JavaScript Visualization Library): https://echarts.apache.org/en/index.html (HN Thread: https://news.ycombinator.com/item?id=43624220)
 - Code Server (VS Code in browser): https://github.com/coder/code-server
+- JS-inspired mini-language to WebAssembly: https://github.com/mgechev/yac (LinkedIn thread: https://www.linkedin.com/posts/mgechev_javascript-wasm-webassembly-activity-7317550961365864449-uhkT)
 
 ## Interesting Research Prototypes
 
