@@ -131,6 +131,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - OpenBB ("The first financial Platform that is free and fully open source"): https://github.com/OpenBB-finance/OpenBB
 - heretek (GDB TUI Dashboard): https://github.com/wcampbell0x2a/heretek
 - Apache ECharts (Open-source JavaScript Visualization Library): https://echarts.apache.org/en/index.html (HN Thread: https://news.ycombinator.com/item?id=43624220)
+- Code Server (VS Code in browser): https://github.com/coder/code-server
 
 ## Interesting Research Prototypes
 
