@@ -158,6 +158,7 @@
 150. LLMS + Ontologies ("The LLMs help discover new knowledge, and the ontologies compile that knowledge down for future us"): https://www.knowledge-graph-guys.com/blog/llms-ontologies
 151. Accelerated PyTorch training on Mac: https://developer.apple.com/metal/pytorch/
 152. A flowing WebGL gradient, deconstructed: https://alexharri.com/blog/webgl-gradients
+153. Rust in Production Podcast: https://corrode.dev/podcast/
 
 ## Papers of Interest
 
