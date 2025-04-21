@@ -159,6 +159,7 @@
 151. Accelerated PyTorch training on Mac: https://developer.apple.com/metal/pytorch/
 152. A flowing WebGL gradient, deconstructed: https://alexharri.com/blog/webgl-gradients
 153. Rust in Production Podcast: https://corrode.dev/podcast/
+154. Free computer books: https://freecomputerbooks.com/
 
 ## Papers of Interest
 
