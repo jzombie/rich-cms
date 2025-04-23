@@ -160,6 +160,8 @@
 152. A flowing WebGL gradient, deconstructed: https://alexharri.com/blog/webgl-gradients
 153. Rust in Production Podcast: https://corrode.dev/podcast/
 154. Free computer books: https://freecomputerbooks.com/
+155. Seeing [Statistical] Theory: https://seeing-theory.brown.edu/
+156. Statistical Thinking for the 21st Century: https://statsthinking21.org/
 
 ## Papers of Interest
 
