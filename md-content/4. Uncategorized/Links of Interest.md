@@ -162,6 +162,7 @@
 154. Free computer books: https://freecomputerbooks.com/
 155. Seeing [Statistical] Theory: https://seeing-theory.brown.edu/
 156. Statistical Thinking for the 21st Century: https://statsthinking21.org/
+157. Three Approaches to Encoding Time Information as Features for ML Models: https://developer.nvidia.com/blog/three-approaches-to-encoding-time-information-as-features-for-ml-models/
 
 ## Papers of Interest
 
