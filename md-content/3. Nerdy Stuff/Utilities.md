@@ -135,6 +135,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - JS-inspired mini-language to WebAssembly: https://github.com/mgechev/yac (LinkedIn thread: https://www.linkedin.com/posts/mgechev_javascript-wasm-webassembly-activity-7317550961365864449-uhkT)
 - fast-dotproduct ("Fast dot product calculations for the web platform. Speeds up your dot product calculations by up to 103457%" [seriously?]): https://github.com/kyr0/fast-dotproduct
 - Axum Websocket Example (built by Tokio team): https://github.com/tokio-rs/axum/blob/main/examples/websockets/src/main.rs
+- Act ("Run GitHub Actions locally"): https://github.com/nektos/act (LinkedIn discussion: https://www.linkedin.com/posts/tarasowski_dont-waste-time-when-testing-github-actions-activity-7321790143965642753-dPh_)
 
 ## Interesting Research Prototypes
 
