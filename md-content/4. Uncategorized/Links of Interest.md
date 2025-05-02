@@ -179,6 +179,7 @@
 9. Computer Empathy (Artificial Intelligence and Knowledge Engineering Basics in a Nutshell; a
 nontechnical introduction to technology that will shape your future for
 professional accountants and other business professionals): https://xbrlsite.azurewebsites.net/2018/Library/ComputerEmpathy.pdf
+10. Annealed dropout training of deep networks: https://ieeexplore.ieee.org/document/7078567
 
 ## Books of Interest
 
