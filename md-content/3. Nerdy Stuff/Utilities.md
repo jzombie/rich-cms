@@ -137,6 +137,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Axum Websocket Example (built by Tokio team): https://github.com/tokio-rs/axum/blob/main/examples/websockets/src/main.rs
 - Act ("Run GitHub Actions locally"): https://github.com/nektos/act (LinkedIn discussion: https://www.linkedin.com/posts/tarasowski_dont-waste-time-when-testing-github-actions-activity-7321790143965642753-dPh_)
 - bitnet.cpp ("the official inference framework for 1-bit LLMs (e.g., BitNet b1.58)."): https://github.com/microsoft/BitNet (LinkedIn Thread: https://www.linkedin.com/posts/akshay-pachaar_microsoft-just-changed-the-game-theyve-activity-7327676567461990401-pmzD)
+- tscircuit ("build electronics with code, AI, and drag'n'drop tools.
+"): https://tscircuit.com/
 
 ## Interesting Research Prototypes
 
