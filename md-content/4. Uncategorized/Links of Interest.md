@@ -165,6 +165,7 @@
 157. Three Approaches to Encoding Time Information as Features for ML Models: https://developer.nvidia.com/blog/three-approaches-to-encoding-time-information-as-features-for-ml-models/
 158. How NASA is Using Graph Technology and LLMs to Build a People Knowledge Graph: https://memgraph.com/blog/nasa-memgraph-people-knowledge-graph
 159. Bayes' theorem: https://en.wikipedia.org/wiki/Bayes%27_theorem
+160. Nine Rules for SIMD Acceleration of Your Rust Code (Part 1) General Lessons from Boosting Data Ingestion in the `range-set-blaze` Crate by 7x: https://www.reddit.com/r/rust/comments/18hj1m6/nine_rules_for_simd_acceleration_of_your_rust/
 
 ## Papers of Interest
 
