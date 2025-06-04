@@ -139,6 +139,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - bitnet.cpp ("the official inference framework for 1-bit LLMs (e.g., BitNet b1.58)."): https://github.com/microsoft/BitNet (LinkedIn Thread: https://www.linkedin.com/posts/akshay-pachaar_microsoft-just-changed-the-game-theyve-activity-7327676567461990401-pmzD)
 - tscircuit ("build electronics with code, AI, and drag'n'drop tools.
 "): https://tscircuit.com/
+- RMCP (Rust SDK for MCP): https://github.com/modelcontextprotocol/rust-sdk
 
 ## Interesting Research Prototypes
 
