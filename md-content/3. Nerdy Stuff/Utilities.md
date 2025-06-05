@@ -140,7 +140,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - tscircuit ("build electronics with code, AI, and drag'n'drop tools.
 "): https://tscircuit.com/
 - RMCP (Rust SDK for MCP): https://github.com/modelcontextprotocol/rust-sdk
-- BusyBox: The Swiss Army Knife of Embedded Linux: https://busybox.net/about.html
+- BusyBox ("The Swiss Army Knife of Embedded Linux"): https://busybox.net/about.html
 - python-build-standalone (for embedding): https://github.com/astral-sh/python-build-standalone/releases
 
 ## Interesting Research Prototypes
