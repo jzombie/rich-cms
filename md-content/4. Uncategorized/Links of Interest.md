@@ -166,6 +166,7 @@
 158. How NASA is Using Graph Technology and LLMs to Build a People Knowledge Graph: https://memgraph.com/blog/nasa-memgraph-people-knowledge-graph
 159. Bayes' theorem: https://en.wikipedia.org/wiki/Bayes%27_theorem
 160. Nine Rules for SIMD Acceleration of Your Rust Code (Part 1) General Lessons from Boosting Data Ingestion in the `range-set-blaze` Crate by 7x: https://www.reddit.com/r/rust/comments/18hj1m6/nine_rules_for_simd_acceleration_of_your_rust/
+161. "Google's ML interview secret": https://www.linkedin.com/posts/ghadeer-al-ruwaishedi_googles-ml-interview-secret-they-test-these-activity-7337148915470721024-nO2Z
 
 ## Papers of Interest
 
