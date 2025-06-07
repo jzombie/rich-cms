@@ -142,6 +142,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - RMCP (Rust SDK for MCP): https://github.com/modelcontextprotocol/rust-sdk
 - BusyBox ("The Swiss Army Knife of Embedded Linux"): https://busybox.net/about.html
 - python-build-standalone (for embedding): https://github.com/astral-sh/python-build-standalone/releases
+- Foam (A personal knowledge management and sharing system for VSCode): https://github.com/foambubble/foam [Personal note: Thought would be to perhaps this combined with `mdbook` to replace this current CMS]
 
 ## Interesting Research Prototypes
 
