@@ -212,3 +212,4 @@ professional accountants and other business professionals): https://xbrlsite.azu
 - But what is a GPT? Visual intro to Transformers: https://www.youtube.com/watch?v=wjZofJX0v4M
 - Playing Classic Pink Floyd Solos with the Black Gilmour Squier Strat: https://www.youtube.com/watch?v=77dnGLYJHlA
 - Fax in Your Code: https://www.youtube.com/watch?v=pJ-25-pRhpY
+- A machine that shows how processors perform addition with binary numbers: https://www.linkedin.com/posts/alvinfsc_a-machine-that-shows-how-processors-perform-activity-7337529257675431937-w9lv
