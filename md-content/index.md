@@ -10,7 +10,7 @@ This site was built using a static site generator that I hand-rolled: A basic Py
 
 Over the years I've become very well acquainted with React, and this is probably the first "vanilla" HTML / JavaScript project that I've done since 2018 (yes there is a little bit of JavaScript in here, though this website by no means requires the usage of it to function).
 
-In regards to this static site, I was initially inspired by [Insomnia](https://insomnia.rest/) (because it works off of markdown files as well, and organizes thoughts), but mostly just wanted a blog to publish thoughts and ideas.
+In regards to this static site, I was initially inspired by [Obsidian](https://obsidian.md/) (because it works off of markdown files as well, and organizes thoughts), but mostly just wanted a blog to publish thoughts and ideas.
 
 ## What is zenOSmosis?
 
@@ -18,7 +18,7 @@ Short version: My alias.
 
 Long version: An experimental "company" (or so it was originally conceived to be as one), always experimenting with new ideas, helping me to learn and grow (whatever that means).  At the peak of the experience, I guess I may have fooled a few people into thinking that this was an actual company, but I've since then taken a number of its projects offline, as I was far too attached in them, and the only thing they were gaining were sentimental value.
 
-Enter the world of "jzombie," another alias of mine.  Jzombie helps me to realize to take myself way less seriously, plus, the name is a hell of a lot shorter.
+Enter the world of "jzombie," another alias of mine.  `jzombie` helps me to realize to take myself way less seriously, plus, the name is a hell of a lot shorter.
 
 ## Who am I?
 
