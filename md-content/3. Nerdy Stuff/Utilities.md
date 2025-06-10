@@ -160,6 +160,6 @@ While some of the above could likely go in here, these definitely go in here.
 
 ## Python Lists on Disks
 
-- DiskList: A python list implementation that uses the disk to handle very large collections of pickle-able objects. https://github.com/Belval/disklist
-- mmaparray: Disk-backed arrays with a structure similar to Python's built-in array module. https://pypi.org/project/mmaparray/
-- Darr: Python library designed for working with large, disk-based Numpy arrays. https://github.com/gbeckers/darr
+- `DiskList`: A python list implementation that uses the disk to handle very large collections of pickle-able objects. https://github.com/Belval/disklist
+- `mmaparray`: Disk-backed arrays with a structure similar to Python's built-in array module. https://pypi.org/project/mmaparray/
+- `Darr`: Python library designed for working with large, disk-based Numpy arrays. https://github.com/gbeckers/darr
