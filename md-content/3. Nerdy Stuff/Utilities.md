@@ -144,6 +144,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - python-build-standalone (for embedding): https://github.com/astral-sh/python-build-standalone/releases
 - Foam (A personal knowledge management and sharing system for VSCode): https://github.com/foambubble/foam [Personal note: Thought would be to perhaps this combined with `mdbook` to replace this current CMS]
 - Cargo bundle (Wrap Rust executables in OS-specific app bundles [OS-specific app installers]): https://crates.io/crates/cargo-bundle
+- Apple `container` (`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.): https://github.com/apple/container
 
 ## Interesting Research Prototypes
 
