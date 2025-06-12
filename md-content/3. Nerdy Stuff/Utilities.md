@@ -146,6 +146,8 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Cargo bundle (Wrap Rust executables in OS-specific app bundles [OS-specific app installers]): https://crates.io/crates/cargo-bundle
 - Apple `container` (`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.): https://github.com/apple/container
 - Radix ([React] "An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required"): https://www.radix-ui.com/ [Notes: Best looking system menus I've seen; related YouTube video: https://www.youtube.com/watch?v=lY-RQjWeweo]
+- wgpu([Rust] "A cross-platform, safe, pure-rust graphics API. It runs natively on Vulkan, Metal, D3D12, and OpenGL; and on top of WebGL2 and WebGPU on wasm. The API is based on the WebGPU standard. It serves as the core of the WebGPU integration in Firefox, Servo, and Deno."): https://github.com/gfx-rs/wgpu
+- servo([Rust] "A web browser rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications."): https://servo.org/
 
 ## Interesting Research Prototypes
 
