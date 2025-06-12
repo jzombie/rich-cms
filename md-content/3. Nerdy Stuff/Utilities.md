@@ -145,6 +145,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Foam (A personal knowledge management and sharing system for VSCode): https://github.com/foambubble/foam [Personal note: Thought would be to perhaps this combined with `mdbook` to replace this current CMS]
 - Cargo bundle (Wrap Rust executables in OS-specific app bundles [OS-specific app installers]): https://crates.io/crates/cargo-bundle
 - Apple `container` (`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.): https://github.com/apple/container
+- Radix ([React] "An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required"): https://www.radix-ui.com/ [Notes: Best looking system menus I've seen; related YouTube video: https://www.youtube.com/watch?v=lY-RQjWeweo]
 
 ## Interesting Research Prototypes
 
