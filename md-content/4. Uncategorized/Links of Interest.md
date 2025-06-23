@@ -168,6 +168,7 @@
 - Nine Rules for SIMD Acceleration of Your Rust Code (Part 1) General Lessons from Boosting Data Ingestion in the `range-set-blaze` Crate by 7x: https://www.reddit.com/r/rust/comments/18hj1m6/nine_rules_for_simd_acceleration_of_your_rust/
 - "Google's ML interview secret; They test these 10 concepts every time": https://www.linkedin.com/posts/ghadeer-al-ruwaishedi_googles-ml-interview-secret-they-test-these-activity-7337148915470721024-nO2Z
 - ORCID (Open Researcher and Contributor ID): https://info.orcid.org/ [note: GitHub allows association by this]
+- How to have the browser pick a contrasting color in CSS: https://webkit.org/blog/16929/contrast-color/
 
 ## Papers of Interest
 
