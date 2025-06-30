@@ -149,6 +149,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - wgpu ([Rust] "A cross-platform, safe, pure-rust graphics API. It runs natively on Vulkan, Metal, D3D12, and OpenGL; and on top of WebGL2 and WebGPU on wasm. The API is based on the WebGPU standard. It serves as the core of the WebGPU integration in Firefox, Servo, and Deno."): https://github.com/gfx-rs/wgpu
 - servo ([Rust] "A web browser rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications."): https://servo.org/
 - Hydra ([Python] "A framework for elegantly configuring complex applications."): https://github.com/facebookresearch/hydra
+- ATAC ([Rust] "Arguably a Terminal API Client" [Like Postman, but inside a Terminal]): https://github.com/Julien-cpsn/ATAC
 
 ## Interesting Research Prototypes
 
