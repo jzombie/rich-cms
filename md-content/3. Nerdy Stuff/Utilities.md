@@ -150,6 +150,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - servo ([Rust] "A web browser rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications."): https://servo.org/
 - Hydra ([Python] "A framework for elegantly configuring complex applications."): https://github.com/facebookresearch/hydra
 - ATAC ([Rust] "Arguably a Terminal API Client" [Like Postman, but inside a Terminal]): https://github.com/Julien-cpsn/ATAC
+- Tuono ([Rust] Web development framework inspired by Next.js [Personal note: At first I got this confused with [Tauri](https://tauri.app/)]): https://tuono.dev/
 
 ## Interesting Research Prototypes
 
