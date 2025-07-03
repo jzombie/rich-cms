@@ -152,6 +152,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - ATAC ([Rust] "Arguably a Terminal API Client" [Like Postman, but inside a Terminal]): https://github.com/Julien-cpsn/ATAC
 - Tuono ([Rust] Web development framework inspired by Next.js [Personal note: At first I got this confused with [Tauri](https://tauri.app/)]): https://tuono.dev/
 - Rust UI ([Rust] "A Blazzingly Fast [Web] UI Library): https://www.rust-ui.com/
+- Leptos ([Rust] "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces."): https://github.com/leptos-rs/leptos/
 
 ## Interesting Research Prototypes
 
