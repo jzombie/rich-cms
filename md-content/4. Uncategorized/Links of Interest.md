@@ -169,6 +169,7 @@
 - "Google's ML interview secret; They test these 10 concepts every time": https://www.linkedin.com/posts/ghadeer-al-ruwaishedi_googles-ml-interview-secret-they-test-these-activity-7337148915470721024-nO2Z
 - ORCID (Open Researcher and Contributor ID): https://info.orcid.org/ [note: GitHub allows association by this]
 - How to have the browser pick a contrasting color in CSS: https://webkit.org/blog/16929/contrast-color/
+- DVC Pipelines: https://codecut.ai/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/
 
 ## Papers of Interest
 
