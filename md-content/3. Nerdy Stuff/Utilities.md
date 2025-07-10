@@ -154,6 +154,11 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Rust UI ([Rust] "A Blazzingly Fast [Web] UI Library): https://www.rust-ui.com/
 - Leptos ([Rust] "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces."): https://github.com/leptos-rs/leptos/
 
+## SQL Parsers & Testers
+
+- [Rust] https://github.com/apache/datafusion-sqlparser-rs
+- [Rust] https://github.com/risinglightdb/sqllogictest-rs
+
 ## Interesting Research Prototypes
 
 While some of the above could likely go in here, these definitely go in here.
