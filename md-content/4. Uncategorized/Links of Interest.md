@@ -187,6 +187,11 @@ professional accountants and other business professionals): https://xbrlsite.azu
 - Annealed dropout training of deep networks: https://ieeexplore.ieee.org/document/7078567
 - WebTransport API: https://developer.mozilla.org/en-US/docs/Web/API/WebTransport_API
 
+## Job Boards / Links
+
+- HNHIRING is an index of jobs from Hacker News' `Who is Hiring?` posts: https://hnhiring.com/
+- "Find your dream remote job without the hassle" (includes API & RSS feed): https://remotive.com/
+
 ## Books of Interest
 
 - Build a Large Language Model (From Scratch): https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
