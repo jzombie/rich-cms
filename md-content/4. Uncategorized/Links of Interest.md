@@ -170,6 +170,7 @@
 - ORCID (Open Researcher and Contributor ID): https://info.orcid.org/ [note: GitHub allows association by this]
 - How to have the browser pick a contrasting color in CSS: https://webkit.org/blog/16929/contrast-color/
 - DVC Pipelines: https://codecut.ai/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/
+- "Are we learning yet?" (A work-in-progress to catalog the state of machine learning in Rust): https://www.arewelearningyet.com/
 
 ## Papers of Interest
 
