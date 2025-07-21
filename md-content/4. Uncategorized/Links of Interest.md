@@ -171,6 +171,7 @@
 - How to have the browser pick a contrasting color in CSS: https://webkit.org/blog/16929/contrast-color/
 - DVC Pipelines: https://codecut.ai/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/
 - "Are we learning yet?" (A work-in-progress to catalog the state of machine learning in Rust): https://www.arewelearningyet.com/
+- "Stop Writing SQL for AI Agents: Build Direct Database Access with FastMCP": https://codecut.ai/fastmcp-sql-bridge-database-access/
 
 ## Papers of Interest
 
