@@ -172,6 +172,7 @@
 - DVC Pipelines: https://codecut.ai/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-2/
 - "Are we learning yet?" (A work-in-progress to catalog the state of machine learning in Rust): https://www.arewelearningyet.com/
 - "Stop Writing SQL for AI Agents: Build Direct Database Access with FastMCP": https://codecut.ai/fastmcp-sql-bridge-database-access/
+- Web games (from creators of [bitcode](https://github.com/SoftbearStudios/bitcode)): https://softbear.com/
 
 ## Papers of Interest
 
