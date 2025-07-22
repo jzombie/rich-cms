@@ -189,6 +189,7 @@ nontechnical introduction to technology that will shape your future for
 professional accountants and other business professionals): https://xbrlsite.azurewebsites.net/2018/Library/ComputerEmpathy.pdf
 - Annealed dropout training of deep networks: https://ieeexplore.ieee.org/document/7078567
 - WebTransport API: https://developer.mozilla.org/en-US/docs/Web/API/WebTransport_API
+- Rust Serialization Benchmark: https://github.com/djkoloski/rust_serialization_benchmark
 
 ## Job Boards / Links
 
