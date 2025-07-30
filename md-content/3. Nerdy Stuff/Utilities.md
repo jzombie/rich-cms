@@ -158,6 +158,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Docling ([Python] "Docling simplifies document processing, parsing diverse formats — including advanced PDF understanding — and providing seamless integrations with the gen AI ecosystem."): https://github.com/docling-project/docling
 - sledgehammer bindgen ([Rust] "Sledgehammer bindgen provides faster rust batched bindings for js code."): https://github.com/ealmloff/sledgehammer_bindgen
 - Dioxus ([Rust] "One codebase, every platform. Dioxus is *the* Rust framework for building fullstack web, desktop, and mobile apps."): https://dioxuslabs.com/
+- Dioxus TUI ([Rust] "Leverage React-like patterns, CSS, HTML, and Rust to build beautiful, portable, terminal user interfaces with Dioxus."): https://docs.rs/dioxus-tui/latest/dioxus_tui/
 
 ## SQL Parsers & Testers
 
