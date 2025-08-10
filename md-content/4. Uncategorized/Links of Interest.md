@@ -201,7 +201,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 
 - Build a Large Language Model (From Scratch): https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github
 - WebGPU Unleashed: A Practical Tutorial (free book on WebGPU programming): https://shi-yan.github.io/webgpuunleashed/ (Hacker News thread: https://news.ycombinator.com/item?id=41156872)
-- Rust Under The Hood: https://eventhelix.com/rust/rust-under-the-hood/
+- Rust Under The Hood: https://eventhelix.com/rust/rust-under-the-hood/ (corresponding video: https://www.youtube.com/watch?v=L8caNpK3Shs)
 
 ## Videos of Interest
 
