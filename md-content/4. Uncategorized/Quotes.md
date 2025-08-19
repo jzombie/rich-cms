@@ -46,6 +46,6 @@
 
 > "To be fair, if you know how to code and you 'have a clue _what_ to code' and aren't living on a beach somewhere making millions in interest per month, you either don't know what to code, or don't know how to code." ~ Me
 
-# Excerpts
+## Excerpts
 
 > "In an autonomy-supportive environment, the leader acts as a guide, a person who is on the journey with the individual. The leader pokes, prods, nudges, and maybe even pushes individuals in certain directions, but the leader understands that they are there to help others reach their potential. That while they can direct and guide, it ultimately is up to the individual to take ownership of their actions." ~ Steve Magness (from _Do Hard Things_)
