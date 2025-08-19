@@ -162,6 +162,9 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Chord (distributed hash table): https://en.wikipedia.org/wiki/Chord_(peer-to-peer)
 - ort ([Rust]: open-source Rust binding for ONNX Runtime): https://ort.pyke.io/ [used in https://crates.io/crates/fastembed]
 - PyTorch ONNX converter: https://docs.pytorch.org/docs/stable/onnx.html
+- Zed ([Rust] "Zed is a next-generation code editor designed for high-performance collaboration with humans and AI."): https://zed.dev/
+- gpui ([Rust] "A fast, productive UI framework for Rust from the creators of Zed."): https://www.gpui.rs/
+
 
 ## SQL Parsers & Testers
 
