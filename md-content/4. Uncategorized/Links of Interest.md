@@ -173,6 +173,7 @@
 - "Are we learning yet?" (A work-in-progress to catalog the state of machine learning in Rust): https://www.arewelearningyet.com/
 - "Stop Writing SQL for AI Agents: Build Direct Database Access with FastMCP": https://codecut.ai/fastmcp-sql-bridge-database-access/
 - Web games (from creators of [bitcode](https://github.com/SoftbearStudios/bitcode)): https://softbear.com/
+- Polars benchmarks ([Rust] [Python]): https://pola.rs/posts/benchmarks/
 
 ## Papers of Interest
 
