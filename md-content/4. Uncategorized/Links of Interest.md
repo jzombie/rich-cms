@@ -177,6 +177,7 @@
 
 ## Papers of Interest
 
+- [used in Apache Parquet] Dremel: Interactive Analysis of Web-Scale Datasets: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf (also: https://github.com/julienledem/redelm/wiki/The-striping-and-assembly-algorithms-from-the-Dremel-paper)
 - Fractals in Neural Network Hyperparameter Tuning: https://arxiv.org/abs/2402.06184
 -Deep Reinforcement Learning for Quantitative Trading: https://arxiv.org/abs/2312.15730v1
 - Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping: https://arxiv.org/html/2402.14083v1
