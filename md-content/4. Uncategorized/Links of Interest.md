@@ -174,6 +174,7 @@
 - "Stop Writing SQL for AI Agents: Build Direct Database Access with FastMCP": https://codecut.ai/fastmcp-sql-bridge-database-access/
 - Web games (from creators of [bitcode](https://github.com/SoftbearStudios/bitcode)): https://softbear.com/
 - Polars benchmarks ([Rust] [Python]): https://pola.rs/posts/benchmarks/
+- Polars custom datasource plugins: https://github.com/pola-rs/pyo3-polars/issues/74 (PyO3 example: https://github.com/pola-rs/pyo3-polars/tree/main/example/io_plugin)
 
 ## Papers of Interest
 
