@@ -164,7 +164,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - PyTorch ONNX converter: https://docs.pytorch.org/docs/stable/onnx.html
 - Zed ([Rust] "Zed is a next-generation code editor designed for high-performance collaboration with humans and AI."): https://zed.dev/
 - gpui ([Rust] "A fast, productive UI framework for Rust from the creators of Zed."): https://www.gpui.rs/
-
+- Miri ([Rust] "An Undefined Behavior detection tool for Rust. It can run binaries and test suites of cargo projects and detect unsafe code that fails to uphold its safety requirements."): https://github.com/rust-lang/miri
 
 ## SQL Parsers & Testers
 
