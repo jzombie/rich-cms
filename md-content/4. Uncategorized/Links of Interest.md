@@ -193,6 +193,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 - Annealed dropout training of deep networks: https://ieeexplore.ieee.org/document/7078567
 - WebTransport API: https://developer.mozilla.org/en-US/docs/Web/API/WebTransport_API
 - Rust Serialization Benchmark: https://github.com/djkoloski/rust_serialization_benchmark
+- Writing a storage engine in Rust: Crash Recovery: https://nimrodshn.medium.com/writing-a-storage-engine-in-rust-writing-a-persistent-btree-crash-recovery-7ac623dd3b1f (implementation: https://github.com/nimrodshn/btree)
 
 ## Job Boards / Links
 
