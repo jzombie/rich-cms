@@ -208,6 +208,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 
 ## Videos of Interest
 
+- Charlie Munger explains Inversion Thinking Process: https://www.youtube.com/watch?v=K_vFpa0v3Wg&t=148s
 - Understand the Economy Part 3: Why is Inequality Ignored?: https://www.youtube.com/watch?v=CivlU8hJVwc&list=PLXuOBKrmFYbKytq9mkcd62sJPb6w12vpU
 - The reverse psychology of getting rich: https://www.linkedin.com/posts/alvinfsc_the-reverse-psychology-of-getting-rich-activity-7316988653895880704-8BvR
 - Special Theory of Machine-based Communication of Semantic Information of Financial Statements: https://www.youtube.com/watch?v=EDtjz7qdjHQ
