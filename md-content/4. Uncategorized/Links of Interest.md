@@ -209,6 +209,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 
 ## Videos of Interest
 
+- [channel] Jon Gjengset: We're building libraries and tools in the Rust programming language: https://www.youtube.com/@jonhoo/videos
 - Python: The Documentary | An origin story: https://www.youtube.com/watch?v=GfH4QL4VqJ0
 - Charlie Munger explains Inversion Thinking Process: https://www.youtube.com/watch?v=K_vFpa0v3Wg&t=148s
 - Understand the Economy Part 3: Why is Inequality Ignored?: https://www.youtube.com/watch?v=CivlU8hJVwc&list=PLXuOBKrmFYbKytq9mkcd62sJPb6w12vpU
