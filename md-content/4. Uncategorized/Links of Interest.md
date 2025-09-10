@@ -177,6 +177,7 @@
 - Polars custom datasource plugins: https://github.com/pola-rs/pyo3-polars/issues/74 (PyO3 example: https://github.com/pola-rs/pyo3-polars/tree/main/example/io_plugin)
 - SQL Design Patterns: https://vadimtropashko.wordpress.com/%e2%80%9csql-design-patterns%e2%80%9d-book/about/ (HackerNews discussion: https://news.ycombinator.com/item?id=45035618)
 - Rust Innovation Lab (announcement): https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/
+- Big O graph: https://www.linkedin.com/posts/nk-systemdesign-one_how-big-o-works-explained-in-2-mins-or-less-activity-7370783476196745216-1dQQ
 
 ## Papers of Interest
 
