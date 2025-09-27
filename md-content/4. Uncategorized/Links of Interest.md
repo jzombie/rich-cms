@@ -179,6 +179,7 @@
 - Rust Innovation Lab (announcement): https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/
 - Big O graph: https://www.linkedin.com/posts/nk-systemdesign-one_how-big-o-works-explained-in-2-mins-or-less-activity-7370783476196745216-1dQQ
 - Apache Arrow guide for the Rust programming language: https://elferherrera.github.io/arrow_guide/introduction.html
+- TRS-80 - USB Keyboard ("This project enables the connection of an original TRS-80 keyboard to a modern computer via USB"): https://github.com/RetroStack/TRS-80-USB-Keyboard?utm_source=chatgpt.com
 
 ## Papers of Interest
 
