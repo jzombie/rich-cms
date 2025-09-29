@@ -200,6 +200,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 - Rust Serialization Benchmark: https://github.com/djkoloski/rust_serialization_benchmark
 - Writing a storage engine in Rust: Crash Recovery: https://nimrodshn.medium.com/writing-a-storage-engine-in-rust-writing-a-persistent-btree-crash-recovery-7ac623dd3b1f (implementation: https://github.com/nimrodshn/btree)
 - DuckDB TPC-H testing: https://github.com/duckdb/duckdb-tpch-power-test
+- Level Up your Rust pattern matching: https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching
 
 ## Job Boards / Links
 
