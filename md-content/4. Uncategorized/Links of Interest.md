@@ -202,6 +202,7 @@ professional accountants and other business professionals): https://xbrlsite.azu
 - DuckDB TPC-H testing: https://github.com/duckdb/duckdb-tpch-power-test
 - Level Up your Rust pattern matching: https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching
 - A Gentle Introduction to LLVM IR: https://mcyoung.xyz/2023/08/01/llvm-ir/
+- Cap'n Web ("a new RPC system for browsers and web servers"): https://blog.cloudflare.com/capnweb-javascript-rpc-library/
 
 ## Job Boards / Links
 
