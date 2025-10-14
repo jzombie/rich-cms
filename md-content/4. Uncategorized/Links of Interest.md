@@ -180,9 +180,11 @@
 - Big O graph: https://www.linkedin.com/posts/nk-systemdesign-one_how-big-o-works-explained-in-2-mins-or-less-activity-7370783476196745216-1dQQ
 - Apache Arrow guide for the Rust programming language: https://elferherrera.github.io/arrow_guide/introduction.html
 - TRS-80 - USB Keyboard ("This project enables the connection of an original TRS-80 keyboard to a modern computer via USB"): https://github.com/RetroStack/TRS-80-USB-Keyboard?utm_source=chatgpt.com
+- Testing DuckDB: https://duckdb.org/docs/stable/dev/sqllogictest/overview
 
 ## Papers of Interest
 
+- Fair Benchmarking Considered Difficult (Common Pitfalls In Database Performance Testing): https://hannes.muehleisen.org/publications/DBTEST2018-performance-testing.pdf
 - [used in Apache Parquet] Dremel: Interactive Analysis of Web-Scale Datasets: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf (also: https://github.com/julienledem/redelm/wiki/The-striping-and-assembly-algorithms-from-the-Dremel-paper)
 - Fractals in Neural Network Hyperparameter Tuning: https://arxiv.org/abs/2402.06184
 -Deep Reinforcement Learning for Quantitative Trading: https://arxiv.org/abs/2312.15730v1
