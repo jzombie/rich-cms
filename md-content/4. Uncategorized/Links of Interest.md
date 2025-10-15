@@ -181,6 +181,7 @@
 - Apache Arrow guide for the Rust programming language: https://elferherrera.github.io/arrow_guide/introduction.html
 - TRS-80 - USB Keyboard ("This project enables the connection of an original TRS-80 keyboard to a modern computer via USB"): https://github.com/RetroStack/TRS-80-USB-Keyboard?utm_source=chatgpt.com
 - Testing DuckDB: https://duckdb.org/docs/stable/dev/sqllogictest/overview
+- Primes ("A software drag race"): https://github.com/PlummersSoftwareLLC/Primes (related video: https://www.youtube.com/watch?v=ydzq9P8vI5Y)
 
 ## Papers of Interest
 
