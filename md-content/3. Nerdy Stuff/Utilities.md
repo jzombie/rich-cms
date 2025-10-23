@@ -167,6 +167,7 @@ A collection of utilities that seem interesting to me (haven't used them all):
 - Miri ([Rust] "An Undefined Behavior detection tool for Rust. It can run binaries and test suites of cargo projects and detect unsafe code that fails to uphold its safety requirements."): https://github.com/rust-lang/miri
 - Luminal ([Rust] "Deep learning at the speed of light."): https://github.com/luminal-ai/luminal (Can a library like this work as a GPU-aided assist for Arrow?)
 - git-cliff ([Rust] "git-cliff can generate changelog files from the Git history by utilizing conventional commits as well as regex-powered custom parsers."): https://github.com/orhun/git-cliff
+- hotpath ([Rust] find and profile bottlenecks in Rust): https://github.com/pawurb/hotpath
 
 ## SQL Parsers & Testers
 
