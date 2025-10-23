@@ -1,5 +1,6 @@
 # Links of Interest
 
+- Rust `#[repr(C)]` vs. `#[repr(Rust)]` perf for structs (note: C-based with ordered values from biggest to smallest might give a perf edge):  https://www.linkedin.com/posts/ling-leng_rust-loves-playing-tetris-with-your-activity-7387184451732160514-0IRz
 - “No inventions; no innovations," a History of US Steel: https://www.construction-physics.com/p/no-inventions-no-innovations-a-history
 - Why are Apple silicon VMs so different?: https://eclecticlight.co/2023/12/29/why-are-apple-silicon-vms-so-different/
 - How Arm conquered the chip market without making a single chip: https://www.theverge.com/23373371/arm-chips-chip-shortage-ceo-rene-haas-tech-intel-apple-decoder
